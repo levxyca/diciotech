@@ -4,6 +4,18 @@
   --dark-blue: #253342;
   --black: #232226;
   --white: #ffffff;
+
+  --purple-500: #6e6197;
+
+  --gray-500: #9698a0;
+  --gray-300: #cccccc;
+  --gray-100: #f2f2f2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,51 +23,100 @@ body {
   align-items: center;
   flex-direction: column;
 
-  background-color: var(--black);
+  background-color: var(--white);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .hero {
   max-width: 60%;
+  margin: 4rem 0;
 }
 
 .title {
   font-size: 4em;
   text-align: center;
-  color: var(--white);
+  color: var(--purple-500);
+  font-weight: bold;
+  margin-bottom: 4rem;
 }
 
 .subtitle {
   font-size: 1.5em;
   text-align: center;
-  color: var(--white);
+  color: var(--gray-500);
+  font-weight: 400;
+}
+
+.search_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  width: 1000px;
+
+  border: none;
+  border-radius: 8px;
+  background-color: var(--gray-100);
+  padding: 16px;
+
+  margin-bottom: 4rem;
+
+  gap: .5rem;
+}
+
+.input {
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
+  padding: 4px;
+  flex: 1;
+  color: var(--purple-500);
+}
+
+.input:focus {
+  outline: 0;
 }
 
 .content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width: 1440px;
 }
 
 .card {
-  width: 260px;
+  max-width: 260px;
   height: 200px;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
-  background-color: var(--dark-blue);
+  background-color: var(--white);
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
 }
 
 .card__title {
-  color: var(--white);
+  color: var(--purple-500);
+  margin-bottom: 1rem;
 }
 
 .card__description {
-  color: var(--white);
+  color: var(--gray-500);
+  margin-bottom: 1rem; 
 }
 
 .card__code {
   padding: 5px;
   border-radius: 5px;
   color: var(--white);
-  background-color: var(--dark-green);
+  background-color: var(--purple-500); 
+  font-size: .75rem; /* pra caber no card e não quebrar linha */
+  margin-top: .5rem;
 }
