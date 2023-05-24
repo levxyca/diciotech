@@ -44,7 +44,7 @@ algum recurso ou qualquer outra coisa relacionada, siga estes passos:
    [issues do GitHub](https://github.com/levxyca/diciotech/issues);
 
 Concluindo esses dois passos, você pode
-[criar uma nova issue](https://github.com/ccuffs/template/issues/new)
+[criar uma nova issue](https://github.com/levxyca/diciotech/issues/new)
 descrevendo as melhorias e usando o label **feature**.
 
 ### Discutindo as issues
