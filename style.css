@@ -98,8 +98,9 @@ body, input {
   padding: 20px;
   border-radius: 10px;
   background-color: var(--white);
-
   box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+  display: list-item;
+  list-style-type: none;
 }
 
 .card__title {
