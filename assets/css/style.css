@@ -1,16 +1,5 @@
-:root {
-  --light-green: #5e9188;
-  --dark-green: #3e5954;
-  --dark-blue: #253342;
-  --black: #232226;
-  --white: #ffffff;
-
-  --purple-500: #6e6197;
-
-  --gray-500: #9698a0;
-  --gray-300: #cccccc;
-  --gray-100: #f2f2f2;
-}
+@import url(var.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -19,76 +8,78 @@
 }
 
 body {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
   background-color: var(--white);
-  -webkit-font-smoothing: antialiased;
-}
-
-body, input {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  padding: 2rem 4rem;
 }
 
-.hero {
-  max-width: 60%;
-  margin: 4rem 0;
+.header {
+  margin: 0 12rem 2rem;
 }
 
-.title {
+.header__title {
   font-size: 4em;
   text-align: center;
   color: var(--purple-500);
   font-weight: bold;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
-.subtitle {
+.header__subtitle {
   font-size: 1.5em;
   text-align: center;
   color: var(--gray-500);
   font-weight: 400;
 }
 
-.search_bar {
+.main {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
-
-  width: 1000px;
-
-  border: none;
-  border-radius: 8px;
-  background-color: var(--gray-100);
-  padding: 16px;
-
-  margin-bottom: 4rem;
-
-  gap: .5rem;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.input {
+.searchbar {
+  background-color: var(--gray-100);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 4rem;
+  width: 1000px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.searchbar__icon {
+  width: 1.2rem;
+  height: 1.2rem;
+  fill: var(--gray-500);
+}
+
+.searchbar__input {
+  font-family: 'Roboto', sans-serif;
   border: none;
   border-radius: 8px;
   background-color: transparent;
   padding: 4px;
   flex: 1;
   color: var(--purple-500);
+  font-size: 1rem;
 }
 
-.input:focus {
-  outline: 0;
-}
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1440px;
+.searchbar__input:focus {
+  outline: none;
 }
 
 .card {

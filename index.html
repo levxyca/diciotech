@@ -4,49 +4,78 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <script src="./index.js"></script>
+    <meta
+      name="description"
+      content="Um dicionário tech para pessoas que querem aprender mais sobre termos técnicos dentro da tecnologia!"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Diciotech</title>
   </head>
-    <header class="hero">
-      <h1 class="title">Diciotech</h1>
-      <h2 class="subtitle">
+  <body>
+    <header class="header">
+      <h1 class="header__title">Diciotech</h1>
+      <h2 class="header__subtitle">
         Um dicionário tech para pessoas que querem aprender mais sobre termos
         técnicos dentro da tecnologia 📖
       </h2>
     </header>
-    <div class="search_bar">
-      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="var(--gray-500)" class="bi bi-search" viewBox="0 0 16 16">
-        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-      </svg>
-      <input id="searchbar" onkeyup="search()" type="text" name="search" 
-      placeholder="Pesquisar..." class="input">
-    </div>
-    <main class="content">
-      <section class="card">
-        <h3 class="card__title">Variável tipada</h3>
-        <p class="card__description">Uma variável tipada é aquele que possui um tipo de dado associado a ela.</p>
-      </section>
-      <section class="card">
-        <h3 class="card__title">Parâmetro</h3>
-        <p class="card__description">Uma parâmetro é uma informação passada para uma função ou método como parte de sua chamada.</p>
-      </section>
-      <section class="card">
-        <h3 class="card__title">Parâmetro nomeado</h3>
-        <p class="card__description">É uma forma de passar valores para uma função ou método especificando o nome do parâmetro correspondente.</p>
-      </section>
-      <section class="card">
-        <h3 class="card__title">Variável computada</h3>
-        <p class="card__description"> É uma variável que não armazena um valor diretamente, ela calcula ou deriva seu valor de outras variáveis ou dados.</p>
-      </section>
-      <section class="card">
-        <h3 class="card__title">Ternário</h3>
-        <p class="card__description"> Expressão condicional.</p>
-        <code class="card__code">Expressão ? Verdadeiro : Falso;</code>
+    <main class="main">
+      <div class="searchbar">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="searchbar__icon"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+          />
+        </svg>
+        <input
+          id="search-input"
+          type="text"
+          name="search-input"
+          placeholder="Pesquisar..."
+          class="searchbar__input"
+        />
+      </div>
+      <section class="cards">
+        <section class="card">
+          <h3 class="card__title">Variável tipada</h3>
+          <p class="card__description">
+            Uma variável tipada é aquele que possui um tipo de dado associado a
+            ela.
+          </p>
+        </section>
+        <section class="card">
+          <h3 class="card__title">Parâmetro</h3>
+          <p class="card__description">
+            Uma parâmetro é uma informação passada para uma função ou método
+            como parte de sua chamada.
+          </p>
+        </section>
+        <section class="card">
+          <h3 class="card__title">Parâmetro nomeado</h3>
+          <p class="card__description">
+            É uma forma de passar valores para uma função ou método
+            especificando o nome do parâmetro correspondente.
+          </p>
+        </section>
+        <section class="card">
+          <h3 class="card__title">Variável computada</h3>
+          <p class="card__description">
+            É uma variável que não armazena um valor diretamente, ela calcula ou
+            deriva seu valor de outras variáveis ou dados.
+          </p>
+        </section>
+        <section class="card">
+          <h3 class="card__title">Ternário</h3>
+          <p class="card__description">Expressão condicional.</p>
+          <code class="card__code">Expressão ? Verdadeiro : Falso;</code>
+        </section>
       </section>
     </main>
+    <script src="assets/js/script.js" type="module"></script>
   </body>
 </html>
