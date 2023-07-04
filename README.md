@@ -2,7 +2,7 @@
 
 Um dicionário tech para pessoas que querem aprender mais sobre termos técnicos dentro da tecnologia.
 
-![Imagem de captura do site do Diciotech](./assets/diciotech-screenshot.png)
+![Imagem de captura do site do Diciotech](./assets/img/diciotech-screenshot.png)
 
 ## 🤝 Contribua
 
