@@ -13,7 +13,7 @@ Sua ajuda é muito bem-vinda, independente da forma! Confira o arquivo [CONTRIBU
 
 Veja o arquivo [ROADMAP.md](ROADMAP.md) para ter uma ideia de como o projeto deve evoluir.
 
-### Contribuidores
+### Pessoas contribuidoras
 
 <a href="https://github.com/levxyca/diciotech/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=levxyca/diciotech&anon=0&columns=20&max=100" alt="Lista de contribuidores"/>
