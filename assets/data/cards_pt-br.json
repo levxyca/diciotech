@@ -1,0 +1,27 @@
+{
+    "cards": [
+        {
+            "title": "Variável tipada",
+            "description": "Uma variável tipada é aquele que possui um tipo de dado associado a ela."
+        },
+        {
+            "title": "Parâmetro",
+            "description": "Uma parâmetro é uma informação passada para uma função ou método como parte de sua chamada."
+        },
+        {
+            "title": "Parâmetro nomeado",
+            "description": "É uma forma de passar valores para uma função ou método especificando o nome do parâmetro correspondente."
+        },
+        {
+            "title": "Variável computada",
+            "description": "É uma variável que não armazena um valor diretamente, ela calcula ou deriva seu valor de outras variáveis ou dados."
+        },
+        {
+            "title": "Ternário",
+            "description": "Expressão condicional.",
+            "content": {
+                "code": "Expressão ? Verdadeiro : Falso;"
+            }
+        }
+    ]
+}
