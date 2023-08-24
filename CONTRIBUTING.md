@@ -6,11 +6,35 @@ Que bom que você resolveu contribuir conosco, obrigado 💙! Neste guia vamos e
 
 Existem diversas formas de contribuir com o projeto:
 
+- [Adicionando um novo termo técnico no Diciotech](#adicionando-um-novo-termo-técnico-no-diciotech)
 - [Reportando bugs](#reportando-bugs)
 - [Indicando melhorias e pedindo funcionalidades](#indicando-melhorias-e-pedindo-funcionalidades)
 - [Discutindo as issues](#discutindo-as-issues)
 - [Fazendo pull requests](#fazendo-pull-requests)
 - [Outras formas de contribuir](#outras-formas-de-contribuir)
+
+### Adicionando um novo termo técnico no Diciotech
+
+Adicione mais conteúdo no Diciotech [abrindo um pull request](#fazendo-pull-requests) com o termo que deseja mostrar no site. Para adicionar um novo termo, você deve acessar o arquivo `assets/data/cards_pt-br.json` e inserir um novo item na lista. Por exemplo:
+
+```javascript
+{
+   "title": "Termo técnico",
+   "description": "Explicação sobre o termo",
+}
+```
+
+ou
+
+```javascript
+{
+   "title": "Termo técnico",
+   "description": "Explicação sobre o termo",
+   "content": {
+      "code": "Código de exemplo"
+   }
+}
+```
 
 ### Reportando bugs
 
