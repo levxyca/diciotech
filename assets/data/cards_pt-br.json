@@ -25,11 +25,11 @@
         },
         {
            "title": "Stateless Widget",
-           "description": "Um StatelessWidget no Flutter é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado",
+           "description": "Um StatelessWidget no Flutter é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado"
         },
         {
            "title": "Stateful Widget",
-           "description": "Um StatefulWidget no Flutter é um componente que possui estado interno mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente a interface do usuário",
+           "description": "Um StatefulWidget no Flutter é um componente que possui estado interno mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente a interface do usuário"
         },
     ]
 }
