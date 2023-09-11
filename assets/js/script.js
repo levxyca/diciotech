@@ -1,10 +1,7 @@
 const searchInput = document.querySelector("#search-input");
 const cardsSection = document.querySelector("#cards");
 
-searchInput.addEventListener("input", search);
-getCardsFromJSON();
-
-function search() {
+function searchCards() {
     const inputValue = searchInput.value.toLowerCase();
     const listOfCards = document.querySelectorAll(".card");
 
@@ -16,7 +13,7 @@ function search() {
 
 function insertCardsIntoHtml(data) {
     let cards = "";
-    data.cards.forEach((card) => {
+    data.forEach((card) => {
         cards += `
         <section class="card">
             <h3 class="card__title">${card.title}</h3>
@@ -34,12 +31,20 @@ function insertCardsIntoHtml(data) {
     cardsSection.innerHTML = cards;
 }
 
-async function getCardsFromJSON() {
+async function sortCardsByTitle(data) {
+    return data.cards.sort((a, b) => a.title.localeCompare(b.title));
+}
+
+async function getCardsFromJson() {
     try {
         const res = await fetch("./assets/data/cards_pt-br.json");
         const data = await res.json();
-        insertCardsIntoHtml(data);
+        const sortedCards = await sortCardsByTitle(data);
+        insertCardsIntoHtml(sortedCards);
     } catch (error) {
         console.error("An error occurred while fetching card data.", error);
     }
 }
+
+searchInput.addEventListener("input", searchCards);
+getCardsFromJson();
