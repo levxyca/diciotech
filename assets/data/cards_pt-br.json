@@ -30,6 +30,39 @@
         {
            "title": "Stateful Widget",
            "description": "Um StatefulWidget no Flutter é um componente que possui estado interno mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente a interface do usuário"
+        },
+        {
+           "title": "Função",
+           "description": "Uma função é um bloco de código que realiza uma tarefa específica e pode ser chamado a partir de outras partes do programa. Ela ajuda a organizar e reutilizar o código, tornando o software mais modular e legível. As funções recebem entradas (chamadas de argumentos) e podem retornar um resultado (valor de retorno) ou simplesmente executar uma ação."
+        
+        },
+        {
+            "title": "Argumento",
+            "description": "Um argumento é um valor ou uma informação que você fornece a uma função ou método durante sua chamada. Esses argumentos são usados pela função para realizar uma tarefa específica ou para tomar decisões com base nos valores fornecidos. Em resumo, os argumentos são dados de entrada que permitem que uma função realize seu trabalho e produza um resultado ou execute ações desejadas."
+        },
+        {
+            "title": "Programação orientada a objetos",
+            "description": "A programação orientada a objetos (POO) é um paradigma de programação que se baseia na ideia de modelar o software em torno de objetos, que são instâncias de classes. Cada objeto contém dados (atributos) e métodos (funções) que operam nesses dados. Isso permite organizar o código de forma mais modular, reutilizável e orientada para objetos do mundo real. POO promove conceitos como encapsulamento, herança e polimorfismo, facilitando a criação de sistemas mais flexíveis, compreensíveis e escaláveis."
+        },
+        {
+            "title": "Classe",
+            "description": "Uma classe em desenvolvimento de software é um projeto ou um 'modelo' para criar objetos. Ela define os atributos (dados) e os métodos (funções) que os objetos criados a partir dela terão. As classes são como moldes para criar objetos que compartilham características comuns. Elas ajudam a organizar o código, permitindo a reutilização e a abstração de dados e funcionalidades em uma estrutura coerente."
+        },
+        {
+            "title": "Objeto",
+            "description": "Um objeto em desenvolvimento de software é como um personagem em um videogame. Ele tem características (dados) e pode fazer coisas (métodos). Por exemplo, um objeto 'carro' pode ter cor, velocidade e marca (características) e pode acelerar, frear e virar (ações/métodos). Os objetos são instâncias de classes e permitem organizar o código de forma a representar entidades do mundo real, tornando-o mais compreensível e reutilizável."
+        },
+        {
+            "title": "Encapsulamento",
+            "description": "O encapsulamento funciona como uma 'caixa mágica' que esconde os detalhes internos de um objeto. Isso significa que os dados e o funcionamento interno de um objeto são mantidos privados e não podem ser acessados diretamente de fora. Em vez disso, o objeto fornece interfaces controladas (métodos públicos) para interagir com ele. Isso ajuda a proteger os dados do objeto e controlar como ele é usado, promovendo a segurança e a organização do código."
+        },
+        {
+            "title": "Herança",
+            "description": "A herança funciona como uma 'árvore genealógica'. Permite que uma classe (ou objeto) herde características e comportamentos de outra classe pai (ou objeto). Isso significa que a classe filha herda os atributos e métodos da classe pai, economizando tempo e promovendo a reutilização de código. A herança é uma forma de organizar e estruturar o código, criando hierarquias de classes que representam relacionamentos entre objetos do mundo real."
+        },
+        {
+            "title": "Polimorfismo",
+            "description": "O polimorfismo permite que objetos de diferentes tipos se comportem de maneira semelhante através de uma interface compartilhada."
         }
     ]
 }
