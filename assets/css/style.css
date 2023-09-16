@@ -87,7 +87,7 @@ body {
 
 .card {
   width: 300px;
-  height: 200px;
+  min-height: 200px;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
