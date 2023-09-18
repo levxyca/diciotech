@@ -30,38 +30,6 @@
         {
            "title": "Stateful Widget",
            "description": "Um StatefulWidget no Flutter é um componente que possui estado interno mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente a interface do usuário"
-        },
-        {
-            "title": "Desenvolvimento Front-end",
-            "description": "Desenvolvimento web front-end é o desenvolvimento da interface gráfica do usuário de um site, através do uso de HTML, CSS e JavaScript, para que os usuários possam visualizar e interagir com esse site."
-        },
-        {
-            "title": "HTML",
-            "description": "HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores."
-        },
-        {
-            "title": "CSS",
-            "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web como cores, tamanhos, fontes e etc. é possivel ligar o arquivo HTML ao CSS adicionando um link para um arquivo CSS que contém os estilos."
-        },
-        {
-            "title": "JavaScript",
-            "description": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias para criação de sites."
-        },
-        {
-            "title": "jQuery",
-            "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript."
-        },
-        {
-            "title": "UI Design",
-            "description": "É o desenho e execução de uma interface para o usuário. Exemplo: como garantir que um botão vai ser visto e  apertado."
-        },
-        {
-            "title": "UX Design",
-            "description": "É o desenho e execução de uma experiência para o usuário. Exemplo: desenhar as ações que farão com ele se sinta bem ao entrar numa página, ou engajado, etc."
-        },
-        {
-            "title": "Frameworks",
-            "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas."
         }
     ]
 }
