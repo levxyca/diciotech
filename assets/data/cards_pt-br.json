@@ -95,6 +95,10 @@
         {
             "title": "Frameworks",
             "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas."
+        },
+        {
+            "title": "Algoritmo",
+            "description": "Algoritmo é uma sequência lógica e finita que possui instruções que geram uma fórmula matemática ou então estatística para a realização de análise de dados nos computadores."
         }
     ]
 }
