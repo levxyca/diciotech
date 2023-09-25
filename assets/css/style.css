@@ -8,10 +8,12 @@
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--background-color);
+  color: var(--text-color);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   padding: 50px;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .header {
@@ -115,5 +117,33 @@ body {
   border-radius: 5px;
   color: var(--white);
   background-color: var(--purple-500);
-  font-size: 0.75rem; /* pra caber no card e não quebrar linha */
+  font-size: 0.75rem;
+  /* pra caber no card e não quebrar linha */
+}
+
+.dark-mode-button {
+  background-color: var(--purple-500);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.dark-mode-button i {
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.dark-mode .ph-sun,
+:not(.dark-mode) .ph-moon {
+  display: none;
+}
+
+.dark-mode .ph-moon,
+:not(.dark-mode) .ph-sun {
+  display: inline;
 }

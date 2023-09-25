@@ -9,3 +9,15 @@
     --gray-300: #cccccc;
     --gray-100: #f2f2f2;
 }
+
+/* Light Mode */
+:root {
+    --background-color: #ffffff;
+    --text-color: #333333;
+}
+
+/* Dark Mode */
+.dark-mode {
+    --background-color: #333333;
+    --text-color: #ffffff;
+}

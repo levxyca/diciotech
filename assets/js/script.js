@@ -46,5 +46,22 @@ async function getCardsFromJson() {
     }
 }
 
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+const body = document.body;
+const moonIcon = document.querySelector('.ph-moon');
+const sunIcon = document.querySelector('.ph-sun');
+
+darkModeToggle.addEventListener('click', () => {
+    body.classList.toggle('dark-mode');
+
+    if (body.classList.contains('dark-mode')) {
+        moonIcon.style.display = 'none';
+        sunIcon.style.display = 'inline';
+    } else {
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'inline';
+    }
+});
+
 searchInput.addEventListener("input", searchCards);
 getCardsFromJson();
