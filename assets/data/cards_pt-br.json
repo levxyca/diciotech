@@ -95,6 +95,10 @@
         {
             "title": "Frameworks",
             "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas."
+        },
+        {
+            "title": "Spread Operator",
+            "description": "É um presente em várias linguagens de programação, que permite copiar, expandir ou propagar seus elementos para dentro de uma nova estrutura de dados. Ao usar o operador de propagação, você está, de fato, criando uma cópia dos elementos do objeto ou array original, o que lhe dá a flexibilidade de adicionar, substituir ou combinar esses elementos com outros objetos ou arrays. Isso torna a manipulação de dados mais conveniente e eficiente, permitindo a criação de novas estruturas de dados com base nas existentes, enquanto mantém a integridade dos dados originais."
         }
     ]
 }
