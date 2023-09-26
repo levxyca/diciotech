@@ -7,7 +7,6 @@
 
 body {
   background-color: #ffffff;
-  color: #333333;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   padding: 40px 24px;
@@ -166,14 +165,54 @@ input {
 
 .body-dark-mode .ph-sun,
 :not(.body-dark-mode) .ph-moon {
-  display: none;
+  display: inline;
 }
 
 .body-dark-mode .ph-moon,
 :not(.body-dark-mode) .ph-sun {
-  display: inline;
+  display: none;
 }
 
+.github-corner {
+  color: #ffffff;
+  fill: #6e6197;
+  transition: color 0.5s ease-in-out;
+}
+.github-corner svg {
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-25deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(-25deg);
+  }
+  80% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
 @media screen and (max-width: 1200px) {
   .card {
     width: 40%;
