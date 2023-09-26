@@ -95,6 +95,10 @@
         {
             "title": "Frameworks",
             "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas."
+        },
+        {
+            "title": "API Rest",
+            "description": "Uma API Rest, e uma API(Application Programming Interface) que segue um conjunto de regras, convenções e protocolos HTTP, que permite que aplicativos, sites se comuniquem pela internet.",
         }
     ]
 }
