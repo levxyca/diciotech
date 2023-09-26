@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap")
+@import "variables"
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background-color: $white
+    font-family: "Roboto", sans-serif
+    -webkit-font-smoothing: antialiased
+    padding: 40px 24px
+
+::-webkit-scrollbar
+    width: 8px
+
+::-webkit-scrollbar-thumb
+    border-radius: 8px
+    background: $purple-500
+
+::-webkit-scrollbar-track
+    background: $gray-100
+
+html
+    font-size: 62.5%
+
+input
+    font-family: "Roboto", sans-serif
+
+.header
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    gap: 24px
+
+    &__title img
+        display: block
+        max-width: 100%
+        height: auto
+
+    &__subtitle
+        font-size: 2rem
+        text-align: center
+        color: $black
+        font-weight: 400
+
+.main
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    flex-wrap: wrap
+    max-width: 1440px
+    margin: 0 auto
+
+.searchbar
+    background-color: $gray-100
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 16px
+    border: none
+    border-radius: 4px
+    padding: 16px
+    margin: 30px 0
+    width: 100%
+
+.cards
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-wrap: wrap
+    gap: 32px
+    margin: 48px 0
+
+.searchbar__icon
+    width: 24px
+    height: 24px
+    fill: $gray-500
+
+.searchbar__input
+    border: none
+    border-radius: 4px
+    background-color: transparent
+    padding: 4px
+    flex: 1
+    color: $black
+    font-size: 2rem
+
+    &:focus
+        outline: none
+
+.card
+    width: 20%
+    flex-grow: 1
+    max-height: 300px
+    min-height: 300px
+    overflow: auto
+    padding: 24px
+    border-radius: 8px
+    background-color: $white
+    box-shadow: rgba(35, 35, 38, 0.2) 0px 0px 16px
+    display: list-item
+    list-style-type: none
+
+    &__title
+        color: $purple-500
+        margin-bottom: 16px
+        font-size: 2.4rem
+
+    &__description
+        color: $black
+        line-height: 160%
+        font-size: 1.8rem
+
+    &__content
+        margin-top: 16px
+
+    &__code
+        padding: 8px
+        border-radius: 4px
+        color: $white
+        background-color: $purple-500
+        font-size: 1.4rem // para caber no card e não quebrar linha
+
+@media screen and (max-width: 1200px)
+    .card
+        width: 40%
+
+@media screen and (max-width: 768px)
+    .card
+        width: 100%
+        max-height: 250px
+        min-height: 250px

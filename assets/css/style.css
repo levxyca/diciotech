@@ -1,6 +1,4 @@
-@import url(var.css);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +6,7 @@
 }
 
 body {
-  background-color: var(--white);
+  background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   padding: 40px 24px;
@@ -20,11 +18,11 @@ body {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 8px;
-  background: var(--purple-500);
+  background: #6e6197;
 }
 
 ::-webkit-scrollbar-track {
-  background: var(--gray-100);
+  background: #f2f2f2;
 }
 
 html {
@@ -42,17 +40,15 @@ input {
   flex-direction: column;
   gap: 24px;
 }
-
 .header__title img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
 .header__subtitle {
   font-size: 2rem;
   text-align: center;
-  color: var(--black);
+  color: #232226;
   font-weight: 400;
 }
 
@@ -67,7 +63,7 @@ input {
 }
 
 .searchbar {
-  background-color: var(--gray-100);
+  background-color: #f2f2f2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -91,7 +87,7 @@ input {
 .searchbar__icon {
   width: 24px;
   height: 24px;
-  fill: var(--gray-500);
+  fill: #9698a0;
 }
 
 .searchbar__input {
@@ -100,10 +96,9 @@ input {
   background-color: transparent;
   padding: 4px;
   flex: 1;
-  color: var(--black);
+  color: #232226;
   font-size: 2rem;
 }
-
 .searchbar__input:focus {
   outline: none;
 }
@@ -116,34 +111,30 @@ input {
   overflow: auto;
   padding: 24px;
   border-radius: 8px;
-  background-color: var(--white);
+  background-color: #ffffff;
   box-shadow: rgba(35, 35, 38, 0.2) 0px 0px 16px;
   display: list-item;
   list-style-type: none;
 }
-
 .card__title {
-  color: var(--purple-500);
+  color: #6e6197;
   margin-bottom: 16px;
   font-size: 2.4rem;
 }
-
 .card__description {
-  color: var(--black);
+  color: #232226;
   line-height: 160%;
   font-size: 1.8rem;
 }
-
 .card__content {
   margin-top: 16px;
 }
-
 .card__code {
   padding: 8px;
   border-radius: 4px;
-  color: var(--white);
-  background-color: var(--purple-500);
-  font-size: 1.4rem; /* pra caber no card e não quebrar linha */
+  color: #ffffff;
+  background-color: #6e6197;
+  font-size: 1.4rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -151,7 +142,6 @@ input {
     width: 40%;
   }
 }
-
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
@@ -159,3 +149,5 @@ input {
     min-height: 250px;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
