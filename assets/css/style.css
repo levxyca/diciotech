@@ -11,28 +11,7 @@ body {
   background-color: var(--white);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
-  padding: 40px 24px;
-}
-
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  background: var(--purple-500);
-}
-
-::-webkit-scrollbar-track {
-  background: var(--gray-100);
-}
-
-html {
-  font-size: 62.5%;
-}
-
-input {
-  font-family: "Roboto", sans-serif;
+  padding: 50px;
 }
 
 .header {
@@ -50,10 +29,11 @@ input {
 }
 
 .header__subtitle {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
-  color: var(--black);
+  color: var(--gray-500);
   font-weight: 400;
+  max-width: 70%;
 }
 
 .main {
@@ -62,8 +42,6 @@ input {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  max-width: 1440px;
-  margin: 0 auto;
 }
 
 .searchbar {
@@ -71,12 +49,12 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 10px;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   padding: 16px;
   margin: 30px 0;
-  width: 100%;
+  width: 80%;
 }
 
 .cards {
@@ -84,24 +62,28 @@ input {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 32px;
-  margin: 48px 0;
 }
 
 .searchbar__icon {
-  width: 24px;
-  height: 24px;
+  width: 1.2rem;
+  height: 1.2rem;
   fill: var(--gray-500);
 }
 
 .searchbar__input {
+  font-family: "Roboto", sans-serif;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   background-color: transparent;
   padding: 4px;
   flex: 1;
-  color: var(--black);
-  font-size: 2rem;
+  color: var(--purple-500);
+  font-size: 1rem;
+}
+
+.filter {
+  border: 1px solid var(--purple-500);
+  max-width: 12rem;
 }
 
 .searchbar__input:focus {
@@ -109,15 +91,13 @@ input {
 }
 
 .card {
-  width: 20%;
-  flex-grow: 1;
-  max-height: 300px;
-  min-height: 300px;
-  overflow: auto;
-  padding: 24px;
-  border-radius: 8px;
+  width: 300px;
+  min-height: 200px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
   background-color: var(--white);
-  box-shadow: rgba(35, 35, 38, 0.2) 0px 0px 16px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
   display: list-item;
   list-style-type: none;
 }
@@ -125,13 +105,10 @@ input {
 .card__title {
   color: var(--purple-500);
   margin-bottom: 16px;
-  font-size: 2.4rem;
 }
 
 .card__description {
-  color: var(--black);
-  line-height: 160%;
-  font-size: 1.8rem;
+  color: var(--gray-500);
 }
 
 .card__content {
@@ -139,23 +116,9 @@ input {
 }
 
 .card__code {
-  padding: 8px;
-  border-radius: 4px;
+  padding: 5px;
+  border-radius: 5px;
   color: var(--white);
   background-color: var(--purple-500);
-  font-size: 1.4rem; /* pra caber no card e não quebrar linha */
-}
-
-@media screen and (max-width: 1200px) {
-  .card {
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .card {
-    width: 100%;
-    max-height: 250px;
-    min-height: 250px;
-  }
+  font-size: 0.75rem; /* pra caber no card e não quebrar linha */
 }
