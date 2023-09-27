@@ -12,8 +12,28 @@ body {
   color: var(--text-color);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
-  padding: 50px;
-  transition: background-color 0.5s ease-in-out;
+  padding: 40px 24px; /* Merged padding values */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: var(--purple-500);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--gray-100);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -31,11 +51,10 @@ body {
 }
 
 .header__subtitle {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
-  color: var(--gray-500);
+  color: var(--black);
   font-weight: 400;
-  max-width: 70%;
 }
 
 .main {
@@ -44,6 +63,8 @@ body {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .searchbar {
@@ -51,12 +72,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 16px;
   margin: 30px 0;
-  width: 80%;
+  width: 100%;
 }
 
 .cards {
@@ -64,23 +85,24 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 32px;
+  margin: 48px 0;
 }
 
 .searchbar__icon {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 24px;
+  height: 24px;
   fill: var(--gray-500);
 }
 
 .searchbar__input {
-  font-family: "Roboto", sans-serif;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   background-color: transparent;
   padding: 4px;
   flex: 1;
-  color: var(--purple-500);
-  font-size: 1rem;
+  color: var(--black);
+  font-size: 2rem;
 }
 
 .searchbar__input:focus {
@@ -88,13 +110,15 @@ body {
 }
 
 .card {
-  width: 300px;
-  min-height: 200px;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
+  width: 20%;
+  flex-grow: 1;
+  max-height: 300px;
+  min-height: 300px;
+  overflow: auto;
+  padding: 24px;
+  border-radius: 8px;
   background-color: var(--white);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+  box-shadow: rgba(35, 35, 38, 0.2) 0px 0px 16px;
   display: list-item;
   list-style-type: none;
 }
@@ -102,10 +126,13 @@ body {
 .card__title {
   color: var(--purple-500);
   margin-bottom: 16px;
+  font-size: 2.4rem;
 }
 
 .card__description {
-  color: var(--gray-500);
+  color: var(--black);
+  line-height: 160%;
+  font-size: 1.8rem;
 }
 
 .card__content {
@@ -113,12 +140,11 @@ body {
 }
 
 .card__code {
-  padding: 5px;
-  border-radius: 5px;
+  padding: 8px;
+  border-radius: 4px;
   color: var(--white);
   background-color: var(--purple-500);
-  font-size: 0.75rem;
-  /* pra caber no card e não quebrar linha */
+  font-size: 1.4rem; /* Updated font-size */
 }
 
 .dark-mode-button {
@@ -138,12 +164,16 @@ body {
   margin-right: 8px;
 }
 
-.dark-mode .ph-sun,
-:not(.dark-mode) .ph-moon {
-  display: none;
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 40%;
+  }
 }
 
-.dark-mode .ph-moon,
-:not(.dark-mode) .ph-sun {
-  display: inline;
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    max-height: 250px;
+    min-height: 250px;
+  }
 }
