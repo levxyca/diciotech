@@ -86,6 +86,11 @@ input {
   margin: 48px 0;
 }
 
+.filter {
+  border: 1px solid #6e6197 !important;
+  max-width: 12rem;
+}
+
 .searchbar__icon {
   width: 24px;
   height: 24px;
