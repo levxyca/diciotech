@@ -24,17 +24,16 @@
             }
         },
         {
-           "title": "Stateless Widget",
-           "description": "Um StatelessWidget no Flutter é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado"
+            "title": "Stateless Widget",
+            "description": "Um StatelessWidget no Flutter é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado"
         },
         {
-           "title": "Stateful Widget",
-           "description": "Um StatefulWidget no Flutter é um componente que possui estado interno mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente a interface do usuário"
+            "title": "Stateful Widget",
+            "description": "Um StatefulWidget no Flutter é um componente que possui estado interno mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente a interface do usuário"
         },
         {
-           "title": "Função",
-           "description": "Uma função é um bloco de código que realiza uma tarefa específica e pode ser chamado a partir de outras partes do programa. Ela ajuda a organizar e reutilizar o código, tornando o software mais modular e legível. As funções recebem entradas (chamadas de argumentos) e podem retornar um resultado (valor de retorno) ou simplesmente executar uma ação."
-        
+            "title": "Função",
+            "description": "Uma função é um bloco de código que realiza uma tarefa específica e pode ser chamado a partir de outras partes do programa. Ela ajuda a organizar e reutilizar o código, tornando o software mais modular e legível. As funções recebem entradas (chamadas de argumentos) e podem retornar um resultado (valor de retorno) ou simplesmente executar uma ação."
         },
         {
             "title": "Argumento",
@@ -43,6 +42,10 @@
         {
             "title": "Programação orientada a objetos",
             "description": "A programação orientada a objetos (POO) é um paradigma de programação que se baseia na ideia de modelar o software em torno de objetos, que são instâncias de classes. Cada objeto contém dados (atributos) e métodos (funções) que operam nesses dados. Isso permite organizar o código de forma mais modular, reutilizável e orientada para objetos do mundo real. POO promove conceitos como encapsulamento, herança e polimorfismo, facilitando a criação de sistemas mais flexíveis, compreensíveis e escaláveis."
+        },
+        {
+            "title": "Recursão",
+            "description": "Recursão é um método/função que chama a si mesmo para resolver um problema."
         },
         {
             "title": "Classe",
