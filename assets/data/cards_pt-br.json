@@ -97,6 +97,10 @@
             "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas."
         },
         {
+            "title": "Spread Operator",
+            "description": "É um operador que está presente em várias linguagens de programação, que permite copiar e combinar elementos de uma estrutura de dados em outra, facilitando a manipulação eficiente de informações."
+        },
+        {
             "title": "Algoritmo",
             "description": "Um algoritmo é como uma receita de bolo para o computador. É um conjunto de passos organizados que ajudam a resolver um problema, como fazer contas ou analisar informações."
         }
