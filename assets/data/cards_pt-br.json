@@ -98,7 +98,7 @@
         },
         {
             "title": "Spread Operator",
-            "description": "É um presente em várias linguagens de programação, que permite copiar, expandir ou propagar seus elementos para dentro de uma nova estrutura de dados. Ao usar o operador de propagação, você está, de fato, criando uma cópia dos elementos do objeto ou array original, o que lhe dá a flexibilidade de adicionar, substituir ou combinar esses elementos com outros objetos ou arrays. Isso torna a manipulação de dados mais conveniente e eficiente, permitindo a criação de novas estruturas de dados com base nas existentes, enquanto mantém a integridade dos dados originais."
+            "description": "É um operador que está presente em várias linguagens de programação, que permite copiar e combinar elementos de uma estrutura de dados em outra, facilitando a manipulação eficiente de informações."
         }
     ]
 }
