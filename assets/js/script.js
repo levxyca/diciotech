@@ -1,3 +1,4 @@
+import "./check_color_mode.js"
 import "./dark_mode.js";
 
 const searchInput = document.querySelector("#search-input");
