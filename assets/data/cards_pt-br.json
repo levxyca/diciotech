@@ -103,6 +103,10 @@
         {
             "title": "Algoritmo",
             "description": "Um algoritmo é como uma receita de bolo para o computador. É um conjunto de passos organizados que ajudam a resolver um problema, como fazer contas ou analisar informações."
-        }
+        },
+        {
+			"title":"Compilador",
+			"description": "Um compilador é uma ferramenta de software que traduz código de alto nível (geralmente escrito por programadores) em código de máquina ou linguagem de montagem (código de baixo nível) que um computador pode entender e executar. Ele faz isso em várias etapas"
+		}
     ]
 }
