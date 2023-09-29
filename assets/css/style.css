@@ -79,13 +79,15 @@ input {
 
 .cards {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   gap: 32px;
   margin: 48px 0;
 }
-
+.cards .card:last-child{
+  max-width: 23.3%;
+}
 .searchbar__icon {
   width: 24px;
   height: 24px;
@@ -217,12 +219,19 @@ input {
   .card {
     width: 40%;
   }
+  .cards .card:last-child{
+    max-width: 48%;
+  }
 }
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
+    max-width: 100%;
     max-height: 250px;
     min-height: 250px;
+  }
+  .cards .card:last-child{
+    max-width: 100%;
   }
 }
 
