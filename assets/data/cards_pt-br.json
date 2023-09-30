@@ -31,12 +31,12 @@
         {
             "title": "Stateless Widget",
             "description": "Um StatelessWidget no Flutter é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado",
-            "tags": ["Frameworks", "Conceitos"]
+            "tags": ["Conceitos","Flutter"]
         },
         {
             "title": "Stateful Widget",
             "description": "Um StatefulWidget no Flutter é um componente que possui estado interno mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente a interface do usuário",
-            "tags": ["Conceitos", "Frameworks"]
+            "tags": ["Conceitos", "Flutter"]
         },
         {
             "title": "Função",
@@ -50,8 +50,17 @@
         },
         {
             "title": "Programação orientada a objetos",
-            "description": "A programação orientada a objetos (POO) é um paradigma de programação que se baseia na ideia de modelar o software em torno de objetos, que são instâncias de classes. Cada objeto contém dados (atributos) e métodos (funções) que operam nesses dados. Isso permite organizar o código de forma mais modular, reutilizável e orientada para objetos do mundo real. POO promove conceitos como encapsulamento, herança e polimorfismo, facilitando a criação de sistemas mais flexíveis, compreensíveis e escaláveis."
-            ,
+            "description": "A programação orientada a objetos (POO) é um paradigma de programação que se baseia na ideia de modelar o software em torno de objetos, que são instâncias de classes. Cada objeto contém dados (atributos) e métodos (funções) que operam nesses dados. Isso permite organizar o código de forma mais modular, reutilizável e orientada para objetos do mundo real. POO promove conceitos como encapsulamento, herança e polimorfismo, facilitando a criação de sistemas mais flexíveis, compreensíveis e escaláveis.",
+            "tags": ["Conceitos"]
+        },
+        {
+            "title": "Recursão",
+            "description": "Recursão é um método/função que chama a si mesmo para resolver um problema.",
+            "tags": ["Conceitos"]
+        },
+        {
+            "title": "Recursão",
+            "description": "Recursão é um método/função que chama a si mesmo para resolver um problema.",
             "tags": ["Conceitos"]
         },
         {
@@ -102,7 +111,7 @@
         {
             "title": "jQuery",
             "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
-            "tags": ["Front-End","Biblioteca","Back-End"]
+            "tags": ["Front-End","Bibliotecas","Back-End"]
         },
         {
             "title": "UI Design",
@@ -117,7 +126,27 @@
         {
             "title": "Frameworks",
             "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas.",
-            "tags": ["Bibliotecas","Frameworks"]
+            "tags": ["Frameworks", "Bibliotecas"]
+        },
+        {
+            "title": "Spread Operator",
+            "description": "É um operador que está presente em várias linguagens de programação, que permite copiar e combinar elementos de uma estrutura de dados em outra, facilitando a manipulação eficiente de informações.",
+            "tags": ["Conceitos"]
+        },
+        {
+            "title": "Algoritmo",
+            "description": "Um algoritmo é como uma receita de bolo para o computador. É um conjunto de passos organizados que ajudam a resolver um problema, como fazer contas ou analisar informações.",
+            "tags": ["Conceitos"]
+        },
+        {
+            "title": "Git",
+            "description": "Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear as alterações em arquivos e coordenar o trabalho em projetos de desenvolvimento de software.",
+            "tags": ["Conceitos"]
+        },
+        {
+            "title": "Github",
+            "description": "O GitHub é uma plataforma de hospedagem de código-fonte baseada na web que oferece uma variedade de serviços relacionados ao controle de versão e colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar, colaborar, gerenciar e controlar o código-fonte de projetos de software.",
+            "tags": ["Conceitos"]
         }
     ]
 }

@@ -5,28 +5,56 @@ const cardsSection = document.querySelector("#cards");
 const filterSelect = document.querySelector("#filter_select");
 let listOfCardsFiltered = [];
 
-function searchCards() {
-    const inputValue = searchInput.value.toLowerCase();
-    for (const card of listOfCardsFiltered) {
-        const cardContent = card.textContent.toLowerCase();
-        card.style.display = cardContent.includes(inputValue) ? "" : "none";
+function insertTagsInSelect(tags) {
+    const defaultOption = document.createElement("option");
+    defaultOption.value = "";
+    defaultOption.text = "Todos";
+    filterSelect.appendChild(defaultOption);
+    for (const tag of tags) {
+        const newOption = document.createElement("option");
+        newOption.value = tag;
+        newOption.text = tag;
+        filterSelect.appendChild(newOption);
     }
 }
 
-function filter() {
+
+function getTagsFromCards(data) {
+    const tags = [];
+    data.forEach((card) => {
+        if (card.tags) {
+            card.tags.forEach((tag) => {
+                if (!tags.includes(tag)) {
+                    tags.push(tag);
+                }
+            });
+        }
+    });
+    insertTagsInSelect(tags);
+}
+
+function filterCards() {
     listOfCardsFiltered = [];
     const listOfCards = document.querySelectorAll(".card");
     const listOfTags = document.querySelectorAll(".card_tags");
     for (let i = 0; i < listOfCards.length; i++) {
         if (listOfTags[i].textContent.includes(filterSelect.value) || filterSelect.value == "") {
             listOfCards[i].style.display = "";
-            listOfCardsFiltered.push(listOfCards[i])
+            listOfCardsFiltered.push(listOfCards[i]);
         }
         else {
-            listOfCards[i].style.display = "none"
+            listOfCards[i].style.display = "none";
         }
     }
     searchCards()
+}
+
+function searchCards() {
+    const inputValue = searchInput.value.toLowerCase();
+    for (const card of listOfCardsFiltered) {
+        const cardContent = card.textContent.toLowerCase();
+        card.style.display = cardContent.includes(inputValue) ? "" : "none";
+    }
 }
 
 function insertCardsIntoHtml(data) {
@@ -51,21 +79,7 @@ function insertCardsIntoHtml(data) {
         cards += "</section>";
     });
     cardsSection.innerHTML = cards;
-    filter();
-}
-
-function getTagsFromCards(data) {
-    const tags = [];
-    data.forEach((card) => {
-        if (card.tags) {
-            card.tags.forEach((tag) => {
-                if (!tags.includes(tag)) {
-                    tags.push(tag);
-                }
-            });
-        }
-    });
-    insertTagsInSelect(tags);
+    filterCards();
 }
 
 async function sortCardsByTitle(data) {
@@ -84,19 +98,6 @@ async function getCardsFromJson() {
     }
 }
 
-function insertTagsInSelect(tags) {
-    let option = document.createElement("option");
-    option.value = "";
-    option.text = "Todos";
-    filterSelect.appendChild(option)
-    for (const tag of tags) {
-        option = document.createElement("option");
-        option.value = tag;
-        option.text = tag;
-        filterSelect.appendChild(option)
-    }
-}
-
 searchInput.addEventListener("input", searchCards);
-filterSelect.addEventListener("change", filter)
+filterSelect.addEventListener("change", filterCards)
 getCardsFromJson();
