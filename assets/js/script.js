@@ -2,14 +2,11 @@ import "./dark_mode.js";
 
 const searchInput = document.querySelector("#search-input");
 const cardsSection = document.querySelector("#cards");
-const filterSelect = document.querySelector("#filter_select");
+const filterSelect = document.querySelector("#tags-filter");
 let listOfCardsFiltered = [];
 
-function insertTagsInSelect(tags) {
-    const defaultOption = document.createElement("option");
-    defaultOption.value = "";
-    defaultOption.text = "Todos";
-    filterSelect.appendChild(defaultOption);
+function insertTagsIntoSelect(tags) {
+    tags.sort()
     for (const tag of tags) {
         const newOption = document.createElement("option");
         newOption.value = tag;
@@ -18,34 +15,30 @@ function insertTagsInSelect(tags) {
     }
 }
 
-
 function getTagsFromCards(data) {
     const tags = [];
-    data.forEach((card) => {
-        if (card.tags) {
-            card.tags.forEach((tag) => {
-                if (!tags.includes(tag)) {
-                    tags.push(tag);
-                }
-            });
-        }
+    data.map(objeto => {
+        objeto.tags.map(tag => {
+            if (!tags.includes(tag)) {
+                tags.push(tag);
+            }
+        });
     });
-    insertTagsInSelect(tags);
+    insertTagsIntoSelect(tags);
 }
 
 function filterCards() {
     listOfCardsFiltered = [];
     const listOfCards = document.querySelectorAll(".card");
-    const listOfTags = document.querySelectorAll(".card_tags");
-    for (let i = 0; i < listOfCards.length; i++) {
-        if (listOfTags[i].textContent.includes(filterSelect.value) || filterSelect.value == "") {
-            listOfCards[i].style.display = "";
-            listOfCardsFiltered.push(listOfCards[i]);
+    listOfCards.forEach((element) => {
+        if (element.getAttribute("tags").includes(filterSelect.value) || filterSelect.value == "Todos") {
+            element.style.display = "";
+            listOfCardsFiltered.push(element);
         }
         else {
-            listOfCards[i].style.display = "none";
+            element.style.display = "none";
         }
-    }
+    });
     searchCards()
 }
 
@@ -60,14 +53,10 @@ function searchCards() {
 function insertCardsIntoHtml(data) {
     let cards = "";
     data.forEach((card) => {
-        if (!card.tags) {
-            card.tags = "";
-        }
         cards += `
-        <section class="card">
+        <section class="card" tags="${card.tags ? card.tags : "Todos"}">
             <h3 class="card__title">${card.title}</h3>
             <p class="card__description">${card.description}</p>
-            <p class="card_tags" style = "display: none;">${card.tags}</p>
         `;
         if (card.content && card.content.code) {
             cards += `
