@@ -1,6 +1,4 @@
-@import url(var.css);
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +6,32 @@
 }
 
 body {
-  background-color: var(--white);
+  background-color: #ffffff;
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
-  padding: 50px;
+  padding: 40px 24px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #6e6197;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -21,19 +41,17 @@ body {
   flex-direction: column;
   gap: 24px;
 }
-
 .header__title img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
 .header__subtitle {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
-  color: var(--gray-500);
+  color: #232226;
   font-weight: 400;
-  max-width: 70%;
+  transition: color 0.5s ease-in-out;
 }
 
 .main {
@@ -42,19 +60,21 @@ body {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .searchbar {
-  background-color: var(--gray-100);
+  background-color: #f2f2f2;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   padding: 16px;
   margin: 30px 0;
-  width: 80%;
+  width: 100%;
 }
 
 .cards {
@@ -62,58 +82,148 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 32px;
+  margin: 48px 0;
 }
 
 .searchbar__icon {
-  width: 1.2rem;
-  height: 1.2rem;
-  fill: var(--gray-500);
+  width: 24px;
+  height: 24px;
+  fill: #9698a0;
 }
 
 .searchbar__input {
-  font-family: "Roboto", sans-serif;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   background-color: transparent;
   padding: 4px;
   flex: 1;
-  color: var(--purple-500);
-  font-size: 1rem;
+  color: #232226;
+  font-size: 2rem;
 }
-
 .searchbar__input:focus {
   outline: none;
 }
 
 .card {
-  width: 300px;
-  min-height: 200px;
-  margin: 20px;
-  padding: 20px;
-  border-radius: 10px;
-  background-color: var(--white);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+  width: 20%;
+  flex-grow: 1;
+  max-height: 300px;
+  min-height: 300px;
+  overflow: auto;
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: rgba(35, 35, 38, 0.2) 0px 0px 16px;
   display: list-item;
   list-style-type: none;
 }
-
 .card__title {
-  color: var(--purple-500);
+  color: #6e6197;
   margin-bottom: 16px;
+  font-size: 2.4rem;
 }
-
 .card__description {
-  color: var(--gray-500);
+  color: #232226;
+  line-height: 160%;
+  font-size: 1.8rem;
 }
-
 .card__content {
   margin-top: 16px;
 }
-
 .card__code {
-  padding: 5px;
-  border-radius: 5px;
-  color: var(--white);
-  background-color: var(--purple-500);
-  font-size: 0.75rem; /* pra caber no card e não quebrar linha */
+  padding: 8px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #6e6197;
+  font-size: 1.4rem;
 }
+
+.body-dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.text-dark-mode {
+  color: #ffffff;
+}
+
+.button-dark-mode {
+  background-color: #6e6197;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.button-dark-mode i {
+  font-size: 1.4rem;
+}
+
+.body-dark-mode .ph-sun,
+:not(.body-dark-mode) .ph-moon {
+  display: inline;
+}
+
+.body-dark-mode .ph-moon,
+:not(.body-dark-mode) .ph-sun {
+  display: none;
+}
+
+.github-corner {
+  color: #ffffff;
+  fill: #6e6197;
+  transition: color 0.5s ease-in-out;
+}
+.github-corner svg {
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(-25deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(-25deg);
+  }
+  80% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card {
+    width: 100%;
+    max-height: 250px;
+    min-height: 250px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

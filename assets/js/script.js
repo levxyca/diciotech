@@ -1,3 +1,5 @@
+import "./dark_mode.js";
+
 const searchInput = document.querySelector("#search-input");
 const cardsSection = document.querySelector("#cards");
 
