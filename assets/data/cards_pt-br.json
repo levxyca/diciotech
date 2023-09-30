@@ -100,6 +100,10 @@
             "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas."
         },
         {
+            "title": "API Rest",
+            "description": "Uma API Rest é uma API (Application Programming Interface ou Interface de Programação de Aplicativos) que segue um conjunto de regras, convenções e protocolos HTTP, possibilitando a comunicação entre aplicativos e sites pela internet."
+        },
+        {
             "title": "Spread Operator",
             "description": "É um operador que está presente em várias linguagens de programação, que permite copiar e combinar elementos de uma estrutura de dados em outra, facilitando a manipulação eficiente de informações."
         },
@@ -107,11 +111,11 @@
             "title": "Algoritmo",
             "description": "Um algoritmo é como uma receita de bolo para o computador. É um conjunto de passos organizados que ajudam a resolver um problema, como fazer contas ou analisar informações."
         },
-         {
+        {
             "title": "Git",
             "description": "Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear as alterações em arquivos e coordenar o trabalho em projetos de desenvolvimento de software."
         },
-         {
+        {
             "title": "Github",
             "description": "O GitHub é uma plataforma de hospedagem de código-fonte baseada na web que oferece uma variedade de serviços relacionados ao controle de versão e colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar, colaborar, gerenciar e controlar o código-fonte de projetos de software."
         }
