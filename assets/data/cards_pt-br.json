@@ -101,7 +101,7 @@
         },
         {
             "title": "API Rest",
-            "description": "Uma API Rest, e uma API(Application Programming Interface) que segue um conjunto de regras, convenções e protocolos HTTP, que permite que aplicativos, sites se comuniquem pela internet.",
+            "description": "Uma API Rest é uma API (Application Programming Interface ou Interface de Programação de Aplicativos) que segue um conjunto de regras, convenções e protocolos HTTP, possibilitando a comunicação entre aplicativos e sites pela internet."
         },
         {
             "title": "Spread Operator",
