@@ -142,6 +142,14 @@
       "title": "GitHub",
       "description": "O GitHub é uma plataforma de hospedagem de código-fonte baseada na web que oferece uma variedade de serviços relacionados ao controle de versão e colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar, colaborar, gerenciar e controlar o código-fonte de projetos de software.",
       "tags": ["Conceito", "Versionamento"]
-    }
+    },
+    {
+			"title": "Optional Chaining",
+			"description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
+			"content": {
+				"code": "const pessoa = nome?.cidade?.endereco; "
+      },
+      "tags": ["Conceito", "JavaScript"]
+		}
   ]
 }
