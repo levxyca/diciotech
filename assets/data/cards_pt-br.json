@@ -1,6 +1,11 @@
 {
   "cards": [
     {
+      "title": "Abstração",
+      "description": "Abstração pode ser interpretada como uma simplificação da explicação de alguma ação, processo ou funcionamento visando facilitar sua compreensão e/ou uso. Em todo momento na programação estamos lidando com abstrações, até mesmo abstrações de abstrações, pois não precisamos saber o que acontece a nível de hardware em um computador para programar.",
+      "tags": ["Conceito"]
+    },
+    {
       "title": "Variável tipada",
       "description": "Uma variável tipada é aquele que possui um tipo de dado associado a ela.",
       "tags": ["Conceito"]
