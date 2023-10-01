@@ -1,6 +1,11 @@
 {
   "cards": [
     {
+      "title": "Algoritmo",
+      "description": "Uma sequência finita de instruções detalhadas para realização de uma determinada tarefa.",
+      "tags": ["Conceito"]
+    },
+    {
       "title": "Variável tipada",
       "description": "Uma variável tipada é aquele que possui um tipo de dado associado a ela.",
       "tags": ["Conceito"]
