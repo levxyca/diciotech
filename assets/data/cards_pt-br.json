@@ -150,6 +150,11 @@
 				"code": "const pessoa = nome?.cidade?.endereco; "
       },
       "tags": ["Conceito", "JavaScript"]
+		},
+    {
+			"title": "Bug",
+			"description": "O termo Bug é comumente usado para informar que há algum problema no programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente causados por lógica incorreta no código, causando falhas durante a execução de um software.",
+      "tags": ["Conceito"]
 		}
   ]
 }
