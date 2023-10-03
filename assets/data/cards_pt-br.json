@@ -96,7 +96,7 @@
     {
       "title": "CSS",
       "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web como cores, tamanhos, fontes e etc. é possivel ligar o arquivo HTML ao CSS adicionando um link para um arquivo CSS que contém os estilos.",
-      "tags": ["Front-end", "CSS"]
+      "tags": ["Front-end"]
     },
     {
       "title": "JavaScript",
