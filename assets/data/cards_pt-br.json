@@ -86,37 +86,37 @@
     {
       "title": "Desenvolvimento Front-end",
       "description": "Desenvolvimento front-end é o desenvolvimento da interface gráfica, para que as pessoas usuárias possam visualizar e interagir com o que foi desenvolvido.",
-      "tags": ["Front-End"]
+      "tags": ["Front-end"]
     },
     {
       "title": "HTML",
-      "description": "HTML (Hypertext Markup Language) é uma linguagem de marcação utilizada na construção de páginas na web. Documentos HTML podem ser interpretados por navegadores.",
-      "tags": ["Front-End"]
+      "description": "HTML é uma linguagem de marcação utilizada na construção de páginas na web. Documentos HTML podem ser interpretados por navegadores.",
+      "tags": ["Front-end"]
     },
     {
       "title": "CSS",
-      "description": "O CSS (Cascading Style Sheets) é um mecanismo para adicionar estilos a uma página web como cores, tamanhos, fontes e etc. É possivel ligar o arquivo HTML ao CSS adicionando um link para um arquivo CSS que contém os estilos.",
-      "tags": ["Front-End"]
+      "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web como cores, tamanhos, fontes e etc. é possivel ligar o arquivo HTML ao CSS adicionando um link para um arquivo CSS que contém os estilos.",
+      "tags": ["Front-end", "CSS"]
     },
     {
       "title": "JavaScript",
       "description": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias para criação de sites.",
-      "tags": ["Front-End", "Back-End"]
+      "tags": ["Front-end", "Back-end", "JavaScript"]
     },
     {
       "title": "jQuery",
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
-      "tags": ["Front-End", "Biblioteca"]
+      "tags": ["Front-end", "Biblioteca", "Back-end", "JavaScript"]
     },
     {
       "title": "UI Design",
       "description": "É o desenho e execução de uma interface para a pessoa usuária. Por exemplo, garantir que um botão vai ser visto e apertado.",
-      "tags": ["Conceito", "Front-End", "Design"]
+      "tags": ["Conceito", "Front-end", "Design"]
     },
     {
       "title": "UX Design",
       "description": "É o desenho e execução de uma experiência para a pessoa usuária. Por exemplo, desenhar as ações que farão com a pessoa se sinta bem ao entrar numa página, ou engajado, etc.",
-      "tags": ["Conceito", "Front-End", "Design"]
+      "tags": ["Conceito", "Front-end", "Design"]
     },
     {
       "title": "Frameworks",
