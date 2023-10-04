@@ -102,7 +102,7 @@
         },
         {
             "title":"Mobile First",
-            "description": "É um conceito aplicado em projetos web onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis e em seguida para desktop."
+            "description": "È quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site."
         }
     ]
 }
