@@ -150,6 +150,21 @@
 				"code": "const pessoa = nome?.cidade?.endereco; "
       },
       "tags": ["Conceito", "JavaScript"]
-		}
+		},
+    {
+      "title": "ORM",
+      "description": "Object Relational Mapping (ORM) é um mapeamento objeto-relacional, ou seja, é uma técnica de desenvolvimento que consiste em transformar tabelas de um banco de dados em classes e objetos no código.",
+      "tags": ["Conceito", "Back-End"]
+    },
+    {
+      "title": "SQL",
+      "description": "Structured Query Language (SQL) é uma linguagem de consulta estruturada, ou seja, é uma linguagem de programação usada para gerenciar dados armazenados em um sistema de gerenciamento de banco de dados relacional.",
+      "tags": ["Conceito", "Back-End", "Banco de Dados"]
+    },
+    {
+      "title": "Node.js",
+      "description": "Node.js é um ambiente de execução de JavaScript server-side, ou seja, é um ambiente de execução de JavaScript que permite rodar o código JavaScript no servidor.",
+      "tags": ["JavaScript", "Back-End"]
+    }
   ]
 }
