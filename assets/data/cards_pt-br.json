@@ -95,14 +95,6 @@
         {
             "title": "Frameworks",
             "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas."
-        },
-        {
-            "title": "React Native",
-            "description": "É como um tradutor para construir aplicativos móveis tanto para iPhone quanto para Android ao mesmo tempo, economizando tempo e esforço. É um framework do Javascript baseado no React, especialmente feito para desenvolvimento de aplicativos móveis multiplataforma."
-        },
-        {
-            "title":"Mobile First",
-            "description": "È quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site."
         }
     ]
 }
