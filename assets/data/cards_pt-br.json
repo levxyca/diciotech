@@ -150,6 +150,34 @@
 				"code": "const pessoa = nome?.cidade?.endereco; "
       },
       "tags": ["Conceito", "JavaScript"]
-		}
+		},
+    {
+      "title": "Linguagem Baixo Nível",
+      "description": "Linguagem de programação que possui pouca ou nenhuma abstração do computador. É uma linguagem de programação que está mais próxima da linguagem de máquina.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Endereço de Memória",
+      "description": "É um número que identifica unicamente uma posição de memória no computador. Tudo que é declarado em uma linguagem de programação é armazenado na memória do computador, e para acessar esses dados é necessário saber o endereço de memória onde eles estão armazenados.",
+      "tags": ["Conceito", "C (Linguagem de programação)"]
+    },
+    {
+      "title": "Ponteiros",
+      "description": "Um ponteiro é um tipo de dado de uma linguagem de programação que armazena ou se refere ao endereço de memória de outro valor localizado na memória do computador. Um ponteiro refere-se a um local na memória e obtém o valor desse local. Como tal, um ponteiro é um tipo de dado que 'aponta' para um valor.",
+      "content": {
+        "code": "int *ponteiro; // ponteiro para um inteiro em linguagem C/C++"
+      },
+      "tags": ["Conceito", "C (Linguagem de programação)"]
+    },
+    {
+      "title": "C",
+      "description": "C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada pela ISO, criada em 1972, por Dennis Ritchie, no AT&T Bell Labs, para desenvolver o sistema operacional Unix (que foi originalmente escrito em Assembly).",
+      "tags": ["C (Linguagem de programação)"]
+    },
+    {
+      "title": "C++",
+      "description": "C++ é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.",
+      "tags": ["C++"]
+    }
   ]
 }
