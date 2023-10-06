@@ -106,7 +106,7 @@
         },
         {
 	    "title":"Compilador",
-	    "description": "Um compilador é uma ferramenta de software que traduz código de alto nível (geralmente escrito por programadores) em código de máquina ou linguagem de montagem (código de baixo nível) que um computador pode entender e executar. Ele faz isso em várias etapas"
+	    "description": "Um compilador é como um tradutor de idiomas para computadores. Ele pega o código escrito por pessoas programadoras em uma forma que é fácil para elas entenderem (chamado de código de alto nível) e o transforma em um tipo de linguagem que o computador consegue entender e seguir (isso é chamado de código de baixo nível). Ele faz isso passo a passo, como se estivesse quebrando o processo em partes menores."
 	}
     ]
 }
