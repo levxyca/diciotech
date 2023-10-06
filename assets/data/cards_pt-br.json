@@ -155,6 +155,11 @@
 			"title": "Bug",
 			"description": "O termo Bug é comumente usado para informar que há algum problema no programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente causados por lógica incorreta no código, causando falhas durante a execução de um software.",
       "tags": ["Conceito"]
-		}
+		},
+    {
+	    "title":"Compilador",
+	    "description": "Um compilador é como um tradutor de idiomas para computadores. Ele pega o código escrito por pessoas programadoras em uma forma que é fácil para elas entenderem (chamado de código de alto nível) e o transforma em um tipo de linguagem que o computador consegue entender e seguir (isso é chamado de código de baixo nível). Ele faz isso passo a passo, como se estivesse quebrando o processo em partes menores.",
+      "tags": ["Conceito"]
+	  }
   ]
 }
