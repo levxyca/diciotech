@@ -26,6 +26,6 @@ Além das melhorias visuais e de usabilidade, também adicionamos novos termos.
 - ❌ Template de PR
 - ❌ Sempre criar issue antes de um PR
 - ❌ Criar um wiki para o projeto
-- ❌ Manter o ROADMAP vivo e atualizado
+- 🚧 Manter o ROADMAP vivo e atualizado
 - ❌ Adicionar um código de conduta
-- ❌ [Adicionar uma licença](https://github.com/levxyca/diciotech/issues/65)
+- 🚧 [Adicionar uma licença](https://github.com/levxyca/diciotech/issues/65)
