@@ -211,6 +211,12 @@ input {
   fill: #6e6197;
 }
 .github-corner svg {
+  position: absolute;
+  top: 0;
+  border: 0;
+  left: 0;
+  transform: scale(-1, 1);
+  width: 80px;
   clip-path: polygon(0 0, 100% 0, 100% 100%);
 }
 .github-corner:hover .octo-arm {
