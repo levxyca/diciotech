@@ -158,11 +158,11 @@
         },
         {
             "title": "React Native",
-            "description": "É como um tradutor para construir aplicativos móveis tanto para iPhone quanto para Android ao mesmo tempo, economizando tempo e esforço. É um framework do Javascript baseado no React, especialmente feito para desenvolvimento de aplicativos móveis multiplataforma."
+            "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma."
         },
         {
             "title":"Mobile First",
-            "description": "É um conceito aplicado em projetos web onde o foco inicial da arquitetura e desenvolvimento é direcionado aos dispositivos móveis e em seguida para desktop."
+            "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site."
 		}
   ]
 }
