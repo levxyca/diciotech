@@ -1,112 +1,165 @@
 {
-    "cards": [
-        {
-            "title": "Variável tipada",
-            "description": "Uma variável tipada é aquele que possui um tipo de dado associado a ela."
-        },
-        {
-            "title": "Parâmetro",
-            "description": "Uma parâmetro é uma informação passada para uma função ou método como parte de sua chamada."
-        },
-        {
-            "title": "Parâmetro nomeado",
-            "description": "É uma forma de passar valores para uma função ou método especificando o nome do parâmetro correspondente."
-        },
-        {
-            "title": "Variável computada",
-            "description": "É uma variável que não armazena um valor diretamente, ela calcula ou deriva seu valor de outras variáveis ou dados."
-        },
-        {
-            "title": "Ternário",
-            "description": "Expressão condicional.",
-            "content": {
-                "code": "Expressão ? Verdadeiro : Falso;"
-            }
-        },
-        {
-           "title": "Stateless Widget",
-           "description": "Um StatelessWidget no Flutter é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado"
-        },
-        {
-           "title": "Stateful Widget",
-           "description": "Um StatefulWidget no Flutter é um componente que possui estado interno mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente a interface do usuário"
-        },
-        {
-           "title": "Função",
-           "description": "Uma função é um bloco de código que realiza uma tarefa específica e pode ser chamado a partir de outras partes do programa. Ela ajuda a organizar e reutilizar o código, tornando o software mais modular e legível. As funções recebem entradas (chamadas de argumentos) e podem retornar um resultado (valor de retorno) ou simplesmente executar uma ação."
-        
-        },
-        {
-            "title": "Argumento",
-            "description": "Um argumento é um valor ou uma informação que você fornece a uma função ou método durante sua chamada. Esses argumentos são usados pela função para realizar uma tarefa específica ou para tomar decisões com base nos valores fornecidos. Em resumo, os argumentos são dados de entrada que permitem que uma função realize seu trabalho e produza um resultado ou execute ações desejadas."
-        },
-        {
-            "title": "Programação orientada a objetos",
-            "description": "A programação orientada a objetos (POO) é um paradigma de programação que se baseia na ideia de modelar o software em torno de objetos, que são instâncias de classes. Cada objeto contém dados (atributos) e métodos (funções) que operam nesses dados. Isso permite organizar o código de forma mais modular, reutilizável e orientada para objetos do mundo real. POO promove conceitos como encapsulamento, herança e polimorfismo, facilitando a criação de sistemas mais flexíveis, compreensíveis e escaláveis."
-        },
-        {
-            "title": "Classe",
-            "description": "Uma classe em desenvolvimento de software é um projeto ou um 'modelo' para criar objetos. Ela define os atributos (dados) e os métodos (funções) que os objetos criados a partir dela terão. As classes são como moldes para criar objetos que compartilham características comuns. Elas ajudam a organizar o código, permitindo a reutilização e a abstração de dados e funcionalidades em uma estrutura coerente."
-        },
-        {
-            "title": "Objeto",
-            "description": "Um objeto em desenvolvimento de software é como um personagem em um videogame. Ele tem características (dados) e pode fazer coisas (métodos). Por exemplo, um objeto 'carro' pode ter cor, velocidade e marca (características) e pode acelerar, frear e virar (ações/métodos). Os objetos são instâncias de classes e permitem organizar o código de forma a representar entidades do mundo real, tornando-o mais compreensível e reutilizável."
-        },
-        {
-            "title": "Encapsulamento",
-            "description": "O encapsulamento funciona como uma 'caixa mágica' que esconde os detalhes internos de um objeto. Isso significa que os dados e o funcionamento interno de um objeto são mantidos privados e não podem ser acessados diretamente de fora. Em vez disso, o objeto fornece interfaces controladas (métodos públicos) para interagir com ele. Isso ajuda a proteger os dados do objeto e controlar como ele é usado, promovendo a segurança e a organização do código."
-        },
-        {
-            "title": "Herança",
-            "description": "A herança funciona como uma 'árvore genealógica'. Permite que uma classe (ou objeto) herde características e comportamentos de outra classe pai (ou objeto). Isso significa que a classe filha herda os atributos e métodos da classe pai, economizando tempo e promovendo a reutilização de código. A herança é uma forma de organizar e estruturar o código, criando hierarquias de classes que representam relacionamentos entre objetos do mundo real."
-        },
-        {
-            "title": "Polimorfismo",
-            "description": "O polimorfismo permite que objetos de diferentes tipos se comportem de maneira semelhante através de uma interface compartilhada."
-        },
-        {
-            "title": "Desenvolvimento Front-end",
-            "description": "Desenvolvimento front-end é o desenvolvimento da interface gráfica, para que as pessoas usuárias possam visualizar e interagir com o que foi desenvolvido."
-        },
-        {
-            "title": "HTML",
-            "description": "HTML é uma linguagem de marcação utilizada na construção de páginas na web. Documentos HTML podem ser interpretados por navegadores."
-        },
-        {
-            "title": "CSS",
-            "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web como cores, tamanhos, fontes e etc. é possivel ligar o arquivo HTML ao CSS adicionando um link para um arquivo CSS que contém os estilos."
-        },
-        {
-            "title": "JavaScript",
-            "description": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias para criação de sites."
-        },
-        {
-            "title": "jQuery",
-            "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript."
-        },
-        {
-            "title": "UI Design",
-            "description": "É o desenho e execução de uma interface para a pessoa usuária. Por exemplo, garantir que um botão vai ser visto e apertado."
-        },
-        {
-            "title": "UX Design",
-            "description": "É o desenho e execução de uma experiência para a pessoa usuária. Por exemplo, desenhar as ações que farão com a pessoa se sinta bem ao entrar numa página, ou engajado, etc."
-        },
-        {
-            "title": "Frameworks",
-            "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas."
-        },
-        {
-            "title": "Spread Operator",
-            "description": "É um operador que está presente em várias linguagens de programação, que permite copiar e combinar elementos de uma estrutura de dados em outra, facilitando a manipulação eficiente de informações."
-        },
-        {
-            "title": "Algoritmo",
-            "description": "Um algoritmo é como uma receita de bolo para o computador. É um conjunto de passos organizados que ajudam a resolver um problema, como fazer contas ou analisar informações."
-        },
-        {
+  "cards": [
+    {
+      "title": "Variável tipada",
+      "description": "Uma variável tipada é aquele que possui um tipo de dado associado a ela.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Parâmetro",
+      "description": "Uma parâmetro é uma informação passada para uma função ou método como parte de sua chamada.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Parâmetro nomeado",
+      "description": "É uma forma de passar valores para uma função ou método especificando o nome do parâmetro correspondente.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Variável computada",
+      "description": "É uma variável que não armazena um valor diretamente, ela calcula ou deriva seu valor de outras variáveis ou dados.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Ternário",
+      "description": "Expressão condicional.",
+      "content": {
+        "code": "Expressão ? Verdadeiro : Falso;"
+      },
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Stateless Widget",
+      "description": "Um StatelessWidget, no Flutter, é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado.",
+      "tags": ["Conceito", "Mobile"]
+    },
+    {
+      "title": "Stateful Widget",
+      "description": "Um StatefulWidget, no Flutter, é um componente que possui estado interno mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente a interface do usuário.",
+      "tags": ["Conceito", "Mobile"]
+    },
+    {
+      "title": "Função",
+      "description": "Uma função é um bloco de código que realiza uma tarefa específica e pode ser chamado a partir de outras partes do programa. Ela ajuda a organizar e reutilizar o código, tornando o software mais modular e legível. As funções recebem entradas (chamadas de argumentos) e podem retornar um resultado (valor de retorno) ou simplesmente executar uma ação.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Argumento",
+      "description": "Um argumento é um valor ou uma informação que você fornece a uma função ou método durante sua chamada. Esses argumentos são usados pela função para realizar uma tarefa específica ou para tomar decisões com base nos valores fornecidos. Em resumo, os argumentos são dados de entrada que permitem que uma função realize seu trabalho e produza um resultado ou execute ações desejadas.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Programação orientada a objetos",
+      "description": "A programação orientada a objetos (POO) é um paradigma de programação que se baseia na ideia de modelar o software em torno de objetos, que são instâncias de classes. Cada objeto contém atributos (dados) e métodos (funções) que operam nesses dados. Isso permite organizar o código de forma mais modular, reutilizável e orientada para objetos do mundo real. POO promove conceitos como encapsulamento, herança e polimorfismo, facilitando a criação de sistemas mais flexíveis, compreensíveis e escaláveis.",
+      "tags": ["Conceito", "Paradigma"]
+    },
+    {
+      "title": "Recursão",
+      "description": "Recursão é um método/função que chama a si mesmo para resolver um problema.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Classe",
+      "description": "Uma classe, em desenvolvimento de software, é como molde e um \"modelo\" para criar objetos. Ela define os atributos (dados) e os métodos (funções) que os objetos criados a partir dela terão. Elas ajudam a organizar o código, permitindo a reutilização e a abstração de dados e funcionalidades em uma estrutura coerente.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Objeto",
+      "description": "Um objeto, em desenvolvimento de software, é como um personagem em um videogame. Ele tem características (dados) e pode fazer coisas (métodos). Por exemplo, um objeto \"carro\" pode ter cor, velocidade e marca (características) e pode acelerar, frear e virar (ações/métodos). Os objetos são instâncias de classes e permitem organizar o código de forma a representar entidades do mundo real, tornando-o mais compreensível e reutilizável.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Encapsulamento",
+      "description": "O encapsulamento funciona como uma \"caixa mágica\" que esconde os detalhes internos de um objeto. Isso significa que os dados e o funcionamento interno de um objeto são mantidos privados e não podem ser acessados diretamente de fora. Em vez disso, o objeto fornece interfaces controladas (métodos públicos) para interagir com ele. Isso ajuda a proteger os dados do objeto e controlar como ele é usado, promovendo a segurança e a organização do código.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Herança",
+      "description": "A herança funciona como uma \"árvore genealógica\". Permite que uma classe ou objeto herde características e comportamentos de outra classe pai. Isso significa que a classe filha herda os atributos e métodos da classe pai, economizando tempo e promovendo a reutilização de código. A herança é uma forma de organizar e estruturar o código, criando hierarquias de classes que representam relacionamentos entre objetos do mundo real.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Polimorfismo",
+      "description": "O polimorfismo permite que objetos de diferentes tipos se comportem de maneira semelhante através de uma interface compartilhada.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Desenvolvimento Front-end",
+      "description": "Desenvolvimento front-end é o desenvolvimento da interface gráfica, para que as pessoas usuárias possam visualizar e interagir com o que foi desenvolvido.",
+      "tags": ["Front-end"]
+    },
+    {
+      "title": "HTML",
+      "description": "HTML é uma linguagem de marcação utilizada na construção de páginas na web. Documentos HTML podem ser interpretados por navegadores.",
+      "tags": ["Front-end"]
+    },
+    {
+      "title": "CSS",
+      "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web como cores, tamanhos, fontes e etc. é possivel ligar o arquivo HTML ao CSS adicionando um link para um arquivo CSS que contém os estilos.",
+      "tags": ["Front-end"]
+    },
+    {
+      "title": "JavaScript",
+      "description": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias para criação de sites.",
+      "tags": ["Front-end", "Back-end", "JavaScript"]
+    },
+    {
+      "title": "jQuery",
+      "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
+      "tags": ["Front-end", "Biblioteca", "Back-end", "JavaScript"]
+    },
+    {
+      "title": "UI Design",
+      "description": "É o desenho e execução de uma interface para a pessoa usuária. Por exemplo, garantir que um botão vai ser visto e apertado.",
+      "tags": ["Conceito", "Front-end", "Design"]
+    },
+    {
+      "title": "UX Design",
+      "description": "É o desenho e execução de uma experiência para a pessoa usuária. Por exemplo, desenhar as ações que farão com a pessoa se sinta bem ao entrar numa página, ou engajado, etc.",
+      "tags": ["Conceito", "Front-end", "Design"]
+    },
+    {
+      "title": "Frameworks",
+      "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas.",
+      "tags": ["Framework", "Conceito"]
+    },
+    {
+      "title": "Spread Operator",
+      "description": "O operador spread é um operador que está presente em várias linguagens de programação, que permite copiar e combinar elementos de uma estrutura de dados em outra, facilitando a manipulação eficiente de informações.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Algoritmo",
+      "description": "Um algoritmo é como uma receita de bolo para o computador. É um conjunto de passos organizados que ajudam a resolver um problema, como fazer contas ou analisar informações.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Git",
+      "description": "Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear as alterações em arquivos e coordenar o trabalho em projetos de desenvolvimento de software.",
+      "tags": ["Conceito", "Versionamento", "Ferramenta"]
+    },
+    {
+      "title": "GitHub",
+      "description": "O GitHub é uma plataforma de hospedagem de código-fonte baseada na web que oferece uma variedade de serviços relacionados ao controle de versão e colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar, colaborar, gerenciar e controlar o código-fonte de projetos de software.",
+      "tags": ["Conceito", "Versionamento", "Ferramenta"]
+    },
+    {
+			"title": "Optional Chaining",
+			"description": "O Optional Chaining ou operador de encadeamento opcional (?.), é um recurso no JavaScript para lidar com situações onde você precisa acessar propriedades de objetos aninhados, mas não tem certeza se essas propriedades existem realmente. Isso ajuda a evitar erros de \"TypeError\" quando tenta acessar algo que não foi definido.",
+			"content": {
+				"code": "const pessoa = nome?.cidade?.endereco;"
+      },
+      "tags": ["Conceito", "Front-end"]
+		},
+    {
+			"title": "Bug",
+			"description": "O termo Bug é comumente usado para informar que há algum problema no programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente causados por lógica incorreta no código, causando falhas durante a execução de um software.",
+      "tags": ["Conceito"]
+		},
+    {
 	    "title":"Compilador",
-	    "description": "Um compilador é como um tradutor de idiomas para computadores. Ele pega o código escrito por pessoas programadoras em uma forma que é fácil para elas entenderem (chamado de código de alto nível) e o transforma em um tipo de linguagem que o computador consegue entender e seguir (isso é chamado de código de baixo nível). Ele faz isso passo a passo, como se estivesse quebrando o processo em partes menores."
-	}
-    ]
+	    "description": "Um compilador é como um tradutor de idiomas para computadores. Ele pega o código escrito por pessoas programadoras em uma forma que é fácil para elas entenderem (chamado de código de alto nível) e o transforma em um tipo de linguagem que o computador consegue entender e seguir (isso é chamado de código de baixo nível). Ele faz isso passo a passo, como se estivesse quebrando o processo em partes menores.",
+      "tags": ["Conceito"]
+	  }
+  ]
 }
