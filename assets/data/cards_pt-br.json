@@ -144,22 +144,30 @@
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
-			"title": "Optional Chaining",
-			"description": "O Optional Chaining ou operador de encadeamento opcional (?.), é um recurso no JavaScript para lidar com situações onde você precisa acessar propriedades de objetos aninhados, mas não tem certeza se essas propriedades existem realmente. Isso ajuda a evitar erros de \"TypeError\" quando tenta acessar algo que não foi definido.",
-			"content": {
-				"code": "const pessoa = nome?.cidade?.endereco;"
+      "title": "Optional Chaining",
+      "description": "O Optional Chaining ou operador de encadeamento opcional (?.), é um recurso no JavaScript para lidar com situações onde você precisa acessar propriedades de objetos aninhados, mas não tem certeza se essas propriedades existem realmente. Isso ajuda a evitar erros de \"TypeError\" quando tenta acessar algo que não foi definido.",
+      "content": {
+        "code": "const pessoa = nome?.cidade?.endereco;"
       },
       "tags": ["Conceito", "Front-end"]
-		},
+    },
     {
-			"title": "Bug",
-			"description": "O termo Bug é comumente usado para informar que há algum problema no programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente causados por lógica incorreta no código, causando falhas durante a execução de um software.",
+      "title": "Bug",
+      "description": "O termo Bug é comumente usado para informar que há algum problema no programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente causados por lógica incorreta no código, causando falhas durante a execução de um software.",
       "tags": ["Conceito"]
-		},
+    },
     {
-	    "title":"Compilador",
-	    "description": "Um compilador é como um tradutor de idiomas para computadores. Ele pega o código escrito por pessoas programadoras em uma forma que é fácil para elas entenderem (chamado de código de alto nível) e o transforma em um tipo de linguagem que o computador consegue entender e seguir (isso é chamado de código de baixo nível). Ele faz isso passo a passo, como se estivesse quebrando o processo em partes menores.",
+      "title": "Compilador",
+      "description": "Um compilador é como um tradutor de idiomas para computadores. Ele pega o código escrito por pessoas programadoras em uma forma que é fácil para elas entenderem (chamado de código de alto nível) e o transforma em um tipo de linguagem que o computador consegue entender e seguir (isso é chamado de código de baixo nível). Ele faz isso passo a passo, como se estivesse quebrando o processo em partes menores.",
       "tags": ["Conceito"]
-	  }
+    },
+    {
+      "title": "React Native",
+      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma."
+    },
+    {
+      "title": "Mobile First",
+      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site."
+    }
   ]
 }
