@@ -1,6 +1,11 @@
 {
   "cards": [
     {
+      "title": "Abstração",
+      "description": "Abstração é uma simplificação de ponto(s) específicos de algum sistema ou comportamento estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
+      "tags": ["Conceito"]
+    },
+    {
       "title": "Variável tipada",
       "description": "Uma variável tipada é aquele que possui um tipo de dado associado a ela.",
       "tags": ["Conceito"]
@@ -150,7 +155,7 @@
     },
     {
       "title": "Optional Chaining",
-      "description": "O Optional Chaining ou operador de encadeamento opcional (?.), é um recurso no JavaScript para lidar com situações onde você precisa acessar propriedades de objetos aninhados, mas não tem certeza se essas propriedades existem realmente. Isso ajuda a evitar erros de \"TypeError\" quando tenta acessar algo que não foi definido.",
+      "description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
       "content": {
         "code": "const pessoa = nome?.cidade?.endereco;"
       },
