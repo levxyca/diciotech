@@ -148,11 +148,13 @@ input
         margin-top: 16px
 
     &__code
+        display: inline-block
         padding: 8px
         border-radius: 4px
         color: $white
         background-color: $purple-500
         font-size: 1.4rem
+        font-style: italic
 
 .body-dark-mode
     background-color: $dark-background-color
@@ -188,6 +190,12 @@ input
     fill: $purple-500
 
     svg
+        position: absolute
+        top: 0
+        border: 0
+        left: 0
+        transform: scale(-1, 1)
+        width: 80px
         clip-path: polygon(0 0, 100% 0, 100% 100%)
 
     &:hover .octo-arm
