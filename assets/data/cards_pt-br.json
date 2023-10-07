@@ -2,7 +2,7 @@
   "cards": [
     {
       "title": "Abstração",
-      "description": "Abstração é como um "atalho" que usamos para entender ou fazer algo de maneira mais fácil. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
+      "description": "Abstração é uma "Simplificação" de ponto(s) específicos de algum sistema ou comportamento estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
       "tags": ["Conceito"]
     },
     {
