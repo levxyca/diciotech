@@ -1,0 +1,50 @@
+.cookies-message {
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+.cookies-container {
+    position: fixed;
+    width: 100%;
+    bottom: 2rem;
+    z-index: 1000;
+    display: none;
+}
+
+.cookies-content {
+    box-shadow: 0 1px 3px #6e6197;
+    background-color: #fff;
+    border: 1px solid #6e6197;
+    max-width: 520px;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transform: translateY(1rem);
+    animation: slideUp 0.5s forwards;
+}
+
+@keyframes slideUp {
+    to {
+        transform: initial;
+        opacity: initial;
+    }
+}
+
+.cookies-accept-button {
+    background-color: #6e6197;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+}
+
+.cookies-accept-button:hover {
+    cursor: pointer;
+}
