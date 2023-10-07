@@ -101,12 +101,12 @@
     {
       "title": "JavaScript",
       "description": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias para criação de sites.",
-      "tags": ["Front-end", "Back-end", "JavaScript"]
+      "tags": ["Front-end", "Back-end"]
     },
     {
       "title": "jQuery",
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
-      "tags": ["Front-end", "Biblioteca", "Back-end", "JavaScript"]
+      "tags": ["Front-end", "Biblioteca", "Back-end"]
     },
    {
    "title": "Python",
