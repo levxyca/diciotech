@@ -46,7 +46,7 @@ Tags disponíveis:
 - `Back-end`
 - `Design`
 
-**Observação: caso a sua contribuição não se alinhe com qualquer uma das tags disponíveis ou deseje propor uma nova tag, você pode apresentar uma sugestão por meio do envio de um [issue](https://github.com/levxyca/diciotech/issues) para que possamos abrir uma discussão a respeito.**
+**Observação: caso a sua contribuição não se alinhe com qualquer uma das tags disponíveis ou deseje propor uma nova tag, você pode apresentar uma sugestão por meio do envio de uma [issue](https://github.com/levxyca/diciotech/issues) para que possamos abrir uma discussão a respeito.**
 
 ### Reportando bugs
 
