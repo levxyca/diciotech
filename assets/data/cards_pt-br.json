@@ -2,7 +2,7 @@
   "cards": [
     {
       "title": "Abstração",
-      "description": "Abstração é uma simplificação de ponto(s) específicos de algum sistema ou comportamento estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
+      "description": "Abstração é uma simplificação de ponto(s) específicos de algum sistema ou comportamento que estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
       "tags": ["Conceito"]
     },
     {
@@ -113,11 +113,11 @@
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
       "tags": ["Front-end", "Biblioteca", "Back-end"]
     },
-   {
-   "title": "Python",
-   "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
-	"tags": ["Back-End"]	   
-  },
+    {
+    "title": "Python",
+    "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
+    "tags": ["Back-End"]
+    },
     {
       "title": "UI Design",
       "description": "É o desenho e execução de uma interface para a pessoa usuária. Por exemplo, garantir que um botão vai ser visto e apertado.",
@@ -172,11 +172,13 @@
     },
     {
       "title": "React Native",
-      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma."
+      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
+      "tags": ["Front-end"]
     },
     {
       "title": "Mobile First",
-      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site."
+      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site.",
+      "tags": ["Front-end", "Design"]
     }
   ]
 }
