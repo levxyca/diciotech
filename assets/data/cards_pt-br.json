@@ -158,7 +158,7 @@
       "description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
       "content": {
         "code": "const pessoa = nome?.cidade?.endereco;"
-      },
+      }
     },
     {
       "title": "Bug",
