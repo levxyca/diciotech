@@ -1,6 +1,5 @@
 const body = document.body;
 const toggleDarkModeButton = document.querySelector("#dark-mode-toggle");
-const headerSubtitle = document.querySelector(".header__subtitle");
 const moonIcon = document.querySelector(".ph-moon");
 const sunIcon = document.querySelector(".ph-sun");
 
@@ -19,13 +18,11 @@ function toggleDarkModeWithLocalStorage() {
     if (darkModeTheme) {
         displayMoonIcon(false);
         body.classList.toggle("body-dark-mode");
-        headerSubtitle.classList.toggle("text-dark-mode");
     }
 }
 
 function toggleDarkModeAndSaveState() {
     body.classList.toggle("body-dark-mode");
-    headerSubtitle.classList.toggle("text-dark-mode");
     const isDarkMode = body.classList.contains("body-dark-mode");
     if (isDarkMode) {
         displayMoonIcon(false);

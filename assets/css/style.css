@@ -3,9 +3,8 @@
   background-color: #333333;
   color: #ffffff;
 }
-
-.text-dark-mode {
-  color: #ffffff !important;
+.body-dark-mode .header__subtitle {
+  color: #ffffff;
 }
 
 .button-dark-mode {
