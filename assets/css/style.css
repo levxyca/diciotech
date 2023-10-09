@@ -1,4 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.body-dark-mode {
+  background-color: #232226;
+  color: #ffffff;
+}
+.body-dark-mode .header__subtitle {
+  color: #ffffff;
+}
+
+.button-dark-mode {
+  background-color: #6e6197;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.button-dark-mode i {
+  font-size: 1.4rem;
+}
+
+.body-dark-mode .ph-sun,
+:not(.body-dark-mode) .ph-moon {
+  display: inline;
+}
+
+.body-dark-mode .ph-moon,
+:not(.body-dark-mode) .ph-sun {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -30,10 +63,6 @@ html {
   font-size: 62.5%;
 }
 
-input {
-  font-family: "Roboto", sans-serif;
-}
-
 .header {
   display: flex;
   justify-content: center;
@@ -52,6 +81,11 @@ input {
   color: #232226;
   font-weight: 400;
   transition: color 0.5s ease-in-out;
+}
+
+.fav__button {
+  width: 24px;
+  cursor: pointer;
 }
 
 .main {
@@ -82,18 +116,6 @@ input {
   width: 100%;
 }
 
-.cards {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 32px;
-  margin: 48px 0;
-}
-.cards .card:last-child{
-  max-width: 23.3%;
-}
-
 .searchbar__icon {
   width: 24px;
   height: 24px;
@@ -101,6 +123,7 @@ input {
 }
 
 .searchbar__input {
+  font-family: "Roboto", sans-serif;
   border: none;
   border-radius: 4px;
   background-color: transparent;
@@ -161,19 +184,12 @@ input {
   display: list-item;
   list-style-type: none;
 }
-
 .card__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 16px;
 }
-
-.fav__button {
-  width: 25px;
-  height: 25px;
-}
-
 .card__title {
   color: #6e6197;
   font-size: 2.4rem;
@@ -194,40 +210,6 @@ input {
   background-color: #6e6197;
   font-size: 1.4rem;
   font-style: italic;
-}
-
-.body-dark-mode {
-  background-color: #333333;
-  color: #ffffff;
-}
-
-.text-dark-mode {
-  color: #ffffff;
-}
-
-.button-dark-mode {
-  background-color: #6e6197;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-.button-dark-mode i {
-  font-size: 1.4rem;
-}
-
-.body-dark-mode .ph-sun,
-:not(.body-dark-mode) .ph-moon {
-  display: inline;
-}
-
-.body-dark-mode .ph-moon,
-:not(.body-dark-mode) .ph-sun {
-  display: none;
 }
 
 .github-corner {
@@ -279,19 +261,12 @@ input {
   .card {
     width: 40%;
   }
-  .cards .card:last-child{
-    max-width: 48%;
-  }
 }
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
-    max-width: 100%;
     max-height: 250px;
     min-height: 250px;
-  }
-  .cards .card:last-child{
-    max-width: 100%;
   }
 }
 

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap")
+@import "dark_mode"
 @import "variables"
 
 *
@@ -18,16 +19,13 @@ body
 
 ::-webkit-scrollbar-thumb
     border-radius: 8px
-    background: $purple-500
+    background: $primary-500
 
 ::-webkit-scrollbar-track
     background: $gray-100
 
 html
     font-size: 62.5%
-
-input
-    font-family: "Roboto", sans-serif
 
 .header
     display: flex
@@ -47,6 +45,10 @@ input
         color: $black
         font-weight: 400
         transition: color 0.5s ease-in-out
+
+.fav__button
+    width: 24px
+    cursor: pointer
 
 .main
     display: flex
@@ -79,6 +81,7 @@ input
     fill: $gray-500
 
 .searchbar__input
+    font-family: "Roboto", sans-serif
     border: none
     border-radius: 4px
     background-color: transparent
@@ -104,7 +107,7 @@ input
 
 #tags-filter
     background-color: $white
-    border: 2px solid $purple-500
+    border: 2px solid $primary-500
     border-radius: 4px
     padding: 8px
     color: $black
@@ -134,9 +137,14 @@ input
     display: list-item
     list-style-type: none
 
-    &__title
-        color: $purple-500
+    &__header
+        display: flex
+        justify-content: space-between
+        align-items: center
         margin-bottom: 16px
+
+    &__title
+        color: $primary-500
         font-size: 2.4rem
 
     &__description
@@ -152,42 +160,13 @@ input
         padding: 8px
         border-radius: 4px
         color: $white
-        background-color: $purple-500
+        background-color: $primary-500
         font-size: 1.4rem
         font-style: italic
 
-.body-dark-mode
-    background-color: $dark-background-color
-    color: $dark-text-color
-
-.text-dark-mode
-    color: $dark-text-color
-
-.button-dark-mode
-    background-color: $purple-500
-    color: $white
-    border: none
-    border-radius: 5px
-    padding: 10px 20px
-    cursor: pointer
-    position: absolute
-    top: 20px
-    right: 20px
-
-    & i
-        font-size: 1.4rem
-
-.body-dark-mode .ph-sun,
-:not(.body-dark-mode) .ph-moon
-    display: inline
-
-.body-dark-mode .ph-moon,
-:not(.body-dark-mode) .ph-sun
-    display: none
-
 .github-corner
     color: $white
-    fill: $purple-500
+    fill: $primary-500
 
     svg
         position: absolute
