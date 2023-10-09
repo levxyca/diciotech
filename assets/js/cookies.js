@@ -1,5 +1,5 @@
 function loadCookies() {
-    const cookiesAccepted = localStorage.getItem("cookiesAccepted");
+    const cookiesAccepted = localStorage.getItem("cookiesAccepted") === "true";
     const acceptBtn = document.querySelector(".cookies-accept-button");
     const container = document.querySelector(".cookies-container");
 
