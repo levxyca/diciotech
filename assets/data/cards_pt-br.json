@@ -180,6 +180,21 @@
       "title": "React Native",
       "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
       "tags": ["Mobile"]
+    },
+    {
+      "title": "Mobile First",
+      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Expo CLI",
+      "description": "O Expo CLI é uma ferramenta que facilita o desenvolvimento de aplicativos móveis para iOS e Android. É utilizado para criar rapidamente um projeto com o React Native",
+      "tags": ["Mobile"]
+    },
+    {
+      "title": "Stack Navigation",
+      "description": "No contexto do React Native, é uma técnica de navegação entre as telas do aplicativo. É quando o aplicativo têm os botões de voltar e avançar, por exemplo.",
+      "tags": ["Mobile"]
     }
     
   ]
