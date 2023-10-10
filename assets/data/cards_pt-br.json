@@ -177,7 +177,7 @@
       "content": {
         "code": "int *ponteiro; // ponteiro para um inteiro em linguagem C/C++"
       },
-      "tags": ["Conceito", "C (Linguagem de programação)"]
+      "tags": ["Conceito"]
     },
     {
       "title": "C",
