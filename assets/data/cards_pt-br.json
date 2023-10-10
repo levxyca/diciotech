@@ -159,7 +159,7 @@
       "content": {
         "code": "const pessoa = nome?.cidade?.endereco;"
       },
-      "tags": ["Conceito", "JavaScript"]
+      "tags": ["Conceito"]
 		},
     {
       "title": "Linguagem Baixo Nível",
