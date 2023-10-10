@@ -82,6 +82,18 @@ input {
   width: 100%;
 }
 
+.cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 48px 0;
+}
+.cards .card:last-child{
+  max-width: 23.3%;
+}
+
 .searchbar__icon {
   width: 24px;
   height: 24px;
@@ -163,11 +175,13 @@ input {
   margin-top: 16px;
 }
 .card__code {
+  display: inline-block;
   padding: 8px;
   border-radius: 4px;
   color: #ffffff;
   background-color: #6e6197;
   font-size: 1.4rem;
+  font-style: italic;
 }
 
 .body-dark-mode {
@@ -209,6 +223,12 @@ input {
   fill: #6e6197;
 }
 .github-corner svg {
+  position: absolute;
+  top: 0;
+  border: 0;
+  left: 0;
+  transform: scale(-1, 1);
+  width: 80px;
   clip-path: polygon(0 0, 100% 0, 100% 100%);
 }
 .github-corner:hover .octo-arm {
@@ -247,12 +267,19 @@ input {
   .card {
     width: 40%;
   }
+  .cards .card:last-child{
+    max-width: 48%;
+  }
 }
 @media screen and (max-width: 768px) {
   .card {
     width: 100%;
+    max-width: 100%;
     max-height: 250px;
     min-height: 250px;
+  }
+  .cards .card:last-child{
+    max-width: 100%;
   }
 }
 
