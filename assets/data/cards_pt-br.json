@@ -158,7 +158,7 @@
     },
     {
       "title": "SQL",
-      "description": "Structured Query Language (SQL) é uma linguagem de consulta estruturada, ou seja, é uma linguagem de programação usada para gerenciar dados armazenados em um sistema de gerenciamento de banco de dados relacional.",
+      "description": "A Linguagem de Consulta Estruturada (SQL) é uma linguagem de programação usada para gerenciar dados em bancos de dados relacionais. É como uma linguagem que nos permite falar com os bancos de dados para fazer coisas como buscar, adicionar, atualizar e deletar informações.",
       "tags": ["Conceito", "Back-End", "Banco de Dados"]
     },
     {
