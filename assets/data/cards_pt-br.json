@@ -218,6 +218,21 @@
       "title": "Node.js",
       "description": "Node.js é um ambiente que permite executar JavaScript no servidor. Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado do servidor.",
       "tags": ["Back-end"]
+    },
+    {
+      "title": "React",
+      "description": "React é uma biblioteca JavaScript para criar interfaces de usuário. Ele pode ser utilizado em ambientes web, mobile, TV, VR, etc.",
+      "tags": ["Conceito", "Front-end"]
+    },
+    {
+      "title": "Componente",
+      "description": "Componente é uma função que retorna HTML. Trata-se de uma estratégia para reaproveitar código e facilitar manutenção.",
+      "tags": ["Conceito", "React"]
+    },
+    {
+      "title": "Propriedade",
+      "description": "Propriedades são informações passadas para componentes. Permitem definir um conteúdo diferente para o componente.",
+      "tags": ["Conceito", "React"]
     }
   ]
 }
