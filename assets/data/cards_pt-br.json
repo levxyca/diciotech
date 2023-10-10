@@ -113,11 +113,11 @@
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
       "tags": ["Front-end", "Biblioteca", "Back-end"]
     },
-   {
-   "title": "Python",
-   "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
-	"tags": ["Back-End"]	   
-  },
+    {
+      "title": "Python",
+      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
+      "tags": ["Back-End"]	   
+    },
     {
       "title": "UI Design",
       "description": "É o desenho e execução de uma interface para a pessoa usuária. Por exemplo, garantir que um botão vai ser visto e apertado.",
@@ -162,9 +162,52 @@
       "tags": ["Conceito"]
 		},
     {
+      "title": "Linguagem Baixo Nível",
+      "description": "Linguagem de programação que possui pouca ou nenhuma abstração do computador. É uma linguagem de programação que está mais próxima da linguagem de máquina.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Endereço de Memória",
+      "description": "É um número que identifica unicamente uma posição de memória no computador. Tudo que é declarado em uma linguagem de programação é armazenado na memória do computador, e para acessar esses dados é necessário saber o endereço de memória onde eles estão armazenados.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Ponteiros",
+      "description": "Um ponteiro é um tipo de dado de uma linguagem de programação que armazena ou se refere ao endereço de memória de outro valor localizado na memória do computador. Um ponteiro refere-se a um local na memória e obtém o valor desse local. Como tal, um ponteiro é um tipo de dado que 'aponta' para um valor.",
+      "content": {
+        "code": "int *ponteiro; // ponteiro para um inteiro em linguagem C/C++"
+      },
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "C",
+      "description": "C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada pela ISO, criada em 1972, por Dennis Ritchie, no AT&T Bell Labs, para desenvolver o sistema operacional Unix (que foi originalmente escrito em Assembly).",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "C++",
+      "description": "C++ é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Bug",
+      "description": "O termo Bug é comumente usado para informar que há algum problema no programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente causados por lógica incorreta no código, causando falhas durante a execução de um software.",
+      "tags": ["Conceito"]
+		},
+    {
       "title": "ORM",
       "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos.",
       "tags": ["Conceito", "Back-end"]
+    },
+    {
+      "title": "React Native",
+      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
+      "tags": ["Conceito", "Front-end"]
+    },
+    {
+      "title": "Mobile First",
+      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site.",
+      "tags": ["Conceito", "Front-end"]
     },
     {
       "title": "SQL",
