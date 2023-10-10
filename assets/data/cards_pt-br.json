@@ -169,7 +169,7 @@
     {
       "title": "Endereço de Memória",
       "description": "É um número que identifica unicamente uma posição de memória no computador. Tudo que é declarado em uma linguagem de programação é armazenado na memória do computador, e para acessar esses dados é necessário saber o endereço de memória onde eles estão armazenados.",
-      "tags": ["Conceito", "C (Linguagem de programação)"]
+      "tags": ["Conceito"]
     },
     {
       "title": "Ponteiros",
