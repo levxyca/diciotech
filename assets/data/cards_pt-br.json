@@ -153,7 +153,7 @@
 		},
     {
       "title": "ORM",
-      "description": "Object Relational Mapping (ORM) é um mapeamento objeto-relacional, ou seja, é uma técnica de desenvolvimento que consiste em transformar tabelas de um banco de dados em classes e objetos no código.",
+      "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos.",
       "tags": ["Conceito", "Back-End"]
     },
     {
