@@ -21,6 +21,7 @@ Adicione mais conteúdo no Diciotech [abrindo um pull request](#fazendo-pull-req
 {
    "title": "Termo técnico",
    "description": "Explicação sobre o termo",
+   "tags": ["Tag1"]
 }
 ```
 
@@ -30,11 +31,22 @@ ou
 {
    "title": "Termo técnico",
    "description": "Explicação sobre o termo",
+   "tags": ["Tag1", "Tag2"],
    "content": {
       "code": "Código de exemplo"
    }
 }
 ```
+
+Tags disponíveis:
+
+- `Conceito`
+- `Mobile`
+- `Front-end`
+- `Back-end`
+- `Design`
+
+**Observação: caso a sua contribuição não se alinhe com qualquer uma das tags disponíveis ou deseje propor uma nova tag, você pode apresentar uma sugestão por meio do envio de uma [issue](https://github.com/levxyca/diciotech/issues) para que possamos abrir uma discussão a respeito.**
 
 ### Reportando bugs
 
