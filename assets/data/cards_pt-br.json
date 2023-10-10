@@ -163,7 +163,7 @@
     },
     {
       "title": "Node.js",
-      "description": "Node.js é um ambiente de execução de JavaScript server-side, ou seja, é um ambiente de execução de JavaScript que permite rodar o código JavaScript no servidor.",
+      "description": "Node.js é um ambiente que permite executar JavaScript no servidor. Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado do servidor.",
       "tags": ["Back-End"]
     }
   ]
