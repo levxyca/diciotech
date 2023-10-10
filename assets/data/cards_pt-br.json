@@ -220,14 +220,6 @@
       "tags": ["Back-end"]
     },
     {
-      "title": "React Native",
-      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma."
-    },
-    {
-      "title": "Mobile First",
-      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site."
-    },
-    {
       "title": "Cache",
       "description": "O cache é uma técnica de armazenamento temporário de dados frequentemente usados para melhorar o desempenho e a velocidade de acesso a esses dados em sistemas computacionais.",
       "tags": ["Conceito"]
