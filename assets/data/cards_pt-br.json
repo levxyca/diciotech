@@ -113,11 +113,11 @@
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
       "tags": ["Front-end", "Biblioteca", "Back-end"]
     },
-   {
-   "title": "Python",
-   "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
-	"tags": ["Back-End"]	   
-  },
+    {
+      "title": "Python",
+      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
+      "tags": ["Back-end"]
+    },
     {
       "title": "UI Design",
       "description": "É o desenho e execução de uma interface para a pessoa usuária. Por exemplo, garantir que um botão vai ser visto e apertado.",
@@ -154,13 +154,13 @@
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
-			"title": "Optional Chaining",
-			"description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
-			"content": {
-				"code": "const pessoa = nome?.cidade?.endereco; "
+      "title": "Optional Chaining",
+      "description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
+      "content": {
+        "code": "const pessoa = nome?.cidade?.endereco; "
       },
       "tags": ["Conceito"]
-		},
+    },
     {
       "title": "ORM",
       "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos.",
@@ -175,6 +175,12 @@
       "title": "Node.js",
       "description": "Node.js é um ambiente que permite executar JavaScript no servidor. Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado do servidor.",
       "tags": ["Back-end"]
+    },
+    {
+      "title": "React Native",
+      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
+      "tags": ["Mobile"]
     }
+    
   ]
 }
