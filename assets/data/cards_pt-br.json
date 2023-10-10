@@ -113,11 +113,11 @@
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
       "tags": ["Front-end", "Biblioteca", "Back-end"]
     },
-   {
-   "title": "Python",
-   "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
-	"tags": ["Back-End"]	   
-  },
+    {
+      "title": "Python",
+      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
+      "tags": ["Back-End"]	   
+    },
     {
       "title": "UI Design",
       "description": "É o desenho e execução de uma interface para a pessoa usuária. Por exemplo, garantir que um botão vai ser visto e apertado.",
@@ -154,10 +154,10 @@
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
-      "title": "Optional Chaining",
-      "description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
-      "content": {
-        "code": "const pessoa = nome?.cidade?.endereco;"
+			"title": "Optional Chaining",
+			"description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
+			"content": {
+				"code": "const pessoa = nome?.cidade?.endereco; "
       },
       "tags": ["Conceito"]
 		},
@@ -193,11 +193,11 @@
       "title": "Bug",
       "description": "O termo Bug é comumente usado para informar que há algum problema no programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente causados por lógica incorreta no código, causando falhas durante a execução de um software.",
       "tags": ["Conceito"]
-    },
+		},
     {
-      "title": "Compilador",
-      "description": "Um compilador é como um tradutor de idiomas para computadores. Ele pega o código escrito por pessoas programadoras em uma forma que é fácil para elas entenderem (chamado de código de alto nível) e o transforma em um tipo de linguagem que o computador consegue entender e seguir (isso é chamado de código de baixo nível). Ele faz isso passo a passo, como se estivesse quebrando o processo em partes menores.",
-      "tags": ["Conceito"]
+      "title": "ORM",
+      "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos.",
+      "tags": ["Conceito", "Back-end"]
     },
     {
       "title": "React Native",
@@ -208,6 +208,16 @@
       "title": "Mobile First",
       "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site.",
       "tags": ["Conceito", "Front-end"]
+    },
+    {
+      "title": "SQL",
+      "description": "A Linguagem de Consulta Estruturada (SQL) é uma linguagem de programação usada para gerenciar dados em bancos de dados relacionais. É como uma linguagem que nos permite falar com os bancos de dados para fazer coisas como buscar, adicionar, atualizar e deletar informações.",
+      "tags": ["Conceito", "Back-end"]
+    },
+    {
+      "title": "Node.js",
+      "description": "Node.js é um ambiente que permite executar JavaScript no servidor. Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado do servidor.",
+      "tags": ["Back-end"]
     }
   ]
 }

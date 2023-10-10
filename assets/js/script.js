@@ -18,11 +18,13 @@ function insertTagsIntoSelect(tags) {
 function getTagsFromCards(data) {
     const tags = [];
     data.map(objeto => {
-        objeto.tags.map(tag => {
-            if (!tags.includes(tag)) {
-                tags.push(tag);
-            }
-        });
+        if (objeto.tags) {
+            objeto.tags.map(tag => {
+                if (!tags.includes(tag)) {
+                    tags.push(tag);
+                }
+            });
+        }
     });
     insertTagsIntoSelect(tags);
 }
