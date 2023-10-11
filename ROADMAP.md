@@ -22,9 +22,9 @@ Além das melhorias visuais e de usabilidade, também adicionamos novos termos.
 ## Release 2 (v2)
 
 - 🚧 [Nova UI](https://github.com/levxyca/diciotech/issues/12)
-- ❌ Template de issue
-- ❌ Template de PR
-- ❌ Sempre criar issue antes de um PR
+- 🚧 Template de issue
+- 🚧 Template de PR
+- 🚧 Sempre criar issue antes de um PR
 - ❌ Criar um wiki para o projeto
 - 🚧 Manter o ROADMAP vivo e atualizado
 - ❌ Adicionar um código de conduta
