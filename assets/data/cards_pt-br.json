@@ -116,7 +116,7 @@
     {
       "title": "Python",
       "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
-      "tags": ["Back-End"]	   
+      "tags": ["Back-end"]
     },
     {
       "title": "UI Design",
@@ -154,13 +154,13 @@
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
-			"title": "Optional Chaining",
-			"description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
-			"content": {
-				"code": "const pessoa = nome?.cidade?.endereco; "
+      "title": "Optional Chaining",
+      "description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
+      "content": {
+        "code": "const pessoa = nome?.cidade?.endereco; "
       },
       "tags": ["Conceito"]
-		},
+    },
     {
       "title": "Linguagem Baixo Nível",
       "description": "Linguagem de programação que possui pouca ou nenhuma abstração do computador. É uma linguagem de programação que está mais próxima da linguagem de máquina.",
@@ -218,6 +218,27 @@
       "title": "Node.js",
       "description": "Node.js é um ambiente que permite executar JavaScript no servidor. Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado do servidor.",
       "tags": ["Back-end"]
+    },
+    {
+      "title": "React Native",
+      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
+      "tags": ["Mobile"]
+    },
+    {
+      "title": "Mobile First",
+      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Expo CLI",
+      "description": "O Expo CLI é uma ferramenta que facilita o desenvolvimento de aplicativos móveis para iOS e Android. É utilizado para criar rapidamente um projeto com o React Native",
+      "tags": ["Mobile"]
+    },
+    {
+      "title": "Stack Navigation",
+      "description": "No contexto do React Native, é uma técnica de navegação entre as telas do aplicativo. É quando o aplicativo têm os botões de voltar e avançar, por exemplo.",
+      "tags": ["Mobile"]
     }
+    
   ]
 }
