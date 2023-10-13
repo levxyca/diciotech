@@ -2,7 +2,7 @@
   "cards": [
     {
       "title": "Abstração",
-      "description": "Abstração é uma simplificação de ponto(s) específicos de algum sistema ou comportamento estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
+      "description": "Abstração é uma simplificação de ponto(s) específicos de algum sistema ou comportamento que estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
       "tags": ["Conceito"]
     },
     {
@@ -111,12 +111,12 @@
     {
       "title": "jQuery",
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
-      "tags": ["Front-end", "Biblioteca", "Back-end"]
+      "tags": ["Front-end", "Biblioteca"]
     },
     {
-      "title": "Python",
-      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
-      "tags": ["Back-End"]	   
+    "title": "Python",
+    "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
+    "tags": ["Back-end"]
     },
     {
       "title": "UI Design",
@@ -154,13 +154,13 @@
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
-			"title": "Optional Chaining",
-			"description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
-			"content": {
-				"code": "const pessoa = nome?.cidade?.endereco; "
+      "title": "Optional Chaining",
+      "description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
+      "content": {
+        "code": "const pessoa = nome?.cidade?.endereco; "
       },
       "tags": ["Conceito"]
-		},
+    },
     {
       "title": "Linguagem Baixo Nível",
       "description": "Linguagem de programação que possui pouca ou nenhuma abstração do computador. É uma linguagem de programação que está mais próxima da linguagem de máquina.",
@@ -193,7 +193,7 @@
       "title": "Bug",
       "description": "O termo Bug é comumente usado para informar que há algum problema no programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente causados por lógica incorreta no código, causando falhas durante a execução de um software.",
       "tags": ["Conceito"]
-		},
+    },
     {
       "title": "ORM",
       "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos.",
@@ -238,6 +238,11 @@
       "title": "Issue",
       "description": "Uma issue é um registro de um problema ou tarefa a ser resolvida no projeto. Pode ser usada para relatar bugs, solicitar recursos, discutir melhorias ou acompanhar uma tarefa.",
       "tags": ["Conceito", "Versionamento"]
+    },
+    {
+      "title": "Cache",
+      "description": "O cache é uma técnica de armazenamento temporário de dados frequentemente usados para melhorar o desempenho e a velocidade de acesso a esses dados em sistemas computacionais.",
+      "tags": ["Conceito"]
     }
 
   ]
