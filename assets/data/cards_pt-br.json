@@ -2,7 +2,7 @@
   "cards": [
     {
       "title": "Abstração",
-      "description": "Abstração é uma simplificação de ponto(s) específicos de algum sistema ou comportamento estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
+      "description": "Abstração é uma simplificação de ponto(s) específicos de algum sistema ou comportamento que estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
       "tags": ["Conceito"]
     },
     {
@@ -111,13 +111,13 @@
     {
       "title": "jQuery",
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
-      "tags": ["Front-end", "Biblioteca", "Back-end"]
+      "tags": ["Front-end", "Biblioteca"]
     },
-   {
-   "title": "Python",
-   "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
-	"tags": ["Back-End"]	   
-  },
+    {
+    "title": "Python",
+    "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
+    "tags": ["Back-end"]
+    },
     {
       "title": "UI Design",
       "description": "É o desenho e execução de uma interface para a pessoa usuária. Por exemplo, garantir que um botão vai ser visto e apertado.",
@@ -157,8 +157,37 @@
       "title": "Optional Chaining",
       "description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
       "content": {
-        "code": "const pessoa = nome?.cidade?.endereco;"
+        "code": "const pessoa = nome?.cidade?.endereco; "
       },
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Linguagem Baixo Nível",
+      "description": "Linguagem de programação que possui pouca ou nenhuma abstração do computador. É uma linguagem de programação que está mais próxima da linguagem de máquina.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Endereço de Memória",
+      "description": "É um número que identifica unicamente uma posição de memória no computador. Tudo que é declarado em uma linguagem de programação é armazenado na memória do computador, e para acessar esses dados é necessário saber o endereço de memória onde eles estão armazenados.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Ponteiros",
+      "description": "Um ponteiro é um tipo de dado de uma linguagem de programação que armazena ou se refere ao endereço de memória de outro valor localizado na memória do computador. Um ponteiro refere-se a um local na memória e obtém o valor desse local. Como tal, um ponteiro é um tipo de dado que 'aponta' para um valor.",
+      "content": {
+        "code": "int *ponteiro; // ponteiro para um inteiro em linguagem C/C++"
+      },
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "C",
+      "description": "C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada pela ISO, criada em 1972, por Dennis Ritchie, no AT&T Bell Labs, para desenvolver o sistema operacional Unix (que foi originalmente escrito em Assembly).",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "C++",
+      "description": "C++ é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores.",
+      "tags": ["Conceito"]
     },
     {
       "title": "Bug",
@@ -166,13 +195,14 @@
       "tags": ["Conceito"]
     },
     {
-      "title": "Compilador",
-      "description": "Um compilador é como um tradutor de idiomas para computadores. Ele pega o código escrito por pessoas programadoras em uma forma que é fácil para elas entenderem (chamado de código de alto nível) e o transforma em um tipo de linguagem que o computador consegue entender e seguir (isso é chamado de código de baixo nível). Ele faz isso passo a passo, como se estivesse quebrando o processo em partes menores.",
-      "tags": ["Conceito"]
+      "title": "ORM",
+      "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos.",
+      "tags": ["Conceito", "Back-end"]
     },
     {
       "title": "React Native",
-      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma."
+      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
+      "tags": ["Conceito", "Front-end"]
     },
     {
       "title": "Mobile First",
@@ -201,6 +231,20 @@
     {
       "title": "Árvore Binária",
       "description": "Uma árvore binária é uma estrutura de dados composta por nós (ou vértices) que estão organizados em uma hierarquia, de forma que cada nó pode ter no máximo dois filhos: um filho esquerdo e um filho direito.",
+    },
+    {
+      "title": "SQL",
+      "description": "A Linguagem de Consulta Estruturada (SQL) é uma linguagem de programação usada para gerenciar dados em bancos de dados relacionais. É como uma linguagem que nos permite falar com os bancos de dados para fazer coisas como buscar, adicionar, atualizar e deletar informações.",
+      "tags": ["Conceito", "Back-end"]
+    },
+    {
+      "title": "Node.js",
+      "description": "Node.js é um ambiente que permite executar JavaScript no servidor. Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado do servidor.",
+      "tags": ["Back-end"]
+    },
+    {
+      "title": "Cache",
+      "description": "O cache é uma técnica de armazenamento temporário de dados frequentemente usados para melhorar o desempenho e a velocidade de acesso a esses dados em sistemas computacionais.",
       "tags": ["Conceito"]
     }
   ]

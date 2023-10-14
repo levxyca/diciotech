@@ -1,27 +1,37 @@
 const body = document.body;
-const darkModeToggle = document.querySelector("#dark-mode-toggle");
-const headerSubtitle = document.querySelector(".header__subtitle");
+const toggleDarkModeButton = document.querySelector("#dark-mode-toggle");
 const moonIcon = document.querySelector(".ph-moon");
 const sunIcon = document.querySelector(".ph-sun");
 
-let themeMode = localStorage.getItem("mode");
-if (themeMode && themeMode === "dark") {
-  moonIcon.style.display = "none";
-  sunIcon.style.display = "inline";
-  body.classList.toggle("body-dark-mode");
-  headerSubtitle.classList.toggle("text-dark-mode");
+function displayMoonIcon(display) {
+    if (display) {
+        moonIcon.style.display = "inline";
+        sunIcon.style.display = "none";
+    } else {
+        moonIcon.style.display = "none";
+        sunIcon.style.display = "inline";
+    }
 }
-darkModeToggle.addEventListener("click", () => {
-  body.classList.toggle("body-dark-mode");
-  headerSubtitle.classList.toggle("text-dark-mode");
-  const isDarkMode = body.classList.contains("body-dark-mode");
-  if (isDarkMode) {
-    moonIcon.style.display = "none";
-    sunIcon.style.display = "inline";
-    return localStorage.setItem("mode", "dark");
-  } else {
-    moonIcon.style.display = "inline";
-    sunIcon.style.display = "none";
-    return localStorage.setItem("mode", "light");
-  }
-});
+
+function toggleDarkModeWithLocalStorage() {
+    const darkModeTheme = localStorage.getItem("darkMode") === "true";
+    if (darkModeTheme) {
+        displayMoonIcon(false);
+        body.classList.toggle("body-dark-mode");
+    }
+}
+
+function toggleDarkModeAndSaveState() {
+    body.classList.toggle("body-dark-mode");
+    const isDarkMode = body.classList.contains("body-dark-mode");
+    if (isDarkMode) {
+        displayMoonIcon(false);
+        localStorage.setItem("darkMode", true);
+    } else {
+        displayMoonIcon(true);
+        localStorage.setItem("darkMode", false);
+    }
+}
+
+toggleDarkModeWithLocalStorage();
+toggleDarkModeButton.addEventListener("click", toggleDarkModeAndSaveState);
