@@ -65,10 +65,16 @@ function searchCards() {
 }
 
 function insertCardsIntoHtml(data) {
-    let cards = `<div class=msg>
-        	        <p>Não foi encontrado o termo! Verifique se foi digitado corretamente.</p>
-                    <p>Caso esteja correto, por favor crie uma issue no repositório () para que esse termo possa ser adicionado ao dicionário</p>
-                    <p>Agradecemos sua colaboração!</p>
+    let cards = `<div class="msg">
+                    <div class=collumn-1>
+                        <img src="assets/img/No data-rafiki.png" alt="Mulher olhando para site sem dados" /> 
+                        <a href="https://storyset.com/data">Data illustrations by Storyset</a>
+                    </div>
+                    <div class=collumn-2>
+                        <p> O termo pesquisado não foi encontrado! Verifique se foi digitado corretamente.</p>
+                        <p>Caso esteja correto, por favor crie uma issue no <a href="https://github.com/levxyca/diciotech/issues">repositório</a> para que esse termo possa ser adicionado ao dicionário</p>
+                        <p>Agradecemos sua colaboração! 😄</p>
+                    </div>
                 </div>`
     data.forEach((card) => {
         cards += `
