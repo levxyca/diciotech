@@ -46,14 +46,30 @@ function filterCards() {
 
 function searchCards() {
     const inputValue = searchInput.value.toLowerCase();
+    let cardsFiltered = [];
+
     for (const card of listOfCardsFiltered) {
         const cardContent = card.textContent.toLowerCase();
-        card.style.display = cardContent.includes(inputValue) ? "" : "none";
+
+        if  (cardContent.includes(inputValue)){
+            card.style.display = "";
+            cardsFiltered.push(card);
+        } else {
+            card.style.display = "none";
+        }
     }
+
+    const msgNotFound = document.querySelector("div.msg");
+    msgNotFound.style.display = cardsFiltered.length==0 ? "" : "none";
+   
 }
 
 function insertCardsIntoHtml(data) {
-    let cards = "";
+    let cards = `<div class=msg>
+        	        <p>Não foi encontrado o termo! Verifique se foi digitado corretamente.</p>
+                    <p>Caso esteja correto, por favor crie uma issue no repositório () para que esse termo possa ser adicionado ao dicionário</p>
+                    <p>Agradecemos sua colaboração!</p>
+                </div>`
     data.forEach((card) => {
         cards += `
         <section class="card" tags="${card.tags ? card.tags : "Todos"}">
