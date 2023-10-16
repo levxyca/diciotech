@@ -1,0 +1,34 @@
+.body-dark-mode {
+  background-color: #232226;
+  color: #ffffff;
+}
+.body-dark-mode .header__subtitle {
+  color: #ffffff;
+}
+
+.button-dark-mode {
+  background-color: #6e6197;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.button-dark-mode i {
+  font-size: 1.4rem;
+}
+
+.body-dark-mode .ph-sun,
+:not(.body-dark-mode) .ph-moon {
+  display: inline;
+}
+
+.body-dark-mode .ph-moon,
+:not(.body-dark-mode) .ph-sun {
+  display: none;
+}
+
+/*# sourceMappingURL=dark_mode.css.map */
