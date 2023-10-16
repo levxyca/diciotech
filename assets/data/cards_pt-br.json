@@ -206,7 +206,7 @@
     },
     {
       "title": "Mobile First",
-      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site.",
+      "description": "Esse conceito determina que ao criarmos um site, devemos primeiro atender as necessidades dos dispositivos móveis.",
       "tags": ["Conceito", "Front-end"]
     },
     {
@@ -243,11 +243,6 @@
       "title": "React Native",
       "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
       "tags": ["Mobile"]
-    },
-    {
-      "title": "Mobile First",
-      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site.",
-      "tags": ["Conceito"]
     },
     {
       "title": "Expo CLI",
