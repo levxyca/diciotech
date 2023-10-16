@@ -238,6 +238,27 @@
       "title": "Propriedade",
       "description": "Propriedades, frequentemente abreviadas como 'props', são mecanismos que permitem passar dados de um componente pai para um componente filho. Elas são usadas para personalizar o comportamento e a aparência de um componente. Por exemplo, ao criar um botão, você pode passar propriedades como a cor de fundo, o texto exibido e o tamanho do texto como props. As props são cruciais para tornar os componentes reutilizáveis e configuráveis, permitindo que eles se adaptem a diferentes contextos de uso.",
       "tags": ["Conceito"]
+    },
+    {
+      "title": "React Native",
+      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
+      "tags": ["Mobile"]
+    },
+    {
+      "title": "Mobile First",
+      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Expo CLI",
+      "description": "O Expo CLI é uma ferramenta que facilita o desenvolvimento de aplicativos móveis para iOS e Android. É utilizado para criar rapidamente um projeto com o React Native",
+      "tags": ["Mobile"]
+    },
+    {
+      "title": "Stack Navigation",
+      "description": "No contexto do React Native, é uma técnica de navegação entre as telas do aplicativo, quando o aplicativo têm os botões de voltar e avançar, por exemplo.",
+      "tags": ["Mobile"]
     }
+    
   ]
 }
