@@ -72,7 +72,7 @@ function insertCardsIntoHtml(data) {
                     </div>
                     <div class=collumn-2>
                         <p> O termo pesquisado não foi encontrado! Verifique se foi digitado corretamente.</p>
-                        <p>Caso esteja correto, por favor crie uma issue no <a href="https://github.com/levxyca/diciotech/issues">repositório</a> para que esse termo possa ser adicionado ao dicionário</p>
+                        <p>Caso esteja correto, por favor crie uma issue no <a href="https://github.com/levxyca/diciotech/issues">repositório</a> para que esse termo possa ser adicionado ao Diciotech.</p>
                         <p>Agradecemos sua colaboração! 😄</p>
                     </div>
                 </div>`
