@@ -206,8 +206,31 @@
     },
     {
       "title": "Mobile First",
-      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site.",
-      "tags": ["Conceito", "Front-end"]
+      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site."
+    },
+    {
+      "title": "Estrutura de Dados",
+      "description": "Estrtura de dados é uma foroma de organização e armazenamento de dados de maneira eficiente para permitir o acesso, manipulação e processamento de informações em programas de computador.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Pilha",
+      "description": "Pilha é uma estrutura de dados baseado no princípio de Last In First Out (LIFO), ou seja 'o último que entra é o primeiro que sai' caracterizando um empilhamento de dados.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Fila",
+      "description": "Fila é uma estrutura de dados baseado no princípio de First In First Out (FIFO), ou seja 'o primeiro que entra é o primeiro que sai' caracterizando um empilhamento de dados.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Vetor",
+      "description": "Vetor, ou array, é uma estrutura de dados que armazena uma coleção de elementos de tal forma que cada um dos elementos possa ser identificado por, pelo menos, um índice ou uma chave.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Árvore Binária",
+      "description": "Uma árvore binária é uma estrutura de dados composta por nós (ou vértices) que estão organizados em uma hierarquia, de forma que cada nó pode ter no máximo dois filhos: um filho esquerdo e um filho direito.",
     },
     {
       "title": "SQL",
