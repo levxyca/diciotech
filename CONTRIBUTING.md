@@ -51,7 +51,7 @@ Antes de abrir o pull request, algumas **regras** e **requisitos** devem ser seg
 
 ### Adicionando uma nova tag no Diciotech
 
-Você pode contribuir com o projeto propondo uma nova tag e apresentando-a, como sugestão, por meio de uma [issue](https://github.com/levxyca/diciotech/issues) para que se possa abrir uma discussão a respeito, para uma futura adição através de pull request. A tags disponíveis **sempre** devem estar presentes nessa documentação.
+Você pode contribuir com o projeto propondo uma nova tag e a apresentando, como sugestão, por meio de uma [issue](https://github.com/levxyca/diciotech/issues) para que se possa abrir uma discussão a respeito, para uma futura adição através de pull request. As tags disponíveis **sempre** devem estar presentes nessa documentação.
 
 Tags disponíveis:
 
