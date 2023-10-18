@@ -219,6 +219,12 @@ html {
   animation: octocat-wave 560ms ease-in-out;
 }
 
+footer
+
+footer a {
+  font-size: 1.4em;
+}
+
 @keyframes octocat-wave {
   0% {
     transform: rotate(0deg);
