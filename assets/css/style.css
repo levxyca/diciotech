@@ -166,6 +166,35 @@ html {
   margin: 48px 0;
 }
 
+.msg {
+  font-size: 20px;
+  text-align: center;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.msg .collumn-1 img {
+  background-color: #6e6197;
+  border-radius: 10px;
+  height: 350px;
+  width: 350px;
+}
+.msg .collumn-1 a {
+  text-align: left;
+  font-size: 10px;
+  padding: 10px;
+  color: #3C306C;
+}
+.msg .collumn-2 p {
+  padding: 10px;
+}
+.msg .collumn-2 a {
+  text-decoration: none;
+  color: #9A8CC0;
+}
+
 .card {
   width: 20%;
   flex-grow: 1;
@@ -240,6 +269,10 @@ html {
   }
 }
 @media (max-width: 500px) {
+  .msg {
+    width: 100%;
+    flex-direction: column;
+  }
   .github-corner:hover .octo-arm {
     animation: none;
   }
