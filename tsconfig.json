@@ -15,5 +15,6 @@
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
   },
+  "include": ["./cli/**/*.ts", "./cli/**/*.d.ts"],
   "exclude": ["node_modules"]
 }
