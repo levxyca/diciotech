@@ -2,7 +2,7 @@
   "cards": [
     {
       "title": "Abstração",
-      "description": "Abstração é uma simplificação de ponto(s) específicos de algum sistema ou comportamento estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
+      "description": "Abstração é uma simplificação de ponto(s) específicos de algum sistema ou comportamento que estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas.",
       "tags": ["Conceito"]
     },
     {
@@ -111,12 +111,12 @@
     {
       "title": "jQuery",
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript.",
-      "tags": ["Front-end", "Biblioteca", "Back-end"]
+      "tags": ["Front-end", "Biblioteca"]
     },
     {
-      "title": "Python",
-      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
-      "tags": ["Back-End"]	   
+    "title": "Python",
+    "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
+    "tags": ["Back-end"]
     },
     {
       "title": "UI Design",
@@ -154,13 +154,13 @@
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
-			"title": "Optional Chaining",
-			"description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
-			"content": {
-				"code": "const pessoa = nome?.cidade?.endereco; "
+      "title": "Optional Chaining",
+      "description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
+      "content": {
+        "code": "const pessoa = nome?.cidade?.endereco; "
       },
       "tags": ["Conceito"]
-		},
+    },
     {
       "title": "Linguagem Baixo Nível",
       "description": "Linguagem de programação que possui pouca ou nenhuma abstração do computador. É uma linguagem de programação que está mais próxima da linguagem de máquina.",
@@ -193,7 +193,7 @@
       "title": "Bug",
       "description": "O termo Bug é comumente usado para informar que há algum problema no programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente causados por lógica incorreta no código, causando falhas durante a execução de um software.",
       "tags": ["Conceito"]
-		},
+    },
     {
       "title": "ORM",
       "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos.",
@@ -206,7 +206,7 @@
     },
     {
       "title": "Mobile First",
-      "description": "É quando a gente primeiro pensa nos celulares e depois nos computadores na hora de fazer um site.",
+      "description": "Esse conceito determina que ao criarmos um site, devemos primeiro atender as necessidades dos dispositivos móveis.",
       "tags": ["Conceito", "Front-end"]
     },
     {
@@ -218,6 +218,84 @@
       "title": "Node.js",
       "description": "Node.js é um ambiente que permite executar JavaScript no servidor. Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado do servidor.",
       "tags": ["Back-end"]
-    }
+    },
+    {
+      "title": "Cache",
+      "description": "O cache é uma técnica de armazenamento temporário de dados frequentemente usados para melhorar o desempenho e a velocidade de acesso a esses dados em sistemas computacionais.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "React",
+      "description": "React é uma biblioteca JavaScript de código aberto utilizada para criar interfaces de usuário interativas e dinâmicas em aplicações web e em outros ambientes, como mobile, TV, realidade virtual, entre outros. Ele se destaca por seu modelo de programação baseado em componentes e pela eficiência na atualização da interface do usuário, tornando-o uma escolha popular no desenvolvimento front-end.",
+      "tags": ["Conceito", "Front-end"]
+    },
+    {
+      "title": "Componente",
+      "description": "Um componente é uma unidade fundamental e reutilizável de construção de interfaces de usuário. Ele encapsula a lógica e a apresentação relacionadas a uma parte específica da interface. Componentes podem ser comparados a blocos de construção que, quando combinados, formam interfaces complexas. Eles promovem a organização e a manutenibilidade do código, uma vez que podem ser desenvolvidos e testados de forma independente. Os componentes podem aceitar propriedades (props) como entrada e renderizar informações com base nesses dados, permitindo uma personalização flexível.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Propriedade",
+      "description": "Propriedades, frequentemente abreviadas como 'props', são mecanismos que permitem passar dados de um componente pai para um componente filho. Elas são usadas para personalizar o comportamento e a aparência de um componente. Por exemplo, ao criar um botão, você pode passar propriedades como a cor de fundo, o texto exibido e o tamanho do texto como props. As props são cruciais para tornar os componentes reutilizáveis e configuráveis, permitindo que eles se adaptem a diferentes contextos de uso.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "React Native",
+      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
+      "tags": ["Mobile"]
+    },
+    {
+      "title": "Expo CLI",
+      "description": "O Expo CLI é uma ferramenta que facilita o desenvolvimento de aplicativos móveis para iOS e Android. É utilizado para criar rapidamente um projeto com o React Native",
+      "tags": ["Mobile"]
+    },
+    {
+      "title": "Stack Navigation",
+      "description": "No contexto do React Native, é uma técnica de navegação entre as telas do aplicativo, quando o aplicativo têm os botões de voltar e avançar, por exemplo.",
+      "tags": ["Mobile"]
+    },
+    {
+      "title": "Ambiente",
+      "description": "Costumamos chamar de ambiente o lugar ou os servidores onde o que foi desenvolvido fica disponível para testes, validações, pessoas usuárias finais utilizarem ou demais necessidades. Esse servidor seria como um computador. Pode ser um computador físico ou disponível na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos)e produção (onde está disponível o sistema final, desenvolvido e testado, para pessoas usuárias).",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "API",
+      "description": "API é uma sigla que, em inglês, significa: Application Programming Interface. Traduzindo para português, seria uma interface programada para aplicações. É uma estrutura de código que atende a alguns requisitos, seguindo normas e padrões de desenvolvimento, facilitando a organização de sistemas grandes. Disponibiliza funcionalidades e informações para aplicativos e sites. Por exemplo: API dos Correios que disponibiliza consulta de CEP e endereço de maneira simplificada.",
+      "tags": ["Conceito", "Back-end"]
+    },
+    {
+      "title": "Code Review",
+      "description": "Code review significa revisão de código. Trata-se de uma boa prática muito indicada para o processo de desenvolvimento de sistemas, pelo qual as pessoas desenvolvedoras do time ajudam umas as outras. Normalmente, após o término da etapa de desenvolvimento de cada tarefa, antes do código ser disponibilizado para testes, o time avalia o que foi feito e dá sugestões do que pode ser melhorado, quando necessário. Isso traz diversos benefícios. Alguns deles são: melhorar a parte técnica do time, melhoria do desenvolvimento, qualidade do código, integração do time, todas as pessoas conhecem o que está sendo desenvolvido, entre outros.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Commit",
+      "description": "Quando trabalhamos com versionamento de código (o que é altamente recomendado), a palavra commit é bastante comum entre as pessoas desenvolvedoras. Mas essa palavra também é utilizada por quem atua em banco de dados. Quando se tem um conjunto de alterações feitas em um código, a pessoa faz o comando commit que salva o que foi feito dentro do projeto. Existe também o commit semântico, que significa que esse conjunto de alterações deve ter um significado para o projeto. O commit também serve para finalizar uma transação dentro de um sistema de gerenciamento de banco de dados, tornando visíveis as alterações. Essa transação normalmente vai começar com o comando begin e finalizar com o comando commit.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Deploy",
+      "description": "O deploy é um processo complexo. Mas significa que foi instalado um pacote do que foi desenvolvido nos ambientes. É gerada uma versão para que seja disponibilizada. Esse processo também pode ser chamado de implantação dependendo do contexto. Para que essa implantação aconteça, pode ser um processo automatizado com ferramentas, ou feito manualmente, dependendo da estrutura. Acabamos aportuguesando a palavra deploy, tornando-a uma ação. Exemplo: estou deployando a nova versão do nosso sistema.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Json",
+      "description": "Em inglês significa JavaScript Object Notation. Json é um tipo de arquivo e tem uma estrutura com nome do dado e valor do dado. Dependendo do tipo de API que construímos, utilizamos o formato Json para transferir os dados entre sistemas. Por exemplo: API que consulta clientes em seu negócio. A resposta da API pode vir em formato json.",
+      "content": {
+        "code": "{name: 'Morganna', cpf: '000.000.000-00', email: 'email@email.com'}"
+      },
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Pair Programming",
+      "description": "Pair programming significa programação em par. É uma técnica em que duas pessoas (ou mais) trabalham juntas em uma tarefa. Isso ajuda na troca de conhecimento e experiência entre pessoas desenvolvedoras. Duas cabeças pensam melhor que uma, certo? Algumas formas de aplicar pair programming: uma pessoa está mexendo no código enquanto recebe orientações da outra e elas vão trocando de posição; uma pessoa desenvolve os testes e a outra desenvolve a funcionalidade. Não encare pair programming como desperdício de tempo. Uma boa integração e senso de apoio no time pode fazer toda a diferença na qualidade do que for entregue.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Pull Request",
+      "description": "Trata-se de uma requisição de alteração dentro de um projeto. Essa requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade, sugerir alterações, entre outros motivos. Essa requisição de alteração é feita para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo de faz sentido para o contexto daquele momento. E essa requisição pode ficar pendente até que pessoas responsáveis ou que tenham a permissão, aprovem. Outras regras podem ser adicionadas nessas requisições, como build da aplicação, rodar testes com sucesso e o que mais fizer sentido para o projeto em questão.",
+      "tags": ["Conceito"]
+    }    
   ]
 }
