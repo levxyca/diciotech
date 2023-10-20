@@ -1,0 +1,25 @@
+{
+  "name": "diciotech",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rwietter/diciotech.git",
+  "author": "rwietter <rwietter@zohomail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch cli/index.ts --ignore node_modules",
+    "new": "node cli/build/bundle.js",
+    "inspect": "node --inspect cli/build/bundle.js",
+    "build": "webpack --config webpack.config.js --mode production"
+  },
+  "dependencies": {
+    "enquirer": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "ts-loader": "^9.5.0",
+    "tsx": "^3.14.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
