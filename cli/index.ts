@@ -4,6 +4,8 @@ const { MultiSelect } = require("enquirer");
 import fs from "node:fs";
 import crypto from "node:crypto";
 
+import { Questions, Term } from "./types";
+
 const cardsPath = path.join(
   __dirname,
   "..",
@@ -12,20 +14,6 @@ const cardsPath = path.join(
   "data",
   "cards_pt-br.json"
 );
-
-type Questions = {
-  title: string;
-  description: string;
-  code: string;
-};
-
-type Term = {
-  id: string;
-  title: string;
-  description: string;
-  code: string;
-  tags: string[];
-};
 
 const basePrompt = {
   type: "input",
@@ -110,8 +98,10 @@ const prompts = async () => {
     id: crypto.randomBytes(16).toString("hex"),
     title: questions.title,
     description: questions.description,
-    code: questions.code,
     tags: tagsPrompt,
+    content: {
+      code: questions.code,
+    },
   };
 
   return card;
