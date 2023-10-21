@@ -4,10 +4,10 @@ import { basePrompt } from "./base";
 
 import { validations } from "../core/prompt-validations";
 
-import { ObjectiveQuestions } from "../types";
+import { SubjectiveQuestions } from "../types";
 
-export const objectiveQuestions = async (): Promise<ObjectiveQuestions> => {
-  const questions: ObjectiveQuestions = await Enquirer.prompt([
+export const subjectiveQuestions = async (): Promise<SubjectiveQuestions> => {
+  const questions: SubjectiveQuestions = await Enquirer.prompt([
     {
       ...basePrompt,
       name: "title",

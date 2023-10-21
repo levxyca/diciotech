@@ -1,7 +1,7 @@
 import crypto from "node:crypto";
 
 import { promptMultiSelectTags } from "../io/multiselect-tags";
-import { objectiveQuestions } from "../io/objective-questions";
+import { subjectiveQuestions } from "../io/subjective-questions";
 
 /**
  * Prompts the user for the term's information.
@@ -9,7 +9,7 @@ import { objectiveQuestions } from "../io/objective-questions";
  * @throws {Error} If the user doesn't provide the required information.
  */
 export const createNewTerm = async () => {
-  const questions = await objectiveQuestions();
+  const questions = await subjectiveQuestions();
   const tagsPrompt: string[] = await promptMultiSelectTags.run();
 
   const card = {

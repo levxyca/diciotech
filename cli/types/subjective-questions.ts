@@ -1,4 +1,4 @@
-export type ObjectiveQuestions = {
+export type SubjectiveQuestions = {
   title: string;
   description: string;
   code: string;
