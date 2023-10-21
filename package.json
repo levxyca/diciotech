@@ -7,7 +7,7 @@
   "license": "GPL-3.0",
   "description": "Um dicionário tech para pessoas que querem aprender mais sobre termos técnicos dentro da tecnologia 📖",
   "scripts": {
-    "dev": "tsx watch cli/index.ts --ignore node_modules",
+    "dev": "tsx cli/index.ts --ignore node_modules",
     "new": "node cli/build/bundle.js",
     "inspect": "node --inspect cli/build/bundle.js",
     "build": "webpack --config webpack.config.js --mode production"
