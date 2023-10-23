@@ -296,6 +296,11 @@
       "title": "Pull Request",
       "description": "Trata-se de uma requisição de alteração dentro de um projeto. Essa requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade, sugerir alterações, entre outros motivos. Essa requisição de alteração é feita para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo de faz sentido para o contexto daquele momento. E essa requisição pode ficar pendente até que pessoas responsáveis ou que tenham a permissão, aprovem. Outras regras podem ser adicionadas nessas requisições, como build da aplicação, rodar testes com sucesso e o que mais fizer sentido para o projeto em questão.",
       "tags": ["Conceito"]
-    }    
+    },
+    {
+       "title": "Ruby",
+       "description": "Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático. Ruby suporta programação funcional, orientada a objetos, imperativa e reflexiva.",
+       "tags": ["Conceito", "Back-end"]
+    }     
   ]
 }
