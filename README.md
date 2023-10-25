@@ -11,7 +11,7 @@
 
 Qualquer contribuição é muito bem-vinda! Confira a documentação [CONTRIBUTING.md](CONTRIBUTING.md) para conhecer todas as formas de contribuir com o projeto. Por exemplo, [sugerir uma nova funcionalidade](https://github.com/levxyca/diciotech/issues/new?assignees=&labels=&template=feature_request.md&title=), [reportar um problema/bug](https://github.com/levxyca/diciotech/issues/new?assignees=&labels=bug&template=bug_report.md&title=), [enviar um pull request](https://help.github.com/articles/about-pull-requests/) ou simplemente utilizar o projeto e comentar sua experiência.
 
-Verifique o arquivo [ROADMAP.md](ROADMAP.md) para se manter atualizado de como o projeto deve evoluir.
+Verifique o arquivo [ROADMAP.md](ROADMAP.md) para se manter por dentro de como o projeto deve evoluir.
 
 **Trabalhando na sua primeira contribuição?** Confira também o artigo [Como Contribuir para o Open Source](https://opensource.guide/pt/how-to-contribute/).
 
