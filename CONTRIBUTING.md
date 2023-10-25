@@ -1,6 +1,6 @@
 # 📖 Contribua com o Diciotech
 
-Quer contribuir conosco?! Obrigado 💙
+Quer contribuir conosco?! Gratidão 💙
 
 Neste guia vamos explicar como funcionam os processos para que você possa contribuir com o Diciotech.
 
@@ -43,17 +43,22 @@ ou
 
 > **Observação:** caso a sua contribuição não se alinhe com qualquer uma das tags disponíveis, listadas na seção seguinte, verifique a seção [Adicionando uma nova tag no Diciotech](#adicionando-uma-nova-tag-no-diciotech).
 
-Antes de abrir o pull request, algumas **regras** e **requisitos** devem ser seguidos para uma maior organização e estabilidade do Diciotech.
+Antes de abrir o pull request, algumas **boas práticas** devem ser seguidas para uma maior organização e estabilidade do Diciotech.
+
 
 - Se o termo conter um código de exemplo, evite o escrever em uma linguagem de programação específica, faça isso **apenas** se realmente necessário;
-- Um termo, de forma obrigatória, deve ser vinculado a, no mínimo, uma tag;
+- Um termo, deve ser vinculado a, no mínimo, uma tag;
+
 - Atribuir a um termo apenas as tags presentes nessa documentação, da exata mesma forma e escrita;
-- Não pode haver duplicações de tags em um mesmo termo. Exemplo: `"tags": ["Conceito", "Conceito"]`;
-- As tags atribuídas a um termo devem fazer total sentido com o mesmo.
+- Evite duplicações de tags em um mesmo termo. Exemplo: `"tags": ["Conceito", "Conceito"]`;
+
+- Tome a cuidado para que as tags atribuídas a um termo façam sentido com o mesmo.
+
 
 ### Adicionando uma nova tag no Diciotech
 
-Você pode contribuir com o projeto propondo uma nova tag e a apresentando, como sugestão, por meio de uma [issue](https://github.com/levxyca/diciotech/issues) para que se possa abrir uma discussão a respeito, para uma futura adição através de pull request. As tags disponíveis **sempre** devem estar presentes nessa documentação.
+Você pode contribuir com o projeto propondo uma nova tag e a apresentando, como sugestão, por meio de uma [issue](https://github.com/levxyca/diciotech/issues) para que se possa abrir uma discussão a respeito, para uma futura adição através de pull request. As tags disponíveis **sempre** vão estar presentes nessa documentação.
+
 
 Tags disponíveis:
 
@@ -68,13 +73,13 @@ Tags disponíveis:
 - `Paradigma`;
 - `Versionamento`.
 
-Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas regras e requisitos:
+Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas práticas:
+
 
 - Todas as tags devem estar no singular;
 - Atualmente, as tags são _case sensitivity_, então, por padrão, apenas a primeira letra da tag deve ser maiúscula. Exemplo: Back-end, Conceito, Paradigma;
 - Para adicionar uma nova tag, primeiro deve criar uma issue e, caso as pessoas usuárias concordem, um pull request deve ser aberto, contendo a tag. A PR sendo aprovada, a nova tag poderá ser vinculada a um termo;
-- As tags devem ser mais generalistas e categóricas, já que dispomos de um campo de pesquisa para uma busca mais específica e precisa. Exemplo de tags: Front-end, Design, Back-end;
-- Não devem existir tags de linguagens de programação, bibliotecas e frameworks. Exemplo: JavaScript, C#, React.js.
+- As tags devem ser mais generalistas e categóricas, já que dispomos de um campo de pesquisa para uma busca mais específica e precisa. Exemplo de tags: Front-end, Design, Back-end.
 
 ### Reportando bugs
 
