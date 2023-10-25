@@ -99,6 +99,21 @@
       "tags": ["Front-end"]
     },
     {
+      "title": "DOM (Document Object Model)",
+      "description": "Uma representação da estrutura de árvore dos elementos HTML em uma página, que permite a manipulação dinâmica do conteúdo. Imagine isso como um mapa da página que o JavaScript usa para entender e alterar o conteúdo. É como um 'modelo' da página.",
+      "tags": ["Front-end"]
+    },
+    {
+      "title": "Responsividade",
+      "description": "A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos de tela e dispositivos, como smartphones, tablets e desktops.",
+      "tags": ["Front-end"]
+    },
+    {
+      "title": "SASS/SCSS",
+      "description": "Pré-processadores CSS que permitem a criação de estilos mais complexos e reutilizáveis. São formas mais avançadas de escrever estilos (cores, fontes) para sites.",
+      "tags": ["Front-end"]
+    },
+    {
       "title": "CSS",
       "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web como cores, tamanhos, fontes e etc. é possivel ligar o arquivo HTML ao CSS adicionando um link para um arquivo CSS que contém os estilos.",
       "tags": ["Front-end"]
@@ -114,9 +129,9 @@
       "tags": ["Front-end", "Biblioteca"]
     },
     {
-    "title": "Python",
-    "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
-    "tags": ["Back-end"]
+      "title": "Python",
+      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
+      "tags": ["Back-end"]
     },
     {
       "title": "UI Design",
@@ -296,6 +311,6 @@
       "title": "Pull Request",
       "description": "Trata-se de uma requisição de alteração dentro de um projeto. Essa requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade, sugerir alterações, entre outros motivos. Essa requisição de alteração é feita para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo de faz sentido para o contexto daquele momento. E essa requisição pode ficar pendente até que pessoas responsáveis ou que tenham a permissão, aprovem. Outras regras podem ser adicionadas nessas requisições, como build da aplicação, rodar testes com sucesso e o que mais fizer sentido para o projeto em questão.",
       "tags": ["Conceito"]
-    }    
+    }
   ]
 }
