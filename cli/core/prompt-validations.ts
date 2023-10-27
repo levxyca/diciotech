@@ -3,7 +3,7 @@ export const validations = {
     const raw = input.trim();
 
     if (raw.trim().length < 1) {
-      return `O título precisa ter pelo menos 1 caracteres. Você digitou ${raw.length} caracteres.`
+      return `O título precisa ter pelo menos 1 caractere. Você digitou ${raw.length} caracteres.`
     }
   },
   description: (input: string) => {
