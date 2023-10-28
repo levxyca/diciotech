@@ -76,13 +76,13 @@ export const createNewTerm = async (): Promise<Term> => {
     c.cyanBright(`Deseja ${c.bold("visualizar")} o novo termo ?`)
   );
 
-  const descriptionVisualized = card.description.length > 60 ? `${card.description.slice(0, 60)}...` : card.description
+  const truncatedDescription = card.description.length > 60 ? `${card.description.slice(0, 60)}...` : card.description
 
   if (shouldVisualizeTerm) {
     notePrompt(
       JSON.stringify({
         title: card.title,
-        description: descriptionVisualized,
+        description: truncatedDescription,
         tags: card.tags,
         content: {
           code: card.content.code.split("\n").filter(line => line !== "")
