@@ -296,6 +296,46 @@
       "title": "Pull Request",
       "description": "Trata-se de uma requisição de alteração dentro de um projeto. Essa requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade, sugerir alterações, entre outros motivos. Essa requisição de alteração é feita para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo de faz sentido para o contexto daquele momento. E essa requisição pode ficar pendente até que pessoas responsáveis ou que tenham a permissão, aprovem. Outras regras podem ser adicionadas nessas requisições, como build da aplicação, rodar testes com sucesso e o que mais fizer sentido para o projeto em questão.",
       "tags": ["Conceito"]
-    }    
+    },
+    {
+      "title": "TCP",
+      "description": "Transmission Control Protocol é um protocolo de controle de transmissão. Um protocolo de comunicação que assegura a entrega confiável e ordenada de dados através de uma rede. É um protocolo mais seguro que UDP, garante a entrega dos pacotes de forma ordena, todavia, pode ser mais lento, bom para solicitações em servidores, armazenamento de dados e assim por diante",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "UDP",
+      "description": "User Datagram Protocol ou protocolo de datagrama de usuário. Um protocolo de comunicação que permite a transmissão rápida de dados em pacotes, sem garantia de entrega ou ordenação, portanto tende a ser menos seguro do que o protocolo TCP, podendo haver perda de dados, é uma boa solução para transmissões ao vivo, onde optamos por velocidade de entraga.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "HTTP",
+      "description": "Hypertext Transfer Protocol ou Protocolo de Transferência de Hipertexto. É protocolo utilizado para transferir informações na World Wide Web, geralmente para acessar páginas da web em navegadores.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "HTTPS",
+      "description": "Hypertext Transfer Protocol Secure pode ser traduzido como: Protocolo de Transferência de Hipertexto Seguro. Similar ao HTTP, mas com uma camada adicional de segurança que utiliza criptografia para proteger os dados transmitidos, comumente usado em transações online seguras, como compras em lojas virtuais.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "LAN",
+      "description": "Local Area Network pode ser descrito como rede de área local, que conecta dispositivos em uma área geográfica limitada, como em uma casa, escritório ou campus.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "WLAN",
+      "description": "Wide Area Network é uma rede de área ampla, que cobre uma área geográfica maior, como uma cidade, país ou continente, utilizando conexões de longa distância.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "DNS",
+      "description": "Domain Name System é um sistema de Nomes de domínio, que traduz nomes de domínio em endereços IP, facilitando a navegação na internet.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Endereço IP",
+      "description": "Identificador numérico único atribuído a cada dispositivo em uma rede para permitir sua identificação e comunicação com outros dispositivos em uma rede IP.",
+      "tags": ["Conceito"]
+    }        
   ]
 }
