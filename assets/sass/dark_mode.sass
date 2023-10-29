@@ -1,13 +1,52 @@
 @import "variables"
 
 .body-dark-mode
-    background-color: $black
+    background-color: $dark
     color: $white
 
     .header
         &__subtitle
             color: $white
 
+    .searchbar
+        background-color: $dark-purple
+        
+        &__input
+            color: $white
+
+        ::placeholder
+            color: $purple-gray
+            opacity: 1
+
+        &__icon
+            fill: $purple-gray
+    .msg 
+        a
+            color: $ligth-purple
+    .card
+        box-shadow: rgb(35 35 38 / 0%) 0px 0px 16px
+        background-color: $black
+        p
+            color: $white
+        &__title
+            color: $ligth-purple
+
+    .github-corner 
+        color: $dark
+        fill: $purple
+
+    #tags-filter
+        background-color: $dark-purple
+        color: $white
+        border: 2px solid $dark-purple
+
+    ::-webkit-scrollbar-track
+        background: $dark
+    
+    ::-webkit-scrollbar-thumb 
+        border-radius: 8px
+        color: $purple
+ 
 .button-dark-mode
     background-color: $primary-500
     color: $white

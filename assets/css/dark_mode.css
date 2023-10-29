@@ -1,9 +1,51 @@
 .body-dark-mode {
-  background-color: #232226;
+  background-color: #1c181c;
   color: #ffffff;
 }
 .body-dark-mode .header__subtitle {
   color: #ffffff;
+}
+.body-dark-mode .searchbar {
+  background-color: #494454;
+}
+.body-dark-mode .searchbar__input {
+  color: #ffffff;
+}
+.body-dark-mode .searchbar ::placeholder {
+  color: #AEA9BA;
+  opacity: 1;
+}
+.body-dark-mode .searchbar__icon {
+  fill: #AEA9BA;
+}
+.body-dark-mode .msg a {
+  color: #ccb3ff;
+}
+.body-dark-mode .card {
+  box-shadow: rgba(35, 35, 38, 0) 0px 0px 16px;
+  background-color: #232226;
+}
+.body-dark-mode .card p {
+  color: #ffffff;
+}
+.body-dark-mode .card__title {
+  color: #ccb3ff;
+}
+.body-dark-mode .github-corner {
+  color: #1c181c;
+  fill: #6e6197;
+}
+.body-dark-mode #tags-filter {
+  background-color: #494454;
+  color: #ffffff;
+  border: 2px solid #494454;
+}
+.body-dark-mode ::-webkit-scrollbar-track {
+  background: #1c181c;
+}
+.body-dark-mode ::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  color: #6e6197;
 }
 
 .button-dark-mode {
