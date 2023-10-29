@@ -202,7 +202,7 @@
     {
       "title": "React Native",
       "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
-      "tags": ["Conceito", "Front-end"]
+      "tags": ["Conceito", "Front-end", "Mobile"]
     },
     {
       "title": "Mobile First",
@@ -238,11 +238,6 @@
       "title": "Propriedade",
       "description": "Propriedades, frequentemente abreviadas como 'props', são mecanismos que permitem passar dados de um componente pai para um componente filho. Elas são usadas para personalizar o comportamento e a aparência de um componente. Por exemplo, ao criar um botão, você pode passar propriedades como a cor de fundo, o texto exibido e o tamanho do texto como props. As props são cruciais para tornar os componentes reutilizáveis e configuráveis, permitindo que eles se adaptem a diferentes contextos de uso.",
       "tags": ["Conceito"]
-    },
-    {
-      "title": "React Native",
-      "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma.",
-      "tags": ["Mobile"]
     },
     {
       "title": "Expo CLI",
