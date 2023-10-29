@@ -296,6 +296,76 @@
       "title": "Pull Request",
       "description": "Trata-se de uma requisição de alteração dentro de um projeto. Essa requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade, sugerir alterações, entre outros motivos. Essa requisição de alteração é feita para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo de faz sentido para o contexto daquele momento. E essa requisição pode ficar pendente até que pessoas responsáveis ou que tenham a permissão, aprovem. Outras regras podem ser adicionadas nessas requisições, como build da aplicação, rodar testes com sucesso e o que mais fizer sentido para o projeto em questão.",
       "tags": ["Conceito"]
-    }    
+    },
+    {
+      "title": "Containers",
+      "description": "Containers: são ambientes de execução isolados que empacotam um aplicativo e todas as suas dependências, incluindo bibliotecas e configurações, em uma única unidade. Eles são uma forma de virtualização em nível de sistema operacional, permitindo que vários contêineres compartilhem o mesmo sistema operacional host.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Virtual machine (máquina virtual):",
+      "description": "Virtual machine (máquina virtual): refere-se a uma instância virtual de um computador que opera em um ambiente isolado dentro de um sistema físico. Ele emula hardware e permite a execução de sistemas operacionais e aplicativos dentro dessa máquina virtual. Isso é útil para testes, desenvolvimento, isolamento de aplicativos e execução de diferentes sistemas operacionais em um único hardware físico.",
+      "tags": ["Conceito"]
+    }, 
+    {
+      "title": "Hypervisor (hipervisor)",
+      "description": "Hypervisor (hipervisor) é um software ou firmware que atua como uma camada intermediária entre o hardware físico de um computador e as máquinas virtuais. Ele desempenha um papel fundamental na virtualização, permitindo a criação e operação de múltiplas máquinas virtuais em um único servidor ou computador.",
+      "tags": ["Ferramenta"]
+    }, 
+    {
+      "title": "Flutter",
+      "description": "Flutter: é um framework de código aberto desenvolvido pelo Google que é usado para criar aplicativos móveis multiplataforma. O Flutter permite que os desenvolvedores criem aplicativos com uma única base de código que podem ser executados tanto em dispositivos Android quanto iOS",
+      "tags": ["Framework"]
+    }, 
+    {
+      "title": "DBA vs. SGBD",
+      "description": "DBA vs. SGBD: O \"DBA\" (Administrador de Banco de Dados) é um profissional responsável pela administração de bancos de dados, incluindo tarefas como configuração, otimização e manutenção. O \"SGBD\" (Sistema de Gerenciamento de Banco de Dados) é o software que permite armazenar, recuperar e gerenciar dados em um banco de dados, como MySQL ou Oracle.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Monorepo",
+      "description": "Monorepo (avançado): Um \"monorepo\" é um modelo de organização de código no qual todos os projetos e componentes de um aplicativo são mantidos em um único repositório. Isso pode facilitar a colaboração e o compartilhamento de código, mas também requer um controle rigoroso.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Git Flow",
+      "description": "Git Flow: Git Flow é um modelo de fluxo de trabalho baseado no Git que estabelece diretrizes para como as branches são usadas em projetos de software. Ele propõe a utilização de ramos principais, de recursos e de lançamento para facilitar o desenvolvimento organizado.",
+      "tags": ["Conceito", "Ferramenta"]
+    },
+    {
+      "title": "VMware",
+      "description": "VMware é uma empresa que oferece uma variedade de produtos e soluções de virtualização. Um dos produtos mais conhecidos é o VMware Workstation, que permite a criação e execução de máquinas virtuais em sistemas host. O VMware Workstation é amplamente utilizado em ambientes de desenvolvimento, teste e virtualização de servidores. A empresa também oferece soluções de virtualização de data center, como o VMware vSphere, para empresas em grande escala.",
+      "tags": ["Ferramenta"]
+    },
+    {
+      "title": "Virt-Manager",
+      "description": "Virt-Manager, também conhecido como Virtual Machine Manager, é uma ferramenta de virtualização de código aberto que fornece uma interface gráfica para criar, gerenciar e controlar máquinas virtuais em sistemas Linux. Ele é frequentemente usado em ambientes de desktop e servidor para facilitar a criação e administração de máquinas virtuais. O Virt-Manager é especialmente útil para administradores de sistema e desenvolvedores que preferem uma interface gráfica para gerenciar máquinas virtuais em sistemas Linux baseados em KVM (Kernel-based Virtual Machine).",
+      "tags": ["Ferramenta"]
+    },
+    {
+      "title": "VirtualBox",
+      "description": "Oracle VirtualBox, muitas vezes referido simplesmente como VirtualBox, é um software de virtualização de código aberto que permite a criação e execução de máquinas virtuais em um sistema host. Ele suporta uma ampla variedade de sistemas operacionais como convidados, o que significa que você pode executar diferentes sistemas operacionais dentro do seu sistema host. O VirtualBox é conhecido por sua facilidade de uso e é usado para fins de desenvolvimento, teste e virtualização de sistemas operacionais.",
+      "tags": ["Ferramenta"]
+    },
+    {
+      "title": "Docker",
+      "description": "Docker: Docker é uma plataforma de código aberto que fornece uma maneira de criar, implantar e gerenciar containers. Um container é um ambiente de execução isolado que inclui o aplicativo e todas as suas dependências, garantindo que o aplicativo funcione de maneira consistente em diferentes ambientes. O Docker é amplamente utilizado para o desenvolvimento de aplicativos, implantação de microsserviços, integração contínua e orquestração de containers em grande escala com ferramentas como Kubernetes.",
+      "tags": ["Ferramenta"]
+    },   
+    {
+      "title": "Podman",
+      "description": "Podman: Podman é outra ferramenta de código aberto para a execução e gerenciamento de containers. Assim como o Docker, o Podman permite criar, implantar e executar containers. Uma diferença notável é que o Podman não requer um daemon em execução em segundo plano para operar, o que pode oferecer uma abordagem mais leve e segura. O Podman é compatível com a interface de linha de comando do Docker, tornando-o uma alternativa ao Docker, especialmente em ambientes em que a simplicidade e a segurança são prioridades. Ele é amplamente usado em sistemas baseados em contêineres, oferecendo funcionalidades semelhantes às do Docker.",
+      "tags": ["Ferramenta"]
+    },   
+    {
+      "title": "Vim",
+      "description": "Vim: Vim é um editor de texto altamente configurável e eficiente, amplamente utilizado em ambientes de desenvolvimento Linux e Unix. Ele oferece uma ampla gama de recursos de edição e automação por meio de comandos de teclado.",
+      "tags": ["Ferramenta"]
+    },   
+    {
+      "title": "Scrum",
+      "description": "Scrum: é um método ágil de gestão de projetos que divide o trabalho em ciclos chamados \"sprints\". Ele enfatiza a colaboração da equipe, transparência e a entrega incremental de funcionalidades, promovendo a adaptação às mudanças durante o desenvolvimento. É comumente usado no desenvolvimento de software e outros projetos complexos.",
+      "tags": ["Ferramenta"]
+    }     
   ]
 }
