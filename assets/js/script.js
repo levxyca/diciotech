@@ -54,10 +54,22 @@ function filterCards() {
 
 function searchCards() {
     const inputValue = searchInput.value.toLowerCase();
+    let cardsFiltered = [];
+
     for (const card of listOfCardsFiltered) {
         const cardContent = card.textContent.toLowerCase();
-        card.style.display = cardContent.includes(inputValue) ? "" : "none";
+
+        if  (cardContent.includes(inputValue)){
+            card.style.display = "";
+            cardsFiltered.push(card);
+        } else {
+            card.style.display = "none";
+        }
     }
+
+    const msgNotFound = document.querySelector("div.msg");
+    msgNotFound.style.display = cardsFiltered.length==0 ? "" : "none";
+   
 }
 
 function formatCardTitle(title) {
@@ -70,7 +82,17 @@ function formatCardTitle(title) {
 }
 
 function insertCardsIntoHtml(data) {
-    let cards = "";
+    let cards = `<div class="msg">
+                    <div class=collumn-1>
+                        <img src="assets/img/no-results-found.png" alt="Mulher olhando para site sem dados" /> 
+                        <a href="https://storyset.com/data">Data illustrations by Storyset</a>
+                    </div>
+                    <div class=collumn-2>
+                        <p> O termo pesquisado não foi encontrado! Verifique se foi digitado corretamente.</p>
+                        <p>Caso esteja correto, por favor crie uma issue no <a href="https://github.com/levxyca/diciotech/issues">repositório</a> para que esse termo possa ser adicionado ao Diciotech.</p>
+                        <p>Agradecemos sua colaboração! 😄</p>
+                    </div>
+                </div>`
     data.forEach((card) => {
         const formatedTitle = formatCardTitle(card.title);
         cards += `
