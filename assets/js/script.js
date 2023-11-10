@@ -3,6 +3,7 @@ import "./dark_mode.js";
 const searchInput = document.querySelector("#search-input");
 const cardsSection = document.querySelector("#cards");
 const filterSelect = document.querySelector("#tags-filter");
+const clearInputButton = document.querySelector("#clear-input");
 let listOfCardsFiltered = [];
 let favoriteCards = [];
 const starIcon = "https://img.icons8.com/ios/50/star--v1.png";
@@ -203,6 +204,13 @@ async function getCardsFromJson() {
     }
 }
 
+function clearInputValue() {
+    searchInput.value = '';
+    searchInput.focus();
+    filterCards();
+}
+
 searchInput.addEventListener("input", searchCards);
 filterSelect.addEventListener("change", filterCards);
+clearInputButton.addEventListener("click", clearInputValue);
 getCardsFromJson();
