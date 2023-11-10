@@ -37,9 +37,9 @@
     },
     {
       "title": "Ternário",
-      "description": "Expressão condicional.",
+      "description": "Operador condicional ternário é uma expressão condicional onde caso a condição for true, a primeira expressão que será usada, caso a condição seja false, será a segunda expressão a ser usada.",
       "content": {
-        "code": "Expressão ? Verdadeiro : Falso;"
+        "code": "Expressão(condição) ? Verdadeiro(exp1) : Falso(exp2);"
       },
       "tags": [
         "Conceito"
