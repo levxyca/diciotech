@@ -1,8 +1,11 @@
 import "./dark_mode.js";
+import { getCards, getTags } from "./translate.js";
 
 const searchInput = document.querySelector("#search-input");
 const cardsSection = document.querySelector("#cards");
 const filterSelect = document.querySelector("#tags-filter");
+const languageSelect = document.querySelector("#language-select");
+
 let listOfCardsFiltered = [];
 let favoriteCards = [];
 const starIcon = "https://img.icons8.com/ios/50/star--v1.png";
@@ -10,29 +13,17 @@ const starIconFilled =
     "https://img.icons8.com/ios-glyphs/30/ffe100/star--v1.png";
 
 function insertTagsIntoSelect(tags) {
-    tags.sort();
+    while (filterSelect.firstChild) {
+        filterSelect.removeChild(filterSelect.firstChild);
+    }
+
+    tags.sort(tag => tag.text);
     for (const tag of tags) {
         const newOption = document.createElement("option");
-        newOption.value = tag;
-        newOption.text = tag;
+        newOption.value = tag.value;
+        newOption.text = tag.text;
         filterSelect.appendChild(newOption);
     }
-}
-
-function getTagsFromCards(data) {
-    const tags = ["Favoritos"];
-    data.map((objeto) => {
-        if (objeto.tags) {
-            objeto.tags.map((tag) => {
-                if (!tags.includes(tag)) {
-                    tags.push(tag);
-                }
-            });
-        } else {
-            objeto.tags = [];
-        }
-    });
-    insertTagsIntoSelect(tags);
 }
 
 function filterCards() {
@@ -41,7 +32,7 @@ function filterCards() {
     listOfCards.forEach((element) => {
         if (
             element.getAttribute("tags").includes(filterSelect.value) ||
-            filterSelect.value == "Todos"
+            filterSelect.value == "All"
         ) {
             element.style.display = "";
             listOfCardsFiltered.push(element);
@@ -97,7 +88,7 @@ function insertCardsIntoHtml(data) {
         const formatedTitle = formatCardTitle(card.title);
         cards += `
         <section class="card" tags="${
-            card.tags ? card.tags : "Todos"
+            card.tags ? card.tags : "All"
         }" id="${formatedTitle}">
             <div class="card__header">
                 <h3 class="card__title">${card.title}</h3>
@@ -106,7 +97,7 @@ function insertCardsIntoHtml(data) {
                     unique-title="${formatedTitle}"
                     id="fav_${formatedTitle}"
                     src="${
-                        card.tags.includes("Favoritos")
+                        card.tags.includes("Favorites")
                             ? starIconFilled
                             : starIcon
                     }"
@@ -140,10 +131,10 @@ function addFavoriteTagToCard(cardId) {
     const card = document.querySelector(`#${cardId}`);
     const tags = card.getAttribute("tags").split(",");
 
-    if (tags.includes("Favoritos")) {
-        tags.splice(tags.indexOf("Favoritos"), 1);
+    if (tags.includes("Favorites")) {
+        tags.splice(tags.indexOf("Favorites"), 1);
     } else {
-        tags.push("Favoritos");
+        tags.push("Favorites");
     }
 
     card.setAttribute("tags", tags);
@@ -179,7 +170,7 @@ async function addFavoriteTag(cards) {
             if (!card.tags) {
                 card.tags = [];
             }
-            card.tags.push("Favoritos");
+            card.tags.push("Favorites");
         }
     });
     return cards;
@@ -191,12 +182,13 @@ async function sortCardsByTitle(data) {
 
 async function getCardsFromJson() {
     try {
-        const res = await fetch("./assets/data/cards_pt-br.json");
-        const data = await res.json();
+        const language = languageSelect.value || "pt-BR";
+        const data = await getCards(language);
         const sortedCards = await sortCardsByTitle(data);
+        const tags = await getTags(language);
         await loadFavoriteCardsId();
         await addFavoriteTag(sortedCards);
-        getTagsFromCards(sortedCards);
+        insertTagsIntoSelect(tags);
         insertCardsIntoHtml(sortedCards);
     } catch (error) {
         console.error("An error occurred while fetching card data.", error);
@@ -205,4 +197,5 @@ async function getCardsFromJson() {
 
 searchInput.addEventListener("input", searchCards);
 filterSelect.addEventListener("change", filterCards);
+languageSelect.addEventListener("change", getCardsFromJson);
 getCardsFromJson();

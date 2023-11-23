@@ -1,5 +1,13 @@
 {
   "tags": {
+    "All": {
+      "en": "All",
+      "pt-BR": "Todos"
+    },
+    "Favorites": {
+      "en": "Favorites",
+      "pt-BR": "Favoritos"
+    },
     "Back-end": {
       "en": "Back-end",
       "pt-BR": "Back-end"
