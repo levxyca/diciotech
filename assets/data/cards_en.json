@@ -1,0 +1,252 @@
+{
+    "cards": [
+        {
+            "title": "Abstraction",
+            "description": "Abstraction is a simplification of specific points of a system or behavior we're trying to understand. In programming, we use abstractions all the time, meaning we don't need to understand all the deep technical details to write code, such as the inner workings of a computer."
+        },
+        {
+            "title": "Typed Variable",
+            "description": "A typed variable is one that has a specific data type associated with it."
+        },
+        {
+            "title": "Parameter",
+            "description": "A parameter is information passed to a function or method as part of its call."
+        },
+        {
+            "title": "Named Parameter",
+            "description": "A named parameter is a way of passing values to a function or method by specifying the name of the corresponding parameter."
+        },
+        {
+            "title": "Computed Variable",
+            "description": "A computed variable doesn’t store a value directly; instead, it calculates or derives its value from other variables or data."
+        },
+        {
+            "title": "Ternary",
+            "description": "A conditional expression.",
+            "content": {
+                "code": "Expression ? True : False;"
+            }
+        },
+        {
+            "title": "Stateless Widget",
+            "description": "In Flutter, a StatelessWidget is a component without mutable internal state, ideal for parts of the user interface that don’t change over time and don’t depend on state."
+        },
+        {
+            "title": "Stateful Widget",
+            "description": "In Flutter, a StatefulWidget is a component with mutable internal state, allowing it to respond to state changes and dynamically update the user interface."
+        },
+        {
+            "title": "Function",
+            "description": "A function is a block of code that performs a specific task and can be called from other parts of the program. It helps to organize and reuse code, making software more modular and readable. Functions receive inputs (called arguments) and can return a result (return value) or simply perform an action."
+        },
+        {
+            "title": "Argument",
+            "description": "An argument is a value or information that you provide to a function or method during its call. These arguments are used by the function to perform a specific task or to make decisions based on the provided values. In short, arguments are input data that allow a function to perform its work and produce a result or carry out desired actions."
+        },
+        {
+            "title": "Object-Oriented Programming",
+            "description": "Object-Oriented Programming (OOP) is a programming paradigm that models software around objects, which are instances of classes. Each object contains attributes (data) and methods (functions) that operate on these data. It allows for more modular, reusable, and real-world object-oriented code organization. OOP promotes concepts such as encapsulation, inheritance, and polymorphism, facilitating the creation of more flexible, comprehensible, and scalable systems."
+        },
+        {
+            "title": "Recursion",
+            "description": "Recursion is a method/function that calls itself to solve a problem."
+        },
+        {
+            "title": "Class",
+            "description": "In software development, a class is a 'mold' or 'model' for creating objects. It defines the attributes (data) and methods (functions) that objects created from it will have. Classes help organize code, allowing for the reuse and abstraction of data and functionalities in a coherent structure."
+        },
+        {
+            "title": "Object",
+            "description": "In software development, an object is like a character in a video game. It has characteristics (data) and can perform actions (methods). For example, a 'car' object may have color, speed, and brand (characteristics) and can accelerate, brake, and turn (actions/methods). Objects are instances of classes and allow code to be organized in a way that represents real-world entities, making it more comprehensible and reusable."
+        },
+        {
+            "title": "Encapsulation",
+            "description": "Encapsulation acts like a 'magic box' that hides the internal details of an object. This means that an object's data and internal workings are kept private and can't be accessed directly from outside. Instead, the object provides controlled interfaces (public methods) to interact with it. This helps protect the object's data and control how it is used, promoting code safety and organization."
+        },
+        {
+            "title": "Inheritance",
+            "description": "Inheritance works like a 'genealogical tree'. It allows a class or object to inherit characteristics and behaviors from a parent class. This means the child class inherits the attributes and methods of the parent class, saving time and promoting code reuse. Inheritance is a way to organize and structure code, creating class hierarchies that represent relationships between real-world objects."
+        },
+        {
+            "title": "Polymorphism",
+            "description": "Polymorphism allows objects of different types to behave similarly through a shared interface."
+        },
+        {
+            "title": "Front-end Development",
+            "description": "Front-end development is the development of the graphical interface, allowing users to visualize and interact with what has been developed."
+        },
+        {
+            "title": "HTML",
+            "description": "HTML is a markup language used in the construction of web pages. HTML documents can be interpreted by browsers."
+        },
+        {
+            "title": "CSS",
+            "description": "Cascading Style Sheets is a mechanism for adding styles to a web page, such as colors, sizes, fonts, etc. It is possible to link the HTML file to CSS by adding a link to a CSS file containing the styles."
+        },
+        {
+            "title": "JavaScript",
+            "description": "JavaScript is a high-level, structured, interpreted programming language with weak dynamic typing and supports multiple paradigms. Along with HTML and CSS, JavaScript is one of the three main technologies for website creation."
+        },
+        {
+            "title": "jQuery",
+            "description": "jQuery is a JavaScript library that interacts with HTML in a much faster and simpler way than using pure JavaScript."
+        },
+        {
+            "title": "Python",
+            "description": "Python is a widely used programming language in web applications, software development, data science, and machine learning (ML). Developers use Python because it is efficient, easy to learn, and can be run on many different platforms."
+        },
+        {
+            "title": "UI Design",
+            "description": "UI Design involves designing and executing an interface for the user. For example, ensuring that a button is visible and clickable."
+        },
+        {
+            "title": "UX Design",
+            "description": "UX Design involves designing and executing an experience for the user. For example, designing actions that make a person feel good when entering a page, or engaged, etc."
+        },
+        {
+            "title": "Frameworks",
+            "description": "Frameworks are like collections of tools, components, and solutions found in a single package that facilitate the creation of complex applications."
+        },
+        {
+            "title": "Spread Operator",
+            "description": "The spread operator is a feature present in several programming languages that allows copying and combining elements from one data structure into another, facilitating efficient manipulation of information."
+        },
+        {
+            "title": "Algorithm",
+            "description": "An algorithm is like a recipe for a computer. It's a set of organized steps that help solve a problem, like doing calculations or analyzing information."
+        },
+        {
+            "title": "Git",
+            "description": "Git is a widely used distributed version control system for tracking changes in files and coordinating work on software development projects."
+        },
+        {
+            "title": "GitHub",
+            "description": "GitHub is a web-based source code hosting platform offering a variety of version control and software development collaboration services (used in conjunction with Git). It is widely used by developers worldwide to store, collaborate, manage, and control the source code of software projects."
+        },
+        {
+            "title": "Optional Chaining",
+            "description": "Optional Chaining is a feature in Javascript for dealing with situations where you need to access properties of nested objects but are unsure if those properties actually exist. It helps avoid 'TypeError' errors when trying to access something that hasn't been defined.",
+            "content": {
+                "code": "const person = name?.city?.address;"
+            }
+        },
+        {
+            "title": "Low-Level Language",
+            "description": "A low-level programming language has little or no abstraction from a computer's language. It is closer to machine language."
+        },
+        {
+            "title": "Memory Address",
+            "description": "A memory address is a unique number that identifies a specific memory location in a computer. Everything declared in a programming language is stored in the computer's memory, and accessing these data requires knowing the memory address where they are stored."
+        },
+        {
+            "title": "Pointers",
+            "description": "A pointer is a type of data in a programming language that stores or refers to the memory address of another value located in the computer's memory. A pointer refers to a location in memory and retrieves the value from that location. As such, a pointer is a type of data that 'points' to a value.",
+            "content": {
+                "code": "int *pointer; // pointer to an integer in C/C++"
+            }
+        },
+        {
+            "title": "C",
+            "description": "C is a general-purpose, structured, imperative, procedural programming language compiled and standardized by ISO. It was created in 1972 by Dennis Ritchie at AT&T Bell Labs to develop the Unix operating system (originally written in Assembly)."
+        },
+        {
+            "title": "C++",
+            "description": "C++ is a compiled multi-paradigm (supporting imperative, object-oriented, and generic programming) general-purpose programming language. It has been one of the most popular commercial languages since the 1990s and is also widely used in academia for its high performance and user base."
+        },
+        {
+            "title": "Bug",
+            "description": "The term 'Bug' is commonly used to report a problem in a program or environment. It can be an incorrect or unexpected behavior, generally caused by incorrect logic in the code, leading to failures during software execution."
+        },
+        {
+            "title": "Compiler",
+            "description": "A compiler is like a language translator for computers. It takes code written by programmers in a form that's easy for them to understand (called high-level code) and transforms it into a language that the computer can understand and follow (called low-level code). It does this step by step, as if breaking the process into smaller parts."
+        },
+        {
+            "title": "React Native",
+            "description": "React Native is a JavaScript framework based on React for the development of multi-platform mobile applications."
+        },
+        {
+            "title": "Mobile First",
+            "description": "The mobile-first concept determines that when creating a website, we should first address the needs of mobile devices."
+        },
+        {
+            "title": "SQL",
+            "description": "Structured Query Language (SQL) is a programming language used to manage data in relational databases. It's like a language that allows us to talk to databases to do things like fetching, adding, updating, and deleting information."
+        },
+        {
+            "title": "Node.js",
+            "description": "Node.js is an environment that allows JavaScript to be executed on the server. This means we can use JavaScript to create and run server-side applications."
+        },
+        {
+            "title": "Cache",
+            "description": "Cache is a technique for the temporary storage of frequently used data to improve performance and access speed in computer systems."
+        },
+        {
+            "title": "React",
+            "description": "React is an open-source JavaScript library used to create interactive and dynamic user interfaces in web applications and other environments like mobile, TV, virtual reality, among others. It stands out for its component-based programming model and efficiency in updating the user interface, making it a popular choice in front-end development."
+        },
+        {
+            "title": "Component",
+            "description": "A component is a fundamental and reusable unit for building user interfaces. It encapsulates logic and presentation related to a specific part of the interface. Components can be likened to building blocks that, when combined, form complex interfaces. They promote code organization and maintainability, as they can be developed and tested independently. Components can accept properties (props) as input and render information based on these data, allowing for flexible customization."
+        },
+        {
+            "title": "Property",
+            "description": "Properties, often abbreviated as 'props', are mechanisms that allow passing data from a parent component to a child component. They are used to customize the behavior and appearance of a component. For example, when creating a button, you can pass properties like background color, displayed text, and text size as props. Props are crucial for making components reusable and configurable, allowing them to adapt to different usage contexts."
+        },
+        {
+            "title": "React Native",
+            "description": "React Native is a JavaScript framework based on React for the development of multi-platform mobile applications."
+        },
+        {
+            "title": "Expo CLI",
+            "description": "Expo CLI is a tool that facilitates the development of mobile applications for iOS and Android. It is used to quickly create a project with React Native."
+        },
+        {
+            "title": "Stack Navigation",
+            "description": "In the context of React Native, it is a navigation technique between screens of the application, where the application has back and forward buttons, for example."
+        },
+        {
+            "title": "Environment",
+            "description": "We usually refer to 'environment' as the place or servers where what has been developed is available for testing, validations, end-users, or other needs. This server could be a physical computer or available in the cloud. There are local and dev environments (where development is happening), homolog (or hom, homol, homologation - where tests are usually done), and production (where the final system, developed and tested, is available for end-users)."
+        },
+        {
+            "title": "API",
+            "description": "API is an acronym that stands for Application Programming Interface. It is a code structure that meets some requirements, following norms and development standards, facilitating the organization of large systems. It provides functionalities and information for applications and websites. For example, the Correios API provides simplified ZIP code and address lookup."
+        },
+        {
+            "title": "Code Review",
+            "description": "Code review means code revision. It's a highly recommended best practice in the system development process, where developers in a team help each other. Normally, after completing the development stage of each task, before the code is made available for testing, the team evaluates what has been done and suggests improvements when necessary. This brings several benefits, such as improving the technical part of the team, development quality, code quality, team integration, and making everyone aware of what is being developed."
+        },
+        {
+            "title": "Commit",
+            "description": "When working with code versioning (highly recommended), the word 'commit' is quite common among developers. But this word is also used by those working in databases. When a set of changes has been made to a code, a person does the 'commit' command that saves what was done within the project. There is also semantic commit, meaning that this set of changes should have a meaning for the project. Commit is also used to finalize a transaction within a database management system, making the changes visible. This transaction usually starts with the 'begin' command and ends with the 'commit' command."
+        },
+        {
+            "title": "Deploy",
+            "description": "Deploy is a complex process. But it means that a package of what has been developed has been installed in the environments. A version is generated to be made available. This process can also be called 'implementation' depending on the context. For this implementation to happen, it can be an automated process with tools, or done manually, depending on the structure. The word 'deploy' has been adapted in Portuguese, turning it into an action. Example: 'I am deploying the new version of our system.'"
+        },
+        {
+            "title": "Json",
+            "description": "In English, it stands for JavaScript Object Notation. Json is a file type and has a structure with the name of the data and the value of the data. Depending on the type of API we build, we use the Json format to transfer data between systems. For example: an API that consults clients in your business. The API's response can come in json format.",
+            "content": {
+                "code": "{name: 'Morganna', cpf: '000.000.000-00', email: 'email@email.com'}"
+            }
+        },
+        {
+            "title": "Pair Programming",
+            "description": "Pair programming means programming in pairs. It's a technique where two people (or more) work together on a task. This helps in the exchange of knowledge and experience among developers. Two heads think better than one, right? Some ways to apply pair programming: one person is working on the code while receiving guidance from the other and they switch roles; one person develops the tests and the other develops the functionality. Do not see pair programming as a waste of time. Good integration and a sense of support in the team can make all the difference in the quality of what is delivered."
+        },
+        {
+            "title": "Pull Request",
+            "description": "It's a request for a change within a project. This request can be made to fix a problem, add a new feature, suggest changes, among other reasons. This change request is made so that there is an evaluation of what is being changed within the project, understanding if it makes sense for the context at that moment. And this request can remain pending until responsible people or those who have permission approve it. Other rules can be added to these requests, such as building the application, running tests successfully, and whatever else makes sense for the project in question."
+        },
+        {
+            "title": "Ruby",
+            "description": "Ruby is an interpreted, multiparadigm programming language with dynamic and strong typing, and automatic memory management. Ruby supports functional, object-oriented, imperative, and reflective programming. It's like a digital toolbox that can create, organize, and interact different parts in a computer program, capable of handling various programming styles."
+        },
+        {
+            "title": "ORM",
+            "description": "Object-Relational Mapping (ORM) is like translating database tables into code, transforming them into classes and objects."
+        }
+    ]
+}

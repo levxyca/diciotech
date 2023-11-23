@@ -1,0 +1,7 @@
+{
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "editor.detectIndentation": true,
+  "editor.formatOnSave": true
+}

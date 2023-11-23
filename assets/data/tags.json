@@ -1,0 +1,44 @@
+{
+  "tags": {
+    "Back-end": {
+      "en": "Back-end",
+      "pt-BR": "Back-end"
+    },
+    "Library": {
+      "en": "Library",
+      "pt-BR": "Biblioteca"
+    },
+    "Concept": {
+      "en": "Concept",
+      "pt-BR": "Conceito"
+    },
+    "Design": {
+      "en": "Design",
+      "pt-BR": "Design"
+    },
+    "Tool": {
+      "en": "Tool",
+      "pt-BR": "Ferramenta"
+    },
+    "Framework": {
+      "en": "Framework",
+      "pt-BR": "Framework"
+    },
+    "Front-end": {
+      "en": "Front-end",
+      "pt-BR": "Front-end"
+    },
+    "Mobile": {
+      "en": "Mobile",
+      "pt-BR": "Mobile"
+    },
+    "Paradigm": {
+      "en": "Paradigm",
+      "pt-BR": "Paradigma"
+    },
+    "Versioning": {
+      "en": "Versioning",
+      "pt-BR": "Versionamento"
+    }
+  }
+}
