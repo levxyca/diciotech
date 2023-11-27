@@ -438,6 +438,31 @@
       ]
     },
     {
+      "title": "Banco de Dados",
+      "description": "Um banco de dados é uma coleção organizada de informações ou dados, armazenados eletronicamente de forma estruturada, para permitir o armazenamento, recuperação e manipulação eficiente dessas informações. É utilizado para armazenar dados de forma persistente, tornando-os acessíveis para aplicativos e sistemas de software, permitindo a consulta, atualização e análise dos dados de maneira eficaz.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Banco Relacional",
+      "description": "Um banco de dados relacional é um sistema que organiza dados em tabelas com linhas e colunas, onde as informações são armazenadas de forma estruturada, com relações definidas entre as tabelas. É baseado no modelo de dados relacional e usa a linguagem SQL para consultas.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "NoSQL",
+      "description": "NoSQL (Not Only SQL) é uma abordagem de banco de dados que permite armazenar, recuperar e gerenciar dados de forma flexível e escalável, sem a estrutura rígida de tabelas relacionais, sendo adequado para dados não estruturados ou semiestruturados.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Lambda",
+      "description": "Lambda é uma função anônima em programação que pode ser definida e usada sem um nome específico, frequentemente usada para expressões simples em uma única linha.",
+      "content": {
+        
+        "code": "soma = lambda x, y: x + y"
+      },
+      
+      "tags": ["Conceito"]
+    },
+    {
       "title": "Ruby",
       "description": "Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático. Ruby suporta programação funcional, orientada a objetos, imperativa e reflexiva. É como uma caixa de ferramentas digital que pode criar, organizar e fazer interagir diferentes partes em um programa de computador, sendo capaz de lidar com diversos estilos de programação.",
       "tags": [
