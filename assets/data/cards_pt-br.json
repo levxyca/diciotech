@@ -134,6 +134,11 @@
       "tags": ["Back-end"]
     },
     {
+      "title": "Python",
+      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
+      "tags": ["Back-end"]
+    },
+    {
       "title": "UI Design",
       "description": "É o desenho e execução de uma interface para a pessoa usuária. Por exemplo, garantir que um botão vai ser visto e apertado.",
       "tags": ["Conceito", "Front-end", "Design"]
