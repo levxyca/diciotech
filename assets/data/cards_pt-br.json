@@ -109,8 +109,8 @@
       "tags": ["Front-end"]
     },
     {
-      "title": "SASS/SCSS",
-      "description": "Pré-processadores CSS que permitem a criação de estilos mais complexos e reutilizáveis. São formas mais avançadas de escrever estilos (cores, fontes) para sites.",
+      "title": "Pré-processadores CSS",
+      "description": "Pré-processadores CSS são como ferramentas especiais que facilitam a criação de estilos para sites. Eles tornam possível fazer estilos mais complicados e que podem ser usados de novo em diferentes partes do site. Pense neles como formas mais espertas de escolher cores e fontes para tornar um site bonito e funcional. Exemplo: SASS/SCSS e LESS",
       "tags": ["Front-end"]
     },
     {
