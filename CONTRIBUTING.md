@@ -8,13 +8,15 @@ Neste guia vamos explicar como funcionam os processos para que você possa contr
 
 Existem diversas formas de contribuir com o projeto:
 
-- [Adicionando um novo termo técnico no Diciotech](#adicionando-um-novo-termo-técnico-no-diciotech)
-- [Adicionando uma nova tag no Diciotech](#adicionando-uma-nova-tag-no-diciotech)
-- [Reportando bugs](#reportando-bugs)
-- [Indicando melhorias e pedindo funcionalidades](#indicando-melhorias-e-pedindo-funcionalidades)
-- [Discutindo as issues](#discutindo-as-issues)
-- [Fazendo pull requests](#fazendo-pull-requests)
-- [Outras formas de contribuir](#outras-formas-de-contribuir)
+- [📖 Contribua com o Diciotech](#-contribua-com-o-diciotech)
+  - [🤔 Como contribuir](#-como-contribuir)
+    - [Adicionando um novo termo técnico no Diciotech](#adicionando-um-novo-termo-técnico-no-diciotech)
+    - [Adicionando uma nova tag no Diciotech](#adicionando-uma-nova-tag-no-diciotech)
+    - [Reportando bugs](#reportando-bugs)
+    - [Indicando melhorias e pedindo funcionalidades](#indicando-melhorias-e-pedindo-funcionalidades)
+    - [Discutindo as issues](#discutindo-as-issues)
+    - [Fazendo pull requests](#fazendo-pull-requests)
+    - [Outras formas de contribuir](#outras-formas-de-contribuir)
 
 ### Adicionando um novo termo técnico no Diciotech
 
@@ -69,8 +71,10 @@ Tags disponíveis:
 - `Ferramenta`;
 - `Framework`;
 - `Front-end`;
+- `Inteligência artificial`;
 - `Mobile`;
 - `Paradigma`;
+- `Rede neural`;
 - `Versionamento`.
 
 Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas práticas:
