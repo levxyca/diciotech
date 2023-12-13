@@ -116,7 +116,7 @@ html {
   width: 100%;
 }
 
-.searchbar__icon {
+.searchbar__icon, .clearinput__icon {
   width: 24px;
   height: 24px;
   fill: #9698a0;
@@ -135,6 +135,15 @@ html {
 }
 .searchbar__input:focus {
   outline: none;
+}
+
+#clear-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
 }
 
 .filter {
