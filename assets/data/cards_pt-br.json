@@ -440,32 +440,40 @@
     {
       "title": "Banco de Dados",
       "description": "Um banco de dados é uma coleção organizada de informações ou dados, armazenados eletronicamente de forma estruturada, para permitir o armazenamento, recuperação e manipulação eficiente dessas informações. É utilizado para armazenar dados de forma persistente, tornando-os acessíveis para aplicativos e sistemas de software, permitindo a consulta, atualização e análise dos dados de maneira eficaz.",
-      "tags": ["Conceito"]
+      "tags": [
+        "Conceito"
+      ]
     },
     {
       "title": "Banco Relacional",
       "description": "Um banco de dados relacional é um sistema que organiza dados em tabelas com linhas e colunas, onde as informações são armazenadas de forma estruturada, com relações definidas entre as tabelas. É baseado no modelo de dados relacional e usa a linguagem SQL para consultas.",
-      "tags": ["Conceito"]
+      "tags": [
+        "Conceito"
+      ]
     },
     {
       "title": "Integração Contínua",
       "description": "Integração contínua é a prática de testar frequentemente as partes do código que vão sendo adicionadas em um projeto, isso impede que bugs e erros possam ser adicionados, fazendo, de forma eficiente, testes específicos que verificam a integração de cada parte.",
-      "tags": ["Conceito"]
+      "tags": [
+        "Conceito"
+      ]
     },
     {
       "title": "NoSQL",
       "description": "NoSQL (Not Only SQL) é uma abordagem de banco de dados que permite armazenar, recuperar e gerenciar dados de forma flexível e escalável, sem a estrutura rígida de tabelas relacionais, sendo adequado para dados não estruturados ou semiestruturados.",
-      "tags": ["Conceito"]
+      "tags": [
+        "Conceito"
+      ]
     },
     {
       "title": "Lambda",
       "description": "Lambda é uma função anônima em programação que pode ser definida e usada sem um nome específico, frequentemente usada para expressões simples em uma única linha.",
       "content": {
-        
         "code": "soma = lambda x, y: x + y"
       },
-      
-      "tags": ["Conceito"]
+      "tags": [
+        "Conceito"
+      ]
     },
     {
       "title": "Ruby",
@@ -481,6 +489,27 @@
       "tags": [
         "Conceito",
         "Back-end"
+      ]
+    },
+    {
+      "title": "SGBD",
+      "description": "SGBD significa Sistema de Gerenciamento de Banco de Dados. É basicamente um software que ajuda a organizar e gerenciar grandes quantidades de informações em um banco de dados. Ele permite que você armazene, recupere, atualize e gerencie dados de maneira eficiente.",
+      "tags": [
+        "Ferramenta"
+      ]
+    },
+    {
+      "title": "CLI",
+      "description": "CLI significa 'Interface de Linha de Comando'. É uma ferramenta que permite aos desenvolvedores interagirem com um programa ou sistema por meio de comandos digitados em uma linha de texto, em oposição a uma interface gráfica de usuário. As CLIs são comuns no desenvolvimento de software, pois proporcionam eficiência e automação em tarefas repetitivas. Por exemplo, o Git, um sistema de controle de versão, utiliza uma CLI para realizar operações como commit, push e pull. Outras ferramentas e frameworks também oferecem interfaces de linha de comando para facilitar o desenvolvimento e a automação de tarefas.",
+      "tags": [
+        "Ferramenta"
+      ]
+    },
+    {
+      "title": "Terminal",
+      "description": "É uma interface de linha de comando que permite aos desenvolvedores interagirem com o sistema operacional usando comandos de texto. Em sistemas como o Linux e o macOS, é muitas vezes chamado de 'Terminal', enquanto no Windows, é conhecido como 'Prompt de Comando' ou 'PowerShell'. No terminal, os desenvolvedores podem executar comandos para realizar diversas tarefas, como navegar entre pastas, copiar ou mover arquivos, instalar pacotes e bibliotecas, compilar código-fonte e executar programas.",
+      "tags": [
+        "Ferramenta"
       ]
     }
   ]
