@@ -482,6 +482,13 @@
         "Conceito",
         "Back-end"
       ]
+    },
+    {
+      "title": "Callback",
+      "description": "Uma callback é uma função que é passada como argumento para outra função e é executada após algum evento. É uma forma de garantir que uma função só será executada após a conclusão de outra.",
+      "tags": [
+        "Conceito"
+      ]
     }
   ]
 }
