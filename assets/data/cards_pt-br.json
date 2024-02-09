@@ -482,6 +482,31 @@
         "Conceito",
         "Back-end"
       ]
+    },
+    {
+      "title": "Ataque Cibernético",
+      "description": "Ataque cibernético é uma ação maliciosa que visa comprometer sistemas, redes ou dados utilizando tecnologia digital.",
+      "tags": [ "Conceito"]
+    },
+    {
+      "title": "Defesa Cibernética",
+      "description": "Defesa cibernética é o conjunto de medidas e estratégias para proteger sistemas, redes e dados contra ataques cibernéticos, incluindo a detecção, prevenção e resposta a ameaças digitais.",
+      "tags": [ "Conceito"]
+    },
+    {
+      "title": "DevOps",
+      "description": "DevOps é uma abordagem de desenvolvimento de software que integra desenvolvimento (Dev) e operações (Ops), visando aumentar a colaboração e a eficiência entre equipes de desenvolvimento e operações de TI, através da automação de processos, monitoramento contínuo e entrega rápida e frequente de software.",
+      "tags": [ "Conceito"]
+    },
+    {
+      "title": "Hacking",
+      "description": "Exploração de sistemas de computadores e redes para identificar vulnerabilidades de segurança e encontrar soluções para obter acesso não autorizado.",
+      "tags": [ "Conceito"]
+    },
+    {
+      "title": "Hack",
+      "description": "Solução criativa e não convencional para resolver um problema ou alcançar um objetivo, podendo ser construtivo ou malicioso.",
+      "tags": [ "Conceito"]
     }
   ]
 }
