@@ -475,6 +475,13 @@
         "Conceito",
         "Back-end"
       ]
+    },
+    {
+        "title": "Docker",
+        "description": "Docker é uma ferramenta que permite a criação, o compartilhamento e a execução de aplicativos de forma isolada em ambientes chamados de 'contêineres'. Com o Docker é possível empacotar o aplicativo junto com todas as suas dependências, garantindoque ele funcione de maneira consistente em qualquer lugar, independentemente do ambiente de computação. Em resumo, o Docker simplifica o processo de desenvolvimento, distribuição e execução de aplicativos, tornando-os mais portáteis, escaláveis e confiáveis",
+        "tags": [
+            "Conceito",
+            "Ferramenta",
+        ]
     }
-  ]
 }
