@@ -475,6 +475,72 @@
         "Conceito",
         "Back-end"
       ]
+    },
+    {
+      "title": "NaN",
+      "description": "A propriedade global NaN é um valor especial que significa Not-A-Number(Não é um número).",
+      "tags": [
+        "Conceito",
+        "Back-end",
+        "Front-end"
+      ]
+    },
+    {
+      "title": "Null",
+      "description": "Null é um literal que representa um valor nulo ou vazio.",
+      "tags": [
+        "Conceito",
+        "Back-end",
+        "Front-end"
+      ]
+    },
+    {
+      "title": "Undefined",
+      "description": "O valor global undefined representa um valor indefinido, ou seja, um valor que não foi definido ou atribuído em uma variável.",
+      "tags": [
+        "Conceito",
+        "Back-end",
+        "Front-end"
+      ]
+    },
+    {
+      "title": "Falsy",
+      "description": "Falsy é um valor que se traduz por falso quando avaliado em um contexto Booleano.",
+      "content": {
+        
+        "code": "São considerados valores Falsy(false, null, undefined, 0, [], '')"
+      },
+      "tags": [
+        "Conceito",
+        "Back-end",
+        "Front-end"
+      ]
+    },
+    {
+      "title": "Truthy",
+      "description": "Truthy é um valor que se traduz por falso quando avaliado em um contexto Booleano.",
+      "content": {
+        
+        "code": "São considerados valores Truthy(true, Number(42, -42, 3.14, -3.14), Infinity, Strings('foo'))"
+      },
+      "tags": [
+        "Conceito",
+        "Back-end",
+        "Front-end"
+      ]
+    },
+    {
+      "title": "Concatenação",
+      "description": "É o termo que se da quando juntamos um texto a outro por meio do operador (+)",
+      "content": {
+        
+        "code": "var one = 'dicio'; var two = 'tech'; var joined = one + two"
+      },
+      "tags": [
+        "Conceito",
+        "Back-end",
+        "Front-end"
+      ]
     }
   ]
 }
