@@ -475,6 +475,16 @@
         "Conceito",
         "Back-end"
       ]
+    },
+    {
+      "title": "Coalescência nula",
+      "description": "Operador lógico que permite tratar valores nulos, retornando o valor à direita caso o valor à esquerda seja nulo.",
+      "content": {
+        "code": "let valor = valorDesejado ?? 42"
+      },
+      "tags": [
+        "Conceito"
+      ]
     }
   ]
 }
