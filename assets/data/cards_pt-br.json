@@ -493,6 +493,39 @@
       "tags": [
         "Conceito"
       ]
+    },
+    {
+      "title": "Swift",
+      "description": "Swift é uma linguagem de programação desenvolvida pela Apple para criar aplicativos para iOS, macOS, watchOS e tvOS.",
+      "content": {
+        "code": ""
+      },
+      "tags": [
+        "Conceito",
+        "Mobile"
+      ]
+    },
+    {
+      "title": "UIKit",
+      "description": "UIKit é um framework da Apple para criar interfaces de usuário em aplicativos iOS. Ele fornece um conjunto de classes e componentes para construir e gerenciar a interface do usuário, incluindo elementos como botões, tabelas, views e gestos.",
+      "content": {
+        "code": ""
+      },
+      "tags": [
+        "Conceito",
+        "Mobile"
+      ]
+    },
+    {
+      "title": "SwiftUI",
+      "description": "SwiftUI é um framework da Apple para criar interfaces de usuário em aplicativos iOS, macOS, watchOS e tvOS. Diferente do UIKit, ele usa a linguagem de programação Swift e fornece uma maneira declarativa de construir interfaces de usuário, simplificando o desenvolvimento e a manutenção do código.",
+      "content": {
+        "code": ""
+      },
+      "tags": [
+        "Conceito",
+        "Mobile"
+      ]
     }
   ]
 }
