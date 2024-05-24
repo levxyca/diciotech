@@ -507,7 +507,7 @@
     },
     {
       "title": "UIKit",
-      "description": "UIKit é um framework da Apple para criar interfaces de usuário em aplicativos iOS. Ele fornece um conjunto de classes e componentes para construir e gerenciar a interface do usuário, incluindo elementos como botões, tabelas, views e gestos.",
+      "description": "UIKit é um conjunto de ferramentas fornecido pela Apple para criar as partes visuais dos aplicativos iOS. Ele fornece um conjunto de classes e componentes para construir e gerenciar a interface, incluindo elementos como botões, tabelas, views e gestos.",
       "content": {
         "code": ""
       },
