@@ -517,7 +517,7 @@
     },
     {
       "title": "SwiftUI",
-      "description": "SwiftUI é um framework da Apple para criar interfaces de usuário em aplicativos iOS, macOS, watchOS e tvOS. Diferente do UIKit, ele usa a linguagem de programação Swift e fornece uma maneira declarativa de construir interfaces de usuário, simplificando o desenvolvimento e a manutenção do código.",
+      "description": "SwiftUI é uma ferramenta da Apple para criar a parte visual dos aplicativos usando a linguagem Swift. Ao contrário do UIKit, que é mais tradicional, o SwiftUI permite que você descreva a interface do usuário de uma maneira mais simples e direta, facilitando tanto a criação quanto a manutenção do seu código.",
       "content": {
         "code": ""
       },
