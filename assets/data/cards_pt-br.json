@@ -496,7 +496,7 @@
     },
     {
       "title": "Swift",
-      "description": "Swift é uma linguagem de programação desenvolvida pela Apple para criar aplicativos para iOS, macOS, watchOS e tvOS.",
+      "description": "Swift é uma linguagem de programação criada pela Apple. Com ela, você pode desenvolver aplicativos para dispositivos e sistemas operacionais da Apple, como iPhones (iOS), Macs (macOS), Apple Watches (watchOS) e Apple TVs (tvOS).",
       "content": {
         "code": ""
       },
