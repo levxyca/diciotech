@@ -126,6 +126,13 @@
       ]
     },
     {
+      "title": "Code Smells",
+      "description": "Code smells são indicadores de possíveis problemas no código que, embora não causem erros imediatos ou impeçam o funcionamento do software, podem sugerir áreas de risco que podem levar a dificuldades futuras na manutenção e evolução do código. Eles geralmente apontam para problemas de design, duplicação, complexidade ou falta de clareza que podem tornar o código mais difícil de entender, modificar ou estender.",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
       "title": "Desenvolvimento Front-end",
       "description": "Desenvolvimento front-end é o desenvolvimento da interface gráfica, para que as pessoas usuárias possam visualizar e interagir com o que foi desenvolvido.",
       "tags": [
