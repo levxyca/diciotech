@@ -1,7 +1,6 @@
 name: Pedido de novo recurso
 description: Sugira uma novidade ou utilidade que você gostaria de ver no Diciotech
 labels: 'enhancement'
-assignees: ''
 
 body:
   - type: textarea
