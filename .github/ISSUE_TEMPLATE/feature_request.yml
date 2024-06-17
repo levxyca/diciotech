@@ -1,0 +1,17 @@
+name: Pedido de recurso
+about: Sugira uma novidade ou utilidade que você gostaria de ver no Diciotech
+title: ''
+labels: 'enhancement'
+assignees: ''
+
+body:
+  - type: textarea
+    attributes:
+      label: 
+      description:
+      placeholder:
+  - type: textarea  
+    attributes:
+      label:
+      description:
+      placeholder:
