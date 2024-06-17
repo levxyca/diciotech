@@ -5,9 +5,8 @@ labels: ['bug', 'help wanted']
 body:
   - type: markdown
     attributes:
-    value: >
-      Antes de proseguir, por favor, tenha certeza de que seu problema é um **🐛 Bug**
-  
+    value: |
+      Antes de proseguir, por favor, tenha certeza de que seu problema é um **🐛 Bug** 
       Se for uma pergunta, solicitação de ajuda ou sugestão de novos termos você pode utilizar outros formulários disponíveis no repositório.
       
   - type: textarea
@@ -20,7 +19,7 @@ body:
     attributes:
       label: Como reproduzir o problema?
       description: |
-      *Este passo é muito importante!* Sem ele não podemos reproduzir o que está sendo reportado e, portanto, fica mais difícil encontrar o erro e corrigi-lo.
+        *Este passo é muito importante!* Sem ele não podemos reproduzir o que está sendo reportado e, portanto, fica mais difícil encontrar o erro e corrigi-lo.
     validations:
       required: true
   
@@ -28,7 +27,7 @@ body:
     attributes:
       label: Screenshots
       value: |
-      Você também pode fornecer capturas de tela do problema (e isso ajuda bastante). Também sinta-se livre para descrever mais o problema no campo Mais Informações, se achar necessário
+        Você também pode fornecer capturas de tela do problema (e isso ajuda bastante). Também sinta-se livre para descrever mais o problema no campo Mais Informações, se achar necessário
     
   - type: textarea 
     attributes:
