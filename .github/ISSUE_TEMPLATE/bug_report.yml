@@ -5,9 +5,9 @@ labels: ['bug', 'help wanted']
 body:
   - type: markdown
     attributes:
-    value: |
-      Antes de proseguir, por favor, tenha certeza de que seu problema é um **🐛 Bug** 
-      Se for uma pergunta, solicitação de ajuda ou sugestão de novos termos você pode utilizar outros formulários disponíveis no repositório.
+      value: |
+        Antes de proseguir, por favor, tenha certeza de que seu problema é um **🐛 Bug** 
+        Se for uma pergunta, solicitação de ajuda ou sugestão de novos termos você pode utilizar outros formulários disponíveis no repositório.
       
   - type: textarea
     attributes:
@@ -25,7 +25,6 @@ body:
   
   - type: markdown
     attributes:
-      label: Screenshots
       value: |
         Você também pode fornecer capturas de tela do problema (e isso ajuda bastante). Também sinta-se livre para descrever mais o problema no campo Mais Informações, se achar necessário
     
