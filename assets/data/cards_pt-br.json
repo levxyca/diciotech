@@ -521,6 +521,13 @@
       "tags": [
         "Mobile"
       ]
+    },
+    {
+      "title": "Flutter",
+      "description": "Flutter é um framework de desenvolvimento de software criado pelo Google. Ele é utilizado para construir aplicativos nativos para Android, iOS, web e desktop a partir de uma única base de código. O Flutter utiliza a linguagem de programação Dart, também desenvolvida pelo Google.",
+      "tags": [
+        "Mobile", "Framework"
+      ]
     }
   ]
 }
