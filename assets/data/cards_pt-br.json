@@ -521,6 +521,13 @@
       "tags": [
         "Mobile"
       ]
+    },
+    {
+      "title": "SOLID",
+      "description": "Os princípios SOLID são cinco diretrizes para design de software orientado a objetos, promovendo sistemas mais flexíveis, robustos e de fácil manutenção. Sendo, Single Responsibility Principle (Uma classe deve ter apenas uma responsabilidade), Open/Closed Principle (Classes devem estar abertas para extensão, mas fechadas para modificação), Liskov Substitution Principle (Subclasses devem ser substituíveis por suas superclasses sem alterar a correção do programa), Interface Segregation Principle (Classes não devem ser forçadas a implementar interfaces que não utilizam) e Dependency Inversion Principle (Módulos de alto nível não devem depender de módulos de baixo nível; ambos devem depender de abstrações).",
+      "tags": [
+        "Conceito"
+      ]
     }
   ]
 }
