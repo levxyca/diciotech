@@ -83,6 +83,11 @@ html {
   transition: color 0.5s ease-in-out;
 }
 
+.fav__button {
+  width: 24px;
+  cursor: pointer;
+}
+
 .main {
   display: flex;
   justify-content: center;
@@ -208,9 +213,14 @@ html {
   display: list-item;
   list-style-type: none;
 }
+.card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
 .card__title {
   color: #6e6197;
-  margin-bottom: 16px;
   font-size: 2.4rem;
 }
 .card__description {
