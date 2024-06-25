@@ -177,27 +177,27 @@
     },
     {
       "title": "Merge",
-      "description": "O Merge é o processo de combinar as alterações de duas ou mais linhas de desenvolvimento de código. Isso geralmente envolve a incorporação das alterações de uma ramificação (branch) em outra, como, por exemplo, mesclar o código de uma 'branch de desenvolvimento' (feature branch) de volta à 'branch principal' (geralmente a branch 'master' ou 'main'). O merge é usado para unir o trabalho realizado em diferentes ramos em uma única linha de desenvolvimento.",
+      "description": "O Merge é como juntar peças de quebra-cabeça no desenvolvimento de código. É quando combinamos alterações de diferentes partes do código para criar uma versão unificada. Imagine misturar o trabalho de uma equipe que adicionou novos recursos de volta ao projeto principal. Isso é o Merge - juntar tudo em uma única linha de desenvolvimento.",
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
       "title": "Branch",
-      "description":"Um branch é uma linha independente de desenvolvimento no sistema de controle de versão. É uma cópia do código em um determinado ponto no tempo, geralmente criada para isolar e desenvolver novos recursos, correções de bugs ou experimentos sem afetar a linha principal do código. Cada branch pode ser modificado separadamente, permitindo o desenvolvimento paralelo.",
+      "description":"Uma Branch é como uma cópia do seu projeto em um momento específico. É como se você criasse uma versão separada para trabalhar em novas ideias sem mexer na versão principal. Cada Branch pode ser editado à parte, permitindo que você desenvolva coisas novas sem atrapalhar o código principal.",
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     { 
       "title": "Repositório",
-      "description": "Um repositório é um local onde todo o código-fonte, histórico de commits e outros arquivos relacionados a um projeto são armazenados. Existem repositórios locais (no computador de um desenvolvedor) e repositórios remotos (em servidores compartilhados).",
+      "description": "Um Repositório é basicamente uma caixa que guarda todo o material do seu projeto. Pense nele como um lugar onde você armazena o código, a história das mudanças e outros arquivos importantes. Existem repositórios locais no seu computador e repositórios remotos em servidores compartilhados.",
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
       "title": "Fork",
-      "description":"Fazer um fork de um repositório é criar uma cópia independente desse repositório, geralmente em sua própria conta, permitindo que você faça alterações sem afetar o repositório original. É comum em projetos de código aberto.",
+      "description":"Fazer um Fork é como criar uma cópia independente de um projeto. É como se você pegasse o projeto de outra pessoa, o bifurcasse, e o tivesse em sua própria conta. Isso permite que você faça suas próprias mudanças sem mexer no projeto original. É algo comum em projetos de código aberto.",
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
       "title": "Clone",
-      "description": "Clonar um repositório é criar uma cópia local desse repositório em seu próprio ambiente de desenvolvimento. Isso permite que você trabalhe em uma versão local do código, faça alterações e contribua para o repositório original.",
+      "description": "Clonar um Repositório é como tirar uma cópia local desse projeto no seu próprio espaço de trabalho. É como ter sua própria versão do código para mexer como quiser. Isso permite que você trabalhe em uma versão local do código, faça alterações e contribua de volta ao projeto principal quando estiver pronto.",
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
