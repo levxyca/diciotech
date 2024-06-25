@@ -338,7 +338,7 @@
     },
     {
       "title": "Issue",
-      "description": "Uma issue é um registro de um problema ou tarefa a ser resolvida no projeto. Pode ser usada para relatar bugs, solicitar recursos, discutir melhorias ou acompanhar uma tarefa.",
+      "description": "Uma 'issue' é como se fosse um bilhete que anota um problema ou algo a ser feito em um projeto. É como um lembrete que pode ser usado para falar sobre erros, pedir novas funcionalidades, conversar sobre melhorias ou ficar de olho em uma tarefa.",
       "tags": ["Conceito", "Versionamento"]
     },
     {
