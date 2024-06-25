@@ -309,7 +309,7 @@
     },
     {
       "title": "CORS",
-      "description": "Do inglês \"Cross-Origin Resource Sharing\", ou Compartilhamento de Recursos de Origem Cruzada, refere-se a um mecanismo que gere recursos web acessados a partir de outras páginas. Recursos como imagens e arquivos CSS são permitidos por padrão pelo CORS, mas scripts são bloqueados, o que frequentemente atrapalha desenvolvedores iniciantes.",
+      "description": "Do inglês \"Cross-Origin Resource Sharing\" ou, em português, \"Compartilhamento de Recursos de Origem Cruzada\", é uma regra de segurança para websites. Ele determina como recursos de uma página web podem ser acessados por outra página de um domínio diferente. Por exemplo, uma imagem ou arquivo CSS geralmente pode ser compartilhado entre diferentes sites sem problemas, mas códigos JavaScript frequentemente têm restrições mais rigorosas.",
       "tags": ["Conceito"]
     }
   ]
