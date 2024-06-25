@@ -27,7 +27,7 @@
     },
     {
       "title": "Operador Ternário",
-      "description": "Operador condicional ternário é uma expressão condicional onde caso a condição for true, a primeira expressão que será usada, caso a condição seja false, será a segunda expressão a ser usada.",
+      "description": "O operador condicional ternário é uma forma curta de fazer uma escolha entre duas opções baseada em uma condição. Funciona assim: se a condição é verdadeira (true), ele retorna o primeiro resultado; se é falsa (false), retorna o segundo. É como uma versão compacta de um \"if-else\" em uma única linha.",
       "content": {
         "code": "Expressão(condição) ? Verdadeiro(exp1) : Falso(exp2);"
       },
