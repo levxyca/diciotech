@@ -361,7 +361,7 @@
     },
     {
       "title": "Garbage Collector",
-      "description": "Garbage collector, ou \"coletor de lixo\", é uma ferramenta que ajuda a liberar espaço na memória do computador automaticamente. Imagine que, ao desenvolver um programa, você use blocos de memória para guardar informações. Com o tempo, alguns desses blocos não são mais necessários. O coletor de lixo identifica esses blocos "inúteis" e os limpa, devolvendo o espaço para o sistema usar novamente. Isso é especialmente útil em linguagens de programação como Java, C# e JavaScript, onde esse processo é feito automaticamente, ajudando a evitar problemas e deixando o computador mais rápido.",
+      "description": "Garbage collector, ou \"coletor de lixo\", é uma ferramenta que ajuda a liberar espaço na memória do computador automaticamente. Imagine que, ao desenvolver um programa, você use blocos de memória para guardar informações. Com o tempo, alguns desses blocos não são mais necessários. O coletor de lixo identifica esses blocos \"inúteis\" e os limpa, devolvendo o espaço para o sistema usar novamente. Isso é especialmente útil em linguagens de programação como Java, C# e JavaScript, onde esse processo é feito automaticamente, ajudando a evitar problemas e deixando o computador mais rápido.",
       "tags": ["Conceito"]
     },
     {
