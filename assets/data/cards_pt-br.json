@@ -176,6 +176,31 @@
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
     {
+      "title": "Merge",
+      "description": "O Merge é como juntar peças de quebra-cabeça no desenvolvimento de código. É quando combinamos alterações de diferentes partes do código para criar uma versão unificada. Imagine misturar o trabalho de uma equipe que adicionou novos recursos de volta ao projeto principal. Isso é o Merge - juntar tudo em uma única linha de desenvolvimento.",
+      "tags": ["Conceito", "Versionamento", "Ferramenta"]
+    },
+    {
+      "title": "Branch",
+      "description":"Uma Branch é como uma cópia do seu projeto em um momento específico. É como se você criasse uma versão separada para trabalhar em novas ideias sem mexer na versão principal. Cada Branch pode ser editado à parte, permitindo que você desenvolva coisas novas sem atrapalhar o código principal.",
+      "tags": ["Conceito", "Versionamento", "Ferramenta"]
+    },
+    { 
+      "title": "Repositório",
+      "description": "Um Repositório é basicamente uma caixa que guarda todo o material do seu projeto. Pense nele como um lugar onde você armazena o código, a história das mudanças e outros arquivos importantes. Existem repositórios locais no seu computador e repositórios remotos em servidores compartilhados.",
+      "tags": ["Conceito", "Versionamento", "Ferramenta"]
+    },
+    {
+      "title": "Fork",
+      "description":"Fazer um Fork é como criar uma cópia independente de um projeto. É como se você pegasse o projeto de outra pessoa, o bifurcasse, e o tivesse em sua própria conta. Isso permite que você faça suas próprias mudanças sem mexer no projeto original. É algo comum em projetos de código aberto.",
+      "tags": ["Conceito", "Versionamento", "Ferramenta"]
+    },
+    {
+      "title": "Clone",
+      "description": "Clonar um Repositório é como tirar uma cópia local desse projeto no seu próprio espaço de trabalho. É como ter sua própria versão do código para mexer como quiser. Isso permite que você trabalhe em uma versão local do código, faça alterações e contribua de volta ao projeto principal quando estiver pronto.",
+      "tags": ["Conceito", "Versionamento", "Ferramenta"]
+    },
+    {
       "title": "Optional Chaining",
       "description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
       "content": {
