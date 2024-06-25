@@ -360,6 +360,11 @@
       "tags": ["Conceito"]
     },
     {
+      "title": "IDE",
+      "description": "IDE é a abreviação de Integrated Development Environment, que em português significa Ambiente de Desenvolvimento Integrado. Trata-se de um programa com interfaces gráficas que facilitam a interação dos desenvolvedores na criação de aplicações. Normalmente um IDE inclui um editor de código fonte e ferramentas de depuração para identificar e corrigir erros. Exemplos populares de IDEs incluem Android Studio, Eclipse e Visual Studio Code.",
+      "tags": ["Ferramenta"]
+    },
+    {
       "title": "Integração Contínua",
       "description": "Integração contínua é a prática de testar frequentemente as partes do código que vão sendo adicionadas em um projeto, isso impede que bugs e erros possam ser adicionados, fazendo, de forma eficiente, testes específicos que verificam a integração de cada parte.",
       "tags": ["Conceito"]
