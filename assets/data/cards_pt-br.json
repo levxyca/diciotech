@@ -299,7 +299,7 @@
     },
     {
       "title": "IDE",
-      "description": "IDE é a abreviação de 'Integrated Development Environment' termo que em português siginifica 'Ambiente de Desenvolvimento Integrado'. É um programa com interfaces gráficas que desenvolvedores utilizam para criar aplicações. Normalmente são compostos por editor de código fonte e ferramentas para depuração de erros. Podem conter também outras ferramentas que auxiliem a criação de testes para tornar o processo de desenvolvimento mais eficiente. Ex.: Android Studio, Eclipse e Visual Code.",
+      "description": "IDE é a abreviação de \"Integrated Development Environment\", que em português significa \"Ambiente de Desenvolvimento Integrado\". Trata-se de um programa com interfaces gráficas que facilitam a interação dos desenvolvedores na criação de aplicações. Normalmente um IDE inclui um editor de código fonte e ferramentas de depuração para identificar e corrigir erros. Exemplos populares de IDEs incluem Android Studio, Eclipse e Visual Studio Code.",
       "tags": ["Ferramenta", "Front-end", "Back-end"]
     }   
   ]
