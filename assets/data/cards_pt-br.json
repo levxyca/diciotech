@@ -360,6 +360,21 @@
       "tags": ["Conceito"]
     },
     {
+      "title": "Garbage Collector",
+      "description": "Garbage collector, ou \"coletor de lixo\", é uma ferramenta que ajuda a liberar espaço na memória do computador automaticamente. Imagine que, ao desenvolver um programa, você use blocos de memória para guardar informações. Com o tempo, alguns desses blocos não são mais necessários. O coletor de lixo identifica esses blocos "inúteis" e os limpa, devolvendo o espaço para o sistema usar novamente. Isso é especialmente útil em linguagens de programação como Java, C# e JavaScript, onde esse processo é feito automaticamente, ajudando a evitar problemas e deixando o computador mais rápido.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Computação em Nuvem",
+      "description": "De modo geral, refere-se ao uso de serviços de computador, como armazenamento de arquivos e execução de programas, através da internet. Isso significa que você não precisa de equipamentos físicos, pois tudo é feito online. Você pode acessar seus dados e programas de qualquer lugar, a qualquer momento, sem se preocupar com a manutenção dos equipamentos físicos.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "CORS",
+      "description": "Do inglês \"Cross-Origin Resource Sharing\" ou, em português, \"Compartilhamento de Recursos de Origem Cruzada\", é uma regra de segurança para websites. Ele determina como recursos de uma página web podem ser acessados por outra página de um domínio diferente. Por exemplo, uma imagem ou arquivo CSS geralmente pode ser compartilhado entre diferentes sites sem problemas, mas códigos JavaScript frequentemente têm restrições mais rigorosas.",
+      "tags": ["Conceito"]
+    },
+    {
       "title": "IDE",
       "description": "IDE é a abreviação de Integrated Development Environment, que em português significa Ambiente de Desenvolvimento Integrado. Trata-se de um programa com interfaces gráficas que facilitam a interação dos desenvolvedores na criação de aplicações. Normalmente um IDE inclui um editor de código fonte e ferramentas de depuração para identificar e corrigir erros. Exemplos populares de IDEs incluem Android Studio, Eclipse e Visual Studio Code.",
       "tags": ["Ferramenta"]
