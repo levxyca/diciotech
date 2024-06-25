@@ -89,6 +89,13 @@
       "tags": ["Conceito"]
     },
     {
+      "title": "Code Smells",
+      "description": "Code smells são indicadores de possíveis problemas no código que, embora não causem erros imediatos ou impeçam o funcionamento do software, podem sugerir áreas de risco que podem levar a dificuldades futuras na manutenção e evolução do código. Eles geralmente apontam para problemas de design, duplicação, complexidade ou falta de clareza que podem tornar o código mais difícil de entender, modificar ou estender.",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
       "title": "Desenvolvimento Front-end",
       "description": "Desenvolvimento front-end é o desenvolvimento da interface gráfica, para que as pessoas usuárias possam visualizar e interagir com o que foi desenvolvido.",
       "tags": ["Front-end"]
@@ -96,6 +103,21 @@
     {
       "title": "HTML",
       "description": "HTML é uma linguagem de marcação utilizada na construção de páginas na web. Documentos HTML podem ser interpretados por navegadores.",
+      "tags": ["Front-end"]
+    },
+    {
+      "title": "DOM (Document Object Model)",
+      "description": "Uma representação da estrutura de árvore dos elementos HTML em uma página, que permite a manipulação dinâmica do conteúdo. Imagine isso como um mapa da página que o JavaScript usa para entender e alterar o conteúdo. É como um 'modelo' da página.",
+      "tags": ["Front-end"]
+    },
+    {
+      "title": "Responsividade",
+      "description": "A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos de tela e dispositivos, como smartphones, tablets e desktops.",
+      "tags": ["Front-end"]
+    },
+    {
+      "title": "Pré-processadores CSS",
+      "description": "Pré-processadores CSS são como ferramentas especiais que facilitam a criação de estilos para sites. Eles tornam possível fazer estilos mais complicados e que podem ser usados de novo em diferentes partes do site. Pense neles como formas mais espertas de escolher cores e fontes para tornar um site bonito e funcional. Exemplo: SASS/SCSS e LESS",
       "tags": ["Front-end"]
     },
     {
@@ -114,9 +136,9 @@
       "tags": ["Front-end", "Biblioteca"]
     },
     {
-    "title": "Python",
-    "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
-    "tags": ["Back-end"]
+      "title": "Python",
+      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.",
+      "tags": ["Back-end"]
     },
     {
       "title": "UI Design",
@@ -245,6 +267,26 @@
       "tags": ["Back-end"]
     },
     {
+      "title": "Branch",
+      "description": "Uma branch é uma ramificação do código principal para que seja possível fazer alterações isoladas sem alterar, nem perder, o funcionamento do código principal.",
+      "tags": ["Conceito", "Versionamento"]
+    },
+    {
+      "title": "Versionamento",
+      "description": "O versionamento de código é o controle de alterações feitas em um projeto ao longo do tempo, acompanhando e registrando modificações feitas no código-fonte.",
+      "tags": ["Conceito", "Versionamento"]
+    },
+    {
+      "title": "Pull request",
+      "description": "O pull request é uma solicitação de alteração em um repositório, permitindo revisões, comentários e, eventualmente, incorporação ao projeto principal.",
+      "tags": ["Conceito", "Versionamento"]
+    },
+    {
+      "title": "Issue",
+      "description": "Uma 'issue' é como se fosse um bilhete que anota um problema ou algo a ser feito em um projeto. É como um lembrete que pode ser usado para falar sobre erros, pedir novas funcionalidades, conversar sobre melhorias ou ficar de olho em uma tarefa.",
+      "tags": ["Conceito", "Versionamento"]
+    },
+    {
       "title": "Cache",
       "description": "O cache é uma técnica de armazenamento temporário de dados frequentemente usados para melhorar o desempenho e a velocidade de acesso a esses dados em sistemas computacionais.",
       "tags": ["Conceito"]
@@ -321,6 +363,87 @@
       "title": "Pull Request",
       "description": "Trata-se de uma requisição de alteração dentro de um projeto. Essa requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade, sugerir alterações, entre outros motivos. Essa requisição de alteração é feita para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo de faz sentido para o contexto daquele momento. E essa requisição pode ficar pendente até que pessoas responsáveis ou que tenham a permissão, aprovem. Outras regras podem ser adicionadas nessas requisições, como build da aplicação, rodar testes com sucesso e o que mais fizer sentido para o projeto em questão.",
       "tags": ["Conceito"]
-    }    
+    },
+    {
+      "title": "Integração Contínua",
+      "description": "Integração contínua é a prática de testar frequentemente as partes do código que vão sendo adicionadas em um projeto, isso impede que bugs e erros possam ser adicionados, fazendo, de forma eficiente, testes específicos que verificam a integração de cada parte.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "NoSQL",
+      "description": "NoSQL (Not Only SQL) é uma abordagem de banco de dados que permite armazenar, recuperar e gerenciar dados de forma flexível e escalável, sem a estrutura rígida de tabelas relacionais, sendo adequado para dados não estruturados ou semiestruturados.",
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Lambda",
+      "description": "Lambda é uma função anônima em programação que pode ser definida e usada sem um nome específico, frequentemente usada para expressões simples em uma única linha.",
+      "content": {
+        
+        "code": "soma = lambda x, y: x + y"
+      },
+      
+      "tags": ["Conceito"]
+    },
+    {
+      "title": "Ruby",
+      "description": "Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático. Ruby suporta programação funcional, orientada a objetos, imperativa e reflexiva. É como uma caixa de ferramentas digital que pode criar, organizar e fazer interagir diferentes partes em um programa de computador, sendo capaz de lidar com diversos estilos de programação.",
+      "tags": [
+        "Conceito",
+        "Back-end"
+      ]
+    },
+    {
+      "title": "ORM",
+      "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos.",
+      "tags": [
+        "Conceito",
+        "Back-end"
+      ]
+    },  
+	{
+      "title": "UML",
+      "description": " É uma linguagem visual que os desenvolvedores de software usam para descrever e projetar sistemas de software. Ela oferece diferentes tipos de diagramas, como diagramas de classes, sequência e atividades, para representar diferentes aspectos de um sistema. Esses diagramas ajudam as equipes a entenderem e comunicarem melhor as ideias e os designs do software.",
+      "tags": [
+        "Back-end"
+      ]
+    },
+  {
+    "title": "Scrum",
+    "description": " É um método para gerenciar projetos onde o trabalho é dividido em pequenos pedaços chamados de 'sprints', que geralmente duram algumas semanas. A equipe trabalha em estreita colaboração, se encontrando regularmente para planejar, revisar e ajustar o trabalho. O objetivo é entregar valor de forma rápida e iterativa, respondendo às mudanças e feedbacks conforme o projeto avança.",
+    "tags": [
+      "Back-end"
+    ]
+    },
+    {
+      "title": "Coalescência nula",
+      "description": "Operador lógico que permite tratar valores nulos, retornando o valor à direita caso o valor à esquerda seja nulo.",
+      "content": {
+        "code": "let valor = valorDesejado ?? 42"
+      },
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "Swift",
+      "description": "Swift é uma linguagem de programação criada pela Apple. Com ela, você pode desenvolver aplicativos para dispositivos e sistemas operacionais da Apple, como iPhones (iOS), Macs (macOS), Apple Watches (watchOS) e Apple TVs (tvOS).",
+      "tags": [
+        "Mobile"
+      ]
+    },
+    {
+      "title": "UIKit",
+      "description": "UIKit é um conjunto de ferramentas fornecido pela Apple para criar as partes visuais dos aplicativos iOS. Ele fornece um conjunto de classes e componentes para construir e gerenciar a interface, incluindo elementos como botões, tabelas, views e gestos.",
+      "tags": [
+        "Mobile"
+      ]
+    },
+    {
+      "title": "SwiftUI",
+      "description": "SwiftUI é uma ferramenta da Apple para criar a parte visual dos aplicativos usando a linguagem Swift. Ao contrário do UIKit, que é mais tradicional, o SwiftUI permite que você descreva a interface do usuário de uma maneira mais simples e direta, facilitando tanto a criação quanto a manutenção do seu código.",
+      "tags": [
+        "Mobile"
+      ]
+    }
   ]
 }
