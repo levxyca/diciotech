@@ -414,6 +414,16 @@
         "Conceito",
         "Back-end"
       ]
+    },
+    {
+      "title": "Curl",
+      "description": "Ferramenta para transferir dados de/para um servidor, ou seja fazer uma requisição utilizando diversos protocolos, sendo o mais comum o HTTP. Quando se escuta o termo 'faz um curl para x' significa que é preciso fazer uma requisição para x, mas não necessáriamente utilizando a ferramenta curl. O curl é bastante utilizado por ser simples de utilizar via linha de comando(terminal), não necessitando de softwares terceiros para realizar chamadas",
+      "content": {
+        "code": "curl http://www.google.com"
+      },
+      "tags": [
+        "Ferramenta",
+      ]  
     },  
 	{
       "title": "UML",
