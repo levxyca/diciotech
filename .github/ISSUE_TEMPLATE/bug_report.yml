@@ -1,0 +1,35 @@
+name: Relate um problema
+description: Erros não relacionados à interface e que não propõem novos termos
+labels: ['bug', 'help wanted']
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Antes de proseguir, por favor, tenha certeza de que seu problema é um **🐛 Bug** 
+        Se for uma pergunta, solicitação de ajuda ou sugestão de novos termos você pode utilizar outros formulários disponíveis no repositório.
+      
+  - type: textarea
+    attributes:
+      label: Descrição do problema
+      description: Forneça uma descrição completa do problema
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Como reproduzir o problema?
+      description: |
+        *Este passo é muito importante!* Sem ele não podemos reproduzir o que está sendo reportado e, portanto, fica mais difícil encontrar o erro e corrigi-lo.
+    validations:
+      required: true
+  
+  - type: markdown
+    attributes:
+      value: |
+        Você também pode fornecer capturas de tela do problema (e isso ajuda bastante). Também sinta-se livre para descrever mais o problema no campo Mais Informações, se achar necessário
+    
+  - type: textarea 
+    attributes:
+      label: Mais informações
+    validations:
+      required: false
