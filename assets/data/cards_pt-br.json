@@ -185,7 +185,7 @@
       "description":"Uma Branch é como uma cópia do seu projeto em um momento específico. É como se você criasse uma versão separada para trabalhar em novas ideias sem mexer na versão principal. Cada Branch pode ser editado à parte, permitindo que você desenvolva coisas novas sem atrapalhar o código principal.",
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
-    { 
+    {
       "title": "Repositório",
       "description": "Um Repositório é basicamente uma caixa que guarda todo o material do seu projeto. Pense nele como um lugar onde você armazena o código, a história das mudanças e outros arquivos importantes. Existem repositórios locais no seu computador e repositórios remotos em servidores compartilhados.",
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
@@ -421,9 +421,9 @@
       },
       "tags": [
         "Ferramenta"
-      ]  
-    },  
-	  {
+      ]
+    },
+    {
       "title": "UML",
       "description": " É uma linguagem visual que os desenvolvedores de software usam para descrever e projetar sistemas de software. Ela oferece diferentes tipos de diagramas, como diagramas de classes, sequência e atividades, para representar diferentes aspectos de um sistema. Esses diagramas ajudam as equipes a entenderem e comunicarem melhor as ideias e os designs do software.",
       "tags": [
@@ -639,7 +639,7 @@
     },
     {
       "title": "Taxa de Aprendizado",
-      "description": "Também chamada de taxa de aprendizagem, é um hiperparâmetro de treinamento de modelos de aprendizado de máquina que controla a rapidez com que um modelo de aprendizado de máquina aprende. É um dos hiperparâmetros mais importantes de um modelo de aprendizado de máquina e pode ser ajustada para melhorar o desempenho do modelo. Uma taxa de aprendizado muito alta pode causar a explosão do gradiente, enquanto uma taxa de aprendizado muito baixa pode causar o desaparecimento do gradiente. Existem diversas técnicas que permitem alterar a taxa de aprendizado durante o treinamento, como decaimento da taxa de aprendizado, agendamento da taxa de aprendizado, aquecimento da taxa de aprendizado, entre outras.",
+      "description": "Também chamada de taxa de aprendizagem (do inglês, learning rate ou LR), é um hiperparâmetro de treinamento de modelos de aprendizado de máquina que controla a rapidez com que um modelo de aprendizado de máquina aprende. É um dos hiperparâmetros mais importantes de um modelo de aprendizado de máquina e pode ser ajustada para melhorar o desempenho do modelo. Ela controla qual é o tamanho do passo que será dado durante o aprendizado em direção ao mínimo calculado pelo gradiente. Uma taxa de aprendizado muito alta pode causar a explosão do gradiente, enquanto uma taxa de aprendizado muito baixa pode causar o desaparecimento do gradiente. Existem diversas técnicas que permitem alterar a taxa de aprendizado durante o treinamento, como decaimento da taxa de aprendizado, agendamento da taxa de aprendizado, aquecimento da taxa de aprendizado, entre outras.",
       "tags": [
         "Conceito",
         "Inteligência artificial"
@@ -694,7 +694,7 @@
     },
     {
       "title": "Aumento dos dados",
-      "description": "Em inglês chamado de data augmentation, é uma técnica de pré-processamento de dados usada para aumentar o tamanho de um conjunto de dados de treinamento, gerando novos dados com base nos dados existentes. Ela é usada para aumentar a quantidade de dados de treinamento disponíveis para um modelo de aprendizado de máquina, melhorando seu desempenho e reduzindo o risco de overfitting. Por exemplo, um conjunto de dados de imagens pode ser aumentado com rotações, zooms, espelhamentos e outras transformações geométricas.",
+      "description": "Em inglês chamado de data augmentation, é uma técnica de pré-processamento de dados usada para aumentar o tamanho de um conjunto de dados de treinamento disponível para um modelo de aprendizado de máquina, gerando novos dados com base nos dados existentes, o que melhora seu desempenho e reduz o risco de overfitting. Por exemplo, um conjunto de dados de imagens pode ser aumentado usando rotações, zooms, espelhamentos e outras transformações geométricas.",
       "tags": [
         "Conceito",
         "Inteligência artificial"
@@ -726,7 +726,7 @@
     },
     {
       "title": "Espaço Latente",
-      "description": "Também chamado de espaço de características latentes ou espaço de incorporação (do inglês, embedding space), é um espaço vetorial (manifold) que pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina. Uma posição dentro desse é definida por um conjunto de variáveis latentes que emergem das semelhanças dos objetos, de modo que itens que se assemelham são posicionados mais próximos. Em muitos casos, a dimensionalidade do espaço latente é escolhida para ser menor que a dimensionalidade do espaço dos dados de entrada, tornando a construção desse espaço um exemplo de redução de dimensionalidade, que também pode ser vista como uma forma de compressão de dados. O espaço latente pode ser completamente não intuitivo, de alta dimensão, complexo e não linear, o que pode aumentar a dificuldade de interpretação. Algumas técnicas de visualização foram desenvolvidas para conectar o espaço latente ao mundo visual, mas geralmente não há uma conexão direta entre a interpretação do espaço latente e do próprio modelo que o gerou. Dentre essas técnicas está o t-SNE, no qual o espaço latente é mapeado para duas ou três dimensões para visualização. As distâncias no espaço latente não possuem unidades físicas, portanto, a interpretação dessas distâncias pode depender da aplicação.",
+      "description": "Também chamado de espaço de características latentes ou espaço de incorporação (do inglês, embedding space), é um espaço vetorial (manifold) que pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina. Uma posição dentro desse espaço é definida por um conjunto de variáveis latentes que emergem das semelhanças dos objetos, de modo que itens que se assemelham são posicionados mais próximos. Em muitos casos, a dimensionalidade do espaço latente é escolhida para ser menor que a dimensionalidade do espaço dos dados de entrada, tornando a construção desse espaço um exemplo de redução de dimensionalidade, que também pode ser vista como uma forma de compressão de dados. O espaço latente pode ser completamente não intuitivo, de alta dimensão, complexo e não linear, o que pode aumentar a dificuldade de interpretação. Algumas técnicas de visualização foram desenvolvidas para conectar o espaço latente ao mundo visual, mas geralmente não há uma conexão direta entre a interpretação do espaço latente e do próprio modelo que o gerou. Dentre essas técnicas está o t-SNE, no qual o espaço latente é mapeado para duas ou três dimensões para visualização. As distâncias no espaço latente não possuem unidades físicas, portanto, a interpretação dessas distâncias pode depender da aplicação.",
       "tags": [
         "Conceito",
         "Inteligência artificial"
@@ -790,7 +790,7 @@
     },
     {
       "title": "Aprendizado Few-Shot",
-      "description": "É um tipo de aprendizado de máquina que usa poucos dados rotulados para treinar um modelo. Nele, um modelo de aprendizado de máquina é treinado com poucos dados rotulados, geralmente de 1 a 5 exemplos por classe. O aprendizado few-shot é muito usado para resolver problemas de classificação de pequenos conjuntos de dados.",
+      "description": "É um tipo de aprendizado de máquina que usa poucos dados rotulados para treinar um modelo. Nele, um modelo de aprendizado de máquina (geralmente pré-treinado) é treinado com novos dados rotulados, contendo poucos exemplos por classe. O aprendizado few-shot é muito usado para resolver problemas de classificação de pequenos conjuntos de dados.",
       "tags": [
         "Conceito",
         "Inteligência artificial"
@@ -846,7 +846,7 @@
     },
     {
       "title": "Explosão do Gradiente",
-      "description": "Chamado em inglês de exploding gradient, é um problema que ocorre quando o gradiente de uma função de perda cresce exponencialmente durante o treinamento de um modelo de aprendizado de máquina. A explosão do gradiente pode ser causada por vários fatores, como uma taxa de aprendizado muito alta, uma função de perda mal projetada, entre outros.",
+      "description": "Chamado em inglês de exploding gradient, é um problema que ocorre quando o gradiente de uma função de perda cresce exponencialmente durante o treinamento de um modelo de aprendizado de máquina. Isso pode resultar em parâmetros do modelo divergindo para o infinito, fazendo com que o processo de aprendizado falhe. Quando os gradientes explodem, as atualizações de peso durante o treinamento podem se tornar tão grandes que fazem com que o modelo volte a apresentar um erro grande, ao contrário de minimizá-lo a cada iteração. A explosão do gradiente pode ser causada por vários fatores, como uma taxa de aprendizado muito alta, uma função de perda mal projetada, entre outros.",
       "tags": [
         "Conceito",
         "Inteligência artificial"
@@ -870,10 +870,31 @@
     },
     {
       "title": "Desaparecimento do Gradiente",
-      "description": "Chamado em inglês de vanishing gradient, é um problema que ocorre quando o gradiente de uma função de perda diminui exponencialmente durante o treinamento de um modelo de aprendizado de máquina. O desaparecimento do gradiente pode ser causada por vários fatores, como uma taxa de aprendizado muito baixa, uma função de perda mal projetada, entre outros.",
+      "description": "Chamado em inglês de vanishing gradient, é um problema que ocorre quando o gradiente de uma função de perda diminui exponencialmente durante o treinamento de um modelo de aprendizado de máquina. Conforme os gradientes frequentemente se tornam menores até ficarem próximos de zero, os novos pesos calculados do modelo serão virtualmente idênticos aos pesos antigos, sem nenhuma atualização. Como resultado, o algoritmo de descida de gradiente nunca converge para a solução ótima e o modelo deixa de aprender. O desaparecimento do gradiente pode ser causada por vários fatores, como uma taxa de aprendizado muito baixa, uma função de perda mal projetada, entre outros.",
       "tags": [
         "Conceito",
         "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Gradiente",
+      "description": "O gradiente simplesmente mede o quanto a saída de uma função muda se você mudar um pouco as entradas. Ele mede a mudança em todos os pesos da rede neural em relação à diferença no erro calculado. Você também pode pensar em um gradiente como a inclinação de uma função. Quanto maior o gradiente, mais íngreme a inclinação e mais rápido um modelo pode aprender. Mas se a inclinação for zero, o modelo para de aprender. Em termos matemáticos, um gradiente é uma derivada parcial em relação às suas entradas.",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "Descida do Gradiente",
+      "description": "Modelos de redes neurais são geralmente treinados por um algoritmo de otimização que é uma variação da descida do gradiente. Durante o aprendizado, os dados de treinamento de entrada ajudam o modelo a aprender e a função de perda avalia o quão precisa é a performance de predição para cada iteração. À medida que o treinamento avança, o objetivo é reduzir a função de perda/erro de predição ajustando os parâmetros iterativamente. Especificamente, o algoritmo de descida do gradiente tem uma etapa de propagação para a frente (do inglês, forward pass ou forward propagation) e uma etapa para trás (do inglês, backward pass ou backpropagation). Na etapa de propagação para a frente, os dados de entrada são passados pela rede neural e a saída é calculada. Na etapa de propagação para trás, o gradiente da função de perda é calculado em relação a cada peso da rede neural, e os pesos são atualizados de acordo com o gradiente. Então o algoritmo dá um passo de descida do gradiente para minimizar a função de perda (considerando a taxa de aprendizado).",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "Manifold",
+      "description": "Em geometria diferencial, um manifold é um espaço topológico (superfície) com alta dimensionalidade que localmente se parece com o espaço euclidiano. Em aprendizado de máquina, um manifold é um espaço de características latentes que pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina. A hipótese do manifold sugere que os dados de alta dimensão (por exemplo, dados do mundo real como imagens e vídeos) estão contidos em um espaço de baixa dimensão, onde as relações entre os dados são mais facilmente identificadas. A ideia é que, ao mapear os dados para um espaço de baixa dimensão, é possível encontrar padrões e relações mais facilmente do que no espaço de alta dimensão original.",
+      "tags": [
+        "Conceito"
       ]
     }
   ]
