@@ -1,7 +1,6 @@
 <!--
 ######################################################
 
-Em um projeto OpenSource toda ajuda é bem-vinda.
 O projeto DicioTech agradece sua contribuição.
 
 Nós temos um modelo de Pull Request para sugerir,
@@ -11,6 +10,8 @@ Seja livre para adicionar/modificar informações como achar
 conveniente. O mais importante é ser claro e conciso na
 sua contribuição para facilitar nosso entendimento de
 como ela se encaixa no projeto.
+
+Não esqueça de ser claro e conciso no seu título.
 
 ######################################################
 -->
