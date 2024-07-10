@@ -122,7 +122,7 @@
     },
     {
       "title": "CSS",
-      "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web como cores, tamanhos, fontes e etc. é possivel ligar o arquivo HTML ao CSS adicionando um link para um arquivo CSS que contém os estilos.",
+      "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web como cores, tamanhos, fontes e etc. É possivel ligar o arquivo HTML ao CSS adicionando um link para um arquivo CSS que contém os estilos.",
       "tags": ["Front-end"]
     },
     {
@@ -185,7 +185,7 @@
       "description":"Uma Branch é como uma cópia do seu projeto em um momento específico. É como se você criasse uma versão separada para trabalhar em novas ideias sem mexer na versão principal. Cada Branch pode ser editado à parte, permitindo que você desenvolva coisas novas sem atrapalhar o código principal.",
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
     },
-    { 
+    {
       "title": "Repositório",
       "description": "Um Repositório é basicamente uma caixa que guarda todo o material do seu projeto. Pense nele como um lugar onde você armazena o código, a história das mudanças e outros arquivos importantes. Existem repositórios locais no seu computador e repositórios remotos em servidores compartilhados.",
       "tags": ["Conceito", "Versionamento", "Ferramenta"]
@@ -393,10 +393,8 @@
       "title": "Lambda",
       "description": "Lambda é uma função anônima em programação que pode ser definida e usada sem um nome específico, frequentemente usada para expressões simples em uma única linha.",
       "content": {
-        
         "code": "soma = lambda x, y: x + y"
       },
-      
       "tags": ["Conceito"]
     },
     {
@@ -423,21 +421,21 @@
       },
       "tags": [
         "Ferramenta"
-      ]  
-    },  
-	{
+      ]
+    },
+    {
       "title": "UML",
       "description": " É uma linguagem visual que os desenvolvedores de software usam para descrever e projetar sistemas de software. Ela oferece diferentes tipos de diagramas, como diagramas de classes, sequência e atividades, para representar diferentes aspectos de um sistema. Esses diagramas ajudam as equipes a entenderem e comunicarem melhor as ideias e os designs do software.",
       "tags": [
         "Back-end"
       ]
     },
-  {
-    "title": "Scrum",
-    "description": " É um método para gerenciar projetos onde o trabalho é dividido em pequenos pedaços chamados de 'sprints', que geralmente duram algumas semanas. A equipe trabalha em estreita colaboração, se encontrando regularmente para planejar, revisar e ajustar o trabalho. O objetivo é entregar valor de forma rápida e iterativa, respondendo às mudanças e feedbacks conforme o projeto avança.",
-    "tags": [
-      "Back-end"
-    ]
+    {
+      "title": "Scrum",
+      "description": " É um método para gerenciar projetos onde o trabalho é dividido em pequenos pedaços chamados de 'sprints', que geralmente duram algumas semanas. A equipe trabalha em estreita colaboração, se encontrando regularmente para planejar, revisar e ajustar o trabalho. O objetivo é entregar valor de forma rápida e iterativa, respondendo às mudanças e feedbacks conforme o projeto avança.",
+      "tags": [
+        "Back-end"
+      ]
     },
     {
       "title": "Coalescência nula",
@@ -468,6 +466,435 @@
       "description": "SwiftUI é uma ferramenta da Apple para criar a parte visual dos aplicativos usando a linguagem Swift. Ao contrário do UIKit, que é mais tradicional, o SwiftUI permite que você descreva a interface do usuário de uma maneira mais simples e direta, facilitando tanto a criação quanto a manutenção do seu código.",
       "tags": [
         "Mobile"
+      ]
+    },
+    {
+      "title": "Inteligência Artificial",
+      "description": "Também chamada de IA (no inglês, Artificial Intelligence ou AI), é um campo da ciência da computação que estuda como os computadores podem simular a inteligência e cognição humana. Ela se concentra no desenvolvimento de sistemas capazes de executar tarefas que antes poderiam ser feitas somente por humanos, como reconhecimento de fala, tomada de decisão, tradução de idiomas e reconhecimento de padrões. A IA é um campo amplo que inclui várias subáreas, como aprendizado de máquina, processamento de linguagem natural, visão computacional, entre outras.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Visão Computacional",
+      "description": "É um campo da inteligência artificial que estuda como os computadores podem obter e processar informações de estímulos visuais. Ela se concentra no desenvolvimento de sistemas que podem analisar e entender imagens e vídeos, permitindo que os computadores reconheçam objetos, pessoas, lugares, movimentos e outros elementos visuais. A visão computacional (do inglês, computer vision ou CV) é usada em uma ampla variedade de aplicações, como reconhecimento facial, carros autônomos, diagnóstico médico, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Processamento de Linguagem Natural",
+      "description": "Também conhecido como PLN (do inglês, Natural Language Processing ou NLP), é um campo da inteligência artificial que estuda como os computadores podem entender e interpretar a linguagem humana. Ele se concentra no desenvolvimento de sistemas que podem analisar, entender e gerar linguagem natural, permitindo que os computadores processem e respondam informações escritas. O PLN é usado em uma ampla variedade de aplicações, como chatbots, tradução automática, análise de sentimentos, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Reconhecimento Automático de Fala",
+      "description": "É um campo da inteligência artificial que se concentra no desenvolvimento de sistemas que podem analisar e entender a fala humana, permitindo que os computadores transcrevam e processem estímulos sonoros em texto. O reconhecimento automático de fala e o processamento de linguagem natural são categorias de IA relacionadas, porém diferentes. O reconhecimento automático de fala foca no processo de converter palavras faladas em texto e símbolos, enquanto o PLN é o processo de converter texto em um formato estruturado que um computador pode entender e processar. O reconhecimento automático de fala (no inglês, automatic speech recognition) é usado em uma ampla variedade de aplicações, como assistentes virtuais, sistemas de navegação, transcrição de áudio, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Aprendizado de Máquina",
+      "description": "No inglês, Machine Learning ou ML, é um subconjunto da inteligência artificial (IA) que estuda como os computadores podem aprender com e fazer previsões sobre dados, sem serem explicitamente programados. A maior parte da IA é realizada com aprendizagem de máquina, por isso os dois termos são frequentemente utilizados como sinônimos, mas o aprendizado de máquina é apenas um método usado para tal. Ele é usado para resolver problemas complexos e automatizar tarefas que seriam muito demoradas ou impossíveis para seres humanos.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Aprendizado Profundo",
+      "description": "Do inglês, Deep Learning ou DL, é um subconjunto do aprendizado de máquina que usa redes neurais artificiais profundas para aprender representações de dados complexos. Devido às múltiplas camadas presentes em uma rede neural profunda, o aprendizado profundo tende a ser muito mais demorado que um aprendizado de máquina tradicional, mas tende a oferecer maior desempenho, eficiência e precisão. O aprendizado profundo é uma das áreas mais avançadas da inteligência artificial.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Rede Neural Artificial",
+      "description": "É um modelo computacional inspirado no sistema nervoso central de um animal, que consiste em um conjunto de unidades de processamento interconectadas, chamadas neurônios artificiais, que simulam a forma como os neurônios se comunicam uns com os outros. As redes neurais artificiais (do inglês, Artificial Neural Networks ou ANNs) são usadas para resolver problemas complexos e não lineares, como reconhecimento de padrões, reconhecimento de fala, visão computacional, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial",
+        "Rede neural"
+      ]
+    },
+    {
+      "title": "Rede Neural Profunda",
+      "description": "Do inglês, Deep Neural Network ou DNN, é um tipo de rede neural artificial com várias camadas de unidades de processamento interconectadas. É chamada de rede neural profunda devido ao número de camadas ocultas usadas no modelo de aprendizado profundo. Enquanto uma rede neural básica é formada por uma camada de entrada, uma de saída e poucas camadas intermediárias (também chamadas de camadas ocultas), uma rede neural profunda tem várias camadas ocultas de processamento, podendo chegar a centenas. Essas camadas adicionais dão a essas redes a capacidade de fazer previsões com maior precisão quando comparadas a uma rede neural mais simples, mas exigem milhões de pontos de dados de amostra e centenas de horas de treinamento.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial",
+        "Rede neural"
+      ]
+    },
+    {
+      "title": "Rede Neural Convolucional",
+      "description": "É um tipo de rede neural artificial que usa uma operação matemática chamada convolução em uma ou mais de suas camadas. Do inglês, Convolutional Neural Network ou CNN, ela é frequentemente usada para processar dados de entrada que têm uma estrutura matricial, como imagens, e é muito usada em aplicações de visão computacional, como reconhecimento de imagens e vídeos.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial",
+        "Rede neural"
+      ]
+    },
+    {
+      "title": "Rede Neural Recorrente",
+      "description": "Do inglês, Recurrent Neural Network ou RNN, é um tipo de rede neural artificial que usa loops e estados para processar dados. Ela é frequentemente usada para processar dados de entrada que têm uma estrutura sequencial, como textos, áudio, vídeo e séries temporais, sendo muito usada em aplicações de processamento de linguagem natural, como tradução automática, reconhecimento de fala e análise de sentimentos.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial",
+        "Rede neural"
+      ]
+    },
+    {
+      "title": "Rede Neural Generativa",
+      "description": "É um tipo de rede neural artificial que gera novos dados com base em um conjunto de dados de treinamento. Estes dados geralmente são variações dos dados de entrada, como por exemplo alterações nas expressões de uma pessoa em um vídeo. Ela é frequentemente usada para gerar novas imagens, vídeos, áudios e textos, podendo ser usada para aumento dos dados.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial",
+        "Rede neural"
+      ]
+    },
+    {
+      "title": "Rede Generativa Adversarial",
+      "description": "Do inglês, Generative Adversarial Network ou GAN, é um tipo de rede neural artificial composto por duas redes neurais concorrentes treinadas de forma adversarial. A rede neural generativa é treinada para gerar novos dados, enquanto a rede discriminativa é treinada para distinguir entre dados reais e dados falsos. Desta forma, as duas redes neurais competem entre si, o que leva a uma melhoria contínua de ambas e gera dois modelos especializados, que podem ser usados isoladamente depois de treinados. O modelo generativo é frequentemente usado para gerar novas imagens, vídeos, áudios e textos mais realistas, como rostos humanos, vídeos de pessoas falando, áudios de pessoas cantando e textos de notícias. Já o modelo discriminativo é comumente usado para identificação de dados falsos.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial",
+        "Rede neural"
+      ]
+    },
+    {
+      "title": "Autoencoder",
+      "description": "É um tipo de rede neural artificial composto por duas redes neurais no formato codificador-decodificador, sendo uma responsável por codificar dados de entrada em um espaço latente e outra por decodificar dados de um espaço latente de volta para o espaço de entrada. Ela é frequentemente usada para comprimir dados de entrada em aplicações como compressão de imagens e vídeos, redução de dimensionalidade e aumento de dados.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial",
+        "Rede neural"
+      ]
+    },
+    {
+      "title": "Transformer",
+      "description": "É um tipo de rede neural artificial que usa uma arquitetura de codificador-decodificador para processar dados de entrada. Os modelos transformer aplicam um conjunto de técnicas matemáticas, chamadas de atenção ou autoatenção, para detectar as maneiras sutis como até mesmo elementos de dados distantes em uma série influenciam e dependem uns dos outros. Ao encontrar padrões entre elementos matematicamente, os transformers eliminam a necessidade de grandes conjuntos de dados rotulados, que são caros e demorados para produzir. Qualquer aplicação que use dados sequenciais de textos, imagens ou vídeos é uma candidata a modelos transformer.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial",
+        "Rede neural"
+      ]
+    },
+    {
+      "title": "Chatbot",
+      "description": "É um programa de computador que simula um ser humano em uma conversa por meio de mensagens de texto ou de voz, muito utilizado para automatizar tarefas repetitivas e fornecer suporte e assistência aos usuários. Os chatbots podem ser usados em uma ampla variedade de aplicações, como atendimento ao cliente, assistentes virtuais, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Grande Modelo de Linguagem",
+      "description": "Também chamado de modelo de linguagem de grande escala (do inglês, large language model ou LLM), é um modelo de linguagem que usa aprendizado profundo para aprender representações de dados de linguagem natural. Ele é treinado em conjuntos massivos de dados textuais, como livros, artigos de notícias e páginas da web, sendo capaz de interpretar e gerar textos de alta qualidade. Os grandes modelos de linguagem são usados como modelos de base para diversas aplicações de linguagem natural, como tradução automática, resumo de texto, geração de código, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "GPT",
+      "description": "É um grande modelo de linguagem criado pela OpenAI. Do inglês, Generative Pre-training Transformer, é capaz de gerar textos de alta qualidade, como artigos de notícias, poesia e ficção, com base em um pequeno trecho de texto como entrada. Ele é um dos modelos de linguagem mais avançados do mundo e é capaz de realizar uma ampla variedade de tarefas de linguagem natural, como tradução automática, resumo de texto, geração de código, entre outros. As versões mais recentes também dão suporte a outros tipos de dados, como imagens",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial",
+        "Rede neural"
+      ]
+    },
+    {
+      "title": "Hiperparâmetro",
+      "description": "Também chamado de parâmetro de treinamento, é um parâmetro de um modelo de aprendizado de máquina que não é alterado durante o treinamento. Ele é usado para controlar o comportamento de um modelo de aprendizado de máquina e pode ser ajustado para melhorar seu desempenho.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Batch Size",
+      "description": "Tamanho do lote, em português, é um hiperparâmetro de modelos de aprendizado de máquina que controla o número de exemplos usados em uma única execução do modelo. Ele é usado para controlar a rapidez com que um modelo de aprendizado de máquina aprende e pode ser ajustado para melhorar seu desempenho. Um tamanho de lote muito pequeno durante o treinamento exige menos memória, porém mais iterações para completar uma época, enquanto um tamanho de lote maior permite um treinamento mais rápido, com menos iterações por época, porém que ocupa mais memória.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Época",
+      "description": "Do inglês, epoch, é uma iteração completa de um modelo de aprendizado de máquina sobre um conjunto de dados de treinamento. Um treinamento com uma quantidade de épocas muito pequena pode não ser suficiente para um modelo aprender, enquanto uma quantidade muito grande pode causar o overfitting.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Taxa de Aprendizado",
+      "description": "Também chamada de taxa de aprendizagem (do inglês, learning rate ou LR), é um hiperparâmetro de treinamento de modelos de aprendizado de máquina que controla a rapidez com que um modelo de aprendizado de máquina aprende. É um dos hiperparâmetros mais importantes de um modelo de aprendizado de máquina e pode ser ajustada para melhorar o desempenho do modelo. Ela controla qual é o tamanho do passo que será dado durante o aprendizado em direção ao mínimo calculado pelo gradiente. Uma taxa de aprendizado muito alta pode causar a explosão do gradiente, enquanto uma taxa de aprendizado muito baixa pode causar o desaparecimento do gradiente. Existem diversas técnicas que permitem alterar a taxa de aprendizado durante o treinamento, como decaimento da taxa de aprendizado, agendamento da taxa de aprendizado, aquecimento da taxa de aprendizado, entre outras.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Função de Perda",
+      "description": "Também chamada de função de custo (no inglês, loss function), é uma função matemática que mede a diferença entre o valor previsto por um modelo de aprendizado de máquina e o valor real dos dados de treinamento. Ela é usada para avaliar a precisão de um modelo de aprendizado de máquina e ajustar seus parâmetros para melhorar seu desempenho. Existem vários tipos de funções de perda, cada uma adequada para um tipo diferente de problema de aprendizado de máquina.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Otimizador",
+      "description": "Também chamado de algoritmo de otimização, é um algoritmo que ajusta os parâmetros de um modelo de aprendizado de máquina para minimizar a função de perda. Ele é usado para treinar modelos de aprendizado de máquina e melhorar seu desempenho.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Função de Não-Linearidade",
+      "description": "Também chamada de função de ativação, é uma função matemática que é aplicada na saída dos neurônios em uma rede neural artificial. Ela é usada para introduzir não-linearidades em uma rede neural artificial, alterando o valor de saída de cada neurônio de uma camada antes de enviar para a próxima camada, permitindo que a rede aprenda relações complexas entre os dados de entrada e os dados de saída. Por exemplo, a função de não-linearidade mais comumente usada é a função ReLU (do inglês, Rectified Linear Unit), que retorna 0 se o valor de entrada for negativo e retorna o próprio valor de entrada caso contrário.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Conjunto de Dados",
+      "description": "Chamado de dataset no inglês, é um conjunto de dados que pode ser usado para treinar e testar modelos de aprendizado de máquina. Normalmente são usadas partes diferentes dos conjuntos de dados para treinamento e para teste, para evitar a ocorrência de overfitting. Também podem ser usadas partes para validação e para inferência. Um conjunto de dados é composto por vários exemplos, que por sua vez são compostos por vários pontos de dados. Por exemplo, um conjunto de dados de gatos pode conter vários exemplos de gatos, onde cada exemplo pode ser composto por uma ou mais imagens e vários atributos atrelados, como tamanho, raça e cor.",
+    "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "Pré-Processamento",
+      "description": "Também chamado de pré-processamento de dados, é o processo de transformar dados brutos em um formato adequado para análise de dados. Ele é geralmente usado para preparar dados para treinar modelos de aprendizado de máquina e dessa forma melhorar seu desempenho. O pré-processamento envolve várias etapas, como limpeza de dados, normalização, transformação, redução de dimensionalidade, entre outras.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Métrica",
+      "description": "Também chamada de métrica de avaliação, é uma medida usada para avaliar a precisão ou desempenho de um modelo de aprendizado de máquina. Existem vários tipos de métricas, cada uma adequada para um tipo diferente de problema.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Aumento dos dados",
+      "description": "Em inglês chamado de data augmentation, é uma técnica de pré-processamento de dados usada para aumentar o tamanho de um conjunto de dados de treinamento disponível para um modelo de aprendizado de máquina, gerando novos dados com base nos dados existentes, o que melhora seu desempenho e reduz o risco de overfitting. Por exemplo, um conjunto de dados de imagens pode ser aumentado usando rotações, zooms, espelhamentos e outras transformações geométricas.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Overfitting",
+      "description": "Também chamado de sobreajuste, é um problema que ocorre quando um modelo de aprendizado de máquina se ajusta muito bem aos dados de treinamento, mas não consegue generalizar para dados novos. Isso é percebido quando o modelo tem um desempenho muito bom nas métricas para os dados de treinamento, mas um desempenho ruim nos dados de teste. O overfitting pode ser causado por vários fatores, como um modelo muito complexo, um conjunto de dados de treinamento muito pequeno, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Underfitting",
+      "description": "Também chamado de subajuste, é um problema que ocorre quando um modelo de aprendizado de máquina não se ajusta bem aos dados de treinamento e não consegue generalizar para dados novos. Isso é percebido quando o modelo tem um desempenho ruim nos dados de treinamento e nos dados de teste. O underfitting pode ser causado por vários fatores, como um modelo muito simples, um conjunto de dados de treinamento muito pequeno, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Embedding",
+      "description": "Também chamado de incorporação, é uma representação vetorial de um objeto, como uma palavra, uma frase ou uma imagem. Ela é usada para representar objetos de forma mais compacta e eficiente, permitindo que modelos de aprendizado de máquina aprendam relações entre os objetos. Por exemplo, uma palavra pode ser representada por um vetor de números reais, onde cada dimensão representa um atributo da palavra, como gênero, número, tempo verbal, entre outros. Essa representação vetorial pode ser usada como entrada para um modelo de aprendizado de máquina, permitindo que ele aprenda relações entre as palavras, como sinônimos, antônimos, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Espaço Latente",
+      "description": "Também chamado de espaço de características latentes ou espaço de incorporação (do inglês, embedding space), é um espaço vetorial (manifold) que pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina. Uma posição dentro desse espaço é definida por um conjunto de variáveis latentes que emergem das semelhanças dos objetos, de modo que itens que se assemelham são posicionados mais próximos. Em muitos casos, a dimensionalidade do espaço latente é escolhida para ser menor que a dimensionalidade do espaço dos dados de entrada, tornando a construção desse espaço um exemplo de redução de dimensionalidade, que também pode ser vista como uma forma de compressão de dados. O espaço latente pode ser completamente não intuitivo, de alta dimensão, complexo e não linear, o que pode aumentar a dificuldade de interpretação. Algumas técnicas de visualização foram desenvolvidas para conectar o espaço latente ao mundo visual, mas geralmente não há uma conexão direta entre a interpretação do espaço latente e do próprio modelo que o gerou. Dentre essas técnicas está o t-SNE, no qual o espaço latente é mapeado para duas ou três dimensões para visualização. As distâncias no espaço latente não possuem unidades físicas, portanto, a interpretação dessas distâncias pode depender da aplicação.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Modelos de Base",
+      "description": "Também chamados de modelos de referência, são modelos de aprendizado de máquina pré-treinados em grandes conjuntos de dados e comumente disponibilizados para uso por terceiros. Eles são usados como modelos de base para diversas aplicações de visão computacional, processamento de linguagem natural, entre outros. Modelos de base podem ser usados congelados, como uma camada de extração de características (features), ou passarem por um ajuste fino (finetune), gerando um modelo completo.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Finetuning",
+      "description": "Também chamado de ajuste fino, é o processo de treinamento de um modelo de aprendizado de máquina pré-treinado em um novo conjunto de dados. Ele é usado para adaptar um modelo de base para uma tarefa específica, melhorando seu desempenho e reduzindo o tempo de treinamento em comparação com o treinamento do zero. O finetuning é comumente usado em modelos de visão computacional e processamento de linguagem natural.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Aprendizado Supervisionado",
+      "description": "É um tipo de aprendizado de máquina que usa dados rotulados para treinar um modelo. Ele é usado para resolver problemas de classificação e regressão, onde o objetivo é prever um valor de saída com base em um conjunto de valores de entrada. Por exemplo, um modelo de aprendizado de máquina pode ser treinado para classificar imagens de gatos e cachorros, onde o conjunto de dados de treinamento é composto por imagens de gatos e cachorros rotuladas como tal. O treinamento supervisionado é um dos tipos mais comuns de aprendizado de máquina e pode ser usado para resolver uma ampla variedade de problemas.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Dados Rotulados",
+      "description": "Também chamados de dados anotados, são dados que possuem um rótulo ou tag que indica o que eles representam. Eles são usados para treinar modelos de aprendizado de máquina supervisionado ou semi-supervisionado, onde o objetivo é prever um valor de saída com base em um conjunto de valores de entrada. Por exemplo, um conjunto de dados de imagens de gatos e cachorros pode ser rotulado com a classe de cada imagem, permitindo que um modelo de aprendizado de máquina seja treinado para classificar imagens de gatos e cachorros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Aprendizado Não-Supervisionado",
+      "description": "É um tipo de aprendizado de máquina que usa dados não rotulados para treinar um modelo. Ele é usado para resolver problemas de agrupamento, onde o objetivo é encontrar padrões em um conjunto de dados. Por exemplo, um modelo de aprendizado de máquina pode ser treinado para agrupar imagens de gatos e cachorros, onde o conjunto de dados de treinamento é composto por imagens de gatos e cachorros sem rótulos associados. O modelo então é responsável por encontrar padrões nos dados e agrupá-los de acordo com esses padrões, independente de qualquer outra informação.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Aprendizado Semi-Supervisionado",
+      "description": "É um tipo de aprendizado de máquina que usa dados rotulados e não rotulados para treinar um modelo. Ele é muito usado para resolver problemas de classificação de grandes conjuntos de dados, onde o objetivo é prever um valor de saída com base em um conjunto de valores de entrada. O treinamento semi-supervisionado é usado quando há um grande conjunto de dados não rotulados e um pequeno conjunto de dados rotulados, sendo mais eficiente que o treinamento supervisionado e mais preciso que o treinamento não-supervisionado.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Treinamento Adversarial",
+      "description": "É um tipo de treinamento de aprendizado de máquina que usa um modelo adversário para treinar um modelo. Nele, dois modelos de aprendizado de máquina são treinados de forma adversária, onde um modelo é responsável por gerar dados falsos e outro modelo é responsável por identificar dados falsos. O treinamento adversarial é usado para gerar dados falsos realistas, que podem ser usados para aumentar um conjunto de dados de treinamento.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Aprendizado Few-Shot",
+      "description": "É um tipo de aprendizado de máquina que usa poucos dados rotulados para treinar um modelo. Nele, um modelo de aprendizado de máquina (geralmente pré-treinado) é treinado com novos dados rotulados, contendo poucos exemplos por classe. O aprendizado few-shot é muito usado para resolver problemas de classificação de pequenos conjuntos de dados.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Aprendizado Zero-Shot",
+      "description": "É uma configuração de problemas em aprendizado profundo onde, no momento do teste, um modelo recebe amostras de classes que não foram observadas durante o treinamento e precisa identificar a classe à qual pertencem. Ao contrário do que ocorre no aprendizado de máquina padrão, no qual modelos devem classificar corretamente novas amostras em classes que já foram observadas durante o treinamento, no aprendizado zero-shot nenhuma amostra das classes dos novos dados foi fornecida durante o treinamento do classificador. Portanto, pode ser visto como um caso extremo de adaptação de domínio. Métodos de zero-shot geralmente funcionam associando classes observadas e não observadas por meio de alguma forma de informação auxiliar, que codifica propriedades distintivas observáveis dos objetos. Por exemplo, dado um conjunto de imagens de animais a serem classificados, juntamente com descrições textuais auxiliares de como os animais se parecem, um modelo de inteligência artificial que foi treinado para reconhecer cavalos, mas nunca viu uma zebra, ainda consegue reconhecer uma zebra quando também sabe que zebras parecem cavalos listrados.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Adaptação de Domínio",
+      "description": "É a capacidade de aplicar um algoritmo treinado em um ou mais 'domínios de origem' a um 'domínio de destino' diferente, mas relacionado. A adaptação de domínio é uma subcategoria da transferência de aprendizado. Na adaptação de domínio, os domínios de origem e destino têm todos o mesmo espaço de características (mas distribuições diferentes), enquanto na transferência de aprendizado inclui casos em que o espaço de características do domínio de destino é diferente. Por exemplo, um modelo de filtragem de spam treinado com dados de um usuário pode ser adaptado para um novo usuário que recebe emails completamente diferentes.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Transferência de Aprendizado",
+      "description": "É uma técnica de aprendizado de máquina na qual o conhecimento aprendido de uma tarefa é reutilizado para aumentar o desempenho em uma tarefa relacionada. Por exemplo, o conhecimento adquirido ao aprender a reconhecer carros pode ser aplicado ao tentar segmentar imagens de carros. Na transferência de aprendizado o modelo que é transferido é chamado de modelo de origem, e o modelo para o qual ele é transferido é chamado de modelo de destino. As tarefas de origem e destino são diferentes, mas relacionadas, e a tarefa de origem é usada para auxiliar no aprendizado da tarefa de destino. Os dados de origem e destino podem ser da mesma modalidade (por exemplo, imagens) ou de modalidades diferentes (por exemplo, imagens e texto).",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Busca de Arquitetura Neural",
+      "description": "No inglês, Neural Architecture Search ou NAS, é um processo de otimização que usa algoritmos de busca para encontrar a melhor arquitetura de rede neural para um determinado conjunto de dados. Ela é usada para encontrar a melhor arquitetura de rede neural para resolver determinado problema, melhorando o desempenho e reduzindo o tempo de treinamento em comparação com a busca manual pela melhor arquitetura.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Aprendizado por Reforço",
+      "description": "No inglês, Reinforcement Learning ou RL, é um tipo de aprendizado de máquina que usa recompensas para treinar um modelo. Ele é muito usado para resolver problemas de tomada de decisão, onde o objetivo é maximizar uma recompensa. Por exemplo, um modelo de aprendizado de máquina pode ser treinado para jogar um jogo, onde o conjunto de dados de treinamento é composto por ações e recompensas associadas.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Aprendizado por Reforço a partir de Feedback Humano",
+      "description": "Do inglês, Reinforcement Learning from Human Feedback ou RLHF, é uma técnica que treina um modelo de recompensa diretamente a partir do feedback humano. RLHF é usado em tarefas onde é difícil definir ou medir uma solução algorítmica clara, especialmente ao lidar com tarefas complexas que envolvem valores ou preferências humanas, mas onde os humanos podem facilmente julgar a qualidade da saída do modelo. Por exemplo, se a tarefa é gerar uma história convincente, os humanos podem classificar diferentes histórias geradas por IA com base em sua qualidade e rejeitar aquelas que são inadequadas ou fora do espaço de conhecimento do modelo. Um exemplo famoso de modelo de linguagem treinado por RLHF é o ChatGPT da OpenAI. Um grande desafio é a escalabilidade e o custo do feedback humano, que pode ser lento e caro de obter em comparação com a aprendizagem não supervisionada. A qualidade e a consistência desse feedback também podem variar dependendo da tarefa e das preferências individuais dos humanos. Se o feedback não for imparcial, ou for inconsistente ou incorreto, o modelo pode se tornar tendencioso.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Explosão do Gradiente",
+      "description": "Chamado em inglês de exploding gradient, é um problema que ocorre quando o gradiente de uma função de perda cresce exponencialmente durante o treinamento de um modelo de aprendizado de máquina. Isso pode resultar em parâmetros do modelo divergindo para o infinito, fazendo com que o processo de aprendizado falhe. Quando os gradientes explodem, as atualizações de peso durante o treinamento podem se tornar tão grandes que fazem com que o modelo volte a apresentar um erro grande, ao contrário de minimizá-lo a cada iteração. A explosão do gradiente pode ser causada por vários fatores, como uma taxa de aprendizado muito alta, uma função de perda mal projetada, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Early Stopping",
+      "description": "Também chamado de parada antecipada, é uma técnica de treinamento de modelos de aprendizado de máquina que interrompe o treinamento quando o desempenho do modelo para de melhorar. Ela é usada para evitar o overfitting e gerar um modelo com bom desempenho.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Normalização",
+      "description": "É uma técnica de processamento de dados usada para transformar os dados em uma escala comum. Ela é usada para melhorar o desempenho de modelos de aprendizado de máquina, reduzindo a variância e o tempo de treinamento. Existem várias técnicas de normalização, como normalização de lotes (ou batches), normalização de camadas, normalização de pesos, entre outras.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Desaparecimento do Gradiente",
+      "description": "Chamado em inglês de vanishing gradient, é um problema que ocorre quando o gradiente de uma função de perda diminui exponencialmente durante o treinamento de um modelo de aprendizado de máquina. Conforme os gradientes frequentemente se tornam menores até ficarem próximos de zero, os novos pesos calculados do modelo serão virtualmente idênticos aos pesos antigos, sem nenhuma atualização. Como resultado, o algoritmo de descida de gradiente nunca converge para a solução ótima e o modelo deixa de aprender. O desaparecimento do gradiente pode ser causada por vários fatores, como uma taxa de aprendizado muito baixa, uma função de perda mal projetada, entre outros.",
+      "tags": [
+        "Conceito",
+        "Inteligência artificial"
+      ]
+    },
+    {
+      "title": "Gradiente",
+      "description": "O gradiente simplesmente mede o quanto a saída de uma função muda se você mudar um pouco as entradas. Ele mede a mudança em todos os pesos da rede neural em relação à diferença no erro calculado. Você também pode pensar em um gradiente como a inclinação de uma função. Quanto maior o gradiente, mais íngreme a inclinação e mais rápido um modelo pode aprender. Mas se a inclinação for zero, o modelo para de aprender. Em termos matemáticos, um gradiente é uma derivada parcial em relação às suas entradas.",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "Descida do Gradiente",
+      "description": "Modelos de redes neurais são geralmente treinados por um algoritmo de otimização que é uma variação da descida do gradiente. Durante o aprendizado, os dados de treinamento de entrada ajudam o modelo a aprender e a função de perda avalia o quão precisa é a performance de predição para cada iteração. À medida que o treinamento avança, o objetivo é reduzir a função de perda/erro de predição ajustando os parâmetros iterativamente. Especificamente, o algoritmo de descida do gradiente tem uma etapa de propagação para a frente (do inglês, forward pass ou forward propagation) e uma etapa para trás (do inglês, backward pass ou backpropagation). Na etapa de propagação para a frente, os dados de entrada são passados pela rede neural e a saída é calculada. Na etapa de propagação para trás, o gradiente da função de perda é calculado em relação a cada peso da rede neural, e os pesos são atualizados de acordo com o gradiente. Então o algoritmo dá um passo de descida do gradiente para minimizar a função de perda (considerando a taxa de aprendizado).",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "Manifold",
+      "description": "Em geometria diferencial, um manifold é um espaço topológico (superfície) com alta dimensionalidade que localmente se parece com o espaço euclidiano. Em aprendizado de máquina, um manifold é um espaço de características latentes que pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina. A hipótese do manifold sugere que os dados de alta dimensão (por exemplo, dados do mundo real como imagens e vídeos) estão contidos em um espaço de baixa dimensão, onde as relações entre os dados são mais facilmente identificadas. A ideia é que, ao mapear os dados para um espaço de baixa dimensão, é possível encontrar padrões e relações mais facilmente do que no espaço de alta dimensão original.",
+      "tags": [
+        "Conceito"
       ]
     }
   ]
