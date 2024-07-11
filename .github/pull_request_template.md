@@ -1,17 +1,17 @@
 <!--
 ######################################################
 
-O projeto DicioTech agradece sua contribuição.
+A comunidade e o projeto Diciotech agradecem sua contribuição. 🫰🏻
 
 Nós temos um modelo de Pull Request para sugerir,
 que busca auxiliar você e o projeto nesta contribuição.
 
-Seja livre para adicionar/modificar informações como achar
-conveniente. O mais importante é ser claro e conciso na
-sua contribuição para facilitar nosso entendimento de
-como ela se encaixa no projeto.
+Sinta-se livre para adicionar ou modificar informações
+como achar conveniente. O mais importante é ser claro
+e conciso na sua contribuição para facilitar
+nosso entendimento de como ela se encaixa no projeto.
 
-Não esqueça de ser claro e conciso no seu título.
+⚠️ Não esqueça de ser claro e conciso no seu título.
 
 ######################################################
 -->
