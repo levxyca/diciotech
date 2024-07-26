@@ -266,21 +266,13 @@
       "description": "Node.js é um ambiente que permite executar JavaScript no servidor. Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado do servidor.",
       "tags": ["Back-end"]
     },
-    {
-      "title": "Branch",
-      "description": "Uma branch é uma ramificação do código principal para que seja possível fazer alterações isoladas sem alterar, nem perder, o funcionamento do código principal.",
-      "tags": ["Conceito", "Versionamento"]
-    },
+    
     {
       "title": "Versionamento",
       "description": "O versionamento de código é o controle de alterações feitas em um projeto ao longo do tempo, acompanhando e registrando modificações feitas no código-fonte.",
       "tags": ["Conceito", "Versionamento"]
     },
-    {
-      "title": "Pull request",
-      "description": "O pull request é uma solicitação de alteração em um repositório, permitindo revisões, comentários e, eventualmente, incorporação ao projeto principal.",
-      "tags": ["Conceito", "Versionamento"]
-    },
+    
     {
       "title": "Issue",
       "description": "Uma 'issue' é como se fosse um bilhete que anota um problema ou algo a ser feito em um projeto. É como um lembrete que pode ser usado para falar sobre erros, pedir novas funcionalidades, conversar sobre melhorias ou ficar de olho em uma tarefa.",
