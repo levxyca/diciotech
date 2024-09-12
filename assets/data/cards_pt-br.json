@@ -903,6 +903,27 @@
       "tags": [
         "Conceito"
       ]
+    },
+    {
+      "title": "Botnet",
+      "description": "Uma botnet é uma rede de equipamentos infectados por um malware (malwares são softuares, tmabém conhecidos como programas, mal-intencionados) e controlados por um criminoso-cibernético ou um grupo de criminosos-cibernéticos, os equipamentos podem ser: computador ou equipamentos IoT (IoT são equipamentos conectados na internet sem fio, como por exemplo smartphones, smartTV's e lampadas inteligentes). As botnets são usadas para ataques DDOS (DDOS é um ataque onde mais de uma máquina fazem muitas consultas à um site com o objetivo de tirá-lo do ár).",
+      "tags": [
+        "Conceito", "Segurança cibernética"
+      ]
+    },
+    {
+      "title": "DOS",
+      "description": "DOS é um ataque de negação de serviço, neste ataque é usado apenas um computador que faz muitas consultas à um site com o objetivo de tirá-lo do ár.",
+      "tags": [
+        "Conceito", "Segurança cibernética"
+      ]
+    },
+    {
+      "title": "DDOS",
+      "description": "DDOS é um DOS (ataque de negação de serviço que visa tirar um site do àr) em larga escala, pois usa mais de uma máquina que podem ser os computadores dos criminosos-cibernéticos como também pode ser uma botnet (é uma rede de equipamentos infectados por um programa mal-intencionado).",
+      "tags": [
+        "Conceito", "Segurança cibernética"
+      ]
     }
   ]
 }
