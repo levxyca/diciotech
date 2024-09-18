@@ -266,21 +266,13 @@
       "description": "Node.js é um ambiente que permite executar JavaScript no servidor. Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado do servidor.",
       "tags": ["Back-end"]
     },
-    {
-      "title": "Branch",
-      "description": "Uma branch é uma ramificação do código principal para que seja possível fazer alterações isoladas sem alterar, nem perder, o funcionamento do código principal.",
-      "tags": ["Conceito", "Versionamento"]
-    },
+    
     {
       "title": "Versionamento",
       "description": "O versionamento de código é o controle de alterações feitas em um projeto ao longo do tempo, acompanhando e registrando modificações feitas no código-fonte.",
       "tags": ["Conceito", "Versionamento"]
     },
-    {
-      "title": "Pull request",
-      "description": "O pull request é uma solicitação de alteração em um repositório, permitindo revisões, comentários e, eventualmente, incorporação ao projeto principal.",
-      "tags": ["Conceito", "Versionamento"]
-    },
+    
     {
       "title": "Issue",
       "description": "Uma 'issue' é como se fosse um bilhete que anota um problema ou algo a ser feito em um projeto. É como um lembrete que pode ser usado para falar sobre erros, pedir novas funcionalidades, conversar sobre melhorias ou ficar de olho em uma tarefa.",
@@ -357,7 +349,7 @@
     {
       "title": "Pull Request",
       "description": "Trata-se de uma requisição de alteração dentro de um projeto. Essa requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade, sugerir alterações, entre outros motivos. Essa requisição de alteração é feita para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo de faz sentido para o contexto daquele momento. E essa requisição pode ficar pendente até que pessoas responsáveis ou que tenham a permissão, aprovem. Outras regras podem ser adicionadas nessas requisições, como build da aplicação, rodar testes com sucesso e o que mais fizer sentido para o projeto em questão.",
-      "tags": ["Conceito"]
+      "tags": ["Conceito", "Versionamento"]
     },
     {
       "title": "Garbage Collector",
@@ -893,6 +885,13 @@
     {
       "title": "Manifold",
       "description": "Em geometria diferencial, um manifold é um espaço topológico (superfície) com alta dimensionalidade que localmente se parece com o espaço euclidiano. Em aprendizado de máquina, um manifold é um espaço de características latentes que pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina. A hipótese do manifold sugere que os dados de alta dimensão (por exemplo, dados do mundo real como imagens e vídeos) estão contidos em um espaço de baixa dimensão, onde as relações entre os dados são mais facilmente identificadas. A ideia é que, ao mapear os dados para um espaço de baixa dimensão, é possível encontrar padrões e relações mais facilmente do que no espaço de alta dimensão original.",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "SOLID",
+      "description": "Os princípios SOLID são cinco diretrizes para design de software orientado a objetos, promovendo sistemas mais flexíveis, robustos e de fácil manutenção. Sendo, Single Responsibility Principle (Uma classe deve ter apenas uma responsabilidade), Open/Closed Principle (Classes devem estar abertas para extensão, mas fechadas para modificação), Liskov Substitution Principle (Subclasses devem ser substituíveis por suas superclasses sem alterar a correção do programa), Interface Segregation Principle (Classes não devem ser forçadas a implementar interfaces que não utilizam) e Dependency Inversion Principle (Módulos de alto nível não devem depender de módulos de baixo nível; ambos devem depender de abstrações).",
       "tags": [
         "Conceito"
       ]
