@@ -906,21 +906,21 @@
     },
     {
       "title": "Botnet",
-      "description": "Uma botnet é uma rede de equipamentos infectados por um malware (malwares são softuares, tmabém conhecidos como programas, mal-intencionados) e controlados por um criminoso-cibernético ou um grupo de criminosos-cibernéticos, os equipamentos podem ser: computador ou equipamentos IoT (IoT são equipamentos conectados na internet sem fio, como por exemplo smartphones, smartTV's e lampadas inteligentes). As botnets são usadas para ataques DDOS (DDOS é um ataque onde mais de uma máquina fazem muitas consultas à um site com o objetivo de tirá-lo do ár).",
+      "description": "Botnet é uma rede de dispositivos conectadoas na internet infectados por um malware (Os malwares são programas malicioso que afetam dispositivo), possibilitando que criminosos-ciberneticos derrubem sites usando esta rede de dispositipos.",
       "tags": [
         "Conceito", "Segurança cibernética"
       ]
     },
     {
-      "title": "DOS",
-      "description": "DOS é um ataque de negação de serviço, neste ataque é usado apenas um computador que faz muitas consultas à um site com o objetivo de tirá-lo do ár.",
+      "title": "DoS",
+      "description": "DoS é um ataque de negação de serviço, neste ataque é usado apenas um computador que faz muitas consultas em um site em um espaço curto de tempo com o objetivo de tirá-lo do ár.",
       "tags": [
         "Conceito", "Segurança cibernética"
       ]
     },
     {
-      "title": "DDOS",
-      "description": "DDOS é um DOS (ataque de negação de serviço que visa tirar um site do àr) em larga escala, pois usa mais de uma máquina que podem ser os computadores dos criminosos-cibernéticos como também pode ser uma botnet (é uma rede de equipamentos infectados por um programa mal-intencionado).",
+      "title": "DDoS",
+      "description": "DDoS é um ataque onde muitos dispositivos tentam se conectar ao mesmo tempo no site para sobrecarregá-lo.",
       "tags": [
         "Conceito", "Segurança cibernética"
       ]
