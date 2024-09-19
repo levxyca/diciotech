@@ -27,7 +27,7 @@ jobs:
       if: failure()
       uses: actions-ecosystem/action-create-comment@v1
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        issue-number: ${{ github.event.pull_request.number }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        number: ${{ github.event.pull_request.number }}
         body: |
           ⚠️ Poxa @${{ github.actor }}, parece que não temos nenhuma issue vinculada a este PR. Para facilitar para todas as pessoas contribuidoras e mantenedoras desse projeto, além da organização, por favor, vincule uma issue a esse PR incluindo #<número_da_issue> na descrição do PR ou crie uma nova issue e atualize o PR.
