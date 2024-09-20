@@ -76,7 +76,8 @@ Tags disponíveis:
 - `Paradigma`;
 - `Rede neural`;
 - `Versionamento`;
-- `Web3`.
+- `Web3`;
+- `Infraestrutura de Rede`.
 
 Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas práticas:
 
