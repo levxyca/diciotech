@@ -1,0 +1,33 @@
+name: Check for linked issue
+
+on:
+  pull_request:
+    types: [opened, edited]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  check-linked-issue:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check if PR has linked issue
+      id: check_issue
+      run: |
+        issue_pattern='#[0-9]+'
+        if [[ "${{ github.event.pull_request.body }}" =~ $issue_pattern ]]; then
+          echo "Issue linked in PR description."
+        else
+          echo "::error::No issue linked! Please link to an issue using '#<issue_number>' or create a new issue."
+          exit 1
+        fi
+
+    - name: Post comment on PR (if no issue linked)
+      if: failure()
+      uses: actions-ecosystem/action-create-comment@v1
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        number: ${{ github.event.pull_request.number }}
+        body: |
+          ⚠️ Poxa @${{ github.actor }}, parece que não temos nenhuma issue vinculada a este PR. Para facilitar para todas as pessoas contribuidoras e mantenedoras desse projeto, além da organização, por favor, vincule uma issue a esse PR incluindo #<número_da_issue> na descrição do PR ou crie uma nova issue e atualize o PR. Se precisar de qualquer ajuda para isso, pode chamar a @levxyca 💙🫰🏻
