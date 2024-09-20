@@ -1,33 +1,57 @@
-# Roadmap 🗂️
+## **Diciotech Roadmap**
 
-Este arquivo fornece uma visão geral da direção que este projeto está seguindo.
+### **Versão Atual: v1.1.0 (Lançada)**
 
-## Legendas
+**Lançada em:** 19/09/2024  
+**Principais Atualizações:**
+- Novas tags e categorias adicionadas (Infraestrutura de Rede, Web3).
+- Templates de PR e issues aprimorados.
+- Inclusão de novos conceitos e termos (Gradiente, Descida do Gradiente, SOLID, etc.).
+- Correções de conteúdo e melhorias nos arquivos JSON.
+- Implementação de analytics para monitoramento da plataforma.
 
-- ✅ Significa que essa feature está finalizada.
-- 🚧 Significa que essa feature está em construção 
-- ❌ Significa que essa feature ainda não foi iniciada.
+---
 
-## Versão 1.0 (lançada)
+### **Próximo Lançamento: v1.2.0**
 
-> [Lançamento da versão 1.0 do Diciotech 📖](https://github.com/levxyca/diciotech/releases/tag/v1.0)
+**Objetivos Principais:**
+- **Novos Termos Técnicos**: Inclusão de novos termos
+- **Melhorias de Acessibilidade**:
+  - Adicionar *border-radius* ao *scrollbar* (PR #182).
+  - Implementar nova versão do dark-mode (PR #123).
+- **Suporte a Múltiplos Idiomas**:
+  - Finalizar a implementação da lógica para suportar várias línguas no projeto (PR #140).
 
-- ✅ Filtro: Agora você pode refinar ainda mais suas buscas com nosso novo filtro.
-- ✅ Modo Escuro: Uma experiência noturna mais agradável e confortável para seus olhos.
-- ✅ Layout Inicial: Uma interface renovada para uma navegação mais intuitiva.
-- ✅ GitHub Corner: Acesso fácil ao nosso repositório no GitHub para que você possa explorar e contribuir.
-- ✅ Favoritar Cards: Guarde seus cards favoritos para acessá-los facilmente.
-- ✅ Rolagem (scroll) nos cards: Navegue com facilidade por todo o conteúdo.
+**Ações para Comunidade**:
+- Continuação do incentivo à contribuição com templates mais acessíveis.
+- Acompanhamento dos PRs em revisão e ajustes conforme o feedback recebido.
 
-Além das melhorias visuais e de usabilidade, também adicionamos novos termos.
+---
 
-## Versão 2.0
+### **Futuro: v1.3.0**
 
-- 🚧 [Nova UI](https://github.com/levxyca/diciotech/issues/12)
-- 🚧 Template de issue
-- 🚧 Template de PR
-- 🚧 Sempre criar issue antes de um PR
-- ❌ Criar um wiki para o projeto
-- 🚧 Manter o ROADMAP vivo e atualizado
-- ❌ Adicionar um código de conduta
-- ✅ [Adicionar uma licença](https://github.com/levxyca/diciotech/issues/65)
+**Objetivos Principais:**
+- **Facilitar a Contribuição**:
+  - Implementar uma **Interface de Linha de Comando (CLI)** para facilitar a adição de novos conceitos ao projeto (PR #112).
+- **Expansão de Termos Técnicos**:
+  - Inclusão de mais termos técnicos importantes sobre tecnologias emergentes, como:
+    - Inteligência Artificial (IA)
+    - Principais termos de DevOps
+- **Melhorias na Experiência do Usuário**:
+  - Refinamento de funcionalidades de acessibilidade com base nos feedbacks da comunidade e dados de analytics.
+
+---
+
+### **Metas de Longo Prazo (v1.4.0 e além)**
+
+**Expansão Contínua de Conteúdo**:
+- **Termos Avançados**:
+  - Ampliar o dicionário com conceitos mais profundos e complexos sobre arquitetura de software, ciência de dados e engenharia de software.
+- **Gamificação**:
+  - Introduzir um sistema de gamificação para motivar e reconhecer contribuições significativas da comunidade.
+- **Integração com Outras Ferramentas**:
+  - Explorar integrações com plataformas externas (como GitHub, StackOverflow) para ampliar o uso do Diciotech e facilitar a adição de novos conteúdos.
+
+**Objetivo de Engajamento**:
+- Aumentar o número de contribuidores ativos em 20% até o final de 2025.
+- Expandir o reconhecimento do Diciotech como uma ferramenta educativa dentro e fora da comunidade.
