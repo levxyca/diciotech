@@ -75,7 +75,8 @@ Tags disponíveis:
 - `Mobile`;
 - `Paradigma`;
 - `Rede neural`;
-- `Versionamento`.
+- `Versionamento`;
+- `Web3`.
 
 Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas práticas:
 
