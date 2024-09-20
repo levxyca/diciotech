@@ -911,7 +911,7 @@
       ]
     },
     {
-      "title": "Tag",
+      "title": "Tag em HTML/XML",
       "description": "Uma tag é um elemento de marcação usado em linguagens de marcação, como HTML e XML, para definir a estrutura e o significado de um documento. Elas são usadas para definir o início e o fim de um elemento, como um parágrafo, uma tabela ou uma imagem. As tags são escritas entre os sinais de menor e maior, como <tag>, sendo a marcação do fim de um elemento definida como </tag>. Se um elemento não possui outros elementos internamente (também chamados de elementos filhos), ele pode ser definido somente como <tag /> ao invés de <tag></tag>.",
       "tags": [
         "Conceito"
