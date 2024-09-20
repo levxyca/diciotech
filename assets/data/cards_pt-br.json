@@ -916,6 +916,27 @@
       "tags": [
         "Conceito", "Segurança cibernética"
       ]
+    },
+    {
+      "title": "Laço",
+      "description": "Um laço (do inglês, loop) é uma estrutura de controle que permite executar repetidamente um bloco de código enquanto uma condição for verdadeira. Ele é usado para automatizar tarefas repetitivas e economizar tempo e esforço. Existem vários tipos de laços, como o laço 'for', o laço 'while' e o laço 'do-while'.",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "XML",
+      "description": "XML (do inglês, eXtensible Markup Language) é uma linguagem de marcação que define um conjunto de regras para codificar documentos. Ela é uma linguagem de marcação assim como a HTML, porém a XML foi criada para ser mais flexível, permitindo a criação de novas tags, enquanto a HTML possui um número limitado de tags pré-definidas. É uma linguagem genérica que pode ser usada para representar qualquer tipo de dado estruturado. XML é uma linguagem muito popular, sendo usada em bancos de dados, arquivos de configurações de sistemas, transmissão de informações, entre outros.",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "Tag em HTML/XML",
+      "description": "Uma tag é um elemento de marcação usado em linguagens de marcação, como HTML e XML, para definir a estrutura e o significado de um documento. Elas são usadas para definir o início e o fim de um elemento, como um parágrafo, uma tabela ou uma imagem. As tags são escritas entre os sinais de menor e maior, como <tag>, sendo a marcação do fim de um elemento definida como </tag>. Se um elemento não possui outros elementos internamente (também chamados de elementos filhos), ele pode ser definido somente como <tag /> ao invés de <tag></tag>.",
+      "tags": [
+        "Conceito"
+      ]
     }
   ]
 }
