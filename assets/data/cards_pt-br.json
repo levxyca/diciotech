@@ -898,7 +898,7 @@
     },
     {
       "title": "Botnet",
-      "description": "Botnet é uma rede de dispositivos conectadoas na internet infectados por um malware (Os malwares são programas malicioso que afetam dispositivo), possibilitando que criminosos-ciberneticos derrubem sites usando essa rede de dispositipos. Os dispositivos pedem ser desdo computador até um equipamento IoT (Um aparelho IoT é um equipamento conectado à internet sem o uso de cabos, por exemplo: TVs inteligentes, lampadas inteligentes, geladeiras inteligentes e celulares).",
+      "description": "Botnet é uma rede de dispositivos conectados na internet infectados por um malware (os malwares são programas maliciosos que afetam um dispositivo), possibilitando que criminosos-ciberneticos derrubem sites usando essa rede de dispositivos. Os dispositivos pedem ser desde um computador até um equipamento IoT (um aparelho IoT é um equipamento conectado à internet sem o uso de cabos, por exemplo: TVs inteligentes, lampadas inteligentes, geladeiras inteligentes e celulares).",
       "tags": [
         "Conceito", "Segurança cibernética"
       ]
