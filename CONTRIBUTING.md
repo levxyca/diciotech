@@ -9,6 +9,7 @@ Neste guia vamos explicar como funcionam os processos para que você possa contr
 Existem diversas formas de contribuir com o projeto:
 
 - [📖 Contribua com o Diciotech](#-contribua-com-o-diciotech)
+  - [⚒️ Instalando ambiente de desenvolvimento para contribuir](#️-instalando-ambiente-de-desenvolvimento-para-contribuir)
   - [🤔 Como contribuir](#-como-contribuir)
     - [Adicionando um novo termo técnico no Diciotech](#adicionando-um-novo-termo-técnico-no-diciotech)
     - [Adicionando uma nova tag no Diciotech](#adicionando-uma-nova-tag-no-diciotech)
@@ -17,6 +18,25 @@ Existem diversas formas de contribuir com o projeto:
     - [Discutindo as issues](#discutindo-as-issues)
     - [Fazendo pull requests](#fazendo-pull-requests)
     - [Outras formas de contribuir](#outras-formas-de-contribuir)
+
+## ⚒️ Instalando ambiente de desenvolvimento para contribuir
+
+### 1. **Escolha um Editor de Código**
+   * **Recomendação:** Visual Studio Code (gratuito, open-source, amplamente utilizado)
+   * **Outras opções:** Sublime Text, Atom
+
+### 2. **Instale um pré-processador SASS**
+Para compilar SASS em CSS, você precisará de um compilador. Recomendo a leitura do https://sass-lang.com/guide/ 👀
+
+### 3. **Compile seu SASS**
+Para compilar seu SASS em CSS, abra o terminal na pasta do seu projeto e execute:
+```bash
+sass scss/styles.scss css/styles.css --watch
+```
+O `--watch` faz com que o SASS fique monitorando alterações no arquivo `.scss` e compile automaticamente.
+
+### 4. **Execute o Projeto**
+Para visualizar seu projeto, você pode abrir o arquivo `index.html` em um navegador. Se quiser usar um servidor local (opcional), você pode instalar uma extensão no seu editor ou usar ferramentas como o **Live Server** no Visual Studio Code.
 
 ### Adicionando um novo termo técnico no Diciotech
 
@@ -75,7 +95,9 @@ Tags disponíveis:
 - `Mobile`;
 - `Paradigma`;
 - `Rede neural`;
-- `Versionamento`.
+- `Versionamento`;
+- `Web3`;
+- `Infraestrutura de Rede`.
 
 Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas práticas:
 

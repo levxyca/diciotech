@@ -895,6 +895,48 @@
       "tags": [
         "Conceito"
       ]
+    },
+    {
+      "title": "Botnet",
+      "description": "Botnet é uma rede de dispositivos conectados na internet infectados por um malware (os malwares são programas maliciosos que afetam um dispositivo), possibilitando que criminosos-ciberneticos derrubem sites usando essa rede de dispositivos. Os dispositivos pedem ser desde um computador até um equipamento IoT (um aparelho IoT é um equipamento conectado à internet sem o uso de cabos, por exemplo: TVs inteligentes, lampadas inteligentes, geladeiras inteligentes e celulares).",
+      "tags": [
+        "Conceito", "Segurança cibernética"
+      ]
+    },
+    {
+      "title": "DoS",
+      "description": "DoS é um ataque de negação de serviço, neste ataque é usado apenas um computador que faz muitas consultas em um site em um espaço curto de tempo com o objetivo de tirá-lo do ár.",
+      "tags": [
+        "Conceito", "Segurança cibernética"
+      ]
+    },
+    {
+      "title": "DDoS",
+      "description": "DDoS é um ataque onde muitos dispositivos tentam se conectar ao mesmo tempo no site para sobrecarregá-lo.",
+      "tags": [
+        "Conceito", "Segurança cibernética"
+      ]
+    },
+    {
+      "title": "Laço",
+      "description": "Um laço (do inglês, loop) é uma estrutura de controle que permite executar repetidamente um bloco de código enquanto uma condição for verdadeira. Ele é usado para automatizar tarefas repetitivas e economizar tempo e esforço. Existem vários tipos de laços, como o laço 'for', o laço 'while' e o laço 'do-while'.",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "XML",
+      "description": "XML (do inglês, eXtensible Markup Language) é uma linguagem de marcação que define um conjunto de regras para codificar documentos. Ela é uma linguagem de marcação assim como a HTML, porém a XML foi criada para ser mais flexível, permitindo a criação de novas tags, enquanto a HTML possui um número limitado de tags pré-definidas. É uma linguagem genérica que pode ser usada para representar qualquer tipo de dado estruturado. XML é uma linguagem muito popular, sendo usada em bancos de dados, arquivos de configurações de sistemas, transmissão de informações, entre outros.",
+      "tags": [
+        "Conceito"
+      ]
+    },
+    {
+      "title": "Tag em HTML/XML",
+      "description": "Uma tag é um elemento de marcação usado em linguagens de marcação, como HTML e XML, para definir a estrutura e o significado de um documento. Elas são usadas para definir o início e o fim de um elemento, como um parágrafo, uma tabela ou uma imagem. As tags são escritas entre os sinais de menor e maior, como <tag>, sendo a marcação do fim de um elemento definida como </tag>. Se um elemento não possui outros elementos internamente (também chamados de elementos filhos), ele pode ser definido somente como <tag /> ao invés de <tag></tag>.",
+      "tags": [
+        "Conceito"
+      ]
     }
   ]
 }

@@ -5,6 +5,38 @@
 .body-dark-mode .header__subtitle {
   color: #ffffff;
 }
+.body-dark-mode .header .github-corner {
+  color: #232226;
+}
+.body-dark-mode .main .cookies-content {
+  background-color: #3e3e3f;
+}
+.body-dark-mode .main .cookies-content .cookies-message {
+  color: #ffffff;
+}
+.body-dark-mode .main .cookies-content a {
+  color: #EEE7F9;
+}
+.body-dark-mode .main .card {
+  background-color: #3e3e3f;
+}
+.body-dark-mode .main .card__title {
+  color: #EEE7F9;
+}
+.body-dark-mode .main .card__description {
+  color: #ffffff;
+}
+.body-dark-mode .main .search .searchbar {
+  background-color: #3e3e3f;
+  color: #ffffff;
+}
+.body-dark-mode .main .search .searchbar__input {
+  color: #ffffff;
+}
+.body-dark-mode .main #tags-filter {
+  background-color: #3e3e3f;
+  color: #ffffff;
+}
 
 .button-dark-mode {
   background-color: #6e6197;
