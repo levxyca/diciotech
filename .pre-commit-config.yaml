@@ -3,7 +3,6 @@ repos:
     rev: v4.6.0
     hooks:
       - id: end-of-file-fixer
-      - id: trailing-whitespace
       - id: check-json
       - id: check-yaml
   - repo: local
