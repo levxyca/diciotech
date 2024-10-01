@@ -1,6 +1,11 @@
 import json
 from argparse import ArgumentParser
 from pathlib import Path
+from unicodedata import category, normalize
+
+
+def strip_accents(s: str) -> str:
+    return ''.join(c for c in normalize('NFD', s) if category(c) != 'Mn')
 
 
 def main(file: Path):
@@ -8,11 +13,11 @@ def main(file: Path):
         data = json.load(f)
 
     # sort cards by 'title' value
-    data['cards'] = sorted(data['cards'], key=lambda x: x['title'].lower())
+    data['cards'] = sorted(data['cards'], key=lambda x: strip_accents(x['title'].lower()))
 
     # sort tags inside each card by value
     for card in data['cards']:
-        card['tags'] = sorted(card['tags'], key=lambda x: x.lower())
+        card['tags'] = sorted(card['tags'], key=lambda x: strip_accents(x.lower()))
 
     # sort keys in the cards by reverse key order
     data['cards'] = [{k: v for k, v in sorted(card.items(), reverse=True)} for card in data['cards']]
@@ -20,6 +25,7 @@ def main(file: Path):
     # save data back to the file
     with open(file, 'w') as f:
         json.dump(data, f, indent=2, sort_keys=False, ensure_ascii=False)
+        f.write('\n')
 
 
 if __name__ == '__main__':
