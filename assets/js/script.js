@@ -1,4 +1,5 @@
 import "./dark_mode.js";
+import { levenshtein } from "./levenshtein.js";
 
 const searchInput = document.querySelector("#search-input");
 const cardsSection = document.querySelector("#cards");
@@ -52,30 +53,154 @@ function filterCards() {
     searchCards();
 }
 
-function searchCards() {
-    const inputValue = searchInput.value.toLowerCase();
-    let cardsFiltered = [];
+function sortCards(sortingArray) {
+    const list = document.querySelector("#cards");
 
-    for (const card of listOfCardsFiltered) {
-        const cardContent = card.textContent.toLowerCase();
-
-        if  (cardContent.includes(inputValue)){
-            card.style.display = "";
-            cardsFiltered.push(card);
+    if (listOfCardsFiltered.length > 0) {
+        if (!Array.isArray(sortingArray) || !sortingArray.length) {
+            [...list.querySelectorAll(".card")]
+            // itemsArray.sort((a, b) => sortingArr.indexOf(a) - sortingArr.indexOf(b));
+            .sort((a, b) => a.querySelector(".card__title").textContent.toLowerCase().localeCompare(b.querySelector(".card__title").textContent.toLowerCase()))
+            .forEach(node => list.appendChild(node));
         } else {
-            card.style.display = "none";
+            [...list.querySelectorAll(".card")]
+            // itemsArray.sort((a, b) => sortingArr.indexOf(a) - sortingArr.indexOf(b));
+            .sort((a, b) => a.querySelector(".card__title").textContent.toLowerCase().localeCompare(b.querySelector(".card__title").textContent.toLowerCase()))
+            .forEach(node => list.appendChild(node));
         }
     }
+}
 
-    const msgNotFound = document.querySelector("div.msg");
-    msgNotFound.style.display = cardsFiltered.length==0 ? "" : "none";
-   
+function searchCards() {
+    const inputValue = searchInput.value.toLowerCase().trim();
+    let cardsScores = [];
+
+    if (inputValue.length > 0) {
+        for (const [i, card] of listOfCardsFiltered.entries()) {
+            // search for words inside the title that have a levenshtein distance lower or equal to 5
+            let cardScore = 0;
+            const cardTitle = card.querySelector(".card__title").textContent.toLowerCase();
+            let titleWords = cardTitle.split(/(\s+)/);
+            let titleScore = 0;
+
+            titleWords.forEach((word) => {
+                if (word.includes(inputValue)) {
+                    cardScore += 10;
+                }
+                const levenshteinDistance = levenshtein(word, inputValue);
+                if ((levenshteinDistance <= 2) && (10 - levenshteinDistance > titleScore)) {
+                    // only the word with the lowest levenshtein distance will be considered
+                    titleScore = 10 - levenshteinDistance;
+                }
+            });
+
+            // give extra points for words in title
+            cardScore += titleScore * 10;
+
+            // search for words inside the description that have a levenshtein distance lower or equal to 5
+            const cardDescription = card.querySelector(".card__description").textContent.toLowerCase();
+            let descriptionWords = cardDescription.split(/(\s+)/);
+            let descriptionScore = 0;
+
+            descriptionWords.forEach((word) => {
+                const levenshteinDistance = levenshtein(word, inputValue);
+                if ((levenshteinDistance <= 2) && (10 - levenshteinDistance > descriptionScore)) {
+                    // only the word with the lowest levenshtein distance will be considered
+                    descriptionScore = 10 - levenshteinDistance;
+                }
+            });
+
+            cardScore += descriptionScore;
+
+            if (cardScore > 0) {
+                card.style.display = "";
+                cardsScores.push([card, cardScore]);
+                // cardsFiltered.push(card);
+            } else {
+                card.style.display = "none";
+            }
+
+            // const cardContent = card.textContent.toLowerCase();
+
+            // if  (cardContent.includes(inputValue)){
+            //     card.style.display = "";
+            //     cardsFiltered.push(card);
+            // } else {
+            //     card.style.display = "none";
+            // }
+        }
+
+        const msgNotFound = document.querySelector("div.msg");
+
+        if (cardsScores.length > 0) {
+            msgNotFound.style.display = "none";
+            cardsScores.sort((a, b) => b[1] - a[1]);
+            // sortCards(cardsScores);
+        } else {
+            msgNotFound.style.display = "";
+        }
+
+    } else {
+        for (const card of listOfCardsFiltered) {
+            card.style.display = "";
+            cardsScores.push(card);
+        }
+
+        const msgNotFound = document.querySelector("div.msg");
+        msgNotFound.style.display = "none";
+
+        // sortCards();
+    }
+
+
+    // const arr1 = ['d','a','b','c'] ;
+    // const arr2 = [{a:1},{c:3},{d:4},{b:2}];
+    // const sortArray = (arr1, arr2) => {
+    // arr2.sort((a, b) => {
+    //     const aKey = Object.keys(a)[0];
+    //     const bKey = Object.keys(b)[0];
+    //     return arr1.indexOf(aKey) - arr1.indexOf(bKey);
+    // });
+    // };
+    // sortArray(arr1, arr2);
+    // console.log(arr2);
+
+
+    // console.log(listOfCardsFiltered[0].querySelector(".card__title").textContent);
+    // console.log(listOfCardsFiltered[0].querySelector(".card__description").textContent);
+    // console.log(levenshtein("abstracao", "Abstração"));
+    // console.log(levenshtein("cabeça", "Abstração"));
+    // console.log(levenshtein("Abstração", "Abstração"));
+    // console.log(levenshtein("chuazenger", "Schwarzenegger"));
+
+
+
+    // let search_results = listOfCardsFiltered
+    //     .filter(prof => {
+    //         // Filter results by doing case insensitive match on name here
+    //         return prof.name.toLowerCase().includes(keyword.toLowerCase());
+    //     })
+    //     .sort((a, b) => {
+    //         // Sort results by matching name with keyword position in name
+    //         if(a.name.toLowerCase().indexOf(keyword.toLowerCase()) > b.name.toLowerCase().indexOf(keyword.toLowerCase())) {
+    //             return 1;
+    //         } else if (a.name.toLowerCase().indexOf(keyword.toLowerCase()) < b.name.toLowerCase().indexOf(keyword.toLowerCase())) {
+    //             return -1;
+    //         } else {
+    //             if(a.name > b.name)
+    //                 return 1;
+    //             else
+    //                 return -1;
+    //         }
+    //     });
+
+    // console.log(search_results);
 }
 
 function insertCardsIntoHtml(data) {
     let cards = `<div class="msg">
                     <div class=collumn-1>
-                        <img src="assets/img/no-results-found.png" alt="Mulher olhando para site sem dados" /> 
+                        <img src="assets/img/no-results-found.png" alt="Mulher olhando para site sem dados" />
                         <a href="https://storyset.com/data">Data illustrations by Storyset</a>
                     </div>
                     <div class=collumn-2>
