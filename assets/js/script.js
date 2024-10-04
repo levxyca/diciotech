@@ -90,7 +90,7 @@ function searchCards() {
                 const levenshteinDistance = levenshtein(word, inputValue);
                 if (word.includes(inputValue)) {
                     titleScore = 10;
-                } else if ((inputValue.length > 3) && (levenshteinDistance <= 2)) {
+                } else if ((inputValue.length > 3) && (levenshteinDistance <= 3)) {
                     if (10 - levenshteinDistance > titleScore) {
                         // only the word with the lowest levenshtein distance will be considered
                         titleScore = 10 - levenshteinDistance;
@@ -110,7 +110,7 @@ function searchCards() {
                 const levenshteinDistance = levenshtein(word, inputValue);
                 if (word.includes(inputValue)) {
                     descriptionScore = 10;
-                } else if ((inputValue.length > 3) && (levenshteinDistance <= 2)) {
+                } else if ((inputValue.length > 3) && (levenshteinDistance <= 3)) {
                     if (10 - levenshteinDistance > descriptionScore) {
                         // only the word with the lowest levenshtein distance will be considered
                         descriptionScore = 10 - levenshteinDistance;
