@@ -302,12 +302,12 @@ function generateCardId(defaultCardId, title, description) {
  * @returns {string} The hashed representation of the content.
  */
 function generateContentId(title = '', description = '', hash = 5381) {
-  const data = (title + description).slice(0, 32).split(' ').join('')
+    const data = (title + description).slice(0, 32).split(' ').join('')
 
-  for (let i = 0; i < data.length; i++) {
-    hash = ((hash << 5) + hash) + data.charCodeAt(i);
-  }
+    for (let i = 0; i < data.length; i++) {
+        hash = ((hash << 5) + hash) + data.charCodeAt(i);
+    }
 
-  const hashString = Math.abs(hash).toString(36); // Convert to base-36 string
-  return hashString;
+    const hashString = Math.abs(hash).toString(36); // Convert to base-36 string
+    return hashString;
 }
