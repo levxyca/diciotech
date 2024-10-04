@@ -88,7 +88,9 @@ function searchCards() {
 
             titleWords.forEach((word) => {
                 const levenshteinDistance = levenshtein(word, inputValue);
-                if (word.includes(inputValue) || ((inputValue.length > 3) && (levenshteinDistance <= 2))) {
+                if (word.includes(inputValue)) {
+                    titleScore = 10;
+                } else if ((inputValue.length > 3) && (levenshteinDistance <= 2)) {
                     if (10 - levenshteinDistance > titleScore) {
                         // only the word with the lowest levenshtein distance will be considered
                         titleScore = 10 - levenshteinDistance;
@@ -106,7 +108,9 @@ function searchCards() {
 
             descriptionWords.forEach((word) => {
                 const levenshteinDistance = levenshtein(word, inputValue);
-                if (word.includes(inputValue) || ((inputValue.length > 3) && (levenshteinDistance <= 2))) {
+                if (word.includes(inputValue)) {
+                    descriptionScore = 10;
+                } else if ((inputValue.length > 3) && (levenshteinDistance <= 2)) {
                     if (10 - levenshteinDistance > descriptionScore) {
                         // only the word with the lowest levenshtein distance will be considered
                         descriptionScore = 10 - levenshteinDistance;
@@ -128,7 +132,7 @@ function searchCards() {
 
         if (cardsScores.length > 0) {
             msgNotFound.style.display = "none";
-            // sort cards by score
+            // sort the array of cards by score
             cardsScores.sort((a, b) => b[1] - a[1]);
             // remove the scores from the array
             cardsScores = cardsScores.map((card) => card[0]);
