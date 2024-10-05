@@ -1,7 +1,7 @@
 import "./dark_mode.js";
 import { levenshtein } from "./levenshtein.js";
 
-const exactWordScore = 11;
+const exactWordScore = 12;
 const partialWordScore = 10;
 const levenshteinScore = 10;
 const levenshteinThreshold = 3;
