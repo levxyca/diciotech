@@ -30,6 +30,15 @@
       "description": "Costumamos chamar de ambiente o lugar ou os servidores onde o que foi desenvolvido fica disponível para testes, validações, pessoas usuárias finais utilizarem ou demais necessidades. Esse servidor seria como um computador. Pode ser um computador físico ou disponível na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos)e produção (onde está disponível o sistema final, desenvolvido e testado, para pessoas usuárias)."
     },
     {
+      "title": "Angular.js",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Angular.js é um framework JavaScript criado pelo Google para desenvolver aplicações de página única (SPAs). Possui uma arquitetura robusta baseada em módulos e injeção de dependências. É muito usado por grandes corporações como Google e Microsoft"
+    },
+    {
       "title": "API",
       "tags": [
         "Back-end",
@@ -655,6 +664,15 @@
       "description": "Também chamados de modelos de referência, são modelos de aprendizado de máquina pré-treinados em grandes conjuntos de dados e comumente disponibilizados para uso por terceiros. Eles são usados como modelos de base para diversas aplicações de visão computacional, processamento de linguagem natural, entre outros. Modelos de base podem ser usados congelados, como uma camada de extração de características (features), ou passarem por um ajuste fino (finetune), gerando um modelo completo."
     },
     {
+      "title": "Next.js",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Next.js é um framework baseado em React que facilita a criação de sites com renderização no servidor (SSR) e geração de páginas estáticas (SSG), proporcionando melhor SEO e carregamento mais rápido de páginas."
+    },
+    {
       "title": "Node.js",
       "tags": [
         "Back-end"
@@ -830,7 +848,8 @@
       "title": "React",
       "tags": [
         "Conceito",
-        "Front-end"
+        "Front-end",
+        "Framework"
       ],
       "description": "React é uma biblioteca JavaScript de código aberto utilizada para criar interfaces de usuário interativas e dinâmicas em aplicações web e em outros ambientes, como mobile, TV, realidade virtual, entre outros. Ele se destaca por seu modelo de programação baseado em componentes e pela eficiência na atualização da interface do usuário, tornando-o uma escolha popular no desenvolvimento front-end."
     },
@@ -987,6 +1006,15 @@
       "description": "Um StatelessWidget, no Flutter, é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado."
     },
     {
+      "title": "Svelte",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Svelte é um framework JavaScript que compila o código em tempo de build, eliminando a necessidade de uma camada extra no navegador, o que o torna mais eficiente e leve em comparação a outros frameworks."
+    },
+    {
       "title": "Swift",
       "tags": [
         "Mobile"
@@ -1109,6 +1137,15 @@
         "Inteligência artificial"
       ],
       "description": "É um campo da inteligência artificial que estuda como os computadores podem obter e processar informações de estímulos visuais. Ela se concentra no desenvolvimento de sistemas que podem analisar e entender imagens e vídeos, permitindo que os computadores reconheçam objetos, pessoas, lugares, movimentos e outros elementos visuais. A visão computacional (do inglês, computer vision ou CV) é usada em uma ampla variedade de aplicações, como reconhecimento facial, carros autônomos, diagnóstico médico, entre outros."
+    },
+    {
+      "title": "Vue.js",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Vue.js é um framework JavaScript para criar interfaces de usuário. Ele é progressivo, fácil de integrar em projetos e muito utilizado para construir aplicações de página única (SPAs)."
     },
     {
       "title": "XML",
