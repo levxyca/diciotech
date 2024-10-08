@@ -30,6 +30,13 @@
       "description": "Costumamos chamar de ambiente o lugar ou os servidores onde o que foi desenvolvido fica disponível para testes, validações, pessoas usuárias finais utilizarem ou demais necessidades. Esse servidor seria como um computador. Pode ser um computador físico ou disponível na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos)e produção (onde está disponível o sistema final, desenvolvido e testado, para pessoas usuárias)."
     },
     {
+      "title": "AIoT",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "AIoT (Artificial Internet of Things), ou Inteligência Artificial das Coisas, constitui a combinação entre Inteligência Artificial e Internet das Coisas. Um de seus principais objetivos é o de potencializar o processamento de dados provenientes dos dispositivos de IoT de forma automatizada, mais rápida e com o mínimo de intervenção do ser humano. Isso agiliza a análise de dados e o processo de tomada de decisões, visto que sem a AI, haveria um grande volume de informação, mas com a dependência da mão de obra do ser humano para que ele se tornasse relevante para uso."
+    },
+    {
       "title": "API",
       "tags": [
         "Back-end",
@@ -201,6 +208,13 @@
         "Inteligência artificial"
       ],
       "description": "É um programa de computador que simula um ser humano em uma conversa por meio de mensagens de texto ou de voz, muito utilizado para automatizar tarefas repetitivas e fornecer suporte e assistência aos usuários. Os chatbots podem ser usados em uma ampla variedade de aplicações, como atendimento ao cliente, assistentes virtuais, entre outros."
+    },
+    {
+      "title": "Cidades Inteligentes",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Cidades Inteligentes (Smart Cities), são localidades cuja infraestrutura dispõe de organização urbana e aparatos digitais voltados à otimização de seus processos. Para tanto, é possível fazer uso de dispositivos tecnológicos de Inteligência Artificial ou Internet das Coisas por exemplo. "
     },
     {
       "title": "Classe",
@@ -555,6 +569,13 @@
         "Inteligência artificial"
       ],
       "description": "Também chamada de IA (no inglês, Artificial Intelligence ou AI), é um campo da ciência da computação que estuda como os computadores podem simular a inteligência e cognição humana. Ela se concentra no desenvolvimento de sistemas capazes de executar tarefas que antes poderiam ser feitas somente por humanos, como reconhecimento de fala, tomada de decisão, tradução de idiomas e reconhecimento de padrões. A IA é um campo amplo que inclui várias subáreas, como aprendizado de máquina, processamento de linguagem natural, visão computacional, entre outras."
+    },
+    {
+      "title": "IoT",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "IoT (Internet of Things), ou Internet das Coisas, é um tipo de tecnologia composto por uma rede de dispositivos e objetos interconectados, como sensores, câmeras, itens domésticos, aparelhos eletrônicos e veículos, por exemplo. Seu objetivo é basicamente conectar os mais diversos equipamentos à internet com o intuito de captar e trocar dados com outros dispositivos, variando desde simples objetos caseiros a sofisticadas ferramentas industriais."
     },
     {
       "title": "Issue",
@@ -1014,6 +1035,13 @@
         "Inteligência artificial"
       ],
       "description": "Também chamada de taxa de aprendizagem (do inglês, learning rate ou LR), é um hiperparâmetro de treinamento de modelos de aprendizado de máquina que controla a rapidez com que um modelo de aprendizado de máquina aprende. É um dos hiperparâmetros mais importantes de um modelo de aprendizado de máquina e pode ser ajustada para melhorar o desempenho do modelo. Ela controla qual é o tamanho do passo que será dado durante o aprendizado em direção ao mínimo calculado pelo gradiente. Uma taxa de aprendizado muito alta pode causar a explosão do gradiente, enquanto uma taxa de aprendizado muito baixa pode causar o desaparecimento do gradiente. Existem diversas técnicas que permitem alterar a taxa de aprendizado durante o treinamento, como decaimento da taxa de aprendizado, agendamento da taxa de aprendizado, aquecimento da taxa de aprendizado, entre outras."
+    },
+    {
+      "title": "TI Verde",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "A TI Verde, do inglês Green IT, também podendo ser chamada de TI Ecológica ou Computação Verde, representa o lado sustentável da tecnologia da informação. Seu conceito gira em torno da análise e implementação de iniciativas e programas que repercutem na sustentabilidade ambiental e responsabilidade social de empresas e organizações, seu principal destaque é fazer da tecnologia uma potencial fonte de soluções para problemas ambientais."
     },
     {
       "title": "Transferência de Aprendizado",
