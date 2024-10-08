@@ -562,7 +562,7 @@
       "tags": [
         "Ferramenta"
       ],
-      "description": "IDE é a abreviação de Integrated Development Environment, que em português significa Ambiente de Desenvolvimento Integrado. Trata-se de um programa com interfaces gráficas que facilitam a interação dos pessoas desenvolvedoras na criação de aplicações. Normalmente um IDE inclui um editor de código fonte e ferramentas de depuração para identificar e corrigir erros. Exemplos populares de IDEs incluem Android Studio, Eclipse e Visual Studio Code."
+      "description": "IDE é a abreviação de Integrated Development Environment, que em português significa Ambiente de Desenvolvimento Integrado. Trata-se de um programa com interfaces gráficas que facilitam a interação das pessoas desenvolvedoras na criação de aplicações. Normalmente um IDE inclui um editor de código fonte e ferramentas de depuração para identificar e corrigir erros. Exemplos populares de IDEs incluem Android Studio, Eclipse e Visual Studio Code."
     },
     {
       "title": "Integração Contínua",
@@ -856,7 +856,7 @@
       "tags": [
         "Back-end"
       ],
-      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). Os pessoas desenvolvedoras usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes."
+      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). As pessoas desenvolvedoras usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes."
     },
     {
       "title": "React",
@@ -1023,7 +1023,7 @@
       "tags": [
         "Design"
       ],
-      "description": "É uma biblioteca que reúne diretrizes de estilo e padrões visuais para a criação de produtos digitais. Ele inclui elementos como tipografia, paletas de cores, uso de ícones e layouts, mas não abrange aspectos técnicos, como código. O objetivo de um style guide é garantir a consistência visual e a coerência na comunicação de marca, servindo como referência para designers e equipes de marketing e comunicação mas sem a colaboração direta de pessoas desenvolvedoras."
+      "description": "É uma biblioteca que reúne diretrizes de estilo e padrões visuais para a criação de produtos digitais. Ele inclui elementos como tipografia, paletas de cores, uso de ícones e layouts, mas não abrange aspectos técnicos, como código. O objetivo de um style guide é garantir a consistência visual e a coerência na comunicação de marca, servindo como referência para designers e equipes de marketing e comunicação mas sem a colaboração direta das pessoas desenvolvedoras."
     },
     {
       "title": "Swift",
@@ -1100,7 +1100,7 @@
       "tags": [
         "Back-end"
       ],
-      "description": " É uma linguagem visual que os pessoas desenvolvedoras de software usam para descrever e projetar sistemas de software. Ela oferece diferentes tipos de diagramas, como diagramas de classes, sequência e atividades, para representar diferentes aspectos de um sistema. Esses diagramas ajudam as equipes a entenderem e comunicarem melhor as ideias e os designs do software."
+      "description": " É uma linguagem visual que as pessoas desenvolvedoras de software usam para descrever e projetar sistemas de software. Ela oferece diferentes tipos de diagramas, como diagramas de classes, sequência e atividades, para representar diferentes aspectos de um sistema. Esses diagramas ajudam as equipes a entenderem e comunicarem melhor as ideias e os designs do software."
     },
     {
       "title": "Underfitting",
