@@ -396,7 +396,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Entrega contínua (do inglês, Continuous Delivery ou CD) é uma prática de desenvolvimento de software que assegura que o código esteja sempre pronto para ser implantado em produção a qualquer momento. Após a Integração Contínua (CI), o software é automaticamente preparado para lançamentos, com um processo de implantação automatizado e rigorosos testes que garantem sua qualidade. Os benefícios do CD incluem implantações mais rápidas, redução de riscos e feedback contínuo dos usuários. Ferramentas como Spinnaker e Octopus Deploy são comumente utilizadas para facilitar essa prática."
+      "description": "Entrega contínua (do inglês, Continuous Delivery ou CD) é uma prática de desenvolvimento de software que assegura que o código esteja sempre pronto para ser implantado em produção a qualquer momento. Após a Integração Contínua (CI), o software é automaticamente preparado para lançamentos, com um processo de implantação automatizado e rigorosos testes que garantem sua qualidade. Os benefícios do CD incluem implantações mais rápidas, redução de riscos e feedback contínuo das pessoas usuárias. Ferramentas como Spinnaker e Octopus Deploy são comumente utilizadas para facilitar essa prática."
     },
     {
       "title": "Época",
@@ -560,7 +560,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Integração contínua (do inglês, Continuous Integration ou CI) é uma prática de desenvolvimento de software onde os desenvolvedores integram seu código em um repositório compartilhado, utilizando automação para compilar e testar o software. O objetivo é detectar rapidamente erros, melhorar a qualidade do código e reduzir o tempo de entrega, promovendo um feedback rápido e facilitando a colaboração entre equipes. Ferramentas como Jenkins e GitHub Actions são comumente utilizadas para implementar CI."
+      "description": "Integração contínua (do inglês, Continuous Integration ou CI) é uma prática de desenvolvimento de software onde as pessoas desenvolvedoras integram seu código em um repositório compartilhado, utilizando automação para compilar e testar o software. O objetivo é detectar rapidamente erros, melhorar a qualidade do código e reduzir o tempo de entrega, promovendo um feedback rápido e facilitando a colaboração entre equipes. Ferramentas como Jenkins e GitHub Actions são comumente utilizadas para implementar CI."
     },
     {
       "title": "Inteligência Artificial",
