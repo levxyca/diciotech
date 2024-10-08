@@ -25,18 +25,20 @@ Existem diversas formas de contribuir com o projeto:
    * **Recomendação:** Visual Studio Code (gratuito, open-source, amplamente utilizado)
    * **Outras opções:** Sublime Text, Atom
 
-### 2. **Instale um pré-processador SASS**
+### 2. **Execute o Projeto**
+Para visualizar seu projeto, você pode abrir o arquivo `index.html` em um navegador. Se quiser usar um servidor local (opcional), você pode instalar uma extensão no seu editor ou usar ferramentas como o **Live Server** no Visual Studio Code.
+
+Caso queira mexer na parte visual do Diciotech, você também vai precisar, antes de executar o projeto:
+
+### 1. **Instale um pré-processador SASS**
 Para compilar SASS em CSS, você precisará de um compilador. Recomendo a leitura do https://sass-lang.com/guide/ 👀
 
-### 3. **Compile seu SASS**
+### 2. **Compile seu SASS**
 Para compilar seu SASS em CSS, abra o terminal na pasta do seu projeto e execute:
 ```bash
 sass scss/styles.scss css/styles.css --watch
 ```
 O `--watch` faz com que o SASS fique monitorando alterações no arquivo `.scss` e compile automaticamente.
-
-### 4. **Execute o Projeto**
-Para visualizar seu projeto, você pode abrir o arquivo `index.html` em um navegador. Se quiser usar um servidor local (opcional), você pode instalar uma extensão no seu editor ou usar ferramentas como o **Live Server** no Visual Studio Code.
 
 ### Adicionando um novo termo técnico no Diciotech
 
