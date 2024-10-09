@@ -28,17 +28,29 @@ Existem diversas formas de contribuir com o projeto:
 ### 2. **Execute o Projeto**
 Para visualizar seu projeto, você pode abrir o arquivo `index.html` em um navegador. Se quiser usar um servidor local (opcional), você pode instalar uma extensão no seu editor ou usar ferramentas como o **Live Server** no Visual Studio Code.
 
+<details>
+   <summary>
+:rotating_light: Para efetuar alterações em documentações
+   </summary>
+   Você pode utilizar o Github.Dev para efetuar as alterações em arquivos do tipo markdown para isso é só ir no repositório e apertar a tecla . (ponto)
+</details>
+<br>
+<details>  
+   <summary>
+      :rotating_light: Para efetuar alterações visuais
+   </summary>
 Caso queira mexer na parte visual do Diciotech, você também vai precisar, antes de executar o projeto:
 
-### 1. **Instale um pré-processador SASS**
+#### 1. **Instale um pré-processador SASS**
 Para compilar SASS em CSS, você precisará de um compilador. Recomendo a leitura do https://sass-lang.com/guide/ 👀
 
-### 2. **Compile seu SASS**
+#### 2. **Compile seu SASS**
 Para compilar seu SASS em CSS, abra o terminal na pasta do seu projeto e execute:
 ```bash
 sass scss/styles.scss css/styles.css --watch
 ```
 O `--watch` faz com que o SASS fique monitorando alterações no arquivo `.scss` e compile automaticamente.
+</details>
 
 ### Adicionando um novo termo técnico no Diciotech
 
