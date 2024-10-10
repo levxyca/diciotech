@@ -79,6 +79,40 @@ function sortCards(sortingArray) {
     }
 }
 
+function calculateScore(text, searchWords) {
+    let score = 0;
+    const textWords = text.split(/\s+/);
+
+    searchWords.forEach((searchWord) => {
+        let wordScore = 0;
+
+        textWords.some((word) => {
+            if (word == searchWord) {
+                // breaks the loop if the word is an exact match, since no other word can have a higher score
+                wordScore = exactWordScore;
+                return true;
+
+            } else if (wordScore < partialWordScore) {
+                if (word.includes(searchWord)) {
+                    wordScore = partialWordScore;
+
+                } else if (word.length > 3) {
+                    const levenshteinDistance = levenshtein(searchWord, word);
+
+                    // only the word with the lowest levenshtein distance will be considered
+                    if ((levenshteinDistance <= levenshteinThreshold) && (levenshteinScore - levenshteinDistance > wordScore)) {
+                        wordScore = levenshteinScore - levenshteinDistance;
+                    }
+                }
+            }
+        });
+
+        score += wordScore;
+    });
+
+    return score
+}
+
 function searchCards() {
     const inputValue = searchInput.value.toLowerCase().trim();
     let cardsScores = [];
@@ -92,73 +126,13 @@ function searchCards() {
             // search for words inside the title that either contains the search words or have a low levenshtein distance
             // only consider the best case for each search word
             const cardTitle = card.querySelector(".card__title").textContent.toLowerCase();
-            const titleWords = cardTitle.split(/\s+/);
-            let titleScore = 0;
-
-            searchWords.forEach((searchWord) => {
-                let wordScore = 0;
-
-                titleWords.some((word) => {
-                    if (word == searchWord) {
-                        // breaks the loop if the word is an exact match, since no other word can have a higher score
-                        wordScore = exactWordScore;
-                        return true;
-
-                    } else if (wordScore < partialWordScore) {
-                        if (word.includes(searchWord)) {
-                            wordScore = partialWordScore;
-
-                        } else if (word.length > 3) {
-                            const levenshteinDistance = levenshtein(searchWord, word);
-
-                            // only the word with the lowest levenshtein distance will be considered
-                            if ((levenshteinDistance <= levenshteinThreshold) && (levenshteinScore - levenshteinDistance > wordScore)) {
-                                wordScore = levenshteinScore - levenshteinDistance;
-                            }
-                        }
-                    }
-                });
-
-                titleScore += wordScore;
-            });
-
-            // give extra points for words in title
-            cardScore += titleScore * 10;
+            // give extra score for words in title
+            cardScore += calculateScore(cardTitle, searchWords) * 10;
 
             // search for words inside the description that either contains the search words or have a low levenshtein distance
             // only consider the best case for each search word
             const cardDescription = card.querySelector(".card__description").textContent.toLowerCase();
-            const descriptionWords = cardDescription.split(/\s+/);
-            let descriptionScore = 0;
-
-            searchWords.forEach((searchWord) => {
-                let wordScore = 0;
-
-                descriptionWords.some((word) => {
-                    if (word == searchWord) {
-                        // breaks the loop if the word is an exact match, since no other word can have a higher score
-                        wordScore = exactWordScore;
-                        return true;
-
-                    } else if (wordScore < partialWordScore) {
-                        if (word.includes(searchWord)) {
-                            wordScore = partialWordScore;
-
-                        } else if (word.length > 3) {
-                            const levenshteinDistance = levenshtein(searchWord, word);
-
-                            // only the word with the lowest levenshtein distance will be considered
-                            if ((levenshteinDistance <= levenshteinThreshold) && (levenshteinScore - levenshteinDistance > wordScore)) {
-                                wordScore = levenshteinScore - levenshteinDistance;
-                            }
-                        }
-                    }
-                });
-
-                descriptionScore += wordScore;
-            });
-
-            cardScore += descriptionScore;
+            cardScore += calculateScore(cardDescription, searchWords);
 
             if (cardScore > 0) {
                 card.style.display = "";
