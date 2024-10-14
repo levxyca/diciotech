@@ -1145,7 +1145,7 @@
         "Front-end",
         "Framework"
       ],
-      "description": "Vue.js é um framework JavaScript para criar interfaces de usuário. Ele é progressivo, fácil de integrar em projetos e muito utilizado para construir aplicações de página única (SPAs)."
+      "description": "Vue.js é uma ferramenta JavaScript usada para criar interfaces de usuário, ou seja, o que as pessoas veem e interagem em um site ou aplicativo. Ele é fácil de adicionar a projetos já existentes e é muito utilizado para construir sites que funcionam como uma única página (SPAs)."
     },
     {
       "title": "XML",
