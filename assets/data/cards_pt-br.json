@@ -36,7 +36,7 @@
         "Front-end",
         "Framework"
       ],
-      "description": "Angular.js é um framework JavaScript criado pelo Google para desenvolver aplicações de página única (SPAs). Possui uma arquitetura robusta baseada em módulos e injeção de dependências. É muito usado por grandes corporações como Google e Microsoft"
+      "description": "Angular.js é uma ferramenta desenvolvida pelo Google que facilita a criação de sites ou aplicativos que funcionam como uma única página (SPAs), ou seja, sem recarregar a página inteira a cada interação. Ele organiza o código de forma eficiente usando "módulos" e "injeção de dependências", o que ajuda a manter tudo mais fácil de gerenciar. Grandes empresas como Google e Microsoft utilizam essa tecnologia."
     },
     {
       "title": "API",
@@ -701,7 +701,7 @@
         "Front-end",
         "Framework"
       ],
-      "description": "Next.js é um framework baseado em React que facilita a criação de sites com renderização no servidor (SSR) e geração de páginas estáticas (SSG), proporcionando melhor SEO e carregamento mais rápido de páginas."
+      "description": "Next.js é uma ferramenta baseada no React que ajuda a criar sites mais rápidos e fáceis de encontrar nos buscadores (SEO). Ele permite que as páginas sejam geradas no servidor (SSR) ou criadas de forma estática (SSG), o que melhora o tempo de carregamento das páginas e a experiência da pessoa usuária."
     },
     {
       "title": "Node.js",
@@ -1050,7 +1050,7 @@
         "Front-end",
         "Framework"
       ],
-      "description": "Svelte é um framework JavaScript que compila o código em tempo de build, eliminando a necessidade de uma camada extra no navegador, o que o torna mais eficiente e leve em comparação a outros frameworks."
+      "description": "Svelte é uma ferramenta JavaScript que transforma o código durante a construção do site ou aplicativo, sem precisar de uma camada extra para funcionar no navegador. Isso o torna mais rápido e leve em comparação com outras ferramentas similares."
     },
     {
       "title": "Style Guide",
@@ -1190,7 +1190,7 @@
         "Front-end",
         "Framework"
       ],
-      "description": "Vue.js é um framework JavaScript para criar interfaces de usuário. Ele é progressivo, fácil de integrar em projetos e muito utilizado para construir aplicações de página única (SPAs)."
+      "description": "Vue.js é uma ferramenta JavaScript usada para criar interfaces de usuário, ou seja, o que as pessoas veem e interagem em um site ou aplicativo. Ele é fácil de adicionar a projetos já existentes e é muito utilizado para construir sites que funcionam como uma única página (SPAs)."
     },
     {
       "title": "XML",
