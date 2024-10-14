@@ -670,7 +670,7 @@
         "Front-end",
         "Framework"
       ],
-      "description": "Next.js é um framework baseado em React que facilita a criação de sites com renderização no servidor (SSR) e geração de páginas estáticas (SSG), proporcionando melhor SEO e carregamento mais rápido de páginas."
+      "description": "Next.js é uma ferramenta baseada no React que ajuda a criar sites mais rápidos e fáceis de encontrar nos buscadores (SEO). Ele permite que as páginas sejam geradas no servidor (SSR) ou criadas de forma estática (SSG), o que melhora o tempo de carregamento das páginas e a experiência da pessoa usuária."
     },
     {
       "title": "Node.js",
