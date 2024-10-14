@@ -1012,7 +1012,7 @@
         "Front-end",
         "Framework"
       ],
-      "description": "Svelte é um framework JavaScript que compila o código em tempo de build, eliminando a necessidade de uma camada extra no navegador, o que o torna mais eficiente e leve em comparação a outros frameworks."
+      "description": "Svelte é uma ferramenta JavaScript que transforma o código durante a construção do site ou aplicativo, sem precisar de uma camada extra para funcionar no navegador. Isso o torna mais rápido e leve em comparação com outras ferramentas similares."
     },
     {
       "title": "Swift",
