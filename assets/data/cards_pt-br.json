@@ -959,6 +959,11 @@
       "description": "A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos de tela e dispositivos, como smartphones, tablets e desktops."
     },
     {
+      "title": "RPA",
+      "description": "Robotic Process Automation (Automação de Processos Robóticos), é uma tecnologia que permite a automação de tarefas repetitivas e baseadas em regras, utilizando robôs de software para realizar principalmente atividades repetitivas. Esses robôs imitam ações humanas em sistemas digitais, como clicar em botões, preencher formulários, copiar e colar dados, acessar sistemas e executar processos predefinidos.",
+      "tags": ["Conceito"]
+   },
+    {
       "title": "Ruby",
       "tags": [
         "Back-end",
