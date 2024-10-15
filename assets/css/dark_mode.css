@@ -63,4 +63,8 @@
   display: none;
 }
 
+.body-dark-mode .fav__button {
+  color: #ffffff;
+}
+
 /*# sourceMappingURL=dark_mode.css.map */
