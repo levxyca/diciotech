@@ -76,3 +76,10 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,linux
+
+# Jekyll build files
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
