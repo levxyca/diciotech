@@ -28,7 +28,7 @@
     }
 
     function getTagsFromCards(data) {
-        const tags = ["Favoritos"];
+        const tags = ["{{ page.favorites }}"];
         data.map((objeto) => {
             if (objeto.tags) {
                 objeto.tags.map((tag) => {
@@ -49,7 +49,7 @@
         listOfCards.forEach((element) => {
             if (
                 element.getAttribute("tags").includes(filterSelect.value) ||
-                filterSelect.value == "Todos"
+                filterSelect.value == "{{ page.all }}"
             ) {
                 element.style.display = "";
                 listOfCardsFiltered.push(element);
@@ -172,20 +172,18 @@
     function insertCardsIntoHtml(data) {
         let cards = `<div class="msg">
                         <div class=collumn-1>
-                            <img src="assets/img/no-results-found.png" alt="Mulher olhando para site sem dados" />
+                            <img src="/assets/img/no-results-found.png" alt="{{ page.no_results.alt }}" />
                             <a href="https://storyset.com/data">Data illustrations by Storyset</a>
                         </div>
                         <div class=collumn-2>
-                            <p> O termo pesquisado não foi encontrado! Verifique se foi digitado corretamente.</p>
-                            <p>Caso esteja correto, por favor crie uma issue no <a href="https://github.com/levxyca/diciotech/issues">repositório</a> para que esse termo possa ser adicionado ao Diciotech.</p>
-                            <p>Agradecemos sua colaboração! 😄</p>
+                            {{ page.no_results.text }}
                         </div>
                     </div>`
         data.forEach((card) => {
             const cardId = generateCardId(card.id, card.title, card.description)
             cards += `
             <section class="card" tags="${
-                card.tags ? card.tags : "Todos"
+                card.tags ? card.tags : "{{ page.all }}"
             }" id="${cardId}">
                 <div class="card__header">
                     <h3 class="card__title">${card.title}</h3>
@@ -194,7 +192,7 @@
                         unique-title="${cardId}"
                         id="fav_${cardId}"
                         src="${
-                            card.tags.includes("Favoritos")
+                            card.tags.includes("{{ page.favorites }}")
                                 ? starIconFilled
                                 : starIcon
                         }"
@@ -228,10 +226,10 @@
         const card = document.getElementById(cardId);
         const tags = card.getAttribute("tags").split(",");
 
-        if (tags.includes("Favoritos")) {
-            tags.splice(tags.indexOf("Favoritos"), 1);
+        if (tags.includes("{{ page.favorites }}")) {
+            tags.splice(tags.indexOf("{{ page.favorites }}"), 1);
         } else {
-            tags.push("Favoritos");
+            tags.push("{{ page.favorites }}");
         }
 
         card.setAttribute("tags", tags);
@@ -267,7 +265,7 @@
                 if (!card.tags) {
                     card.tags = [];
                 }
-                card.tags.push("Favoritos");
+                card.tags.push("{{ page.favorites }}");
             }
         });
         return cards;
