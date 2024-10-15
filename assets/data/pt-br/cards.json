@@ -27,7 +27,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Costumamos chamar de ambiente o lugar ou os servidores onde o que foi desenvolvido fica disponível para testes, validações, pessoas usuárias finais utilizarem ou demais necessidades. Esse servidor seria como um computador. Pode ser um computador físico ou disponível na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos)e produção (onde está disponível o sistema final, desenvolvido e testado, para pessoas usuárias)."
+      "description": "Costumamos chamar de ambiente o lugar ou os servidores onde o que foi desenvolvido fica disponível para testes, validações, pessoas usuárias finais utilizarem ou demais necessidades. Pode ser um computador físico ou disponível na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos) e produção (onde está disponível o sistema final, desenvolvido e testado, para pessoas usuárias)."
     },
     {
       "title": "API",
@@ -35,7 +35,7 @@
         "Back-end",
         "Conceito"
       ],
-      "description": "API é uma sigla que, em inglês, significa: Application Programming Interface. Traduzindo para português, seria uma interface programada para aplicações. É uma estrutura de código que atende a alguns requisitos, seguindo normas e padrões de desenvolvimento, facilitando a organização de sistemas grandes. Disponibiliza funcionalidades e informações para aplicativos e sites. Por exemplo: API dos Correios que disponibiliza consulta de CEP e endereço de maneira simplificada."
+      "description": "API é uma sigla que, em inglês, significa Application Programming Interface. Traduzindo para português, seria uma interface programada para aplicações. É uma estrutura de código que atende a alguns requisitos, seguindo normas e padrões de desenvolvimento, facilitando a organização de sistemas grandes. Disponibiliza funcionalidades e informações para aplicativos e sites. Por exemplo: API dos Correios que disponibiliza consulta de CEP e endereço de maneira simplificada."
     },
     {
       "title": "Aprendizado de Máquina",
@@ -153,10 +153,9 @@
       "title": "Branch",
       "tags": [
         "Conceito",
-        "Ferramenta",
         "Versionamento"
       ],
-      "description": "Uma Branch é como uma cópia do seu projeto em um momento específico. É como se você criasse uma versão separada para trabalhar em novas ideias sem mexer na versão principal. Cada Branch pode ser editado à parte, permitindo que você desenvolva coisas novas sem atrapalhar o código principal."
+      "description": "Uma branch é como uma cópia do seu projeto em um momento específico. É como se você criasse uma versão separada para trabalhar em novas ideias sem mexer na versão principal. Cada Branch pode ser editado à parte, permitindo que você desenvolva coisas novas sem atrapalhar o código principal."
     },
     {
       "title": "Bug",
@@ -213,10 +212,9 @@
       "title": "Clone",
       "tags": [
         "Conceito",
-        "Ferramenta",
         "Versionamento"
       ],
-      "description": "Clonar um Repositório é como tirar uma cópia local desse projeto no seu próprio espaço de trabalho. É como ter sua própria versão do código para mexer como quiser. Isso permite que você trabalhe em uma versão local do código, faça alterações e contribua de volta ao projeto principal quando estiver pronto."
+      "description": "Clonar um repositório é como tirar uma cópia local desse projeto no seu próprio espaço de trabalho. É como ter sua própria versão do código para mexer como quiser. Isso permite que você trabalhe em uma versão local do código, faça alterações e contribua de volta ao projeto principal quando estiver pronto."
     },
     {
       "title": "Coalescência nula",
@@ -252,7 +250,8 @@
     {
       "title": "Componente",
       "tags": [
-        "Conceito"
+        "Conceito",
+        "Design"
       ],
       "description": "Um componente é uma unidade fundamental e reutilizável de construção de interfaces de usuário. Ele encapsula a lógica e a apresentação relacionadas a uma parte específica da interface. Componentes podem ser comparados a blocos de construção que, quando combinados, formam interfaces complexas. Eles promovem a organização e a manutenibilidade do código, uma vez que podem ser desenvolvidos e testados de forma independente. Os componentes podem aceitar propriedades (props) como entrada e renderizar informações com base nesses dados, permitindo uma personalização flexível."
     },
@@ -266,7 +265,8 @@
     {
       "title": "Conjunto de Dados",
       "tags": [
-        "Conceito"
+        "Conceito",
+        "Inteligência artificial"
       ],
       "description": "Chamado de dataset no inglês, é um conjunto de dados que pode ser usado para treinar e testar modelos de aprendizado de máquina. Normalmente são usadas partes diferentes dos conjuntos de dados para treinamento e para teste, para evitar a ocorrência de overfitting. Também podem ser usadas partes para validação e para inferência. Um conjunto de dados é composto por vários exemplos, que por sua vez são compostos por vários pontos de dados. Por exemplo, um conjunto de dados de gatos pode conter vários exemplos de gatos, onde cada exemplo pode ser composto por uma ou mais imagens e vários atributos atrelados, como tamanho, raça e cor."
     },
@@ -291,7 +291,7 @@
       ],
       "description": "Ferramenta para transferir dados de/para um servidor, ou seja fazer uma requisição utilizando diversos protocolos, sendo o mais comum o HTTP. Quando se escuta o termo 'faz um curl para x' significa que é preciso fazer uma requisição para x, mas não necessáriamente utilizando a ferramenta curl. O curl é bastante utilizado por ser simples de utilizar via linha de comando(terminal), não necessitando de softwares terceiros para realizar chamadas",
       "content": {
-        "code": "curl http://www.google.com"
+        "code": "curl https://www.google.com"
       }
     },
     {
@@ -328,6 +328,7 @@
     {
       "title": "Descida do Gradiente",
       "tags": [
+        "Artificial intelligence",
         "Conceito"
       ],
       "description": "Modelos de redes neurais são geralmente treinados por um algoritmo de otimização que é uma variação da descida do gradiente. Durante o aprendizado, os dados de treinamento de entrada ajudam o modelo a aprender e a função de perda avalia o quão precisa é a performance de predição para cada iteração. À medida que o treinamento avança, o objetivo é reduzir a função de perda/erro de predição ajustando os parâmetros iterativamente. Especificamente, o algoritmo de descida do gradiente tem uma etapa de propagação para a frente (do inglês, forward pass ou forward propagation) e uma etapa para trás (do inglês, backward pass ou backpropagation). Na etapa de propagação para a frente, os dados de entrada são passados pela rede neural e a saída é calculada. Na etapa de propagação para trás, o gradiente da função de perda é calculado em relação a cada peso da rede neural, e os pesos são atualizados de acordo com o gradiente. Então o algoritmo dá um passo de descida do gradiente para minimizar a função de perda (considerando a taxa de aprendizado)."
@@ -357,11 +358,10 @@
       "title": "Design System",
       "tags": [
         "Design",
-        "Front-End"
+        "Front-end"
       ],
       "description": "É um conjunto de diretrizes, componentes e padrões que orientam a criação e a manutenção de interfaces e experiências de usuário consistentes em produtos digitais. Inclui elementos como: paletas de cores, tipografia, ícones e padrões de layout, além de ser uma documentação para designers e pessoas desenvolvedoras sobre como e quando utilizar os componentes do design system. Visa melhorar a eficiência no desenvolvimento, garantir a coerência visual e funcional, e facilitar a colaboração entre as equipes de design e desenvolvimento."
     },
-    
     {
       "title": "DOM (Document Object Model)",
       "tags": [
@@ -375,7 +375,7 @@
         "Conceito",
         "Segurança cibernética"
       ],
-      "description": "DoS é um ataque de negação de serviço, neste ataque é usado apenas um computador que faz muitas consultas em um site em um espaço curto de tempo com o objetivo de tirá-lo do ár."
+      "description": "DoS é um ataque de negação de serviço. Neste ataque é usado apenas um computador que faz muitas consultas em um site em um espaço curto de tempo com o objetivo de tirá-lo do ár."
     },
     {
       "title": "Early Stopping",
@@ -434,23 +434,23 @@
     {
       "title": "Expo CLI",
       "tags": [
+        "Ferramenta",
         "Mobile"
       ],
       "description": "O Expo CLI é uma ferramenta que facilita o desenvolvimento de aplicativos móveis para iOS e Android. É utilizado para criar rapidamente um projeto com o React Native"
     },
     {
-      "title": "Finetuning",
+      "title": "Fine-tuning",
       "tags": [
         "Conceito",
         "Inteligência artificial"
       ],
-      "description": "Também chamado de ajuste fino, é o processo de treinamento de um modelo de aprendizado de máquina pré-treinado em um novo conjunto de dados. Ele é usado para adaptar um modelo de base para uma tarefa específica, melhorando seu desempenho e reduzindo o tempo de treinamento em comparação com o treinamento do zero. O finetuning é comumente usado em modelos de visão computacional e processamento de linguagem natural."
+      "description": "Também chamado de ajuste fino, é o processo de treinamento de um modelo de aprendizado de máquina pré-treinado em um novo conjunto de dados. Ele é usado para adaptar um modelo de base para uma tarefa específica, melhorando seu desempenho e reduzindo o tempo de treinamento em comparação com o treinamento do zero. O fine-tuning é comumente usado em modelos de visão computacional e processamento de linguagem natural."
     },
     {
       "title": "Fork",
       "tags": [
         "Conceito",
-        "Ferramenta",
         "Versionamento"
       ],
       "description": "Fazer um Fork é como criar uma cópia independente de um projeto. É como se você pegasse o projeto de outra pessoa, o bifurcasse, e o tivesse em sua própria conta. Isso permite que você faça suas próprias mudanças sem mexer no projeto original. É algo comum em projetos de código aberto."
@@ -468,7 +468,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Uma função é um bloco de código que realiza uma tarefa específica e pode ser chamado a partir de outras partes do programa. Ela ajuda a organizar e reutilizar o código, tornando o software mais modular e legível. As funções recebem entradas (chamadas de argumentos) e podem retornar um resultado (valor de retorno) ou simplesmente executar uma ação."
+      "description": "Uma função é um bloco de código que realiza uma tarefa específica e pode ser chamado a partir de outras partes do programa. Ela ajuda a organizar e reutilizar o código, tornando o software mais modular e legível. As funções podem receber entradas (chamadas de argumentos) e podem retornar um resultado (valor de retorno) ou simplesmente executar uma ação."
     },
     {
       "title": "Função de Não-Linearidade",
@@ -496,7 +496,6 @@
     {
       "title": "Git",
       "tags": [
-        "Conceito",
         "Ferramenta",
         "Versionamento"
       ],
@@ -505,7 +504,6 @@
     {
       "title": "GitHub",
       "tags": [
-        "Conceito",
         "Ferramenta",
         "Versionamento"
       ],
@@ -514,7 +512,6 @@
     {
       "title": "GPT",
       "tags": [
-        "Conceito",
         "Inteligência artificial",
         "Rede neural"
       ],
@@ -523,7 +520,8 @@
     {
       "title": "Gradiente",
       "tags": [
-        "Conceito"
+        "Conceito",
+        "Inteligência artificial"
       ],
       "description": "O gradiente simplesmente mede o quanto a saída de uma função muda se você mudar um pouco as entradas. Ele mede a mudança em todos os pesos da rede neural em relação à diferença no erro calculado. Você também pode pensar em um gradiente como a inclinação de uma função. Quanto maior o gradiente, mais íngreme a inclinação e mais rápido um modelo pode aprender. Mas se a inclinação for zero, o modelo para de aprender. Em termos matemáticos, um gradiente é uma derivada parcial em relação às suas entradas."
     },
@@ -585,7 +583,7 @@
         "Conceito",
         "Versionamento"
       ],
-      "description": "Uma 'issue' é como se fosse um bilhete que anota um problema ou algo a ser feito em um projeto. É como um lembrete que pode ser usado para falar sobre erros, pedir novas funcionalidades, conversar sobre melhorias ou ficar de olho em uma tarefa."
+      "description": "Uma issue é como se fosse um bilhete que anota um problema ou algo a ser feito em um projeto. É como um lembrete que pode ser usado para falar sobre erros, pedir novas funcionalidades, conversar sobre melhorias ou ficar de olho em uma tarefa."
     },
     {
       "title": "JavaScript",
@@ -604,11 +602,11 @@
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript."
     },
     {
-      "title": "Json",
+      "title": "JSON",
       "tags": [
         "Conceito"
       ],
-      "description": "Em inglês significa JavaScript Object Notation. Json é um tipo de arquivo e tem uma estrutura com nome do dado e valor do dado. Dependendo do tipo de API que construímos, utilizamos o formato Json para transferir os dados entre sistemas. Por exemplo: API que consulta clientes em seu negócio. A resposta da API pode vir em formato json.",
+      "description": "Em inglês significa JavaScript Object Notation. JSON é um tipo de arquivo e tem uma estrutura com nome do dado e valor do dado. Dependendo do tipo de API que construímos, utilizamos o formato JSON para transferir os dados entre sistemas. Por exemplo: API que consulta clientes em seu negócio. A resposta da API pode vir em formato JSON.",
       "content": {
         "code": "{name: 'Morganna', cpf: '000.000.000-00', email: 'email@email.com'}"
       }
@@ -631,7 +629,7 @@
       }
     },
     {
-      "title": "Linguagem Baixo Nível",
+      "title": "Linguagem de Baixo Nível",
       "tags": [
         "Conceito"
       ],
@@ -640,7 +638,8 @@
     {
       "title": "Manifold",
       "tags": [
-        "Conceito"
+        "Conceito",
+        "Inteligência artificial"
       ],
       "description": "Em geometria diferencial, um manifold é um espaço topológico (superfície) com alta dimensionalidade que localmente se parece com o espaço euclidiano. Em aprendizado de máquina, um manifold é um espaço de características latentes que pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina. A hipótese do manifold sugere que os dados de alta dimensão (por exemplo, dados do mundo real como imagens e vídeos) estão contidos em um espaço de baixa dimensão, onde as relações entre os dados são mais facilmente identificadas. A ideia é que, ao mapear os dados para um espaço de baixa dimensão, é possível encontrar padrões e relações mais facilmente do que no espaço de alta dimensão original."
     },
@@ -648,7 +647,7 @@
       "title": "Material",
       "tags": [
         "Design",
-        "Front-End",
+        "Front-end",
         "Mobile"
       ],
       "description": "É um sistema de design criado e apoiado pelos designers e pessoas desenvolvedoras da Google. O Material.io inclui orientações detalhadas de UX e implementações de componentes de UI para Android, Flutter e Web."
@@ -657,7 +656,6 @@
       "title": "Merge",
       "tags": [
         "Conceito",
-        "Ferramenta",
         "Versionamento"
       ],
       "description": "O Merge é como juntar peças de quebra-cabeça no desenvolvimento de código. É quando combinamos alterações de diferentes partes do código para criar uma versão unificada. Imagine misturar o trabalho de uma equipe que adicionou novos recursos de volta ao projeto principal. Isso é o Merge - juntar tudo em uma única linha de desenvolvimento."
@@ -674,17 +672,18 @@
       "title": "Mobile First",
       "tags": [
         "Conceito",
+        "Design",
         "Front-end"
       ],
       "description": "Esse conceito determina que ao criarmos um site, devemos primeiro atender as necessidades dos dispositivos móveis."
     },
     {
-      "title": "Modelos de Base",
+      "title": "Modelos de base",
       "tags": [
         "Conceito",
         "Inteligência artificial"
       ],
-      "description": "Também chamados de modelos de referência, são modelos de aprendizado de máquina pré-treinados em grandes conjuntos de dados e comumente disponibilizados para uso por terceiros. Eles são usados como modelos de base para diversas aplicações de visão computacional, processamento de linguagem natural, entre outros. Modelos de base podem ser usados congelados, como uma camada de extração de características (features), ou passarem por um ajuste fino (finetune), gerando um modelo completo."
+      "description": "Também chamados de modelos de fundação, são modelos de aprendizado de máquina pré-treinados em grandes conjuntos de dados e comumente disponibilizados para uso por terceiros. Eles são usados como modelos de base para diversas aplicações de visão computacional, processamento de linguagem natural, entre outros. Modelos de base podem ser usados congelados, como uma camada de extração de características (features), ou passarem por um ajuste fino (finetune), gerando um modelo completo."
     },
     {
       "title": "Node.js",
@@ -841,19 +840,18 @@
         "Conceito",
         "Versionamento"
       ],
-      "description": "Trata-se de uma requisição de alteração dentro de um projeto. Essa requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade, sugerir alterações, entre outros motivos. Essa requisição de alteração é feita para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo de faz sentido para o contexto daquele momento. E essa requisição pode ficar pendente até que pessoas responsáveis ou que tenham a permissão, aprovem. Outras regras podem ser adicionadas nessas requisições, como build da aplicação, rodar testes com sucesso e o que mais fizer sentido para o projeto em questão."
+      "description": "Trata-se de uma requisição de alteração dentro de um projeto. Essa requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade, sugerir alterações, entre outros motivos. Essa requisição de alteração é feita para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo de faz sentido para o contexto daquele momento. A requisição pode ficar pendente até que pessoas responsáveis pelo projeto ou que tenham a permissão aprovem. Outras regras podem ser adicionadas nessas requisições, como build da aplicação, rodar testes com sucesso e o que mais fizer sentido para o projeto em questão."
     },
     {
       "title": "Python",
       "tags": [
         "Back-end"
       ],
-      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). As pessoas desenvolvedoras usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes."
+      "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). As pessoas desenvolvedoras usam o Python porque é fácil de aprender e pode ser executada em muitas plataformas diferentes."
     },
     {
       "title": "React",
       "tags": [
-        "Conceito",
         "Front-end"
       ],
       "description": "React é uma biblioteca JavaScript de código aberto utilizada para criar interfaces de usuário interativas e dinâmicas em aplicações web e em outros ambientes, como mobile, TV, realidade virtual, entre outros. Ele se destaca por seu modelo de programação baseado em componentes e pela eficiência na atualização da interface do usuário, tornando-o uma escolha popular no desenvolvimento front-end."
@@ -923,7 +921,7 @@
         "Inteligência artificial",
         "Rede neural"
       ],
-      "description": "Do inglês, Deep Neural Network ou DNN, é um tipo de rede neural artificial com várias camadas de unidades de processamento interconectadas. É chamada de rede neural profunda devido ao número de camadas ocultas usadas no modelo de aprendizado profundo. Enquanto uma rede neural básica é formada por uma camada de entrada, uma de saída e poucas camadas intermediárias (também chamadas de camadas ocultas), uma rede neural profunda tem várias camadas ocultas de processamento, podendo chegar a centenas. Essas camadas adicionais dão a essas redes a capacidade de fazer previsões com maior precisão quando comparadas a uma rede neural mais simples, mas exigem milhões de pontos de dados de amostra e centenas de horas de treinamento."
+      "description": "Do inglês, Deep Neural Network ou DNN, é um tipo de rede neural artificial com várias camadas de unidades de processamento interconectadas. É chamada de rede neural profunda devido ao número de camadas ocultas usadas no modelo de aprendizado profundo. Enquanto uma rede neural básica é formada por uma camada de entrada, uma de saída e poucas camadas intermediárias (também chamadas de camadas ocultas), uma rede neural profunda tem várias camadas ocultas de processamento, podendo chegar a milhares. Essas camadas adicionais dão a essas redes a capacidade de fazer previsões com maior precisão quando comparadas a uma rede neural mais simples, mas exigem milhões de pontos de dados de amostra e centenas de horas de treinamento."
     },
     {
       "title": "Rede Neural Recorrente",
@@ -938,23 +936,25 @@
       "title": "Repositório",
       "tags": [
         "Conceito",
-        "Ferramenta",
         "Versionamento"
       ],
-      "description": "Um Repositório é basicamente uma caixa que guarda todo o material do seu projeto. Pense nele como um lugar onde você armazena o código, a história das mudanças e outros arquivos importantes. Existem repositórios locais no seu computador e repositórios remotos em servidores compartilhados."
+      "description": "Um Repositório é basicamente uma caixa que guarda todo o material do seu projeto. Pense nele como um lugar onde você armazena o código, o histórico das mudanças e outros arquivos importantes. Existem repositórios locais no seu computador e repositórios remotos em servidores compartilhados."
     },
     {
       "title": "Responsividade",
       "tags": [
+        "Design",
         "Front-end"
       ],
       "description": "A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos de tela e dispositivos, como smartphones, tablets e desktops."
     },
     {
       "title": "RPA",
-      "description": "Robotic Process Automation (Automação de Processos Robóticos), é uma tecnologia que permite a automação de tarefas repetitivas e baseadas em regras, utilizando robôs de software para realizar principalmente atividades repetitivas. Esses robôs imitam ações humanas em sistemas digitais, como clicar em botões, preencher formulários, copiar e colar dados, acessar sistemas e executar processos predefinidos.",
-      "tags": ["Conceito"]
-   },
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Robotic Process Automation (Automação de Processos Robóticos), é uma tecnologia que permite a automação de tarefas repetitivas e baseadas em regras, utilizando robôs de software para realizar principalmente atividades repetitivas. Esses robôs imitam ações humanas em sistemas digitais, como clicar em botões, preencher formulários, copiar e colar dados, acessar sistemas e executar processos predefinidos."
+    },
     {
       "title": "Ruby",
       "tags": [
@@ -975,7 +975,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Os princípios SOLID são cinco diretrizes para design de software orientado a objetos, promovendo sistemas mais flexíveis, robustos e de fácil manutenção. Sendo, Single Responsibility Principle (Uma classe deve ter apenas uma responsabilidade), Open/Closed Principle (Classes devem estar abertas para extensão, mas fechadas para modificação), Liskov Substitution Principle (Subclasses devem ser substituíveis por suas superclasses sem alterar a correção do programa), Interface Segregation Principle (Classes não devem ser forçadas a implementar interfaces que não utilizam) e Dependency Inversion Principle (Módulos de alto nível não devem depender de módulos de baixo nível; ambos devem depender de abstrações)."
+      "description": "Os princípios SOLID são cinco diretrizes para design de software orientado a objetos, promovendo sistemas mais flexíveis, robustos e de fácil manutenção. Sendo: Single Responsibility Principle (uma classe deve ter apenas uma responsabilidade), Open/Closed Principle (classes devem estar abertas para extensão, mas fechadas para modificação), Liskov Substitution Principle (subclasses devem ser substituíveis por suas superclasses sem alterar a correção do programa), Interface Segregation Principle (classes não devem ser forçadas a implementar interfaces que não utilizam) e Dependency Inversion Principle (módulos de alto nível não devem depender de módulos de baixo nível; ambos devem depender de abstrações)."
     },
     {
       "title": "Spread Operator",
@@ -1020,7 +1020,7 @@
       "tags": [
         "Design"
       ],
-      "description": "É uma biblioteca que reúne diretrizes de estilo e padrões visuais para a criação de produtos digitais. Ele inclui elementos como tipografia, paletas de cores, uso de ícones e layouts, mas não abrange aspectos técnicos, como código. O objetivo de um style guide é garantir a consistência visual e a coerência na comunicação de marca, servindo como referência para designers e equipes de marketing e comunicação mas sem a colaboração direta das pessoas desenvolvedoras."
+      "description": "É uma biblioteca que reúne diretrizes de estilo e padrões visuais para a criação de produtos digitais. Ele inclui elementos como tipografia, paletas de cores, uso de ícones e layouts, mas não abrange aspectos técnicos, como código. O objetivo de um style guide é garantir a consistência visual e a coerência na comunicação de marca, servindo como referência para designers e equipes de marketing e comunicação, mas sem a colaboração direta das pessoas desenvolvedoras."
     },
     {
       "title": "Swift",
@@ -1128,7 +1128,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Uma variável tipada é aquele que possui um tipo de dado associado a ela."
+      "description": "Uma variável tipada é aquele que possui um tipo de dado associado a ela (ex: int, float, string)."
     },
     {
       "title": "Versionamento",
