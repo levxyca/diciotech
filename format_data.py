@@ -16,8 +16,13 @@ def main(file: Path):
     data['cards'] = sorted(data['cards'], key=lambda x: strip_accents(x['title'].lower()))
 
     # sort tags inside each card by value
-    for card in data['cards']:
-        card['tags'] = sorted(card['tags'], key=lambda x: strip_accents(x.lower()))
+    try:
+        for card in data['cards']:
+            card['tags'] = sorted(card['tags'], key=lambda x: strip_accents(x.lower()))
+    except KeyError:
+        cards_without_tags = [card['title'] for card in data['cards'] if 'tags' not in card]
+        print(f'Warning: the following cards do not have tags: {cards_without_tags}')
+        raise
 
     # sort keys in the cards by reverse key order
     data['cards'] = [{k: v for k, v in sorted(card.items(), reverse=True)} for card in data['cards']]
@@ -29,7 +34,7 @@ def main(file: Path):
 
 
 if __name__ == '__main__':
-    parser = ArgumentParser(description="Sort data.")
+    parser = ArgumentParser(description='Sort data.')
     parser.add_argument('-f', '--file', type=Path, required=True,
                         help='Path to the file containing the data')
     args = parser.parse_args()
