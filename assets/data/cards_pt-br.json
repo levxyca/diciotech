@@ -764,14 +764,6 @@
       "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos."
     },
     {
-      "title": "ORM",
-      "tags": [
-        "Back-end",
-        "Conceito"
-      ],
-      "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos."
-    },
-    {
       "title": "Otimizador",
       "tags": [
         "Conceito",

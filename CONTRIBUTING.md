@@ -111,6 +111,7 @@ Tags disponíveis:
 - `Rede neural`;
 - `Versionamento`;
 - `Web3`;
+- `Cybersecurity`;
 - `Infraestrutura de Rede`.
 
 Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas práticas:
