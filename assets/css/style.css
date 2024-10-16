@@ -3,7 +3,7 @@
   margin: 10px 0px;
   font-size: 1.6rem;
   text-align: center;
-  color: #232323;
+  color: var(--cookies-text-color);
 }
 
 .cookies-container {
@@ -16,7 +16,7 @@
 
 .cookies-content {
   box-shadow: 0 1px 5px #6e6197;
-  background-color: #fff;
+  background-color: var(--cookies-background-color);
   border: 1px solid #6e6197;
   max-width: 50%;
   border-radius: 5px;
@@ -29,6 +29,9 @@
   opacity: 0;
   transform: translateY(1rem);
   animation: slideUp 0.5s forwards;
+}
+.cookies-content a {
+  color: var(--cookies-link-color);
 }
 
 .cookies-accept-button {
@@ -55,11 +58,11 @@ html[data-theme=dark] {
   --background-color: #232226;
   --card-background-color: #3e3e3f;
   --card-description-color: #ffffff;
-  --card-title-color: #EEE7F9;
+  --card-title-color: #eee7f9;
   --cookies-background-color: #3e3e3f;
-  --cookies-link-color: #EEE7F9;
+  --cookies-link-color: #eee7f9;
   --cookies-text-color: #ffffff;
-  --link-color: #BDAFDF;
+  --link-color: #bdafdf;
   --searchbar-background-color: #3e3e3f;
   --searchbar-text-color: #ffffff;
   --tags-filter-background-color: #3e3e3f;
@@ -82,10 +85,10 @@ html[data-theme=light] {
   --card-background-color: #ffffff;
   --card-description-color: #232226;
   --card-title-color: #6e6197;
-  --cookies-background-color: #3e3e3f;
-  --cookies-link-color: #EEE7F9;
-  --cookies-text-color: #ffffff;
-  --link-color: #BDAFDF;
+  --cookies-background-color: #ffffff;
+  --cookies-link-color: #0000ff;
+  --cookies-text-color: #232226;
+  --link-color: #bdafdf;
   --searchbar-background-color: #f2f2f2;
   --searchbar-text-color: #232226;
   --tags-filter-background-color: #ffffff;
@@ -144,15 +147,6 @@ body .main {
   flex-wrap: wrap;
   max-width: 1440px;
   margin: 0 auto;
-}
-body .main .cookies-content {
-  background-color: var(--cookies-background-color);
-}
-body .main .cookies-content .cookies-message {
-  color: var(--cookies-text-color);
-}
-body .main .cookies-content a {
-  color: var(--cookies-link-color);
 }
 
 ::-webkit-scrollbar {
@@ -266,14 +260,14 @@ html {
   text-align: left;
   font-size: 10px;
   padding: 10px;
-  color: #3C306C;
+  color: #3c306c;
 }
 .msg .collumn-2 p {
   padding: 10px;
 }
 .msg .collumn-2 a {
   text-decoration: none;
-  color: #9A8CC0;
+  color: #9a8cc0;
 }
 
 .card {
