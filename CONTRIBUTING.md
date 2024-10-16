@@ -9,8 +9,12 @@ Neste guia vamos explicar como funcionam os processos para que você possa contr
 Existem diversas formas de contribuir com o projeto:
 
 - [📖 Contribua com o Diciotech](#-contribua-com-o-diciotech)
-  - [⚒️ Instalando ambiente de desenvolvimento para contribuir](#️-instalando-ambiente-de-desenvolvimento-para-contribuir)
   - [🤔 Como contribuir](#-como-contribuir)
+  - [⚒️ Instalando ambiente de desenvolvimento para contribuir](#️-instalando-ambiente-de-desenvolvimento-para-contribuir)
+    - [1. **Escolha um Editor de Código**](#1-escolha-um-editor-de-código)
+    - [2. **Execute o Projeto**](#2-execute-o-projeto)
+      - [1. **Instale um pré-processador SASS**](#1-instale-um-pré-processador-sass)
+      - [2. **Compile seu SASS**](#2-compile-seu-sass)
     - [Adicionando um novo termo técnico no Diciotech](#adicionando-um-novo-termo-técnico-no-diciotech)
     - [Adicionando uma nova tag no Diciotech](#adicionando-uma-nova-tag-no-diciotech)
     - [Reportando bugs](#reportando-bugs)
@@ -22,10 +26,12 @@ Existem diversas formas de contribuir com o projeto:
 ## ⚒️ Instalando ambiente de desenvolvimento para contribuir
 
 ### 1. **Escolha um Editor de Código**
+
    * **Recomendação:** Visual Studio Code (gratuito, open-source, amplamente utilizado)
    * **Outras opções:** Sublime Text, Atom
 
 ### 2. **Execute o Projeto**
+
 Para visualizar seu projeto, você pode abrir o arquivo `index.html` em um navegador. Se quiser usar um servidor local (opcional), você pode instalar uma extensão no seu editor ou usar ferramentas como o **Live Server** no Visual Studio Code.
 
 <details>
@@ -35,20 +41,27 @@ Para visualizar seu projeto, você pode abrir o arquivo `index.html` em um naveg
    Você pode utilizar o Github.Dev para efetuar as alterações em arquivos do tipo markdown para isso é só ir no repositório e apertar a tecla . (ponto)
 </details>
 <br>
-<details>  
+<details>
    <summary>
       :rotating_light: Para efetuar alterações visuais
    </summary>
 Caso queira mexer na parte visual do Diciotech, você também vai precisar, antes de executar o projeto:
 
 #### 1. **Instale um pré-processador SASS**
+
 Para compilar SASS em CSS, você precisará de um compilador. Recomendo a leitura do https://sass-lang.com/guide/ 👀
 
+```bash
+npm install -g sass
+```
+
 #### 2. **Compile seu SASS**
+
 Para compilar seu SASS em CSS, abra o terminal na pasta do seu projeto e execute:
 ```bash
-sass scss/styles.scss css/styles.css --watch
+sass assets/sass/style.sass assets/css/style.css --watch
 ```
+
 O `--watch` faz com que o SASS fique monitorando alterações no arquivo `.scss` e compile automaticamente.
 </details>
 
@@ -104,18 +117,16 @@ Tags disponíveis:
 - `Design`;
 - `Ferramenta`;
 - `Framework`;
+- `Front-End`;
 - `Front-end`;
 - `Inteligência artificial`;
 - `Mobile`;
 - `Paradigma`;
 - `Rede neural`;
-- `Versionamento`;
-- `Web3`;
-- `Cybersecurity`;
-- `Infraestrutura de Rede`.
+- `Segurança cibernética`;
+- `Versionamento`
 
 Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas práticas:
-
 
 - Todas as tags devem estar no singular;
 - Atualmente, as tags são _case sensitivity_, então, por padrão, apenas a primeira letra da tag deve ser maiúscula. Exemplo: Back-end, Conceito, Paradigma;
