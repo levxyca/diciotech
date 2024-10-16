@@ -1,10 +1,4 @@
 // has to be in the head tag, otherwise a flicker effect will occur
-const body = document.body;
-const changeThemeButton = document.querySelector("#change-theme-button");
-const moonIcon = document.querySelector(".ph-moon");
-const sunIcon = document.querySelector(".ph-sun");
-const systemIcon = document.querySelector(".ph-desktop");
-
 let toggleThemeSetting = () => {
     let themeSetting = getThemeSetting();
     if (themeSetting == "system") {
