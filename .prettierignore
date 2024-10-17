@@ -1,0 +1,5 @@
+**/*.map
+**/*.min.css
+**/*.min.js
+.jekyll-cache/
+.mypy_cache/
