@@ -30,6 +30,15 @@
       "description": "Costumamos chamar de ambiente o lugar ou os servidores onde o que foi desenvolvido fica disponível para testes, validações, pessoas usuárias finais utilizarem ou demais necessidades. Esse servidor seria como um computador. Pode ser um computador físico ou disponível na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos)e produção (onde está disponível o sistema final, desenvolvido e testado, para pessoas usuárias)."
     },
     {
+      "title": "Angular.js",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Angular.js é uma ferramenta desenvolvida pelo Google que facilita a criação de sites ou aplicativos que funcionam como uma única página (SPAs), ou seja, sem recarregar a página inteira a cada interação. Ele organiza o código de forma eficiente usando \"módulos\" e \"injeção de dependências\", o que ajuda a manter tudo mais fácil de gerenciar. Grandes empresas como Google e Microsoft utilizam essa tecnologia."
+    },
+    {
       "title": "API",
       "tags": [
         "Back-end",
@@ -707,6 +716,15 @@
       "description": "Também chamados de modelos de referência, são modelos de aprendizado de máquina pré-treinados em grandes conjuntos de dados e comumente disponibilizados para uso por terceiros. Eles são usados como modelos de base para diversas aplicações de visão computacional, processamento de linguagem natural, entre outros. Modelos de base podem ser usados congelados, como uma camada de extração de características (features), ou passarem por um ajuste fino (finetune), gerando um modelo completo."
     },
     {
+      "title": "Next.js",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Next.js é uma ferramenta baseada no React que ajuda a criar sites mais rápidos e fáceis de encontrar nos buscadores (SEO). Ele permite que as páginas sejam geradas no servidor (SSR) ou criadas de forma estática (SSG), o que melhora o tempo de carregamento das páginas e a experiência da pessoa usuária."
+    },
+    {
       "title": "Node.js",
       "tags": [
         "Back-end"
@@ -874,7 +892,8 @@
       "title": "React",
       "tags": [
         "Conceito",
-        "Front-end"
+        "Front-end",
+        "Framework"
       ],
       "description": "React é uma biblioteca JavaScript de código aberto utilizada para criar interfaces de usuário interativas e dinâmicas em aplicações web e em outros ambientes, como mobile, TV, realidade virtual, entre outros. Ele se destaca por seu modelo de programação baseado em componentes e pela eficiência na atualização da interface do usuário, tornando-o uma escolha popular no desenvolvimento front-end."
     },
@@ -973,8 +992,10 @@
     {
       "title": "RPA",
       "description": "Robotic Process Automation (Automação de Processos Robóticos), é uma tecnologia que permite a automação de tarefas repetitivas e baseadas em regras, utilizando robôs de software para realizar principalmente atividades repetitivas. Esses robôs imitam ações humanas em sistemas digitais, como clicar em botões, preencher formulários, copiar e colar dados, acessar sistemas e executar processos predefinidos.",
-      "tags": ["Conceito"]
-   },
+      "tags": [
+        "Conceito"
+      ]
+    },
     {
       "title": "Ruby",
       "tags": [
@@ -1034,6 +1055,15 @@
         "Mobile"
       ],
       "description": "Um StatelessWidget, no Flutter, é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado."
+    },
+    {
+      "title": "Svelte",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Svelte é uma ferramenta JavaScript que transforma o código durante a construção do site ou aplicativo, sem precisar de uma camada extra para funcionar no navegador. Isso o torna mais rápido e leve em comparação com outras ferramentas similares."
     },
     {
       "title": "Style Guide",
@@ -1165,6 +1195,15 @@
         "Inteligência artificial"
       ],
       "description": "É um campo da inteligência artificial que estuda como os computadores podem obter e processar informações de estímulos visuais. Ela se concentra no desenvolvimento de sistemas que podem analisar e entender imagens e vídeos, permitindo que os computadores reconheçam objetos, pessoas, lugares, movimentos e outros elementos visuais. A visão computacional (do inglês, computer vision ou CV) é usada em uma ampla variedade de aplicações, como reconhecimento facial, carros autônomos, diagnóstico médico, entre outros."
+    },
+    {
+      "title": "Vue.js",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Vue.js é uma ferramenta JavaScript usada para criar interfaces de usuário, ou seja, o que as pessoas veem e interagem em um site ou aplicativo. Ele é fácil de adicionar a projetos já existentes e é muito utilizado para construir sites que funcionam como uma única página (SPAs)."
     },
     {
       "title": "XML",
