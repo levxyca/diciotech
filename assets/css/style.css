@@ -84,8 +84,10 @@ html {
 }
 
 .fav__button {
+  font-size: 2.5rem;
   width: 24px;
   cursor: pointer;
+  color: #6e6197;
 }
 
 .main {
