@@ -15,13 +15,13 @@ Existem diversas formas de contribuir com o projeto:
     - [2. **Execute o Projeto**](#2-execute-o-projeto)
       - [1. **Instale um pré-processador SASS**](#1-instale-um-pré-processador-sass)
       - [2. **Compile seu SASS**](#2-compile-seu-sass)
-    - [Adicionando um novo termo técnico no Diciotech](#adicionando-um-novo-termo-técnico-no-diciotech)
-    - [Adicionando uma nova tag no Diciotech](#adicionando-uma-nova-tag-no-diciotech)
-    - [Reportando bugs](#reportando-bugs)
-    - [Indicando melhorias e pedindo funcionalidades](#indicando-melhorias-e-pedindo-funcionalidades)
-    - [Discutindo as issues](#discutindo-as-issues)
-    - [Fazendo pull requests](#fazendo-pull-requests)
-    - [Outras formas de contribuir](#outras-formas-de-contribuir)
+  - [Adicionando um novo termo técnico no Diciotech](#adicionando-um-novo-termo-técnico-no-diciotech)
+  - [Adicionando uma nova tag no Diciotech](#adicionando-uma-nova-tag-no-diciotech)
+  - [Reportando bugs](#reportando-bugs)
+  - [Indicando melhorias e pedindo funcionalidades](#indicando-melhorias-e-pedindo-funcionalidades)
+  - [Discutindo as issues](#discutindo-as-issues)
+  - [Fazendo pull requests](#fazendo-pull-requests)
+  - [Outras formas de contribuir](#outras-formas-de-contribuir)
 
 ## ⚒️ Instalando ambiente de desenvolvimento para contribuir
 
@@ -65,7 +65,7 @@ sass assets/sass/style.sass assets/css/style.css --watch
 O `--watch` faz com que o SASS fique monitorando alterações no arquivo `.scss` e compile automaticamente.
 </details>
 
-### Adicionando um novo termo técnico no Diciotech
+## Adicionando um novo termo técnico no Diciotech
 
 Adicione mais conteúdo no Diciotech [abrindo um pull request](#fazendo-pull-requests) com o termo que deseja que esteja presente no site. Para adicionar um novo termo, você deve acessar o arquivo `assets/data/cards_pt-br.json` e inserir um novo item na lista, seguindo a seguinte estrutura:
 
@@ -104,7 +104,7 @@ Antes de abrir o pull request, algumas **boas práticas** devem ser seguidas par
 - Tome a cuidado para que as tags atribuídas a um termo façam sentido com o mesmo.
 
 
-### Adicionando uma nova tag no Diciotech
+## Adicionando uma nova tag no Diciotech
 
 Você pode contribuir com o projeto propondo uma nova tag e a apresentando, como sugestão, por meio de uma [issue](https://github.com/levxyca/diciotech/issues) para que se possa abrir uma discussão a respeito, para uma futura adição através de pull request. As tags disponíveis **sempre** vão estar presentes nessa documentação.
 
@@ -133,7 +133,7 @@ Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas 
 - Para adicionar uma nova tag, primeiro deve criar uma issue e, caso as pessoas usuárias concordem, um pull request deve ser aberto, contendo a tag. A PR sendo aprovada, a nova tag poderá ser vinculada a um termo;
 - As tags devem ser mais generalistas e categóricas, já que dispomos de um campo de pesquisa para uma busca mais específica e precisa. Exemplo de tags: Front-end, Design, Back-end.
 
-### Reportando bugs
+## Reportando bugs
 
 Se encontraste um bug você pode reportá-lo usando a ferramenta de
 [issues do GitHub](https://github.com/levxyca/diciotech/issues). Porém, antes de criar a issue com as informações sobre o bug, é importante fazer as seguintes verificações:
@@ -147,7 +147,7 @@ título da issue tente resumir da melhor forma o problema encontrado.
 
 Se possível inclua imagens ou vídeos à descrição do bug para facilitar o processo de reprodução. Você também deve adicionar o label **bug** à issue.
 
-### Indicando melhorias e pedindo funcionalidades
+## Indicando melhorias e pedindo funcionalidades
 
 Outra ótima forma de contribuir é indicando melhorias ao código do projeto e em como ele está estruturado ou pedindo funcionalidades novas. Se você tem qualquer ideia de como podemos melhorar alguma abordagem na solução de problemas, refatoração de código, melhoria em algum recurso ou qualquer outra coisa relacionada, siga estes passos:
 
@@ -156,13 +156,13 @@ Outra ótima forma de contribuir é indicando melhorias ao código do projeto e 
 
 Concluindo esses dois passos, você pode [criar uma nova issue](https://github.com/levxyca/diciotech/issues/new) descrevendo as melhorias e usando o label **feature**.
 
-### Discutindo as issues
+## Discutindo as issues
 
 Antes de partirmos para o código em si é muito importante discutirmos com a comunidade como cada issue será abordada.
 
 Issues que estão em processo de discussão devem receber o label **discussion**, indicando que aquela issue precisa de feedbacks da comunidade.
 
-### Fazendo pull requests
+## Fazendo pull requests
 
 Antes de abrir o seu PR, faça um fork do projeto e trabalhe em cima de um branch diferente da `main`, implementando suas soluções. Para saber mais sobre pull requests e como eles funcionam, veja [este link](https://help.github.com/articles/about-pull-requests/).
 
@@ -172,7 +172,7 @@ Antes de abrir seu PR (pull request):
 - Se atente para que tenha um issue aberta relacionada ao seu PR;
 - Caso não tenha, crie uma seguindo o guia de contribuição.
 
-### Outras formas de contribuir
+## Outras formas de contribuir
 
 Se você não trabalha com código mas quer ajudar o projeto, existe muitas outras formas de contribuir:
 
