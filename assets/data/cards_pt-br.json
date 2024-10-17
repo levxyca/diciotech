@@ -371,6 +371,13 @@
       "description": "É um conjunto de diretrizes, componentes e padrões que orientam a criação e a manutenção de interfaces e experiências de usuário consistentes em produtos digitais. Inclui elementos como: paletas de cores, tipografia, ícones e padrões de layout, além de ser uma documentação para designers e pessoas desenvolvedoras sobre como e quando utilizar os componentes do design system. Visa melhorar a eficiência no desenvolvimento, garantir a coerência visual e funcional, e facilitar a colaboração entre as equipes de design e desenvolvimento."
     },
     {
+      "title": "DevOps",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "É uma prática que integra desenvolvimento de software (Dev) e operações de TI (Ops) para melhorar a colaboração e a eficiência entre equipes. Foca na automação e na integração de processos de desenvolvimento, teste e implantação, permitindo lançamentos mais rápidos e de maior qualidade. A abordagem enfatiza comunicação contínua, integração contínua (CI) e entrega contínua (CD), promovendo um ciclo de vida de desenvolvimento ágil e responsivo, resultando em software entregue de forma mais eficiente e confiável."
+    },
+    {
       "title": "DOM (Document Object Model)",
       "tags": [
         "Front-end"
@@ -414,6 +421,13 @@
         "Conceito"
       ],
       "description": "É um número que identifica unicamente uma posição de memória no computador. Tudo que é declarado em uma linguagem de programação é armazenado na memória do computador, e para acessar esses dados é necessário saber o endereço de memória onde eles estão armazenados."
+    },
+    {
+      "title": "Entrega Contínua",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Entrega contínua (do inglês, Continuous Delivery ou CD) é uma prática de desenvolvimento de software que assegura que o código esteja sempre pronto para ser implantado em produção a qualquer momento. Após a Integração Contínua (CI), o software é automaticamente preparado para lançamentos, com um processo de implantação automatizado e rigorosos testes que garantem sua qualidade. Os benefícios do CD incluem implantações mais rápidas, redução de riscos e feedback contínuo das pessoas usuárias. Ferramentas como Spinnaker e Octopus Deploy são comumente utilizadas para facilitar essa prática."
     },
     {
       "title": "Época",
@@ -577,7 +591,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Integração contínua é a prática de testar frequentemente as partes do código que vão sendo adicionadas em um projeto, isso impede que bugs e erros possam ser adicionados, fazendo, de forma eficiente, testes específicos que verificam a integração de cada parte."
+      "description": "Integração contínua (do inglês, Continuous Integration ou CI) é uma prática de desenvolvimento de software onde as pessoas desenvolvedoras integram seu código em um repositório compartilhado, utilizando automação para compilar e testar o software. O objetivo é detectar rapidamente erros, melhorar a qualidade do código e reduzir o tempo de entrega, promovendo um feedback rápido e facilitando a colaboração entre equipes. Ferramentas como Jenkins e GitHub Actions são comumente utilizadas para implementar CI."
     },
     {
       "title": "Inteligência Artificial",
@@ -677,6 +691,13 @@
         "Inteligência artificial"
       ],
       "description": "Também chamada de métrica de avaliação, é uma medida usada para avaliar a precisão ou desempenho de um modelo de aprendizado de máquina. Existem vários tipos de métricas, cada uma adequada para um tipo diferente de problema."
+    },
+    {
+      "title": "MLOps",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "É uma prática que combina desenvolvimento de modelos de aprendizado de máquina (Machine Learning ou ML) e operações de TI (Ops) para facilitar a implementação e a gestão contínua de modelos de aprendizado de máquina em produção. O objetivo do MLOps é garantir que os modelos sejam desenvolvidos, testados, implantados e monitorados de forma eficiente e escalável. Isso envolve automação de processos como treinamento, validação e monitoramento de modelos, além de promover a colaboração entre cientistas de dados, engenheiros de software e equipes de operações. O MLOps busca reduzir o tempo de ciclo de desenvolvimento e aumentar a confiabilidade e a performance dos modelos, permitindo que organizações aproveitem melhor as análises geradas por dados."
     },
     {
       "title": "Mobile First",
