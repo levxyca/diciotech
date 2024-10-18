@@ -213,17 +213,16 @@ function insertCardsIntoHtml(data) {
         }" id="${cardId}">
             <div class="card__header">
                 <h3 class="card__title">${card.title}</h3>
-                <img
+                <i
                     alt="star"
                     unique-title="${cardId}"
                     id="fav_${cardId}"
-                    src="${
-                        card.tags.includes("Favoritos")
-                            ? starIconFilled
-                            : starIcon
-                    }"
-                    class="fav__button"
-                />
+                    class="${
+                    card.tags.includes("Favoritos")
+                        ? "ph-fill ph-star"
+                        : "ph ph-star"
+                    } fav__button">
+                </i>
             </div>
             <p class="card__description">${card.description}</p>
         `;
@@ -265,10 +264,10 @@ function setCardAsFavorite(cardId) {
     const favIcon = document.querySelector(`#fav_${cardId}`);
 
     if (favoriteCards.includes(cardId)) {
-        favIcon.src = starIcon;
+        favIcon.className = "ph ph-star fav__button";
         favoriteCards.splice(favoriteCards.indexOf(cardId), 1);
     } else {
-        favIcon.src = starIconFilled;
+        favIcon.className = "ph-fill ph-star fav__button";
         favoriteCards.push(cardId);
     }
 
