@@ -1,4 +1,3 @@
-import "./dark_mode.js";
 import { levenshtein } from "./levenshtein.js";
 
 const exactWordScore = 12;
