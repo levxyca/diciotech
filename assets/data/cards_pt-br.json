@@ -1211,6 +1211,95 @@
         "Conceito"
       ],
       "description": "XML (do inglês, eXtensible Markup Language) é uma linguagem de marcação que define um conjunto de regras para codificar documentos. Ela é uma linguagem de marcação assim como a HTML, porém a XML foi criada para ser mais flexível, permitindo a criação de novas tags, enquanto a HTML possui um número limitado de tags pré-definidas. É uma linguagem genérica que pode ser usada para representar qualquer tipo de dado estruturado. XML é uma linguagem muito popular, sendo usada em bancos de dados, arquivos de configurações de sistemas, transmissão de informações, entre outros."
+    },
+    {
+      "title": "PHP",
+      "tags": [
+        "Back-end"
+      ],
+      "description": "PHP é uma linguagem de programação executada do lado do servidor, muito utilizada no desenvolvimento web. Ao olhar bem para o 'PHP', se assemelha a um elefante."
+    },
+    {
+      "title": "Laravel",
+      "tags": [
+        "Back-end",
+        "Framework"
+      ],
+      "description": "É um framework PHP que facilita o desenvolvimento de aplicações web, feito para artesãos da web. Oferece recursos como roteamento, ORM e suporte a testes."
+    },
+    {
+      "title": "Token",
+      "tags": [
+        "Back-end",
+        "Front-end"
+      ],
+      "description": "Conjunto de caracteres com letras e numeros usado para identificação e/ou autorização de usuarios em aplicações, permitindo acesso a recursos do sistema."
+    },
+    {
+      "title": "CSRF",
+      "tags": [
+        "Back-end",
+        "Cybersecurity"
+      ],
+      "description": "Cross-Site Request Forgery, é um tipo de ataque que engana o usuário para executar ações indesejadas em uma aplicação web onde está autenticado."
+    },
+    {
+      "title": "XSS",
+      "tags": [
+        "Back-end",
+        "Cybersecurity"
+      ],
+      "description": "Cross-Site Scripting, vulnerabilidade que permite a injeção de scripts maliciosos em páginas web, afetando usuários que visitam a página comprometida."
+    },
+    {
+      "title": "JWT",
+      "tags": [
+        "Back-end",
+        "Cybersecurity"
+      ],
+      "description": "JSON Web Token é um método autenticação para transmissão de informações entre APIs, sendo uma das principais formas de autenticação em serviços web."
+    },
+    {
+      "title": "Bearer",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Uma pessoa que possui um token de autenticação é chamada de Bearer. Esse tipo de token confere acesso a recursos protegidos e é amplamente utilizado em API Stateless."
+    },
+    {
+      "title": "API Stateless",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Em uma API stateless, cada requisição é independente e contém todas as informações necessárias. O servidor não guarda estado entre as interações."
+    },
+    {
+      "title": "API Stateful",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Uma API stateful mantém informações do cliente entre as requisições, permitindo que o servidor acompanhe o estado da sessão."
+    },
+    {
+      "title": "Design Pattern",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Design pattern é uma solução reutilizável para problemas comuns em desenvolvimento de software, facilitando a criação e manutenção de aplicações."
+    },
+    {
+      "title": "Web Service",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Um web service é um sistema que permite a comunicação entre diferentes aplicações pela internet, utilizando padrões como SOAP ou REST para troca de dados."
+    },
+    {
+      "title": "API REST",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "API REST é uma forma de comunicação entre diferentes aplicações. É amplamente usada devido à sua simplicidade e facilidade de integração com aplicações web."
     }
   ]
 }
