@@ -30,6 +30,15 @@
       "description": "Costumamos chamar de ambiente o lugar ou os servidores onde o que foi desenvolvido fica disponível para testes, validações, pessoas usuárias finais utilizarem ou demais necessidades. Esse servidor seria como um computador. Pode ser um computador físico ou disponível na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos)e produção (onde está disponível o sistema final, desenvolvido e testado, para pessoas usuárias)."
     },
     {
+      "title": "Angular.js",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Angular.js é uma ferramenta desenvolvida pelo Google que facilita a criação de sites ou aplicativos que funcionam como uma única página (SPAs), ou seja, sem recarregar a página inteira a cada interação. Ele organiza o código de forma eficiente usando \"módulos\" e \"injeção de dependências\", o que ajuda a manter tudo mais fácil de gerenciar. Grandes empresas como Google e Microsoft utilizam essa tecnologia."
+    },
+    {
       "title": "API",
       "tags": [
         "Back-end",
@@ -366,7 +375,13 @@
       ],
       "description": "É um conjunto de diretrizes, componentes e padrões que orientam a criação e a manutenção de interfaces e experiências de usuário consistentes em produtos digitais. Inclui elementos como: paletas de cores, tipografia, ícones e padrões de layout, além de ser uma documentação para designers e pessoas desenvolvedoras sobre como e quando utilizar os componentes do design system. Visa melhorar a eficiência no desenvolvimento, garantir a coerência visual e funcional, e facilitar a colaboração entre as equipes de design e desenvolvimento."
     },
-    
+    {
+      "title": "DevOps",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "É uma prática que integra desenvolvimento de software (Dev) e operações de TI (Ops) para melhorar a colaboração e a eficiência entre equipes. Foca na automação e na integração de processos de desenvolvimento, teste e implantação, permitindo lançamentos mais rápidos e de maior qualidade. A abordagem enfatiza comunicação contínua, integração contínua (CI) e entrega contínua (CD), promovendo um ciclo de vida de desenvolvimento ágil e responsivo, resultando em software entregue de forma mais eficiente e confiável."
+    },
     {
       "title": "DOM (Document Object Model)",
       "tags": [
@@ -411,6 +426,13 @@
         "Conceito"
       ],
       "description": "É um número que identifica unicamente uma posição de memória no computador. Tudo que é declarado em uma linguagem de programação é armazenado na memória do computador, e para acessar esses dados é necessário saber o endereço de memória onde eles estão armazenados."
+    },
+    {
+      "title": "Entrega Contínua",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Entrega contínua (do inglês, Continuous Delivery ou CD) é uma prática de desenvolvimento de software que assegura que o código esteja sempre pronto para ser implantado em produção a qualquer momento. Após a Integração Contínua (CI), o software é automaticamente preparado para lançamentos, com um processo de implantação automatizado e rigorosos testes que garantem sua qualidade. Os benefícios do CD incluem implantações mais rápidas, redução de riscos e feedback contínuo das pessoas usuárias. Ferramentas como Spinnaker e Octopus Deploy são comumente utilizadas para facilitar essa prática."
     },
     {
       "title": "Época",
@@ -574,7 +596,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Integração contínua é a prática de testar frequentemente as partes do código que vão sendo adicionadas em um projeto, isso impede que bugs e erros possam ser adicionados, fazendo, de forma eficiente, testes específicos que verificam a integração de cada parte."
+      "description": "Integração contínua (do inglês, Continuous Integration ou CI) é uma prática de desenvolvimento de software onde as pessoas desenvolvedoras integram seu código em um repositório compartilhado, utilizando automação para compilar e testar o software. O objetivo é detectar rapidamente erros, melhorar a qualidade do código e reduzir o tempo de entrega, promovendo um feedback rápido e facilitando a colaboração entre equipes. Ferramentas como Jenkins e GitHub Actions são comumente utilizadas para implementar CI."
     },
     {
       "title": "Inteligência Artificial",
@@ -676,6 +698,13 @@
       "description": "Também chamada de métrica de avaliação, é uma medida usada para avaliar a precisão ou desempenho de um modelo de aprendizado de máquina. Existem vários tipos de métricas, cada uma adequada para um tipo diferente de problema."
     },
     {
+      "title": "MLOps",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "É uma prática que combina desenvolvimento de modelos de aprendizado de máquina (Machine Learning ou ML) e operações de TI (Ops) para facilitar a implementação e a gestão contínua de modelos de aprendizado de máquina em produção. O objetivo do MLOps é garantir que os modelos sejam desenvolvidos, testados, implantados e monitorados de forma eficiente e escalável. Isso envolve automação de processos como treinamento, validação e monitoramento de modelos, além de promover a colaboração entre cientistas de dados, engenheiros de software e equipes de operações. O MLOps busca reduzir o tempo de ciclo de desenvolvimento e aumentar a confiabilidade e a performance dos modelos, permitindo que organizações aproveitem melhor as análises geradas por dados."
+    },
+    {
       "title": "Mobile First",
       "tags": [
         "Conceito",
@@ -690,6 +719,15 @@
         "Inteligência artificial"
       ],
       "description": "Também chamados de modelos de referência, são modelos de aprendizado de máquina pré-treinados em grandes conjuntos de dados e comumente disponibilizados para uso por terceiros. Eles são usados como modelos de base para diversas aplicações de visão computacional, processamento de linguagem natural, entre outros. Modelos de base podem ser usados congelados, como uma camada de extração de características (features), ou passarem por um ajuste fino (finetune), gerando um modelo completo."
+    },
+    {
+      "title": "Next.js",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Next.js é uma ferramenta baseada no React que ajuda a criar sites mais rápidos e fáceis de encontrar nos buscadores (SEO). Ele permite que as páginas sejam geradas no servidor (SSR) ou criadas de forma estática (SSG), o que melhora o tempo de carregamento das páginas e a experiência da pessoa usuária."
     },
     {
       "title": "Node.js",
@@ -859,7 +897,8 @@
       "title": "React",
       "tags": [
         "Conceito",
-        "Front-end"
+        "Front-end",
+        "Framework"
       ],
       "description": "React é uma biblioteca JavaScript de código aberto utilizada para criar interfaces de usuário interativas e dinâmicas em aplicações web e em outros ambientes, como mobile, TV, realidade virtual, entre outros. Ele se destaca por seu modelo de programação baseado em componentes e pela eficiência na atualização da interface do usuário, tornando-o uma escolha popular no desenvolvimento front-end."
     },
@@ -958,8 +997,10 @@
     {
       "title": "RPA",
       "description": "Robotic Process Automation (Automação de Processos Robóticos), é uma tecnologia que permite a automação de tarefas repetitivas e baseadas em regras, utilizando robôs de software para realizar principalmente atividades repetitivas. Esses robôs imitam ações humanas em sistemas digitais, como clicar em botões, preencher formulários, copiar e colar dados, acessar sistemas e executar processos predefinidos.",
-      "tags": ["Conceito"]
-   },
+      "tags": [
+        "Conceito"
+      ]
+    },
     {
       "title": "Ruby",
       "tags": [
@@ -1019,6 +1060,15 @@
         "Mobile"
       ],
       "description": "Um StatelessWidget, no Flutter, é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado."
+    },
+    {
+      "title": "Svelte",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Svelte é uma ferramenta JavaScript que transforma o código durante a construção do site ou aplicativo, sem precisar de uma camada extra para funcionar no navegador. Isso o torna mais rápido e leve em comparação com outras ferramentas similares."
     },
     {
       "title": "Style Guide",
@@ -1150,6 +1200,15 @@
         "Inteligência artificial"
       ],
       "description": "É um campo da inteligência artificial que estuda como os computadores podem obter e processar informações de estímulos visuais. Ela se concentra no desenvolvimento de sistemas que podem analisar e entender imagens e vídeos, permitindo que os computadores reconheçam objetos, pessoas, lugares, movimentos e outros elementos visuais. A visão computacional (do inglês, computer vision ou CV) é usada em uma ampla variedade de aplicações, como reconhecimento facial, carros autônomos, diagnóstico médico, entre outros."
+    },
+    {
+      "title": "Vue.js",
+      "tags": [
+        "Conceito",
+        "Front-end",
+        "Framework"
+      ],
+      "description": "Vue.js é uma ferramenta JavaScript usada para criar interfaces de usuário, ou seja, o que as pessoas veem e interagem em um site ou aplicativo. Ele é fácil de adicionar a projetos já existentes e é muito utilizado para construir sites que funcionam como uma única página (SPAs)."
     },
     {
       "title": "XML",
