@@ -220,14 +220,9 @@
     },
     {
       "title": "CMD",
-      "description": "O CMD (abreviação de 'Command Prompt', ou Prompt de Comando) é uma interface de linha de comando presente no sistema operacional Windows. Ele permite que os usuários interajam diretamente com o sistema usando comandos de texto, ao invés de uma interface gráfica (GUI). No CMD, você pode executar uma série de tarefas e comandos diretamente, como navegar por diretórios, manipular arquivos, configurar o sistema e rodar programas.
-   
-   Conceitos Principais:
-   Linha de Comando: É onde você digita os comandos. Ao contrário de uma interface gráfica, onde você clica em ícones e botões, na linha de comando, você escreve instruções que o computador executa diretamente.
-   
-   Prompt: Refere-se à tela inicial onde você começa a digitar os comandos. ",
+      "description": "O CMD (abreviação de \"Command Prompt\", ou Prompt de Comando) é uma interface de linha de comando presente no sistema operacional Windows. Ele permite que os usuários interajam diretamente com o sistema usando comandos de texto, ao invés de uma interface gráfica (GUI). No CMD, você pode executar uma série de tarefas e comandos diretamente, como navegar por diretórios, manipular arquivos, configurar o sistema e rodar programas. Conceitos Principais: Linha de Comando: É onde você digita os comandos. Ao contrário de uma interface gráfica, onde você clica em ícones e botões, na linha de comando, você escreve instruções que o computador executa diretamente. Prompt: Refere-se à tela inicial onde você começa a digitar os comandos.",
       "tags": ["Conceito"]
-   },
+    },
     {
       "title": "Coalescência nula",
       "tags": [
