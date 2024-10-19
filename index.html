@@ -16,14 +16,15 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="stylesheet" href="assets/css/cookies.css">
-  <link rel="stylesheet" href="assets/css/dark_mode.css">
 
   <!-- Phosphor Icons -->
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
   <!-- Analytics -->
   <script data-goatcounter="https://levxyca.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+  <!-- Light/Dark/System Theme-->
+  <script src="assets/js/theme.js"></script>
 
   <title>Diciotech</title>
 </head>
@@ -49,7 +50,8 @@
       Atualmente com <span id="total-terms">0</span> termos! 🚀
     </h2>
 
-    <button id="dark-mode-toggle" class="button-dark-mode" title="Mudar tema">
+    <button id="change-theme-button" class="button-change-theme" title="Mudar tema">
+      <i class="ph ph-desktop"></i>
       <i class="ph ph-moon"></i>
       <i class="ph ph-sun"></i>
     </button>
