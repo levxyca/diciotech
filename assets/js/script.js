@@ -1,10 +1,16 @@
-import "./dark_mode.js";
+import { levenshtein } from "./levenshtein.js";
+
+const exactWordScore = 12;
+const partialWordScore = 10;
+const levenshteinScore = 10;
+const levenshteinThreshold = 3;
 
 const searchInput = document.querySelector("#search-input");
 const cardsSection = document.querySelector("#cards");
 const filterSelect = document.querySelector("#tags-filter");
 let listOfCardsFiltered = [];
 let favoriteCards = [];
+
 const starIcon = "https://img.icons8.com/ios/50/star--v1.png";
 const starIconFilled =
     "https://img.icons8.com/ios-glyphs/30/ffe100/star--v1.png";
@@ -52,30 +58,145 @@ function filterCards() {
     searchCards();
 }
 
-function searchCards() {
-    const inputValue = searchInput.value.toLowerCase();
-    let cardsFiltered = [];
-
-    for (const card of listOfCardsFiltered) {
-        const cardContent = card.textContent.toLowerCase();
-
-        if  (cardContent.includes(inputValue)){
-            card.style.display = "";
-            cardsFiltered.push(card);
+function sortCards(sortingArray) {
+    if (listOfCardsFiltered.length > 0) {
+        if (!Array.isArray(sortingArray) || !sortingArray.length) {
+            const cards = document.querySelector("#cards");
+            // selects all cards that are not hidden and sorts them by title
+            // every child is re-appended to cards in the order of the now sorted array. When an element is re-appended it is actually moved from its previous location
+            [...cards.querySelectorAll(".card:not([style*='display: none;'])")]
+            .sort((a, b) => a.querySelector(".card__title").textContent.toLowerCase().localeCompare(b.querySelector(".card__title").textContent.toLowerCase()))
+            .forEach(node => cards.appendChild(node));
         } else {
-            card.style.display = "none";
+            const cards = document.querySelector("#cards");
+            // selects all cards that are not hidden and sorts them by the order of the sortingArray
+            // every child is re-appended to cards in the order of the now sorted array. When an element is re-appended it is actually moved from its previous location
+            [...cards.querySelectorAll(".card:not([style*='display: none;'])")]
+            .sort((a, b) => sortingArray.indexOf(a) - sortingArray.indexOf(b))
+            .forEach(node => cards.appendChild(node));
         }
     }
+}
 
-    const msgNotFound = document.querySelector("div.msg");
-    msgNotFound.style.display = cardsFiltered.length==0 ? "" : "none";
-   
+function searchCards() {
+    const inputValue = searchInput.value.toLowerCase().trim();
+    let cardsScores = [];
+
+    if (inputValue.length > 0) {
+        const searchWords = inputValue.split(/\s+/);
+
+        for (const card of listOfCardsFiltered) {
+            let cardScore = 0;
+
+            // search for words inside the title that either contains the search words or have a low levenshtein distance
+            // only consider the best case for each search word
+            const cardTitle = card.querySelector(".card__title").textContent.toLowerCase();
+            const titleWords = cardTitle.split(/\s+/);
+            let titleScore = 0;
+
+            searchWords.forEach((searchWord) => {
+                let wordScore = 0;
+
+                titleWords.some((word) => {
+                    if (word == searchWord) {
+                        // breaks the loop if the word is an exact match, since no other word can have a higher score
+                        wordScore = exactWordScore;
+                        return true;
+
+                    } else if (wordScore < partialWordScore) {
+                        if (word.includes(searchWord)) {
+                            wordScore = partialWordScore;
+
+                        } else if (word.length > 3) {
+                            const levenshteinDistance = levenshtein(searchWord, word);
+
+                            // only the word with the lowest levenshtein distance will be considered
+                            if ((levenshteinDistance <= levenshteinThreshold) && (levenshteinScore - levenshteinDistance > wordScore)) {
+                                wordScore = levenshteinScore - levenshteinDistance;
+                            }
+                        }
+                    }
+                });
+
+                titleScore += wordScore;
+            });
+
+            // give extra points for words in title
+            cardScore += titleScore * 10;
+
+            // search for words inside the description that either contains the search words or have a low levenshtein distance
+            // only consider the best case for each search word
+            const cardDescription = card.querySelector(".card__description").textContent.toLowerCase();
+            const descriptionWords = cardDescription.split(/\s+/);
+            let descriptionScore = 0;
+
+            searchWords.forEach((searchWord) => {
+                let wordScore = 0;
+
+                descriptionWords.some((word) => {
+                    if (word == searchWord) {
+                        // breaks the loop if the word is an exact match, since no other word can have a higher score
+                        wordScore = exactWordScore;
+                        return true;
+
+                    } else if (wordScore < partialWordScore) {
+                        if (word.includes(searchWord)) {
+                            wordScore = partialWordScore;
+
+                        } else if (word.length > 3) {
+                            const levenshteinDistance = levenshtein(searchWord, word);
+
+                            // only the word with the lowest levenshtein distance will be considered
+                            if ((levenshteinDistance <= levenshteinThreshold) && (levenshteinScore - levenshteinDistance > wordScore)) {
+                                wordScore = levenshteinScore - levenshteinDistance;
+                            }
+                        }
+                    }
+                });
+
+                descriptionScore += wordScore;
+            });
+
+            cardScore += descriptionScore;
+
+            if (cardScore > 0) {
+                card.style.display = "";
+                cardsScores.push([card, cardScore]);
+            } else {
+                card.style.display = "none";
+            }
+        }
+
+        const msgNotFound = document.querySelector("div.msg");
+
+        if (cardsScores.length > 0) {
+            msgNotFound.style.display = "none";
+            // sort the array of cards by score
+            cardsScores.sort((a, b) => b[1] - a[1]);
+            // remove the scores from the array
+            cardsScores = cardsScores.map((card) => card[0]);
+            sortCards(cardsScores);
+        } else {
+            msgNotFound.style.display = "";
+        }
+
+    } else {
+        // display all cards if search input is empty
+        for (const card of listOfCardsFiltered) {
+            card.style.display = "";
+            cardsScores.push(card);
+        }
+
+        const msgNotFound = document.querySelector("div.msg");
+        msgNotFound.style.display = "none";
+        sortCards();
+    }
 }
 
 function insertCardsIntoHtml(data) {
     let cards = `<div class="msg">
                     <div class=collumn-1>
-                        <img src="assets/img/no-results-found.png" alt="Mulher olhando para site sem dados" /> 
+                        <img src="assets/img/no-results-found.png" alt="Mulher olhando para site sem dados" />
                         <a href="https://storyset.com/data">Data illustrations by Storyset</a>
                     </div>
                     <div class=collumn-2>
@@ -92,17 +213,16 @@ function insertCardsIntoHtml(data) {
         }" id="${cardId}">
             <div class="card__header">
                 <h3 class="card__title">${card.title}</h3>
-                <img
+                <i
                     alt="star"
                     unique-title="${cardId}"
                     id="fav_${cardId}"
-                    src="${
-                        card.tags.includes("Favoritos")
-                            ? starIconFilled
-                            : starIcon
-                    }"
-                    class="fav__button"
-                />
+                    class="${
+                    card.tags.includes("Favoritos")
+                        ? "ph-fill ph-star"
+                        : "ph ph-star"
+                    } fav__button">
+                </i>
             </div>
             <p class="card__description">${card.description}</p>
         `;
@@ -144,10 +264,10 @@ function setCardAsFavorite(cardId) {
     const favIcon = document.querySelector(`#fav_${cardId}`);
 
     if (favoriteCards.includes(cardId)) {
-        favIcon.src = starIcon;
+        favIcon.className = "ph ph-star fav__button";
         favoriteCards.splice(favoriteCards.indexOf(cardId), 1);
     } else {
-        favIcon.src = starIconFilled;
+        favIcon.className = "ph-fill ph-star fav__button";
         favoriteCards.push(cardId);
     }
 
@@ -220,12 +340,12 @@ function generateCardId(defaultCardId, title, description) {
  * @returns {string} The hashed representation of the content.
  */
 function generateContentId(title = '', description = '', hash = 5381) {
-  const data = (title + description).slice(0, 32).split(' ').join('')
+    const data = (title + description).slice(0, 32).split(' ').join('')
 
-  for (let i = 0; i < data.length; i++) {
-    hash = ((hash << 5) + hash) + data.charCodeAt(i);
-  }
+    for (let i = 0; i < data.length; i++) {
+        hash = ((hash << 5) + hash) + data.charCodeAt(i);
+    }
 
-  const hashString = Math.abs(hash).toString(36); // Convert to base-36 string
-  return hashString;
+    const hashString = Math.abs(hash).toString(36); // Convert to base-36 string
+    return hashString;
 }
