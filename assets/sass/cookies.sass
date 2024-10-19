@@ -2,7 +2,7 @@
     margin: 10px 0px
     font-size: 1.6rem
     text-align: center
-    color: #232323
+    color: var(--cookies-text-color)
 
 .cookies-container
     position: fixed
@@ -13,7 +13,7 @@
 
 .cookies-content
     box-shadow: 0 1px 5px #6e6197
-    background-color: #fff
+    background-color: var(--cookies-background-color)
     border: 1px solid #6e6197
     max-width: 50%
     border-radius: 5px
@@ -26,6 +26,9 @@
     opacity: 0
     transform: translateY(1rem)
     animation: slideUp 0.5s forwards
+
+    a
+        color: var(--cookies-link-color)
 
 .cookies-accept-button
     background-color: #6e6197
