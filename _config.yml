@@ -27,3 +27,7 @@ exclude:
   - README.md
   - ROADMAP.md
   - run_on_data_changed.sh
+
+sass:
+  sourcemap: never
+  style: compressed
