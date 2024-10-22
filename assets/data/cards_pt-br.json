@@ -668,7 +668,7 @@
     },
     {
       "title": "Scrum",
-      "tags": ["Back-end"],
+      "tags": ["Framework"],
       "description": " É um método para gerenciar projetos onde o trabalho é dividido em pequenos pedaços chamados de 'sprints', que geralmente duram algumas semanas. A equipe trabalha em estreita colaboração, se encontrando regularmente para planejar, revisar e ajustar o trabalho. O objetivo é entregar valor de forma rápida e iterativa, respondendo às mudanças e feedbacks conforme o projeto avança."
     },
     {
@@ -758,7 +758,7 @@
     },
     {
       "title": "UML",
-      "tags": ["Back-end"],
+      "tags": ["Conceito"],
       "description": " É uma linguagem visual que as pessoas desenvolvedoras de software usam para descrever e projetar sistemas de software. Ela oferece diferentes tipos de diagramas, como diagramas de classes, sequência e atividades, para representar diferentes aspectos de um sistema. Esses diagramas ajudam as equipes a entenderem e comunicarem melhor as ideias e os designs do software."
     },
     {
