@@ -27,8 +27,8 @@ Existem diversas formas de contribuir com o projeto:
 
 ### 1. **Escolha um Editor de Código**
 
-   * **Recomendação:** Visual Studio Code (gratuito, open-source, amplamente utilizado)
-   * **Outras opções:** Sublime Text, Atom
+- **Recomendação:** Visual Studio Code (gratuito, open-source, amplamente utilizado)
+- **Outras opções:** Sublime Text, Atom
 
 ### 2. **Execute o Projeto**
 
@@ -58,11 +58,13 @@ npm install -g sass
 #### 2. **Compile seu SASS**
 
 Para compilar seu SASS em CSS, abra o terminal na pasta do seu projeto e execute:
+
 ```bash
 sass assets/sass/style.sass assets/css/style.css --watch
 ```
 
 O `--watch` faz com que o SASS fique monitorando alterações no arquivo `.scss` e compile automaticamente.
+
 </details>
 
 ## Adicionando um novo termo técnico no Diciotech
@@ -71,9 +73,9 @@ Adicione mais conteúdo no Diciotech [abrindo um pull request](#fazendo-pull-req
 
 ```json
 {
-   "title": "Termo técnico",
-   "description": "Explicação sobre o termo",
-   "tags": ["Tag1"]
+  "title": "Termo técnico",
+  "description": "Explicação sobre o termo",
+  "tags": ["Tag1"]
 }
 ```
 
@@ -81,19 +83,18 @@ ou
 
 ```json
 {
-   "title": "Termo técnico",
-   "description": "Explicação sobre o termo",
-   "content": {
-        "code": "Código de exemplo"
-   },
-   "tags": ["Tag1", "Tag2"]
+  "title": "Termo técnico",
+  "description": "Explicação sobre o termo",
+  "content": {
+    "code": "Código de exemplo"
+  },
+  "tags": ["Tag1", "Tag2"]
 }
 ```
 
 > **Observação:** caso a sua contribuição não se alinhe com qualquer uma das tags disponíveis, listadas na seção seguinte, verifique a seção [Adicionando uma nova tag no Diciotech](#adicionando-uma-nova-tag-no-diciotech).
 
 Antes de abrir o pull request, algumas **boas práticas** devem ser seguidas para uma maior organização e estabilidade do Diciotech.
-
 
 - Se o termo conter um código de exemplo, evite o escrever em uma linguagem de programação específica, faça isso **apenas** se realmente necessário;
 - Um termo, deve ser vinculado a, no mínimo, uma tag;
@@ -103,11 +104,9 @@ Antes de abrir o pull request, algumas **boas práticas** devem ser seguidas par
 
 - Tome a cuidado para que as tags atribuídas a um termo façam sentido com o mesmo.
 
-
 ## Adicionando uma nova tag no Diciotech
 
 Você pode contribuir com o projeto propondo uma nova tag e a apresentando, como sugestão, por meio de uma [issue](https://github.com/levxyca/diciotech/issues) para que se possa abrir uma discussão a respeito, para uma futura adição através de pull request. As tags disponíveis **sempre** vão estar presentes nessa documentação.
-
 
 Tags disponíveis:
 

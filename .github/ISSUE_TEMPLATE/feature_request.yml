@@ -1,6 +1,6 @@
 name: Pedido de novo recurso
 description: Sugira uma novidade ou utilidade que você gostaria de ver no Diciotech
-labels: 'enhancement'
+labels: "enhancement"
 
 body:
   - type: textarea
@@ -9,8 +9,8 @@ body:
       description: Em quê consiste o recurso que você está solicitando?
     validations:
       required: true
-  - type: textarea  
-    attributes: 
+  - type: textarea
+    attributes:
       label: Motivação
       description: Uma descrição simples da sua motivação para solicitar este recurso?
   - type: textarea

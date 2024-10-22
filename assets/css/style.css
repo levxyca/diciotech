@@ -54,7 +54,7 @@
     opacity: initial;
   }
 }
-html[data-theme=dark] {
+html[data-theme="dark"] {
   --background-color: #232226;
   --card-background-color: #3e3e3f;
   --card-description-color: #ffffff;
@@ -71,17 +71,17 @@ html[data-theme=dark] {
   --text-color: #ffffff;
 }
 
-html[data-theme-setting=dark] #change-theme-button .ph-desktop {
+html[data-theme-setting="dark"] #change-theme-button .ph-desktop {
   display: none;
 }
-html[data-theme-setting=dark] #change-theme-button .ph-moon {
+html[data-theme-setting="dark"] #change-theme-button .ph-moon {
   display: inline;
 }
-html[data-theme-setting=dark] #change-theme-button .ph-sun {
+html[data-theme-setting="dark"] #change-theme-button .ph-sun {
   display: none;
 }
 
-html[data-theme=light] {
+html[data-theme="light"] {
   --background-color: #ffffff;
   --card-background-color: #ffffff;
   --card-description-color: #232226;
@@ -98,13 +98,13 @@ html[data-theme=light] {
   --text-color: #232226;
 }
 
-html[data-theme-setting=light] #change-theme-button .ph-desktop {
+html[data-theme-setting="light"] #change-theme-button .ph-desktop {
   display: none;
 }
-html[data-theme-setting=light] #change-theme-button .ph-moon {
+html[data-theme-setting="light"] #change-theme-button .ph-moon {
   display: none;
 }
-html[data-theme-setting=light] #change-theme-button .ph-sun {
+html[data-theme-setting="light"] #change-theme-button .ph-sun {
   display: inline;
 }
 

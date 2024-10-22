@@ -3,7 +3,7 @@ name: Solicitar inclusão de termo
 about: Use este template se você quer propor um novo termo no Diciotech
 title: "[TERM] (informe o termo proposto)"
 labels: new technical term
-assignees: ''
+assignees: ""
 
 body:
   - type: input
@@ -40,5 +40,3 @@ body:
     validations:
       required: true
 ---
-
-
