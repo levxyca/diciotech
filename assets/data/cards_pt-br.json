@@ -1216,6 +1216,94 @@
         "Conceito"
       ],
       "description": "XML (do inglês, eXtensible Markup Language) é uma linguagem de marcação que define um conjunto de regras para codificar documentos. Ela é uma linguagem de marcação assim como a HTML, porém a XML foi criada para ser mais flexível, permitindo a criação de novas tags, enquanto a HTML possui um número limitado de tags pré-definidas. É uma linguagem genérica que pode ser usada para representar qualquer tipo de dado estruturado. XML é uma linguagem muito popular, sendo usada em bancos de dados, arquivos de configurações de sistemas, transmissão de informações, entre outros."
+    },
+    {
+      "title": "PHP",
+      "tags": [
+        "Back-end"
+      ],
+      "description": "PHP é uma linguagem de programação executada do lado do servidor, muito utilizada no desenvolvimento web. Um detalhe curioso é que o mascote oficial do PHP é um elefante, frequentemente associado à linguagem."
+    },
+    {
+      "title": "Laravel",
+      "tags": [
+        "Back-end",
+        "Framework"
+      ],
+      "description": "É um framework PHP, uma ferramenta que que facilita o desenvolvimento de aplicações web, feito para artesãos da web. Ele oferece recursos como roteamento, que ajuda a direcionar as solicitações dos usuários para as partes corretas do aplicativo; ORM (Mapeamento Objeto-Relacional), que simplifica a interação com bancos de dados, permitindo que pessoas desenvolvedoras trabalhem com dados como se fossem objetos; e suporte a testes, que facilita a verificação do funcionamento correto do aplicativo, garantindo que ele opere como esperado."
+    },
+    {
+      "title": "Token",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Conjunto de caracteres com letras e números usado para identificação e/ou autorização de usuarios em aplicações, permitindo acesso a recursos do sistema."
+    },
+    {
+      "title": "CSRF",
+      "tags": [
+        "Back-end",
+        "Cybersecurity"
+      ],
+      "description": "Cross-Site Request Forgery (CSRF) é uma vulnerabilidade de segurança que engana o usuário autenticado em uma aplicação web, fazendo com que ele execute ações indesejadas sem seu consentimento."
+    },
+    {
+      "title": "XSS",
+      "tags": [
+        "Back-end",
+        "Cybersecurity"
+      ],
+      "description": "Cross-Site Scripting, vulnerabilidade que permite a injeção de scripts maliciosos em páginas web, afetando usuários que visitam a página comprometida. Isso pode afetar os usuários que visitam essas páginas, pois os scripts podem roubar informações ou executar ações indesejadas em nome do usuário."
+    },
+    {
+      "title": "JWT (JSON Web Token)",
+      "tags": [
+        "Back-end",
+        "Cybersecurity"
+      ],
+      "description": "JSON Web Token é um método autenticação para transmissão de informações entre APIs. É uma das principais formas de autenticação utilizadas em serviços web, permitindo que usuários se identifiquem e acessem recursos de forma segura."
+    },
+    {
+      "title": "Bearer",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Uma pessoa que possui um token de autenticação é chamada de Bearer. Esse tipo de token confere acesso a recursos protegidos e é amplamente utilizado em API Stateless, onde a autenticação e as informações do usuário são mantidas no próprio token, em vez de em sessões no servidor."
+    },
+    {
+      "title": "API Stateless",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Em uma API stateless, cada requisição é independente e contém todas as informações necessárias. O servidor não guarda estado entre as interações, o que significa que não armazena dados sobre as requisições anteriores."
+    },
+    {
+      "title": "API Stateful",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Uma API stateful mantém informações do cliente entre as requisições, permitindo que o servidor acompanhe o estado da sessão. Isso significa que o servidor pode lembrar dados sobre o cliente e suas interações anteriores, proporcionando uma experiência mais personalizada."
+    },
+    {
+      "title": "Design Pattern",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Design pattern são soluções reutilizável para problemas comuns em desenvolvimento de software, facilitando a criação e manutenção de aplicações. Esses padrões oferecem abordagens testadas e comprovadas, ajudando as pessoas desenvolvedoras a construirem sistemas de forma mais eficiente e organizada."
+    },
+    {
+      "title": "Web Service",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Um web service é um sistema que permite a comunicação entre diferentes aplicações pela internet, utilizando padrões como SOAP ou REST para troca de dados. Esses serviços possibilitam que diferentes sistemas se conectem e compartilhem informações de forma eficiente, independentemente da linguagem de programação ou plataforma."
+    },
+    {
+      "title": "API REST",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "API REST é uma forma de comunicação entre diferentes aplicações. É amplamente usada devido à sua simplicidade e facilidade de integração com aplicações web. Esse tipo de API permite que sistemas diferentes se conectem e troquem informações de maneira eficiente, utilizando os princípios do protocolo HTTP."
     }
   ]
 }
