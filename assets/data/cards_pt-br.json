@@ -922,7 +922,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Recursão é um método/função que chama a si mesmo para resolver um problema."
+      "description": "Recursão é um método/função que chama a si mesmo para resolver um problema. Temos de exemplo o cálculo fatorial onde um número vai multiplicando seu número anterior até chegar a 1. Exemplo 5! seria 5 x 4 x 3 x 2 x 1 = 120."
     },
     {
       "title": "Rede Generativa Adversarial",
