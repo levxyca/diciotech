@@ -536,7 +536,7 @@
         "Ferramenta",
         "Versionamento"
       ],
-      "description": "O GitHub é uma plataforma de hospedagem de código-fonte baseada na web que oferece uma variedade de serviços relacionados ao controle de versão e colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar, colaborar, gerenciar e controlar o código-fonte de projetos de software."
+      "description": "O GitHub é uma plataforma de hospedagem de código-fonte baseada na web que oferece uma variedade de serviços relacionados ao controle de versão e colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar, colaborar, gerenciar e controlar o código-fonte de projetos de software. Fornece ferramentas de CI/CD (integração contínua e entrega contínua) com o GitHub Actions"
     },
     {
       "title": "GitLab",
@@ -545,7 +545,7 @@
         "Ferramenta",
         "Versionamento"
       ],
-      "description": "Assim como GitHub, o GitLab também é uma plataforma de hospedagem de código-fonte, mas além de versionar projetos como o GitHub, oferece ferramentas integradas de CI/CD (integração contínua e entrega contínua) diretamente, enquanto o GitHub requer configurações externas para isso."
+      "description": "Assim como GitHub, o GitLab também é uma plataforma de hospedagem de código-fonte, mas além de versionar projetos como o GitHub, oferece ferramentas integradas de CI/CD (integração contínua e entrega contínua) diretamente."
     },
     {
       "title": "BitBucket",
@@ -554,7 +554,7 @@
         "Ferramenta",
         "Versionamento"
       ],
-      "description": "Assim como GitHub, o BitBucket também é uma plataforma de hospedagem de código-fonte, mas se integra especialmente bem com ferramentas Atlassian, como o Jira, e suporta repositórios Git e Mercurial, enquanto o GitHub só suporta Git"
+      "description": "Assim como GitHub, o BitBucket também é uma plataforma de hospedagem de código-fonte, mas se integra especialmente bem com ferramentas Atlassian, como o Jira, e suporta repositórios Git e Mercurial, enquanto o GitHub só suporta Git."
     },
     {
       "title": "AWS Commit",
@@ -563,7 +563,7 @@
         "Ferramenta",
         "Versionamento"
       ],
-      "description": "AWS Commit é a plataforma de hospedagem de código-fonte da Amazon(AWS),está totalmente integrado com o ecossistema AWS, permitindo fácil automação e integração com outros serviços da AWS, como CodePipeline (para CI/CD), IAM (controle de permissões), e CloudWatch (monitoramento)"
+      "description": "AWS Commit é a plataforma de hospedagem de código-fonte da Amazon(AWS), está totalmente integrado com o ecossistema AWS, permitindo fácil automação e integração com outros serviços da AWS, como CodePipeline (para CI/CD), IAM (controle de permissões), e CloudWatch (monitoramento)."
     },
     {
       "title": "GPT",
