@@ -922,7 +922,10 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Recursão é um método/função que chama a si mesmo para resolver um problema. Temos de exemplo o cálculo fatorial onde um número vai multiplicando seu número anterior até chegar a 1. Exemplo 5! seria 5 x 4 x 3 x 2 x 1 = 120."
+      "description": "Recursão é um método/função que chama a si mesmo para resolver um problema. Temos de exemplo o cálculo fatorial onde um número vai multiplicando seu número anterior até chegar a 1. Aqui temos um exemplo utilizando javascript, vamos imaginar que chamamos está função com o número 5, neste caso a primeira vez que a função for chamada irá chamar 5 x fatorial(5 - 1), depois a função será chamada novamente porém desta vez com o número 4 onde será 5 x ( 4 x fatorial(4-1) ) e irá seguir assim até chegar ao número 1 onde não haverá mais nenhuma chamada de função e será feito este cálculo 5 x 4 x 3 x 2 x 1.",
+      "content": {
+        "code": "function fatorial(numero) {  if(numero == 0 || numero == 1) { return 1 }  return numero * fatorial(numero - 1)  }"
+      }
     },
     {
       "title": "Rede Generativa Adversarial",
