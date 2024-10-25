@@ -21,6 +21,13 @@
       "description": "Costumamos chamar de ambiente o lugar ou os servidores onde o que foi desenvolvido fica disponível para testes, validações, pessoas usuárias finais utilizarem ou demais necessidades. Esse servidor seria como um computador. Pode ser um computador físico ou disponível na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos)e produção (onde está disponível o sistema final, desenvolvido e testado, para pessoas usuárias)."
     },
     {
+      "title": "AIoT",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "AIoT (Artificial Intelligence of Things), ou Inteligência Artificial das Coisas, é a combinação de Inteligência Artificial (IA) com a Internet das Coisas (IoT). Seu principal objetivo é automatizar e acelerar o processamento dos dados gerados pelos dispositivos de IoT, com o mínimo de intervenção humana. Isso facilita a análise dos dados e torna a tomada de decisões mais rápida. Sem a IA, embora houvesse um grande volume de informações disponíveis, seria necessário depender da intervenção humana para torná-las úteis."
+    },
+    {
       "title": "Angular.js",
       "tags": ["Conceito", "Framework", "Front-end"],
       "description": "Angular.js é uma ferramenta desenvolvida pelo Google que facilita a criação de sites ou aplicativos que funcionam como uma única página (SPAs), ou seja, sem recarregar a página inteira a cada interação. Ele organiza o código de forma eficiente usando \"módulos\" e \"injeção de dependências\", o que ajuda a manter tudo mais fácil de gerenciar. Grandes empresas como Google e Microsoft utilizam essa tecnologia."
@@ -134,6 +141,13 @@
       "title": "Chatbot",
       "tags": ["Conceito", "Inteligência artificial"],
       "description": "É um programa de computador que simula um ser humano em uma conversa por meio de mensagens de texto ou de voz, muito utilizado para automatizar tarefas repetitivas e fornecer suporte e assistência aos usuários. Os chatbots podem ser usados em uma ampla variedade de aplicações, como atendimento ao cliente, assistentes virtuais, entre outros."
+    },
+    {
+      "title": "Cidades Inteligentes",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Cidades Inteligentes (Smart Cities) são localidades que utilizam infraestrutura urbana organizada e tecnologias digitais para otimizar seus processos. Isso inclui o uso de dispositivos com Inteligência Artificial e Internet das Coisas, entre outros."
     },
     {
       "title": "Classe",
@@ -400,6 +414,13 @@
       "title": "Inteligência Artificial",
       "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamada de IA (no inglês, Artificial Intelligence ou AI), é um campo da ciência da computação que estuda como os computadores podem simular a inteligência e cognição humana. Ela se concentra no desenvolvimento de sistemas capazes de executar tarefas que antes poderiam ser feitas somente por humanos, como reconhecimento de fala, tomada de decisão, tradução de idiomas e reconhecimento de padrões. A IA é um campo amplo que inclui várias subáreas, como aprendizado de máquina, processamento de linguagem natural, visão computacional, entre outras."
+    },
+    {
+      "title": "IoT",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "IoT (Internet of Things), ou Internet das Coisas, é um tipo de tecnologia composto por uma rede de dispositivos e objetos interconectados, como sensores, câmeras, itens domésticos, aparelhos eletrônicos e veículos, por exemplo. Seu objetivo é basicamente conectar os mais diversos equipamentos à internet com o intuito de captar e trocar dados com outros dispositivos, variando desde simples objetos caseiros a sofisticadas ferramentas industriais."
     },
     {
       "title": "Issue",
@@ -730,6 +751,13 @@
       "title": "Taxa de Aprendizado",
       "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamada de taxa de aprendizagem (do inglês, learning rate ou LR), é um hiperparâmetro de treinamento de modelos de aprendizado de máquina que controla a rapidez com que um modelo de aprendizado de máquina aprende. É um dos hiperparâmetros mais importantes de um modelo de aprendizado de máquina e pode ser ajustada para melhorar o desempenho do modelo. Ela controla qual é o tamanho do passo que será dado durante o aprendizado em direção ao mínimo calculado pelo gradiente. Uma taxa de aprendizado muito alta pode causar a explosão do gradiente, enquanto uma taxa de aprendizado muito baixa pode causar o desaparecimento do gradiente. Existem diversas técnicas que permitem alterar a taxa de aprendizado durante o treinamento, como decaimento da taxa de aprendizado, agendamento da taxa de aprendizado, aquecimento da taxa de aprendizado, entre outras."
+    },
+    {
+      "title": "TI Verde",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "A TI Verde, do inglês Green IT, também podendo ser chamada de TI Ecológica ou Computação Verde, representa o lado sustentável da tecnologia da informação. Seu conceito gira em torno da análise e implementação de iniciativas e programas que repercutem na sustentabilidade ambiental e responsabilidade social de empresas e organizações, seu principal destaque é fazer da tecnologia uma potencial fonte de soluções para problemas ambientais."
     },
     {
       "title": "Transferência de Aprendizado",

@@ -317,6 +317,7 @@ async function getCardsFromJson() {
     const res = await fetch("./assets/data/cards_pt-br.json");
     const data = await res.json();
     const sortedCards = await sortCardsByTitle(data);
+    document.getElementById("total-terms").textContent = sortedCards.length;
     await loadFavoriteCardsId();
     await addFavoriteTag(sortedCards);
     getTagsFromCards(sortedCards);
