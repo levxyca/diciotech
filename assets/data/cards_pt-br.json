@@ -849,7 +849,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "O polimorfismo permite que objetos de diferentes tipos se comportem de maneira semelhante através de uma interface compartilhada."
+      "description": "O Polimorfismo permite que objetos de diferentes classes sejam tratados uniformemente, cada um respondendo à sua maneira de acordo com uma interface. Exemplo: Podemos em um sistema ter a interface de funcionário onde temos um método calcularSalario, e está interface tem 3 classes que implementam ela, sendo elas: Analista, Gerente e Diretor. Cada uma dessas classes implementa o método calcularSalario de uma forma diferente."
     },
     {
       "title": "Ponteiros",
