@@ -194,14 +194,14 @@
       "tags": [
         "Conceito"
       ],
-      "description": "C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada pela ISO, criada em 1972, por Dennis Ritchie, no AT&T Bell Labs, para desenvolver o sistema operacional Unix (que foi originalmente escrito em Assembly)."
+      "description": "A linguagem C existe desde antes da internet e foi criada em 1972. É muito usada em banco de dados por sua alta performance para todos os tipos de sistemas: financeiro, governamental, mídia, entretenimento, entre outros."
     },
     {
       "title": "C++",
       "tags": [
         "Conceito"
       ],
-      "description": "C++ é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores."
+      "description": "C++ é uma linguagem de programação criada em 1979, que foi desenvolvido como uma extensão da linguagem C, incorporando recursos adicionais, como suporte à programação orientada a objetos. É ferramenta super versátil e com ótimo desempenho para criar programas de computador."
     },
     {
       "title": "Cache",
@@ -1028,7 +1028,7 @@
         "Back-end",
         "Conceito"
       ],
-      "description": "Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático. Ruby suporta programação funcional, orientada a objetos, imperativa e reflexiva. É como uma caixa de ferramentas digital que pode criar, organizar e fazer interagir diferentes partes em um programa de computador, sendo capaz de lidar com diversos estilos de programação."
+      "description": "Ruby é uma linguagem de programação altamente flexível criada no Japão em 1995. Ela é conhecida por sua simplicidade e facilidade de uso, sendo muito usada no desenvolvimento web e em aplicações de automação."
     },
     {
       "title": "Scrum",
