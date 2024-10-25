@@ -3,7 +3,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - "assets/data/**"
   pull_request:
+    paths:
+      - "assets/data/**"
   workflow_dispatch:
 
 permissions:
