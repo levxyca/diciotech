@@ -5,42 +5,56 @@ from pathlib import Path
 from argparse import ArgumentParser
 from typing import List
 
-alphabet = "abcdefghijklmnopqrstuvwxyz"
-
+# Get our current script directory
 current_dir = os.path.dirname(__file__)
 
-def main(output: Path, language: str):
-    export_terms_file(output, language, 
-        process_language_path(language))
+# Map our language files from a complete alphabet
+files = ["{}.json".format(letter) for letter in  "abcdefghijklmnopqrstuvwxyz"]
 
-def process_language_path(language):
+def main(output: Path, language: str) -> None:
+    print("Assembling dictionary for language {}".format(language))
+    
+    dictionary = assemble_dictionary(language)
+    export_dictionary(dictionary=dictionary, path=output, language=language)
+
+def assemble_dictionary(language: str) -> List:
+    """
+        Assembles the dictionary based on current language, iterating
+        over each language file (a.json, b.json, etc.)
+    """
     terms = [];
-    for letter in alphabet:
-        file = "{}/{}/{}.json".format(current_dir, language, letter)
+    for file in files:
         try:
-            with open(file) as f:
-                [terms.append(term) for term in load_letter_content(f)]
-        except:
+            with open("{}/{}/{}".format(current_dir, language, file)) as f:
+                [terms.append(term) for term in json.load(f)]
+                print("\tFile {} -> [OK]".format(file))
+                
+        except FileNotFoundError:
+            print("\tFile {} -> [NOT FOUND]".format(file))
             pass
-
+    
     return terms
 
-def load_letter_content(f: TextIOWrapper):
-    data = json.load(f)
-    return data
-
-def export_terms_file(path: Path, language: str, dictionary: List): 
-    file_name = "{}/cards_{}.json".format(path, language)
+def export_dictionary(path: Path, language: str, dictionary: List) -> None: 
+    """
+        Export current dictionary to output path, on format
+        card_[language].json
+    """
+    file_name = "{}/cards_{}.json".format(path, language)    
     content = dict(cards=dictionary)
 
     with open(file_name, "w") as file:
         json.dump(content, file, indent=4, ensure_ascii=False)
+
+    print("Exported {} file with {} terms, for {} language".format(file_name, len(dictionary), language))
     
 
 if __name__ == '__main__':
     parser = ArgumentParser(description="Language generator")
+    
     parser.add_argument('-l','--language', type=str, required=True,
                         help='Language to generate data')
+    
     parser.add_argument('-o', '--output', type=Path, required=True,
                         help='Output path to generate json file')  
 
