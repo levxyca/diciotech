@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Early Stopping",
+    "tags": ["Conceito", "Inteligência artificial"],
+    "description": "Também chamado de parada antecipada, é uma técnica de treinamento de modelos de aprendizado de máquina que interrompe o treinamento quando o desempenho do modelo para de melhorar. Ela é usada para evitar o overfitting e gerar um modelo com bom desempenho."
+  },
+  {
+    "title": "Embedding",
+    "tags": ["Conceito", "Inteligência artificial"],
+    "description": "Também chamado de incorporação, é uma representação vetorial de um objeto, como uma palavra, uma frase ou uma imagem. Ela é usada para representar objetos de forma mais compacta e eficiente, permitindo que modelos de aprendizado de máquina aprendam relações entre os objetos. Por exemplo, uma palavra pode ser representada por um vetor de números reais, onde cada dimensão representa um atributo da palavra, como gênero, número, tempo verbal, entre outros. Essa representação vetorial pode ser usada como entrada para um modelo de aprendizado de máquina, permitindo que ele aprenda relações entre as palavras, como sinônimos, antônimos, entre outros."
+  },
+  {
+    "title": "Encapsulamento",
+    "tags": ["Conceito"],
+    "description": "O encapsulamento funciona como uma \"caixa mágica\" que esconde os detalhes internos de um objeto. Isso significa que os dados e o funcionamento interno de um objeto são mantidos privados e não podem ser acessados diretamente de fora. Em vez disso, o objeto fornece interfaces controladas (métodos públicos) para interagir com ele. Isso ajuda a proteger os dados do objeto e controlar como ele é usado, promovendo a segurança e a organização do código."
+  },
+  {
+    "title": "Endereço de Memória",
+    "tags": ["Conceito"],
+    "description": "É um número que identifica unicamente uma posição de memória no computador. Tudo que é declarado em uma linguagem de programação é armazenado na memória do computador, e para acessar esses dados é necessário saber o endereço de memória onde eles estão armazenados."
+  },
+  {
+    "title": "Entrega Contínua",
+    "tags": ["Conceito"],
+    "description": "Entrega contínua (do inglês, Continuous Delivery ou CD) é uma prática de desenvolvimento de software que assegura que o código esteja sempre pronto para ser implantado em produção a qualquer momento. Após a Integração Contínua (CI), o software é automaticamente preparado para lançamentos, com um processo de implantação automatizado e rigorosos testes que garantem sua qualidade. Os benefícios do CD incluem implantações mais rápidas, redução de riscos e feedback contínuo das pessoas usuárias. Ferramentas como Spinnaker e Octopus Deploy são comumente utilizadas para facilitar essa prática."
+  },
+  {
+    "title": "Época",
+    "tags": ["Conceito", "Inteligência artificial"],
+    "description": "Do inglês, epoch, é uma iteração completa de um modelo de aprendizado de máquina sobre um conjunto de dados de treinamento. Um treinamento com uma quantidade de épocas muito pequena pode não ser suficiente para um modelo aprender, enquanto uma quantidade muito grande pode causar o overfitting."
+  },
+  {
+    "title": "Espaço Latente",
+    "tags": ["Conceito", "Inteligência artificial"],
+    "description": "Também chamado de espaço de características latentes ou espaço de incorporação (do inglês, embedding space), é um espaço vetorial (manifold) que pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina. Uma posição dentro desse espaço é definida por um conjunto de variáveis latentes que emergem das semelhanças dos objetos, de modo que itens que se assemelham são posicionados mais próximos. Em muitos casos, a dimensionalidade do espaço latente é escolhida para ser menor que a dimensionalidade do espaço dos dados de entrada, tornando a construção desse espaço um exemplo de redução de dimensionalidade, que também pode ser vista como uma forma de compressão de dados. O espaço latente pode ser completamente não intuitivo, de alta dimensão, complexo e não linear, o que pode aumentar a dificuldade de interpretação. Algumas técnicas de visualização foram desenvolvidas para conectar o espaço latente ao mundo visual, mas geralmente não há uma conexão direta entre a interpretação do espaço latente e do próprio modelo que o gerou. Dentre essas técnicas está o t-SNE, no qual o espaço latente é mapeado para duas ou três dimensões para visualização. As distâncias no espaço latente não possuem unidades físicas, portanto, a interpretação dessas distâncias pode depender da aplicação."
+  },
+  {
+    "title": "Explosão do Gradiente",
+    "tags": ["Conceito", "Inteligência artificial"],
+    "description": "Chamado em inglês de exploding gradient, é um problema que ocorre quando o gradiente de uma função de perda cresce exponencialmente durante o treinamento de um modelo de aprendizado de máquina. Isso pode resultar em parâmetros do modelo divergindo para o infinito, fazendo com que o processo de aprendizado falhe. Quando os gradientes explodem, as atualizações de peso durante o treinamento podem se tornar tão grandes que fazem com que o modelo volte a apresentar um erro grande, ao contrário de minimizá-lo a cada iteração. A explosão do gradiente pode ser causada por vários fatores, como uma taxa de aprendizado muito alta, uma função de perda mal projetada, entre outros."
+  },
+  {
+    "title": "Expo CLI",
+    "tags": ["Mobile"],
+    "description": "O Expo CLI é uma ferramenta que facilita o desenvolvimento de aplicativos móveis para iOS e Android. É utilizado para criar rapidamente um projeto com o React Native"
+  },
+  {
+    "title": "Finetuning",
+    "tags": ["Conceito", "Inteligência artificial"],
+    "description": "Também chamado de ajuste fino, é o processo de treinamento de um modelo de aprendizado de máquina pré-treinado em um novo conjunto de dados. Ele é usado para adaptar um modelo de base para uma tarefa específica, melhorando seu desempenho e reduzindo o tempo de treinamento em comparação com o treinamento do zero. O finetuning é comumente usado em modelos de visão computacional e processamento de linguagem natural."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "React",
+    "tags": ["Conceito", "Front-end", "Framework"],
+    "description": "React é uma biblioteca JavaScript de código aberto utilizada para criar interfaces de usuário interativas e dinâmicas em aplicações web e em outros ambientes, como mobile, TV, realidade virtual, entre outros. Ele se destaca por seu modelo de programação baseado em componentes e pela eficiência na atualização da interface do usuário, tornando-o uma escolha popular no desenvolvimento front-end."
+  },
+  {
+    "title": "React Native",
+    "tags": ["Mobile"],
+    "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma."
+  },
+  {
+    "title": "Reconhecimento Automático de Fala",
+    "tags": ["Conceito", "Inteligência artificial"],
+    "description": "É um campo da inteligência artificial que se concentra no desenvolvimento de sistemas que podem analisar e entender a fala humana, permitindo que os computadores transcrevam e processem estímulos sonoros em texto. O reconhecimento automático de fala e o processamento de linguagem natural são categorias de IA relacionadas, porém diferentes. O reconhecimento automático de fala foca no processo de converter palavras faladas em texto e símbolos, enquanto o PLN é o processo de converter texto em um formato estruturado que um computador pode entender e processar. O reconhecimento automático de fala (no inglês, automatic speech recognition) é usado em uma ampla variedade de aplicações, como assistentes virtuais, sistemas de navegação, transcrição de áudio, entre outros."
+  },
+  {
+    "title": "Recursão",
+    "tags": ["Conceito"],
+    "description": "Recursão é um método/função que chama a si mesmo para resolver um problema."
+  },
+  {
+    "title": "Rede Generativa Adversarial",
+    "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
+    "description": "Do inglês, Generative Adversarial Network ou GAN, é um tipo de rede neural artificial composto por duas redes neurais concorrentes treinadas de forma adversarial. A rede neural generativa é treinada para gerar novos dados, enquanto a rede discriminativa é treinada para distinguir entre dados reais e dados falsos. Desta forma, as duas redes neurais competem entre si, o que leva a uma melhoria contínua de ambas e gera dois modelos especializados, que podem ser usados isoladamente depois de treinados. O modelo generativo é frequentemente usado para gerar novas imagens, vídeos, áudios e textos mais realistas, como rostos humanos, vídeos de pessoas falando, áudios de pessoas cantando e textos de notícias. Já o modelo discriminativo é comumente usado para identificação de dados falsos."
+  },
+  {
+    "title": "Rede Neural Artificial",
+    "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
+    "description": "É um modelo computacional inspirado no sistema nervoso central de um animal, que consiste em um conjunto de unidades de processamento interconectadas, chamadas neurônios artificiais, que simulam a forma como os neurônios se comunicam uns com os outros. As redes neurais artificiais (do inglês, Artificial Neural Networks ou ANNs) são usadas para resolver problemas complexos e não lineares, como reconhecimento de padrões, reconhecimento de fala, visão computacional, entre outros."
+  },
+  {
+    "title": "Rede Neural Convolucional",
+    "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
+    "description": "É um tipo de rede neural artificial que usa uma operação matemática chamada convolução em uma ou mais de suas camadas. Do inglês, Convolutional Neural Network ou CNN, ela é frequentemente usada para processar dados de entrada que têm uma estrutura matricial, como imagens, e é muito usada em aplicações de visão computacional, como reconhecimento de imagens e vídeos."
+  },
+  {
+    "title": "Rede Neural Generativa",
+    "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
+    "description": "É um tipo de rede neural artificial que gera novos dados com base em um conjunto de dados de treinamento. Estes dados geralmente são variações dos dados de entrada, como por exemplo alterações nas expressões de uma pessoa em um vídeo. Ela é frequentemente usada para gerar novas imagens, vídeos, áudios e textos, podendo ser usada para aumento dos dados."
+  },
+  {
+    "title": "Rede Neural Profunda",
+    "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
+    "description": "Do inglês, Deep Neural Network ou DNN, é um tipo de rede neural artificial com várias camadas de unidades de processamento interconectadas. É chamada de rede neural profunda devido ao número de camadas ocultas usadas no modelo de aprendizado profundo. Enquanto uma rede neural básica é formada por uma camada de entrada, uma de saída e poucas camadas intermediárias (também chamadas de camadas ocultas), uma rede neural profunda tem várias camadas ocultas de processamento, podendo chegar a centenas. Essas camadas adicionais dão a essas redes a capacidade de fazer previsões com maior precisão quando comparadas a uma rede neural mais simples, mas exigem milhões de pontos de dados de amostra e centenas de horas de treinamento."
+  },
+  {
+    "title": "Rede Neural Recorrente",
+    "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
+    "description": "Do inglês, Recurrent Neural Network ou RNN, é um tipo de rede neural artificial que usa loops e estados para processar dados. Ela é frequentemente usada para processar dados de entrada que têm uma estrutura sequencial, como textos, áudio, vídeo e séries temporais, sendo muito usada em aplicações de processamento de linguagem natural, como tradução automática, reconhecimento de fala e análise de sentimentos."
+  },
+  {
+    "title": "Repositório",
+    "tags": ["Conceito", "Ferramenta", "Versionamento"],
+    "description": "Um Repositório é basicamente uma caixa que guarda todo o material do seu projeto. Pense nele como um lugar onde você armazena o código, a história das mudanças e outros arquivos importantes. Existem repositórios locais no seu computador e repositórios remotos em servidores compartilhados."
+  },
+  {
+    "title": "Responsividade",
+    "tags": ["Front-end"],
+    "description": "A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos de tela e dispositivos, como smartphones, tablets e desktops."
+  },
+  {
+    "title": "RPA",
+    "description": "Robotic Process Automation (Automação de Processos Robóticos), é uma tecnologia que permite a automação de tarefas repetitivas e baseadas em regras, utilizando robôs de software para realizar principalmente atividades repetitivas. Esses robôs imitam ações humanas em sistemas digitais, como clicar em botões, preencher formulários, copiar e colar dados, acessar sistemas e executar processos predefinidos.",
+    "tags": ["Conceito"]
+  },
+  {
+    "title": "Ruby",
+    "tags": ["Back-end", "Conceito"],
+    "description": "Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático. Ruby suporta programação funcional, orientada a objetos, imperativa e reflexiva. É como uma caixa de ferramentas digital que pode criar, organizar e fazer interagir diferentes partes em um programa de computador, sendo capaz de lidar com diversos estilos de programação."
+  }
+]
