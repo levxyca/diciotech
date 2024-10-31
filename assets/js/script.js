@@ -360,9 +360,12 @@ function getPWADisplayMode() {
 window.addEventListener("DOMContentLoaded", () => {
     const displayMode = getPWADisplayMode();
 
-    // hide github-corner if not in browser mode
+    // hide github-corner and change theme button if not in browser mode
     if (displayMode !== "browser") {
         const githubCorner = document.querySelector(".github-corner");
         githubCorner.style.display = "none";
+
+        const themeButton = document.querySelector("#change-theme-button");
+        themeButton.style.display = "none";
     }
 });
