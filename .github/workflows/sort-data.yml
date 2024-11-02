@@ -29,7 +29,7 @@ jobs:
         id: changed-data
         uses: tj-actions/changed-files@v45
         with:
-          files: assets/data/**.{json}
+          files: assets/data/**.json
 
       - name: Setup Python
         if: steps.changed-data.outputs.any_changed == 'true'
