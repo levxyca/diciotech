@@ -38,6 +38,7 @@ jobs:
           python-version: '3.12'
 
       - name: Sort data files
+        if: steps.changed-data.outputs.any_changed == 'true'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-data.outputs.all_changed_files }}
         run: |
@@ -48,5 +49,6 @@ jobs:
 
       # commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
+        if: steps.changed-data.outputs.any_changed == 'true'
         with:
           commit_message: Sort data files
