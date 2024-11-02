@@ -31,11 +31,13 @@ jobs:
         with:
           files: assets/data/**.{json}
 
-      - name: Sort data files
+      - name: Setup Python
         if: steps.changed-data.outputs.any_changed == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Sort data files
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-data.outputs.all_changed_files }}
         run: |
