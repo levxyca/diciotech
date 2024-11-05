@@ -1,0 +1,29 @@
+html[data-theme="light"] {
+  --background-color: #{$white};
+  --card-background-color: #{$white};
+  --card-description-color: #{$black};
+  --card-title-color: #{$primary-500};
+  --cookies-background-color: #{$white};
+  --cookies-link-color: #{$blue};
+  --cookies-text-color: #{$black};
+  --fav-button-color: #{$primary-500};
+  --link-color: #{$primary-300};
+  --searchbar-background-color: #{$gray-100};
+  --searchbar-text-color: #{$black};
+  --tags-filter-background-color: #{$white};
+  --tags-filter-text-color: #{$black};
+  --text-color: #{$black};
+}
+html[data-theme-setting="light"] {
+  #change-theme-button {
+    .ph-desktop {
+      display: none;
+    }
+    .ph-moon {
+      display: none;
+    }
+    .ph-sun {
+      display: inline;
+    }
+  }
+}
