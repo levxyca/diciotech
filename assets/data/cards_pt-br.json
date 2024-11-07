@@ -2,31 +2,22 @@
   "cards": [
     {
       "title": "Abstração",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Abstração é uma simplificação de ponto(s) específicos de algum sistema ou comportamento que estamos tentando entender. Na programação, usamos abstrações o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos profundos para escrever código - como o funcionamento interno de um computador. Em vez disso, podemos usar ideias mais simples para criar nossos programas."
     },
     {
       "title": "Adaptação de Domínio",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É a capacidade de aplicar um algoritmo treinado em um ou mais 'domínios de origem' a um 'domínio de destino' diferente, mas relacionado. A adaptação de domínio é uma subcategoria da transferência de aprendizado. Na adaptação de domínio, os domínios de origem e destino têm todos o mesmo espaço de características (mas distribuições diferentes), enquanto na transferência de aprendizado inclui casos em que o espaço de características do domínio de destino é diferente. Por exemplo, um modelo de filtragem de spam treinado com dados de um usuário pode ser adaptado para um novo usuário que recebe emails completamente diferentes."
     },
     {
       "title": "Algoritmo",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Um algoritmo é como uma receita de bolo para o computador. É um conjunto de passos organizados que ajudam a resolver um problema, como fazer contas ou analisar informações."
     },
     {
       "title": "Ambiente",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Costumamos chamar de ambiente o lugar ou os servidores onde o que foi desenvolvido fica disponível para testes, validações, pessoas usuárias finais utilizarem ou demais necessidades. Esse servidor seria como um computador. Pode ser um computador físico ou disponível na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos)e produção (onde está disponível o sistema final, desenvolvido e testado, para pessoas usuárias)."
     },
     {
@@ -38,184 +29,117 @@
     },
     {
       "title": "Angular.js",
-      "tags": [
-        "Conceito",
-        "Front-end",
-        "Framework"
-      ],
+      "tags": ["Conceito", "Framework", "Front-end"],
       "description": "Angular.js é uma ferramenta desenvolvida pelo Google que facilita a criação de sites ou aplicativos que funcionam como uma única página (SPAs), ou seja, sem recarregar a página inteira a cada interação. Ele organiza o código de forma eficiente usando \"módulos\" e \"injeção de dependências\", o que ajuda a manter tudo mais fácil de gerenciar. Grandes empresas como Google e Microsoft utilizam essa tecnologia."
     },
     {
       "title": "API",
-      "tags": [
-        "Back-end",
-        "Conceito"
-      ],
+      "tags": ["Back-end", "Conceito"],
       "description": "API é uma sigla que, em inglês, significa: Application Programming Interface. Traduzindo para português, seria uma interface programada para aplicações. É uma estrutura de código que atende a alguns requisitos, seguindo normas e padrões de desenvolvimento, facilitando a organização de sistemas grandes. Disponibiliza funcionalidades e informações para aplicativos e sites. Por exemplo: API dos Correios que disponibiliza consulta de CEP e endereço de maneira simplificada."
     },
     {
       "title": "Aprendizado de Máquina",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "No inglês, Machine Learning ou ML, é um subconjunto da inteligência artificial (IA) que estuda como os computadores podem aprender com e fazer previsões sobre dados, sem serem explicitamente programados. A maior parte da IA é realizada com aprendizagem de máquina, por isso os dois termos são frequentemente utilizados como sinônimos, mas o aprendizado de máquina é apenas um método usado para tal. Ele é usado para resolver problemas complexos e automatizar tarefas que seriam muito demoradas ou impossíveis para seres humanos."
     },
     {
       "title": "Aprendizado Few-Shot",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É um tipo de aprendizado de máquina que usa poucos dados rotulados para treinar um modelo. Nele, um modelo de aprendizado de máquina (geralmente pré-treinado) é treinado com novos dados rotulados, contendo poucos exemplos por classe. O aprendizado few-shot é muito usado para resolver problemas de classificação de pequenos conjuntos de dados."
     },
     {
       "title": "Aprendizado Não-Supervisionado",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É um tipo de aprendizado de máquina que usa dados não rotulados para treinar um modelo. Ele é usado para resolver problemas de agrupamento, onde o objetivo é encontrar padrões em um conjunto de dados. Por exemplo, um modelo de aprendizado de máquina pode ser treinado para agrupar imagens de gatos e cachorros, onde o conjunto de dados de treinamento é composto por imagens de gatos e cachorros sem rótulos associados. O modelo então é responsável por encontrar padrões nos dados e agrupá-los de acordo com esses padrões, independente de qualquer outra informação."
     },
     {
       "title": "Aprendizado por Reforço",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "No inglês, Reinforcement Learning ou RL, é um tipo de aprendizado de máquina que usa recompensas para treinar um modelo. Ele é muito usado para resolver problemas de tomada de decisão, onde o objetivo é maximizar uma recompensa. Por exemplo, um modelo de aprendizado de máquina pode ser treinado para jogar um jogo, onde o conjunto de dados de treinamento é composto por ações e recompensas associadas."
     },
     {
       "title": "Aprendizado por Reforço a partir de Feedback Humano",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Do inglês, Reinforcement Learning from Human Feedback ou RLHF, é uma técnica que treina um modelo de recompensa diretamente a partir do feedback humano. RLHF é usado em tarefas onde é difícil definir ou medir uma solução algorítmica clara, especialmente ao lidar com tarefas complexas que envolvem valores ou preferências humanas, mas onde os humanos podem facilmente julgar a qualidade da saída do modelo. Por exemplo, se a tarefa é gerar uma história convincente, os humanos podem classificar diferentes histórias geradas por IA com base em sua qualidade e rejeitar aquelas que são inadequadas ou fora do espaço de conhecimento do modelo. Um exemplo famoso de modelo de linguagem treinado por RLHF é o ChatGPT da OpenAI. Um grande desafio é a escalabilidade e o custo do feedback humano, que pode ser lento e caro de obter em comparação com a aprendizagem não supervisionada. A qualidade e a consistência desse feedback também podem variar dependendo da tarefa e das preferências individuais dos humanos. Se o feedback não for imparcial, ou for inconsistente ou incorreto, o modelo pode se tornar tendencioso."
     },
     {
       "title": "Aprendizado Profundo",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Do inglês, Deep Learning ou DL, é um subconjunto do aprendizado de máquina que usa redes neurais artificiais profundas para aprender representações de dados complexos. Devido às múltiplas camadas presentes em uma rede neural profunda, o aprendizado profundo tende a ser muito mais demorado que um aprendizado de máquina tradicional, mas tende a oferecer maior desempenho, eficiência e precisão. O aprendizado profundo é uma das áreas mais avançadas da inteligência artificial."
     },
     {
       "title": "Aprendizado Semi-Supervisionado",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É um tipo de aprendizado de máquina que usa dados rotulados e não rotulados para treinar um modelo. Ele é muito usado para resolver problemas de classificação de grandes conjuntos de dados, onde o objetivo é prever um valor de saída com base em um conjunto de valores de entrada. O treinamento semi-supervisionado é usado quando há um grande conjunto de dados não rotulados e um pequeno conjunto de dados rotulados, sendo mais eficiente que o treinamento supervisionado e mais preciso que o treinamento não-supervisionado."
     },
     {
       "title": "Aprendizado Supervisionado",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É um tipo de aprendizado de máquina que usa dados rotulados para treinar um modelo. Ele é usado para resolver problemas de classificação e regressão, onde o objetivo é prever um valor de saída com base em um conjunto de valores de entrada. Por exemplo, um modelo de aprendizado de máquina pode ser treinado para classificar imagens de gatos e cachorros, onde o conjunto de dados de treinamento é composto por imagens de gatos e cachorros rotuladas como tal. O treinamento supervisionado é um dos tipos mais comuns de aprendizado de máquina e pode ser usado para resolver uma ampla variedade de problemas."
     },
     {
       "title": "Aprendizado Zero-Shot",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É uma configuração de problemas em aprendizado profundo onde, no momento do teste, um modelo recebe amostras de classes que não foram observadas durante o treinamento e precisa identificar a classe à qual pertencem. Ao contrário do que ocorre no aprendizado de máquina padrão, no qual modelos devem classificar corretamente novas amostras em classes que já foram observadas durante o treinamento, no aprendizado zero-shot nenhuma amostra das classes dos novos dados foi fornecida durante o treinamento do classificador. Portanto, pode ser visto como um caso extremo de adaptação de domínio. Métodos de zero-shot geralmente funcionam associando classes observadas e não observadas por meio de alguma forma de informação auxiliar, que codifica propriedades distintivas observáveis dos objetos. Por exemplo, dado um conjunto de imagens de animais a serem classificados, juntamente com descrições textuais auxiliares de como os animais se parecem, um modelo de inteligência artificial que foi treinado para reconhecer cavalos, mas nunca viu uma zebra, ainda consegue reconhecer uma zebra quando também sabe que zebras parecem cavalos listrados."
     },
     {
       "title": "Argumento",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Um argumento é um valor ou uma informação que você fornece a uma função ou método durante sua chamada. Esses argumentos são usados pela função para realizar uma tarefa específica ou para tomar decisões com base nos valores fornecidos. Em resumo, os argumentos são dados de entrada que permitem que uma função realize seu trabalho e produza um resultado ou execute ações desejadas."
     },
     {
       "title": "Aumento dos dados",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Em inglês chamado de data augmentation, é uma técnica de pré-processamento de dados usada para aumentar o tamanho de um conjunto de dados de treinamento disponível para um modelo de aprendizado de máquina, gerando novos dados com base nos dados existentes, o que melhora seu desempenho e reduz o risco de overfitting. Por exemplo, um conjunto de dados de imagens pode ser aumentado usando rotações, zooms, espelhamentos e outras transformações geométricas."
     },
     {
       "title": "Autoencoder",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial",
-        "Rede neural"
-      ],
+      "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
       "description": "É um tipo de rede neural artificial composto por duas redes neurais no formato codificador-decodificador, sendo uma responsável por codificar dados de entrada em um espaço latente e outra por decodificar dados de um espaço latente de volta para o espaço de entrada. Ela é frequentemente usada para comprimir dados de entrada em aplicações como compressão de imagens e vídeos, redução de dimensionalidade e aumento de dados."
     },
     {
       "title": "Batch Size",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Tamanho do lote, em português, é um hiperparâmetro de modelos de aprendizado de máquina que controla o número de exemplos usados em uma única execução do modelo. Ele é usado para controlar a rapidez com que um modelo de aprendizado de máquina aprende e pode ser ajustado para melhorar seu desempenho. Um tamanho de lote muito pequeno durante o treinamento exige menos memória, porém mais iterações para completar uma época, enquanto um tamanho de lote maior permite um treinamento mais rápido, com menos iterações por época, porém que ocupa mais memória."
     },
     {
       "title": "Botnet",
-      "tags": [
-        "Conceito",
-        "Segurança cibernética"
-      ],
+      "tags": ["Conceito", "Segurança cibernética"],
       "description": "Botnet é uma rede de dispositivos conectados na internet infectados por um malware (os malwares são programas maliciosos que afetam um dispositivo), possibilitando que criminosos-ciberneticos derrubem sites usando essa rede de dispositivos. Os dispositivos pedem ser desde um computador até um equipamento IoT (um aparelho IoT é um equipamento conectado à internet sem o uso de cabos, por exemplo: TVs inteligentes, lampadas inteligentes, geladeiras inteligentes e celulares)."
     },
     {
       "title": "Branch",
-      "tags": [
-        "Conceito",
-        "Ferramenta",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Ferramenta", "Versionamento"],
       "description": "Uma Branch é como uma cópia do seu projeto em um momento específico. É como se você criasse uma versão separada para trabalhar em novas ideias sem mexer na versão principal. Cada Branch pode ser editado à parte, permitindo que você desenvolva coisas novas sem atrapalhar o código principal."
     },
     {
       "title": "Bug",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "O termo Bug é comumente usado para informar que há algum problema no programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente causados por lógica incorreta no código, causando falhas durante a execução de um software."
     },
     {
       "title": "Busca de Arquitetura Neural",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "No inglês, Neural Architecture Search ou NAS, é um processo de otimização que usa algoritmos de busca para encontrar a melhor arquitetura de rede neural para um determinado conjunto de dados. Ela é usada para encontrar a melhor arquitetura de rede neural para resolver determinado problema, melhorando o desempenho e reduzindo o tempo de treinamento em comparação com a busca manual pela melhor arquitetura."
     },
     {
       "title": "C",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "C é uma linguagem de programação compilada de propósito geral, estruturada, imperativa, procedural, padronizada pela ISO, criada em 1972, por Dennis Ritchie, no AT&T Bell Labs, para desenvolver o sistema operacional Unix (que foi originalmente escrito em Assembly)."
     },
     {
       "title": "C++",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "C++ é uma linguagem de programação compilada multi-paradigma (seu suporte inclui linguagem imperativa, orientada a objetos e genérica) e de uso geral. Desde os anos 1990 é uma das linguagens comerciais mais populares, sendo bastante usada também na academia por seu grande desempenho e base de utilizadores."
     },
     {
       "title": "Cache",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "O cache é uma técnica de armazenamento temporário de dados frequentemente usados para melhorar o desempenho e a velocidade de acesso a esses dados em sistemas computacionais."
     },
     {
       "title": "Chatbot",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É um programa de computador que simula um ser humano em uma conversa por meio de mensagens de texto ou de voz, muito utilizado para automatizar tarefas repetitivas e fornecer suporte e assistência aos usuários. Os chatbots podem ser usados em uma ampla variedade de aplicações, como atendimento ao cliente, assistentes virtuais, entre outros."
     },
     {
@@ -227,30 +151,22 @@
     },
     {
       "title": "Classe",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Uma classe, em desenvolvimento de software, é como molde e um \"modelo\" para criar objetos. Ela define os atributos (dados) e os métodos (funções) que os objetos criados a partir dela terão. Elas ajudam a organizar o código, permitindo a reutilização e a abstração de dados e funcionalidades em uma estrutura coerente."
     },
     {
       "title": "Clone",
-      "tags": [
-        "Conceito",
-        "Ferramenta",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Ferramenta", "Versionamento"],
       "description": "Clonar um Repositório é como tirar uma cópia local desse projeto no seu próprio espaço de trabalho. É como ter sua própria versão do código para mexer como quiser. Isso permite que você trabalhe em uma versão local do código, faça alterações e contribua de volta ao projeto principal quando estiver pronto."
     },
     {
       "title": "CMD",
-      "description": "O CMD (abreviação de \"Command Prompt\", ou Prompt de Comando) é uma interface de linha de comando presente no sistema operacional Windows. Ele permite que os usuários interajam diretamente com o sistema usando comandos de texto, ao invés de uma interface gráfica (GUI). No CMD, você pode executar uma série de tarefas e comandos diretamente, como navegar por diretórios, manipular arquivos, configurar o sistema e rodar programas. Conceitos Principais: Linha de Comando: É onde você digita os comandos. Ao contrário de uma interface gráfica, onde você clica em ícones e botões, na linha de comando, você escreve instruções que o computador executa diretamente. Prompt: Refere-se à tela inicial onde você começa a digitar os comandos.",
-      "tags": ["Conceito"]
+      "tags": ["Conceito"],
+      "description": "O CMD (abreviação de \"Command Prompt\", ou Prompt de Comando) é uma interface de linha de comando presente no sistema operacional Windows. Ele permite que os usuários interajam diretamente com o sistema usando comandos de texto, ao invés de uma interface gráfica (GUI). No CMD, você pode executar uma série de tarefas e comandos diretamente, como navegar por diretórios, manipular arquivos, configurar o sistema e rodar programas. Conceitos Principais: Linha de Comando: É onde você digita os comandos. Ao contrário de uma interface gráfica, onde você clica em ícones e botões, na linha de comando, você escreve instruções que o computador executa diretamente. Prompt: Refere-se à tela inicial onde você começa a digitar os comandos."
     },
     {
       "title": "Coalescência nula",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Operador lógico que permite tratar valores nulos, retornando o valor à direita caso o valor à esquerda seja nulo.",
       "content": {
         "code": "let valor = valorDesejado ?? 42"
@@ -258,65 +174,47 @@
     },
     {
       "title": "Code Review",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Code review significa revisão de código. Trata-se de uma boa prática muito indicada para o processo de desenvolvimento de sistemas, pelo qual as pessoas desenvolvedoras do time ajudam umas as outras. Normalmente, após o término da etapa de desenvolvimento de cada tarefa, antes do código ser disponibilizado para testes, o time avalia o que foi feito e dá sugestões do que pode ser melhorado, quando necessário. Isso traz diversos benefícios. Alguns deles são: melhorar a parte técnica do time, melhoria do desenvolvimento, qualidade do código, integração do time, todas as pessoas conhecem o que está sendo desenvolvido, entre outros."
     },
     {
       "title": "Code Smells",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Code smells são indicadores de possíveis problemas no código que, embora não causem erros imediatos ou impeçam o funcionamento do software, podem sugerir áreas de risco que podem levar a dificuldades futuras na manutenção e evolução do código. Eles geralmente apontam para problemas de design, duplicação, complexidade ou falta de clareza que podem tornar o código mais difícil de entender, modificar ou estender."
     },
     {
       "title": "Commit",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Quando trabalhamos com versionamento de código (o que é altamente recomendado), a palavra commit é bastante comum entre as pessoas desenvolvedoras. Mas essa palavra também é utilizada por quem atua em banco de dados. Quando se tem um conjunto de alterações feitas em um código, a pessoa faz o comando commit que salva o que foi feito dentro do projeto. Existe também o commit semântico, que significa que esse conjunto de alterações deve ter um significado para o projeto. O commit também serve para finalizar uma transação dentro de um sistema de gerenciamento de banco de dados, tornando visíveis as alterações. Essa transação normalmente vai começar com o comando begin e finalizar com o comando commit."
     },
     {
       "title": "Componente",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Um componente é uma unidade fundamental e reutilizável de construção de interfaces de usuário. Ele encapsula a lógica e a apresentação relacionadas a uma parte específica da interface. Componentes podem ser comparados a blocos de construção que, quando combinados, formam interfaces complexas. Eles promovem a organização e a manutenibilidade do código, uma vez que podem ser desenvolvidos e testados de forma independente. Os componentes podem aceitar propriedades (props) como entrada e renderizar informações com base nesses dados, permitindo uma personalização flexível."
     },
     {
       "title": "Computação em Nuvem",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "De modo geral, refere-se ao uso de serviços de computador, como armazenamento de arquivos e execução de programas, através da internet. Isso significa que você não precisa de equipamentos físicos, pois tudo é feito online. Você pode acessar seus dados e programas de qualquer lugar, a qualquer momento, sem se preocupar com a manutenção dos equipamentos físicos."
     },
     {
       "title": "Conjunto de Dados",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Chamado de dataset no inglês, é um conjunto de dados que pode ser usado para treinar e testar modelos de aprendizado de máquina. Normalmente são usadas partes diferentes dos conjuntos de dados para treinamento e para teste, para evitar a ocorrência de overfitting. Também podem ser usadas partes para validação e para inferência. Um conjunto de dados é composto por vários exemplos, que por sua vez são compostos por vários pontos de dados. Por exemplo, um conjunto de dados de gatos pode conter vários exemplos de gatos, onde cada exemplo pode ser composto por uma ou mais imagens e vários atributos atrelados, como tamanho, raça e cor."
     },
     {
       "title": "CORS",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Do inglês \"Cross-Origin Resource Sharing\" ou, em português, \"Compartilhamento de Recursos de Origem Cruzada\", é uma regra de segurança para websites. Ele determina como recursos de uma página web podem ser acessados por outra página de um domínio diferente. Por exemplo, uma imagem ou arquivo CSS geralmente pode ser compartilhado entre diferentes sites sem problemas, mas códigos JavaScript frequentemente têm restrições mais rigorosas."
     },
     {
       "title": "CSS",
-      "tags": [
-        "Front-end"
-      ],
+      "tags": ["Front-end"],
       "description": "Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web como cores, tamanhos, fontes e etc. É possivel ligar o arquivo HTML ao CSS adicionando um link para um arquivo CSS que contém os estilos."
     },
     {
       "title": "Curl",
-      "tags": [
-        "Ferramenta"
-      ],
+      "tags": ["Ferramenta"],
       "description": "Ferramenta para transferir dados de/para um servidor, ou seja fazer uma requisição utilizando diversos protocolos, sendo o mais comum o HTTP. Quando se escuta o termo 'faz um curl para x' significa que é preciso fazer uma requisição para x, mas não necessáriamente utilizando a ferramenta curl. O curl é bastante utilizado por ser simples de utilizar via linha de comando(terminal), não necessitando de softwares terceiros para realizar chamadas",
       "content": {
         "code": "curl http://www.google.com"
@@ -324,327 +222,212 @@
     },
     {
       "title": "Dados Rotulados",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamados de dados anotados, são dados que possuem um rótulo ou tag que indica o que eles representam. Eles são usados para treinar modelos de aprendizado de máquina supervisionado ou semi-supervisionado, onde o objetivo é prever um valor de saída com base em um conjunto de valores de entrada. Por exemplo, um conjunto de dados de imagens de gatos e cachorros pode ser rotulado com a classe de cada imagem, permitindo que um modelo de aprendizado de máquina seja treinado para classificar imagens de gatos e cachorros."
     },
     {
       "title": "DDoS",
-      "tags": [
-        "Conceito",
-        "Segurança cibernética"
-      ],
+      "tags": ["Conceito", "Segurança cibernética"],
       "description": "DDoS é um ataque onde muitos dispositivos tentam se conectar ao mesmo tempo no site para sobrecarregá-lo."
     },
     {
       "title": "Deploy",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "O deploy é um processo complexo. Mas significa que foi instalado um pacote do que foi desenvolvido nos ambientes. É gerada uma versão para que seja disponibilizada. Esse processo também pode ser chamado de implantação dependendo do contexto. Para que essa implantação aconteça, pode ser um processo automatizado com ferramentas, ou feito manualmente, dependendo da estrutura. Acabamos aportuguesando a palavra deploy, tornando-a uma ação. Exemplo: estou deployando a nova versão do nosso sistema."
     },
     {
       "title": "Desaparecimento do Gradiente",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Chamado em inglês de vanishing gradient, é um problema que ocorre quando o gradiente de uma função de perda diminui exponencialmente durante o treinamento de um modelo de aprendizado de máquina. Conforme os gradientes frequentemente se tornam menores até ficarem próximos de zero, os novos pesos calculados do modelo serão virtualmente idênticos aos pesos antigos, sem nenhuma atualização. Como resultado, o algoritmo de descida de gradiente nunca converge para a solução ótima e o modelo deixa de aprender. O desaparecimento do gradiente pode ser causada por vários fatores, como uma taxa de aprendizado muito baixa, uma função de perda mal projetada, entre outros."
     },
     {
       "title": "Descida do Gradiente",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Modelos de redes neurais são geralmente treinados por um algoritmo de otimização que é uma variação da descida do gradiente. Durante o aprendizado, os dados de treinamento de entrada ajudam o modelo a aprender e a função de perda avalia o quão precisa é a performance de predição para cada iteração. À medida que o treinamento avança, o objetivo é reduzir a função de perda/erro de predição ajustando os parâmetros iterativamente. Especificamente, o algoritmo de descida do gradiente tem uma etapa de propagação para a frente (do inglês, forward pass ou forward propagation) e uma etapa para trás (do inglês, backward pass ou backpropagation). Na etapa de propagação para a frente, os dados de entrada são passados pela rede neural e a saída é calculada. Na etapa de propagação para trás, o gradiente da função de perda é calculado em relação a cada peso da rede neural, e os pesos são atualizados de acordo com o gradiente. Então o algoritmo dá um passo de descida do gradiente para minimizar a função de perda (considerando a taxa de aprendizado)."
     },
     {
       "title": "Desenvolvimento Front-end",
-      "tags": [
-        "Front-end"
-      ],
+      "tags": ["Front-end"],
       "description": "Desenvolvimento front-end é o desenvolvimento da interface gráfica, para que as pessoas usuárias possam visualizar e interagir com o que foi desenvolvido."
     },
     {
       "title": "Design Critique",
-      "tags": [
-        "Design"
-      ],
+      "tags": ["Design"],
       "description": "É um processo colaborativo onde designers, pessoas desenvolvedoras e outras partes interessadas revisam e avaliam um projeto ou conceito de design de forma construtiva. O objetivo é obter feedback valioso sobre a eficácia estética, funcionalidade e usabilidade do design, permitindo identificar pontos fortes e áreas de melhoria. Durante o rito, os participantes discutem aspectos como a coerência visual, a experiência do usuário e a aderência as metas do produto e a viabilidade técnica, promovendo um ambiente aberto onde ideias podem ser compartilhadas. Esse processo não apenas melhora o resultado final, mas também fortalece a colaboração e o aprendizado dentro da equipe."
     },
     {
       "title": "Design Ops",
-      "tags": [
-        "Design"
-      ],
+      "tags": ["Design"],
       "description": "Prática que otimiza e integra o processo de design nas equipes de desenvolvimento de produtos digitais, promovendo a colaboração entre designers, pessoas desenvolvedoras e partes interessadas. Ela implementa frameworks, ferramentas e processos que melhoram a eficiência, consistência e qualidade do design. O foco é criar um ambiente estruturado que permita que os designers se concentrarem nas tarefas, enquanto aspectos operacionais, como documentação e gestão de recursos, são geridos de forma eficaz. Isso alinha as metas de design com os objetivos de negócios, resultando em produtos digitais mais coesos e bem projetados."
     },
     {
       "title": "Design System",
-      "tags": [
-        "Design",
-        "Front-End"
-      ],
+      "tags": ["Design", "Front-End"],
       "description": "É um conjunto de diretrizes, componentes e padrões que orientam a criação e a manutenção de interfaces e experiências de usuário consistentes em produtos digitais. Inclui elementos como: paletas de cores, tipografia, ícones e padrões de layout, além de ser uma documentação para designers e pessoas desenvolvedoras sobre como e quando utilizar os componentes do design system. Visa melhorar a eficiência no desenvolvimento, garantir a coerência visual e funcional, e facilitar a colaboração entre as equipes de design e desenvolvimento."
     },
     {
       "title": "DevOps",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "É uma prática que integra desenvolvimento de software (Dev) e operações de TI (Ops) para melhorar a colaboração e a eficiência entre equipes. Foca na automação e na integração de processos de desenvolvimento, teste e implantação, permitindo lançamentos mais rápidos e de maior qualidade. A abordagem enfatiza comunicação contínua, integração contínua (CI) e entrega contínua (CD), promovendo um ciclo de vida de desenvolvimento ágil e responsivo, resultando em software entregue de forma mais eficiente e confiável."
     },
     {
       "title": "DOM (Document Object Model)",
-      "tags": [
-        "Front-end"
-      ],
+      "tags": ["Front-end"],
       "description": "Uma representação da estrutura de árvore dos elementos HTML em uma página, que permite a manipulação dinâmica do conteúdo. Imagine isso como um mapa da página que o JavaScript usa para entender e alterar o conteúdo. É como um 'modelo' da página."
     },
     {
       "title": "DoS",
-      "tags": [
-        "Conceito",
-        "Segurança cibernética"
-      ],
+      "tags": ["Conceito", "Segurança cibernética"],
       "description": "DoS é um ataque de negação de serviço, neste ataque é usado apenas um computador que faz muitas consultas em um site em um espaço curto de tempo com o objetivo de tirá-lo do ár."
     },
     {
       "title": "Early Stopping",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamado de parada antecipada, é uma técnica de treinamento de modelos de aprendizado de máquina que interrompe o treinamento quando o desempenho do modelo para de melhorar. Ela é usada para evitar o overfitting e gerar um modelo com bom desempenho."
     },
     {
       "title": "Embedding",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamado de incorporação, é uma representação vetorial de um objeto, como uma palavra, uma frase ou uma imagem. Ela é usada para representar objetos de forma mais compacta e eficiente, permitindo que modelos de aprendizado de máquina aprendam relações entre os objetos. Por exemplo, uma palavra pode ser representada por um vetor de números reais, onde cada dimensão representa um atributo da palavra, como gênero, número, tempo verbal, entre outros. Essa representação vetorial pode ser usada como entrada para um modelo de aprendizado de máquina, permitindo que ele aprenda relações entre as palavras, como sinônimos, antônimos, entre outros."
     },
     {
       "title": "Encapsulamento",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "O encapsulamento funciona como uma \"caixa mágica\" que esconde os detalhes internos de um objeto. Isso significa que os dados e o funcionamento interno de um objeto são mantidos privados e não podem ser acessados diretamente de fora. Em vez disso, o objeto fornece interfaces controladas (métodos públicos) para interagir com ele. Isso ajuda a proteger os dados do objeto e controlar como ele é usado, promovendo a segurança e a organização do código."
     },
     {
       "title": "Endereço de Memória",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "É um número que identifica unicamente uma posição de memória no computador. Tudo que é declarado em uma linguagem de programação é armazenado na memória do computador, e para acessar esses dados é necessário saber o endereço de memória onde eles estão armazenados."
     },
     {
       "title": "Entrega Contínua",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Entrega contínua (do inglês, Continuous Delivery ou CD) é uma prática de desenvolvimento de software que assegura que o código esteja sempre pronto para ser implantado em produção a qualquer momento. Após a Integração Contínua (CI), o software é automaticamente preparado para lançamentos, com um processo de implantação automatizado e rigorosos testes que garantem sua qualidade. Os benefícios do CD incluem implantações mais rápidas, redução de riscos e feedback contínuo das pessoas usuárias. Ferramentas como Spinnaker e Octopus Deploy são comumente utilizadas para facilitar essa prática."
     },
     {
       "title": "Época",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Do inglês, epoch, é uma iteração completa de um modelo de aprendizado de máquina sobre um conjunto de dados de treinamento. Um treinamento com uma quantidade de épocas muito pequena pode não ser suficiente para um modelo aprender, enquanto uma quantidade muito grande pode causar o overfitting."
     },
     {
       "title": "Espaço Latente",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamado de espaço de características latentes ou espaço de incorporação (do inglês, embedding space), é um espaço vetorial (manifold) que pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina. Uma posição dentro desse espaço é definida por um conjunto de variáveis latentes que emergem das semelhanças dos objetos, de modo que itens que se assemelham são posicionados mais próximos. Em muitos casos, a dimensionalidade do espaço latente é escolhida para ser menor que a dimensionalidade do espaço dos dados de entrada, tornando a construção desse espaço um exemplo de redução de dimensionalidade, que também pode ser vista como uma forma de compressão de dados. O espaço latente pode ser completamente não intuitivo, de alta dimensão, complexo e não linear, o que pode aumentar a dificuldade de interpretação. Algumas técnicas de visualização foram desenvolvidas para conectar o espaço latente ao mundo visual, mas geralmente não há uma conexão direta entre a interpretação do espaço latente e do próprio modelo que o gerou. Dentre essas técnicas está o t-SNE, no qual o espaço latente é mapeado para duas ou três dimensões para visualização. As distâncias no espaço latente não possuem unidades físicas, portanto, a interpretação dessas distâncias pode depender da aplicação."
     },
     {
       "title": "Explosão do Gradiente",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Chamado em inglês de exploding gradient, é um problema que ocorre quando o gradiente de uma função de perda cresce exponencialmente durante o treinamento de um modelo de aprendizado de máquina. Isso pode resultar em parâmetros do modelo divergindo para o infinito, fazendo com que o processo de aprendizado falhe. Quando os gradientes explodem, as atualizações de peso durante o treinamento podem se tornar tão grandes que fazem com que o modelo volte a apresentar um erro grande, ao contrário de minimizá-lo a cada iteração. A explosão do gradiente pode ser causada por vários fatores, como uma taxa de aprendizado muito alta, uma função de perda mal projetada, entre outros."
     },
     {
       "title": "Expo CLI",
-      "tags": [
-        "Mobile"
-      ],
+      "tags": ["Mobile"],
       "description": "O Expo CLI é uma ferramenta que facilita o desenvolvimento de aplicativos móveis para iOS e Android. É utilizado para criar rapidamente um projeto com o React Native"
     },
     {
       "title": "Finetuning",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamado de ajuste fino, é o processo de treinamento de um modelo de aprendizado de máquina pré-treinado em um novo conjunto de dados. Ele é usado para adaptar um modelo de base para uma tarefa específica, melhorando seu desempenho e reduzindo o tempo de treinamento em comparação com o treinamento do zero. O finetuning é comumente usado em modelos de visão computacional e processamento de linguagem natural."
     },
     {
       "title": "Fork",
-      "tags": [
-        "Conceito",
-        "Ferramenta",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Ferramenta", "Versionamento"],
       "description": "Fazer um Fork é como criar uma cópia independente de um projeto. É como se você pegasse o projeto de outra pessoa, o bifurcasse, e o tivesse em sua própria conta. Isso permite que você faça suas próprias mudanças sem mexer no projeto original. É algo comum em projetos de código aberto."
     },
     {
       "title": "Frameworks",
-      "tags": [
-        "Conceito",
-        "Framework"
-      ],
+      "tags": ["Conceito", "Framework"],
       "description": "São como coleções de ferramentas, componentes e soluções que você pode encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações complexas."
     },
     {
       "title": "Função",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Uma função é um bloco de código que realiza uma tarefa específica e pode ser chamado a partir de outras partes do programa. Ela ajuda a organizar e reutilizar o código, tornando o software mais modular e legível. As funções recebem entradas (chamadas de argumentos) e podem retornar um resultado (valor de retorno) ou simplesmente executar uma ação."
     },
     {
       "title": "Função de Não-Linearidade",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamada de função de ativação, é uma função matemática que é aplicada na saída dos neurônios em uma rede neural artificial. Ela é usada para introduzir não-linearidades em uma rede neural artificial, alterando o valor de saída de cada neurônio de uma camada antes de enviar para a próxima camada, permitindo que a rede aprenda relações complexas entre os dados de entrada e os dados de saída. Por exemplo, a função de não-linearidade mais comumente usada é a função ReLU (do inglês, Rectified Linear Unit), que retorna 0 se o valor de entrada for negativo e retorna o próprio valor de entrada caso contrário."
     },
     {
       "title": "Função de Perda",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamada de função de custo (no inglês, loss function), é uma função matemática que mede a diferença entre o valor previsto por um modelo de aprendizado de máquina e o valor real dos dados de treinamento. Ela é usada para avaliar a precisão de um modelo de aprendizado de máquina e ajustar seus parâmetros para melhorar seu desempenho. Existem vários tipos de funções de perda, cada uma adequada para um tipo diferente de problema de aprendizado de máquina."
     },
     {
       "title": "Garbage Collector",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Garbage collector, ou \"coletor de lixo\", é uma ferramenta que ajuda a liberar espaço na memória do computador automaticamente. Imagine que, ao desenvolver um programa, você use blocos de memória para guardar informações. Com o tempo, alguns desses blocos não são mais necessários. O coletor de lixo identifica esses blocos \"inúteis\" e os limpa, devolvendo o espaço para o sistema usar novamente. Isso é especialmente útil em linguagens de programação como Java, C# e JavaScript, onde esse processo é feito automaticamente, ajudando a evitar problemas e deixando o computador mais rápido."
     },
     {
       "title": "Git",
-      "tags": [
-        "Conceito",
-        "Ferramenta",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Ferramenta", "Versionamento"],
       "description": "Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear as alterações em arquivos e coordenar o trabalho em projetos de desenvolvimento de software."
     },
     {
       "title": "GitHub",
-      "tags": [
-        "Conceito",
-        "Ferramenta",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Ferramenta", "Versionamento"],
       "description": "O GitHub é uma plataforma de hospedagem de código-fonte baseada na web que oferece uma variedade de serviços relacionados ao controle de versão e colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar, colaborar, gerenciar e controlar o código-fonte de projetos de software. Fornece ferramentas de CI/CD (integração contínua e entrega contínua) com o GitHub Actions."
     },
     {
       "title": "GitLab",
-      "tags": [
-        "Conceito",
-        "Ferramenta",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Ferramenta", "Versionamento"],
       "description": "Assim como GitHub, o GitLab também é uma plataforma de hospedagem de código-fonte que assim como o GitHub, oferece ferramentas integradas de CI/CD (integração contínua e entrega contínua) diretamente. Se destaca também por ter uma política \"open core\" onde os usuários podem acessar e contruibir para seu código base sendo muito mais transparente que as outras plataformas que mantém seus códigos base fechado."
     },
     {
       "title": "BitBucket",
-      "tags": [
-        "Conceito",
-        "Ferramenta",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Ferramenta", "Versionamento"],
       "description": "Assim como GitHub, o BitBucket também é uma plataforma de hospedagem de código-fonte e também possui ferramentes integradas de CI/CD, mas se integra especialmente bem com ferramentas Atlassian, como o Jira, e suporta repositórios Git e Mercurial, enquanto o GitHub só suporta Git."
     },
     {
       "title": "AWS Commit",
-      "tags": [
-        "Conceito",
-        "Ferramenta",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Ferramenta", "Versionamento"],
       "description": "AWS Commit é a plataforma de hospedagem de código-fonte da Amazon(AWS), está totalmente integrado com o ecossistema AWS, permitindo fácil automação e integração com outros serviços da AWS, como CodePipeline (para CI/CD), IAM (controle de permissões), e CloudWatch (monitoramento)."
     },
     {
       "title": "GPT",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial",
-        "Rede neural"
-      ],
+      "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
       "description": "É um grande modelo de linguagem criado pela OpenAI. Do inglês, Generative Pre-training Transformer, é capaz de gerar textos de alta qualidade, como artigos de notícias, poesia e ficção, com base em um pequeno trecho de texto como entrada. Ele é um dos modelos de linguagem mais avançados do mundo e é capaz de realizar uma ampla variedade de tarefas de linguagem natural, como tradução automática, resumo de texto, geração de código, entre outros. As versões mais recentes também dão suporte a outros tipos de dados, como imagens"
     },
     {
       "title": "Gradiente",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "O gradiente simplesmente mede o quanto a saída de uma função muda se você mudar um pouco as entradas. Ele mede a mudança em todos os pesos da rede neural em relação à diferença no erro calculado. Você também pode pensar em um gradiente como a inclinação de uma função. Quanto maior o gradiente, mais íngreme a inclinação e mais rápido um modelo pode aprender. Mas se a inclinação for zero, o modelo para de aprender. Em termos matemáticos, um gradiente é uma derivada parcial em relação às suas entradas."
     },
     {
       "title": "Grande Modelo de Linguagem",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamado de modelo de linguagem de grande escala (do inglês, large language model ou LLM), é um modelo de linguagem que usa aprendizado profundo para aprender representações de dados de linguagem natural. Ele é treinado em conjuntos massivos de dados textuais, como livros, artigos de notícias e páginas da web, sendo capaz de interpretar e gerar textos de alta qualidade. Os grandes modelos de linguagem são usados como modelos de base para diversas aplicações de linguagem natural, como tradução automática, resumo de texto, geração de código, entre outros."
     },
     {
       "title": "Herança",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "A herança funciona como uma \"árvore genealógica\". Permite que uma classe ou objeto herde características e comportamentos de outra classe pai. Isso significa que a classe filha herda os atributos e métodos da classe pai, economizando tempo e promovendo a reutilização de código. A herança é uma forma de organizar e estruturar o código, criando hierarquias de classes que representam relacionamentos entre objetos do mundo real."
     },
     {
       "title": "Hiperparâmetro",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamado de parâmetro de treinamento, é um parâmetro de um modelo de aprendizado de máquina que não é alterado durante o treinamento. Ele é usado para controlar o comportamento de um modelo de aprendizado de máquina e pode ser ajustado para melhorar seu desempenho."
     },
     {
       "title": "HTML",
-      "tags": [
-        "Front-end"
-      ],
+      "tags": ["Front-end"],
       "description": "HTML é uma linguagem de marcação utilizada na construção de páginas na web. Documentos HTML podem ser interpretados por navegadores."
     },
     {
       "title": "IDE",
-      "tags": [
-        "Ferramenta"
-      ],
+      "tags": ["Ferramenta"],
       "description": "IDE é a abreviação de Integrated Development Environment, que em português significa Ambiente de Desenvolvimento Integrado. Trata-se de um programa com interfaces gráficas que facilitam a interação das pessoas desenvolvedoras na criação de aplicações. Normalmente um IDE inclui um editor de código fonte e ferramentas de depuração para identificar e corrigir erros. Exemplos populares de IDEs incluem Android Studio, Eclipse e Visual Studio Code."
     },
     {
       "title": "Integração Contínua",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Integração contínua (do inglês, Continuous Integration ou CI) é uma prática de desenvolvimento de software onde as pessoas desenvolvedoras integram seu código em um repositório compartilhado, utilizando automação para compilar e testar o software. O objetivo é detectar rapidamente erros, melhorar a qualidade do código e reduzir o tempo de entrega, promovendo um feedback rápido e facilitando a colaboração entre equipes. Ferramentas como Jenkins e GitHub Actions são comumente utilizadas para implementar CI."
     },
     {
       "title": "Inteligência Artificial",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamada de IA (no inglês, Artificial Intelligence ou AI), é um campo da ciência da computação que estuda como os computadores podem simular a inteligência e cognição humana. Ela se concentra no desenvolvimento de sistemas capazes de executar tarefas que antes poderiam ser feitas somente por humanos, como reconhecimento de fala, tomada de decisão, tradução de idiomas e reconhecimento de padrões. A IA é um campo amplo que inclui várias subáreas, como aprendizado de máquina, processamento de linguagem natural, visão computacional, entre outras."
     },
     {
@@ -656,33 +439,22 @@
     },
     {
       "title": "Issue",
-      "tags": [
-        "Conceito",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Versionamento"],
       "description": "Uma 'issue' é como se fosse um bilhete que anota um problema ou algo a ser feito em um projeto. É como um lembrete que pode ser usado para falar sobre erros, pedir novas funcionalidades, conversar sobre melhorias ou ficar de olho em uma tarefa."
     },
     {
       "title": "JavaScript",
-      "tags": [
-        "Back-end",
-        "Front-end"
-      ],
+      "tags": ["Back-end", "Front-end"],
       "description": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias para criação de sites."
     },
     {
       "title": "jQuery",
-      "tags": [
-        "Biblioteca",
-        "Front-end"
-      ],
+      "tags": ["Biblioteca", "Front-end"],
       "description": "Biblioteca de funções em JavaScript que interagem com o HTML de uma maneira muito mais rápida e simples do que apenas pelo JavaScript."
     },
     {
       "title": "Json",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Em inglês significa JavaScript Object Notation. Json é um tipo de arquivo e tem uma estrutura com nome do dado e valor do dado. Dependendo do tipo de API que construímos, utilizamos o formato Json para transferir os dados entre sistemas. Por exemplo: API que consulta clientes em seu negócio. A resposta da API pode vir em formato json.",
       "content": {
         "code": "{name: 'Morganna', cpf: '000.000.000-00', email: 'email@email.com'}"
@@ -690,16 +462,12 @@
     },
     {
       "title": "Laço",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Um laço (do inglês, loop) é uma estrutura de controle que permite executar repetidamente um bloco de código enquanto uma condição for verdadeira. Ele é usado para automatizar tarefas repetitivas e economizar tempo e esforço. Existem vários tipos de laços, como o laço 'for', o laço 'while' e o laço 'do-while'."
     },
     {
       "title": "Lambda",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Lambda é uma função anônima em programação que pode ser definida e usada sem um nome específico, frequentemente usada para expressões simples em uma única linha.",
       "content": {
         "code": "soma = lambda x, y: x + y"
@@ -707,110 +475,72 @@
     },
     {
       "title": "Linguagem Baixo Nível",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Linguagem de programação que possui pouca ou nenhuma abstração do computador. É uma linguagem de programação que está mais próxima da linguagem de máquina."
     },
     {
       "title": "Manifold",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Em geometria diferencial, um manifold é um espaço topológico (superfície) com alta dimensionalidade que localmente se parece com o espaço euclidiano. Em aprendizado de máquina, um manifold é um espaço de características latentes que pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina. A hipótese do manifold sugere que os dados de alta dimensão (por exemplo, dados do mundo real como imagens e vídeos) estão contidos em um espaço de baixa dimensão, onde as relações entre os dados são mais facilmente identificadas. A ideia é que, ao mapear os dados para um espaço de baixa dimensão, é possível encontrar padrões e relações mais facilmente do que no espaço de alta dimensão original."
     },
     {
       "title": "Material",
-      "tags": [
-        "Design",
-        "Front-End",
-        "Mobile"
-      ],
+      "tags": ["Design", "Front-End", "Mobile"],
       "description": "É um sistema de design criado e apoiado pelos designers e pessoas desenvolvedoras da Google. O Material.io inclui orientações detalhadas de UX e implementações de componentes de UI para Android, Flutter e Web."
     },
     {
       "title": "Merge",
-      "tags": [
-        "Conceito",
-        "Ferramenta",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Ferramenta", "Versionamento"],
       "description": "O Merge é como juntar peças de quebra-cabeça no desenvolvimento de código. É quando combinamos alterações de diferentes partes do código para criar uma versão unificada. Imagine misturar o trabalho de uma equipe que adicionou novos recursos de volta ao projeto principal. Isso é o Merge - juntar tudo em uma única linha de desenvolvimento."
     },
     {
       "title": "Métrica",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamada de métrica de avaliação, é uma medida usada para avaliar a precisão ou desempenho de um modelo de aprendizado de máquina. Existem vários tipos de métricas, cada uma adequada para um tipo diferente de problema."
     },
     {
       "title": "MLOps",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "É uma prática que combina desenvolvimento de modelos de aprendizado de máquina (Machine Learning ou ML) e operações de TI (Ops) para facilitar a implementação e a gestão contínua de modelos de aprendizado de máquina em produção. O objetivo do MLOps é garantir que os modelos sejam desenvolvidos, testados, implantados e monitorados de forma eficiente e escalável. Isso envolve automação de processos como treinamento, validação e monitoramento de modelos, além de promover a colaboração entre cientistas de dados, engenheiros de software e equipes de operações. O MLOps busca reduzir o tempo de ciclo de desenvolvimento e aumentar a confiabilidade e a performance dos modelos, permitindo que organizações aproveitem melhor as análises geradas por dados."
     },
     {
       "title": "Mobile First",
-      "tags": [
-        "Conceito",
-        "Front-end"
-      ],
+      "tags": ["Conceito", "Front-end"],
       "description": "Esse conceito determina que ao criarmos um site, devemos primeiro atender as necessidades dos dispositivos móveis."
     },
     {
       "title": "Modelos de Base",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamados de modelos de referência, são modelos de aprendizado de máquina pré-treinados em grandes conjuntos de dados e comumente disponibilizados para uso por terceiros. Eles são usados como modelos de base para diversas aplicações de visão computacional, processamento de linguagem natural, entre outros. Modelos de base podem ser usados congelados, como uma camada de extração de características (features), ou passarem por um ajuste fino (finetune), gerando um modelo completo."
     },
     {
       "title": "Next.js",
-      "tags": [
-        "Conceito",
-        "Front-end",
-        "Framework"
-      ],
+      "tags": ["Conceito", "Framework", "Front-end"],
       "description": "Next.js é uma ferramenta baseada no React que ajuda a criar sites mais rápidos e fáceis de encontrar nos buscadores (SEO). Ele permite que as páginas sejam geradas no servidor (SSR) ou criadas de forma estática (SSG), o que melhora o tempo de carregamento das páginas e a experiência da pessoa usuária."
     },
     {
       "title": "Node.js",
-      "tags": [
-        "Back-end"
-      ],
+      "tags": ["Back-end"],
       "description": "Node.js é um ambiente que permite executar JavaScript no servidor. Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado do servidor."
     },
     {
       "title": "Normalização",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É uma técnica de processamento de dados usada para transformar os dados em uma escala comum. Ela é usada para melhorar o desempenho de modelos de aprendizado de máquina, reduzindo a variância e o tempo de treinamento. Existem várias técnicas de normalização, como normalização de lotes (ou batches), normalização de camadas, normalização de pesos, entre outras."
     },
     {
       "title": "NoSQL",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "NoSQL (Not Only SQL) é uma abordagem de banco de dados que permite armazenar, recuperar e gerenciar dados de forma flexível e escalável, sem a estrutura rígida de tabelas relacionais, sendo adequado para dados não estruturados ou semiestruturados."
     },
     {
       "title": "Objeto",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Um objeto, em desenvolvimento de software, é como um personagem em um videogame. Ele tem características (dados) e pode fazer coisas (métodos). Por exemplo, um objeto \"carro\" pode ter cor, velocidade e marca (características) e pode acelerar, frear e virar (ações/métodos). Os objetos são instâncias de classes e permitem organizar o código de forma a representar entidades do mundo real, tornando-o mais compreensível e reutilizável."
     },
     {
       "title": "Operador Ternário",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "O operador condicional ternário é uma forma curta de fazer uma escolha entre duas opções baseada em uma condição. Funciona assim: se a condição é verdadeira (true), ele retorna o primeiro resultado; se é falsa (false), retorna o segundo. É como uma versão compacta de um \"if-else\" em uma única linha.",
       "content": {
         "code": "Expressão(condição) ? Verdadeiro(exp1) : Falso(exp2);"
@@ -818,9 +548,7 @@
     },
     {
       "title": "Optional Chaining",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "O Optional Chaining é um recurso no Javascript para lidar com situações onde você precisa acessar propriedades de objetos aninhados mas não tem certeza se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError' quando tenta acessar algo que não foi definido.",
       "content": {
         "code": "const pessoa = nome?.cidade?.endereco; "
@@ -828,61 +556,42 @@
     },
     {
       "title": "ORM",
-      "tags": [
-        "Back-end",
-        "Conceito"
-      ],
+      "tags": ["Back-end", "Conceito"],
       "description": "O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um banco de dados para o código, transformando-as em classes e objetos."
     },
     {
       "title": "Otimizador",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamado de algoritmo de otimização, é um algoritmo que ajusta os parâmetros de um modelo de aprendizado de máquina para minimizar a função de perda. Ele é usado para treinar modelos de aprendizado de máquina e melhorar seu desempenho."
     },
     {
       "title": "Overfitting",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamado de sobreajuste, é um problema que ocorre quando um modelo de aprendizado de máquina se ajusta muito bem aos dados de treinamento, mas não consegue generalizar para dados novos. Isso é percebido quando o modelo tem um desempenho muito bom nas métricas para os dados de treinamento, mas um desempenho ruim nos dados de teste. O overfitting pode ser causado por vários fatores, como um modelo muito complexo, um conjunto de dados de treinamento muito pequeno, entre outros."
     },
     {
       "title": "Pair Programming",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Pair programming significa programação em par. É uma técnica em que duas pessoas (ou mais) trabalham juntas em uma tarefa. Isso ajuda na troca de conhecimento e experiência entre pessoas desenvolvedoras. Duas cabeças pensam melhor que uma, certo? Algumas formas de aplicar pair programming: uma pessoa está mexendo no código enquanto recebe orientações da outra e elas vão trocando de posição; uma pessoa desenvolve os testes e a outra desenvolve a funcionalidade. Não encare pair programming como desperdício de tempo. Uma boa integração e senso de apoio no time pode fazer toda a diferença na qualidade do que for entregue."
     },
     {
       "title": "Parâmetro",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Uma parâmetro é uma informação passada para uma função ou método como parte de sua chamada."
     },
     {
       "title": "Parâmetro nomeado",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "É uma forma de passar valores para uma função ou método especificando o nome do parâmetro correspondente."
     },
     {
       "title": "Polimorfismo",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "O polimorfismo permite que objetos de diferentes tipos se comportem de maneira semelhante através de uma interface compartilhada."
     },
     {
       "title": "Ponteiros",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Um ponteiro é um tipo de dado de uma linguagem de programação que armazena ou se refere ao endereço de memória de outro valor localizado na memória do computador. Um ponteiro refere-se a um local na memória e obtém o valor desse local. Como tal, um ponteiro é um tipo de dado que 'aponta' para um valor.",
       "content": {
         "code": "int *ponteiro; // ponteiro para um inteiro em linguagem C/C++"
@@ -890,268 +599,172 @@
     },
     {
       "title": "Pré-processadores CSS",
-      "tags": [
-        "Front-end"
-      ],
+      "tags": ["Front-end"],
       "description": "Pré-processadores CSS são como ferramentas especiais que facilitam a criação de estilos para sites. Eles tornam possível fazer estilos mais complicados e que podem ser usados de novo em diferentes partes do site. Pense neles como formas mais espertas de escolher cores e fontes para tornar um site bonito e funcional. Exemplo: SASS/SCSS e LESS"
     },
     {
       "title": "Pré-Processamento",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamado de pré-processamento de dados, é o processo de transformar dados brutos em um formato adequado para análise de dados. Ele é geralmente usado para preparar dados para treinar modelos de aprendizado de máquina e dessa forma melhorar seu desempenho. O pré-processamento envolve várias etapas, como limpeza de dados, normalização, transformação, redução de dimensionalidade, entre outras."
     },
     {
       "title": "Processamento de Linguagem Natural",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também conhecido como PLN (do inglês, Natural Language Processing ou NLP), é um campo da inteligência artificial que estuda como os computadores podem entender e interpretar a linguagem humana. Ele se concentra no desenvolvimento de sistemas que podem analisar, entender e gerar linguagem natural, permitindo que os computadores processem e respondam informações escritas. O PLN é usado em uma ampla variedade de aplicações, como chatbots, tradução automática, análise de sentimentos, entre outros."
     },
     {
       "title": "Programação orientada a objetos",
-      "tags": [
-        "Conceito",
-        "Paradigma"
-      ],
+      "tags": ["Conceito", "Paradigma"],
       "description": "A programação orientada a objetos (POO) é um paradigma de programação que se baseia na ideia de modelar o software em torno de objetos, que são instâncias de classes. Cada objeto contém atributos (dados) e métodos (funções) que operam nesses dados. Isso permite organizar o código de forma mais modular, reutilizável e orientada para objetos do mundo real. POO promove conceitos como encapsulamento, herança e polimorfismo, facilitando a criação de sistemas mais flexíveis, compreensíveis e escaláveis."
     },
     {
       "title": "Propriedade",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Propriedades, frequentemente abreviadas como 'props', são mecanismos que permitem passar dados de um componente pai para um componente filho. Elas são usadas para personalizar o comportamento e a aparência de um componente. Por exemplo, ao criar um botão, você pode passar propriedades como a cor de fundo, o texto exibido e o tamanho do texto como props. As props são cruciais para tornar os componentes reutilizáveis e configuráveis, permitindo que eles se adaptem a diferentes contextos de uso."
     },
     {
       "title": "Pull Request",
-      "tags": [
-        "Conceito",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Versionamento"],
       "description": "Trata-se de uma requisição de alteração dentro de um projeto. Essa requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade, sugerir alterações, entre outros motivos. Essa requisição de alteração é feita para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo de faz sentido para o contexto daquele momento. E essa requisição pode ficar pendente até que pessoas responsáveis ou que tenham a permissão, aprovem. Outras regras podem ser adicionadas nessas requisições, como build da aplicação, rodar testes com sucesso e o que mais fizer sentido para o projeto em questão."
     },
     {
       "title": "Python",
-      "tags": [
-        "Back-end"
-      ],
+      "tags": ["Back-end"],
       "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). As pessoas desenvolvedoras usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes."
     },
     {
       "title": "React",
-      "tags": [
-        "Conceito",
-        "Front-end",
-        "Framework"
-      ],
+      "tags": ["Conceito", "Framework", "Front-end"],
       "description": "React é uma biblioteca JavaScript de código aberto utilizada para criar interfaces de usuário interativas e dinâmicas em aplicações web e em outros ambientes, como mobile, TV, realidade virtual, entre outros. Ele se destaca por seu modelo de programação baseado em componentes e pela eficiência na atualização da interface do usuário, tornando-o uma escolha popular no desenvolvimento front-end."
     },
     {
       "title": "React Native",
-      "tags": [
-        "Mobile"
-      ],
+      "tags": ["Mobile"],
       "description": "É um framework do Javascript baseado no React para desenvolvimento de aplicativos móveis multiplataforma."
     },
     {
       "title": "Reconhecimento Automático de Fala",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É um campo da inteligência artificial que se concentra no desenvolvimento de sistemas que podem analisar e entender a fala humana, permitindo que os computadores transcrevam e processem estímulos sonoros em texto. O reconhecimento automático de fala e o processamento de linguagem natural são categorias de IA relacionadas, porém diferentes. O reconhecimento automático de fala foca no processo de converter palavras faladas em texto e símbolos, enquanto o PLN é o processo de converter texto em um formato estruturado que um computador pode entender e processar. O reconhecimento automático de fala (no inglês, automatic speech recognition) é usado em uma ampla variedade de aplicações, como assistentes virtuais, sistemas de navegação, transcrição de áudio, entre outros."
     },
     {
       "title": "Recursão",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Recursão é um método/função que chama a si mesmo para resolver um problema."
     },
     {
       "title": "Rede Generativa Adversarial",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial",
-        "Rede neural"
-      ],
+      "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
       "description": "Do inglês, Generative Adversarial Network ou GAN, é um tipo de rede neural artificial composto por duas redes neurais concorrentes treinadas de forma adversarial. A rede neural generativa é treinada para gerar novos dados, enquanto a rede discriminativa é treinada para distinguir entre dados reais e dados falsos. Desta forma, as duas redes neurais competem entre si, o que leva a uma melhoria contínua de ambas e gera dois modelos especializados, que podem ser usados isoladamente depois de treinados. O modelo generativo é frequentemente usado para gerar novas imagens, vídeos, áudios e textos mais realistas, como rostos humanos, vídeos de pessoas falando, áudios de pessoas cantando e textos de notícias. Já o modelo discriminativo é comumente usado para identificação de dados falsos."
     },
     {
       "title": "Rede Neural Artificial",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial",
-        "Rede neural"
-      ],
+      "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
       "description": "É um modelo computacional inspirado no sistema nervoso central de um animal, que consiste em um conjunto de unidades de processamento interconectadas, chamadas neurônios artificiais, que simulam a forma como os neurônios se comunicam uns com os outros. As redes neurais artificiais (do inglês, Artificial Neural Networks ou ANNs) são usadas para resolver problemas complexos e não lineares, como reconhecimento de padrões, reconhecimento de fala, visão computacional, entre outros."
     },
     {
       "title": "Rede Neural Convolucional",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial",
-        "Rede neural"
-      ],
+      "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
       "description": "É um tipo de rede neural artificial que usa uma operação matemática chamada convolução em uma ou mais de suas camadas. Do inglês, Convolutional Neural Network ou CNN, ela é frequentemente usada para processar dados de entrada que têm uma estrutura matricial, como imagens, e é muito usada em aplicações de visão computacional, como reconhecimento de imagens e vídeos."
     },
     {
       "title": "Rede Neural Generativa",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial",
-        "Rede neural"
-      ],
+      "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
       "description": "É um tipo de rede neural artificial que gera novos dados com base em um conjunto de dados de treinamento. Estes dados geralmente são variações dos dados de entrada, como por exemplo alterações nas expressões de uma pessoa em um vídeo. Ela é frequentemente usada para gerar novas imagens, vídeos, áudios e textos, podendo ser usada para aumento dos dados."
     },
     {
       "title": "Rede Neural Profunda",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial",
-        "Rede neural"
-      ],
+      "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
       "description": "Do inglês, Deep Neural Network ou DNN, é um tipo de rede neural artificial com várias camadas de unidades de processamento interconectadas. É chamada de rede neural profunda devido ao número de camadas ocultas usadas no modelo de aprendizado profundo. Enquanto uma rede neural básica é formada por uma camada de entrada, uma de saída e poucas camadas intermediárias (também chamadas de camadas ocultas), uma rede neural profunda tem várias camadas ocultas de processamento, podendo chegar a centenas. Essas camadas adicionais dão a essas redes a capacidade de fazer previsões com maior precisão quando comparadas a uma rede neural mais simples, mas exigem milhões de pontos de dados de amostra e centenas de horas de treinamento."
     },
     {
       "title": "Rede Neural Recorrente",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial",
-        "Rede neural"
-      ],
+      "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
       "description": "Do inglês, Recurrent Neural Network ou RNN, é um tipo de rede neural artificial que usa loops e estados para processar dados. Ela é frequentemente usada para processar dados de entrada que têm uma estrutura sequencial, como textos, áudio, vídeo e séries temporais, sendo muito usada em aplicações de processamento de linguagem natural, como tradução automática, reconhecimento de fala e análise de sentimentos."
     },
     {
       "title": "Repositório",
-      "tags": [
-        "Conceito",
-        "Ferramenta",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Ferramenta", "Versionamento"],
       "description": "Um Repositório é basicamente uma caixa que guarda todo o material do seu projeto. Pense nele como um lugar onde você armazena o código, a história das mudanças e outros arquivos importantes. Existem repositórios locais no seu computador e repositórios remotos em servidores compartilhados."
     },
     {
       "title": "Responsividade",
-      "tags": [
-        "Front-end"
-      ],
+      "tags": ["Front-end"],
       "description": "A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos de tela e dispositivos, como smartphones, tablets e desktops."
     },
     {
       "title": "RPA",
-      "description": "Robotic Process Automation (Automação de Processos Robóticos), é uma tecnologia que permite a automação de tarefas repetitivas e baseadas em regras, utilizando robôs de software para realizar principalmente atividades repetitivas. Esses robôs imitam ações humanas em sistemas digitais, como clicar em botões, preencher formulários, copiar e colar dados, acessar sistemas e executar processos predefinidos.",
-      "tags": [
-        "Conceito"
-      ]
+      "tags": ["Conceito"],
+      "description": "Robotic Process Automation (Automação de Processos Robóticos), é uma tecnologia que permite a automação de tarefas repetitivas e baseadas em regras, utilizando robôs de software para realizar principalmente atividades repetitivas. Esses robôs imitam ações humanas em sistemas digitais, como clicar em botões, preencher formulários, copiar e colar dados, acessar sistemas e executar processos predefinidos."
     },
     {
       "title": "Ruby",
-      "tags": [
-        "Back-end",
-        "Conceito"
-      ],
+      "tags": ["Back-end", "Conceito"],
       "description": "Ruby é uma linguagem de programação interpretada multiparadigma, de tipagem dinâmica e forte, com gerenciamento de memória automático. Ruby suporta programação funcional, orientada a objetos, imperativa e reflexiva. É como uma caixa de ferramentas digital que pode criar, organizar e fazer interagir diferentes partes em um programa de computador, sendo capaz de lidar com diversos estilos de programação."
     },
     {
       "title": "Scrum",
-      "tags": [
-        "Framework"
-      ],
+      "tags": ["Framework"],
       "description": " É um método para gerenciar projetos onde o trabalho é dividido em pequenos pedaços chamados de 'sprints', que geralmente duram algumas semanas. A equipe trabalha em estreita colaboração, se encontrando regularmente para planejar, revisar e ajustar o trabalho. O objetivo é entregar valor de forma rápida e iterativa, respondendo às mudanças e feedbacks conforme o projeto avança."
     },
     {
       "title": "SOLID",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Os princípios SOLID são cinco diretrizes para design de software orientado a objetos, promovendo sistemas mais flexíveis, robustos e de fácil manutenção. Sendo, Single Responsibility Principle (Uma classe deve ter apenas uma responsabilidade), Open/Closed Principle (Classes devem estar abertas para extensão, mas fechadas para modificação), Liskov Substitution Principle (Subclasses devem ser substituíveis por suas superclasses sem alterar a correção do programa), Interface Segregation Principle (Classes não devem ser forçadas a implementar interfaces que não utilizam) e Dependency Inversion Principle (Módulos de alto nível não devem depender de módulos de baixo nível; ambos devem depender de abstrações)."
     },
     {
       "title": "Spread Operator",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "O operador spread é um operador que está presente em várias linguagens de programação, que permite copiar e combinar elementos de uma estrutura de dados em outra, facilitando a manipulação eficiente de informações."
     },
     {
       "title": "SQL",
-      "tags": [
-        "Back-end",
-        "Conceito"
-      ],
+      "tags": ["Back-end", "Conceito"],
       "description": "A Linguagem de Consulta Estruturada (SQL) é uma linguagem de programação usada para gerenciar dados em bancos de dados relacionais. É como uma linguagem que nos permite falar com os bancos de dados para fazer coisas como buscar, adicionar, atualizar e deletar informações."
     },
     {
       "title": "Stack Navigation",
-      "tags": [
-        "Mobile"
-      ],
+      "tags": ["Mobile"],
       "description": "No contexto do React Native, é uma técnica de navegação entre as telas do aplicativo, quando o aplicativo têm os botões de voltar e avançar, por exemplo."
     },
     {
       "title": "Stateful Widget",
-      "tags": [
-        "Conceito",
-        "Mobile"
-      ],
+      "tags": ["Conceito", "Mobile"],
       "description": "Um StatefulWidget, no Flutter, é um componente que possui estado interno mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente a interface do usuário."
     },
     {
       "title": "Stateless Widget",
-      "tags": [
-        "Conceito",
-        "Mobile"
-      ],
+      "tags": ["Conceito", "Mobile"],
       "description": "Um StatelessWidget, no Flutter, é um componente que não possui estado interno mutável, ideal para partes da interface do usuário que não mudam com o tempo e não dependem de estado."
     },
     {
-      "title": "Svelte",
-      "tags": [
-        "Conceito",
-        "Front-end",
-        "Framework"
-      ],
-      "description": "Svelte é uma ferramenta JavaScript que transforma o código durante a construção do site ou aplicativo, sem precisar de uma camada extra para funcionar no navegador. Isso o torna mais rápido e leve em comparação com outras ferramentas similares."
-    },
-    {
       "title": "Style Guide",
-      "tags": [
-        "Design"
-      ],
+      "tags": ["Design"],
       "description": "É uma biblioteca que reúne diretrizes de estilo e padrões visuais para a criação de produtos digitais. Ele inclui elementos como tipografia, paletas de cores, uso de ícones e layouts, mas não abrange aspectos técnicos, como código. O objetivo de um style guide é garantir a consistência visual e a coerência na comunicação de marca, servindo como referência para designers e equipes de marketing e comunicação mas sem a colaboração direta das pessoas desenvolvedoras."
     },
     {
+      "title": "Svelte",
+      "tags": ["Conceito", "Framework", "Front-end"],
+      "description": "Svelte é uma ferramenta JavaScript que transforma o código durante a construção do site ou aplicativo, sem precisar de uma camada extra para funcionar no navegador. Isso o torna mais rápido e leve em comparação com outras ferramentas similares."
+    },
+    {
       "title": "Swift",
-      "tags": [
-        "Mobile"
-      ],
+      "tags": ["Mobile"],
       "description": "Swift é uma linguagem de programação criada pela Apple. Com ela, você pode desenvolver aplicativos para dispositivos e sistemas operacionais da Apple, como iPhones (iOS), Macs (macOS), Apple Watches (watchOS) e Apple TVs (tvOS)."
     },
     {
       "title": "SwiftUI",
-      "tags": [
-        "Mobile"
-      ],
+      "tags": ["Mobile"],
       "description": "SwiftUI é uma ferramenta da Apple para criar a parte visual dos aplicativos usando a linguagem Swift. Ao contrário do UIKit, que é mais tradicional, o SwiftUI permite que você descreva a interface do usuário de uma maneira mais simples e direta, facilitando tanto a criação quanto a manutenção do seu código."
     },
     {
       "title": "Tag em HTML/XML",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Uma tag é um elemento de marcação usado em linguagens de marcação, como HTML e XML, para definir a estrutura e o significado de um documento. Elas são usadas para definir o início e o fim de um elemento, como um parágrafo, uma tabela ou uma imagem. As tags são escritas entre os sinais de menor e maior, como <tag>, sendo a marcação do fim de um elemento definida como </tag>. Se um elemento não possui outros elementos internamente (também chamados de elementos filhos), ele pode ser definido somente como <tag /> ao invés de <tag></tag>."
     },
     {
       "title": "Taxa de Aprendizado",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamada de taxa de aprendizagem (do inglês, learning rate ou LR), é um hiperparâmetro de treinamento de modelos de aprendizado de máquina que controla a rapidez com que um modelo de aprendizado de máquina aprende. É um dos hiperparâmetros mais importantes de um modelo de aprendizado de máquina e pode ser ajustada para melhorar o desempenho do modelo. Ela controla qual é o tamanho do passo que será dado durante o aprendizado em direção ao mínimo calculado pelo gradiente. Uma taxa de aprendizado muito alta pode causar a explosão do gradiente, enquanto uma taxa de aprendizado muito baixa pode causar o desaparecimento do gradiente. Existem diversas técnicas que permitem alterar a taxa de aprendizado durante o treinamento, como decaimento da taxa de aprendizado, agendamento da taxa de aprendizado, aquecimento da taxa de aprendizado, entre outras."
     },
     {
@@ -1163,113 +776,72 @@
     },
     {
       "title": "Transferência de Aprendizado",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É uma técnica de aprendizado de máquina na qual o conhecimento aprendido de uma tarefa é reutilizado para aumentar o desempenho em uma tarefa relacionada. Por exemplo, o conhecimento adquirido ao aprender a reconhecer carros pode ser aplicado ao tentar segmentar imagens de carros. Na transferência de aprendizado o modelo que é transferido é chamado de modelo de origem, e o modelo para o qual ele é transferido é chamado de modelo de destino. As tarefas de origem e destino são diferentes, mas relacionadas, e a tarefa de origem é usada para auxiliar no aprendizado da tarefa de destino. Os dados de origem e destino podem ser da mesma modalidade (por exemplo, imagens) ou de modalidades diferentes (por exemplo, imagens e texto)."
     },
     {
       "title": "Transformer",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial",
-        "Rede neural"
-      ],
+      "tags": ["Conceito", "Inteligência artificial", "Rede neural"],
       "description": "É um tipo de rede neural artificial que usa uma arquitetura de codificador-decodificador para processar dados de entrada. Os modelos transformer aplicam um conjunto de técnicas matemáticas, chamadas de atenção ou autoatenção, para detectar as maneiras sutis como até mesmo elementos de dados distantes em uma série influenciam e dependem uns dos outros. Ao encontrar padrões entre elementos matematicamente, os transformers eliminam a necessidade de grandes conjuntos de dados rotulados, que são caros e demorados para produzir. Qualquer aplicação que use dados sequenciais de textos, imagens ou vídeos é uma candidata a modelos transformer."
     },
     {
       "title": "Treinamento Adversarial",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É um tipo de treinamento de aprendizado de máquina que usa um modelo adversário para treinar um modelo. Nele, dois modelos de aprendizado de máquina são treinados de forma adversária, onde um modelo é responsável por gerar dados falsos e outro modelo é responsável por identificar dados falsos. O treinamento adversarial é usado para gerar dados falsos realistas, que podem ser usados para aumentar um conjunto de dados de treinamento."
     },
     {
       "title": "UI Design",
-      "tags": [
-        "Conceito",
-        "Design",
-        "Front-end"
-      ],
+      "tags": ["Conceito", "Design", "Front-end"],
       "description": "É o processo de criar a parte visual e interativa de um produto digital, como um site ou um aplicativo. Isso inclui o design de botões, menus, ícones e toda a aparência do layout, garantindo que seja esteticamente agradável e fácil de navegar. O objetivo do UI Design é fazer com que os usuários se sintam confortáveis e atraídos pelo visual do produto, aplicando cores, tipografia e elementos visuais que se alinhem à identidade da marca."
     },
     {
       "title": "UIKit",
-      "tags": [
-        "Mobile"
-      ],
+      "tags": ["Mobile"],
       "description": "UIKit é um conjunto de ferramentas fornecido pela Apple para criar as partes visuais dos aplicativos iOS. Ele fornece um conjunto de classes e componentes para construir e gerenciar a interface, incluindo elementos como botões, tabelas, views e gestos."
     },
     {
       "title": "UML",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": " É uma linguagem visual que as pessoas desenvolvedoras de software usam para descrever e projetar sistemas de software. Ela oferece diferentes tipos de diagramas, como diagramas de classes, sequência e atividades, para representar diferentes aspectos de um sistema. Esses diagramas ajudam as equipes a entenderem e comunicarem melhor as ideias e os designs do software."
     },
     {
       "title": "Underfitting",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamado de subajuste, é um problema que ocorre quando um modelo de aprendizado de máquina não se ajusta bem aos dados de treinamento e não consegue generalizar para dados novos. Isso é percebido quando o modelo tem um desempenho ruim nos dados de treinamento e nos dados de teste. O underfitting pode ser causado por vários fatores, como um modelo muito simples, um conjunto de dados de treinamento muito pequeno, entre outros."
     },
     {
       "title": "UX Design",
-      "tags": [
-        "Conceito",
-        "Design",
-        "Front-end"
-      ],
+      "tags": ["Conceito", "Design", "Front-end"],
       "description": "É o processo de criar produtos e serviços que oferecem uma experiência positiva e eficiente para os usuários. Isso envolve entender as necessidades e comportamentos das pessoas que usarão o produto, para garantir que ele seja fácil de usar, acessível e agradável. O objetivo é fazer com que a interação do usuário com o produto seja intuitiva, ajudando a resolver problemas e atender expectativas, desde o primeiro contato até a utilização contínua. É sobre projetar experiências que façam os usuários se sentirem satisfeitos e engajados com o produto."
     },
     {
       "title": "Variável computada",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "É uma variável que não armazena um valor diretamente, ela calcula ou deriva seu valor de outras variáveis ou dados."
     },
     {
       "title": "Variável tipada",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "Uma variável tipada é aquele que possui um tipo de dado associado a ela."
     },
     {
       "title": "Versionamento",
-      "tags": [
-        "Conceito",
-        "Versionamento"
-      ],
+      "tags": ["Conceito", "Versionamento"],
       "description": "O versionamento de código é o controle de alterações feitas em um projeto ao longo do tempo, acompanhando e registrando modificações feitas no código-fonte."
     },
     {
       "title": "Visão Computacional",
-      "tags": [
-        "Conceito",
-        "Inteligência artificial"
-      ],
+      "tags": ["Conceito", "Inteligência artificial"],
       "description": "É um campo da inteligência artificial que estuda como os computadores podem obter e processar informações de estímulos visuais. Ela se concentra no desenvolvimento de sistemas que podem analisar e entender imagens e vídeos, permitindo que os computadores reconheçam objetos, pessoas, lugares, movimentos e outros elementos visuais. A visão computacional (do inglês, computer vision ou CV) é usada em uma ampla variedade de aplicações, como reconhecimento facial, carros autônomos, diagnóstico médico, entre outros."
     },
     {
       "title": "Vue.js",
-      "tags": [
-        "Conceito",
-        "Front-end",
-        "Framework"
-      ],
+      "tags": ["Conceito", "Framework", "Front-end"],
       "description": "Vue.js é uma ferramenta JavaScript usada para criar interfaces de usuário, ou seja, o que as pessoas veem e interagem em um site ou aplicativo. Ele é fácil de adicionar a projetos já existentes e é muito utilizado para construir sites que funcionam como uma única página (SPAs)."
     },
     {
       "title": "XML",
-      "tags": [
-        "Conceito"
-      ],
+      "tags": ["Conceito"],
       "description": "XML (do inglês, eXtensible Markup Language) é uma linguagem de marcação que define um conjunto de regras para codificar documentos. Ela é uma linguagem de marcação assim como a HTML, porém a XML foi criada para ser mais flexível, permitindo a criação de novas tags, enquanto a HTML possui um número limitado de tags pré-definidas. É uma linguagem genérica que pode ser usada para representar qualquer tipo de dado estruturado. XML é uma linguagem muito popular, sendo usada em bancos de dados, arquivos de configurações de sistemas, transmissão de informações, entre outros."
     }
   ]
