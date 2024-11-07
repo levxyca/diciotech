@@ -19,6 +19,10 @@ def main(file: Path):
     for card in data['cards']:
         card['tags'] = sorted(card['tags'], key=lambda x: strip_accents(x.lower()))
 
+        # ensures that the description ends with a period
+        if not card['description'].endswith('.'):
+            card['description'] += '.'
+
     # sort keys in the cards by reverse key order
     data['cards'] = [{k: v for k, v in sorted(card.items(), reverse=True)} for card in data['cards']]
 
