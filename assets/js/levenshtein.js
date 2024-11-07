@@ -1,17 +1,15 @@
 // Levenshtein algorithm by Gustaf Andersson: https://github.com/gustf/js-levenshtein
-function _min(d0, d1, d2, bx, ay)
-{
+function _min(d0, d1, d2, bx, ay) {
   return d0 < d1 || d2 < d1
-      ? d0 > d2
-          ? d2 + 1
-          : d0 + 1
-      : bx === ay
-          ? d1
-          : d1 + 1;
+    ? d0 > d2
+      ? d2 + 1
+      : d0 + 1
+    : bx === ay
+      ? d1
+      : d1 + 1;
 }
 
-export function levenshtein(a, b)
-{
+export function levenshtein(a, b) {
   if (a === b) {
     return 0;
   }
@@ -25,14 +23,14 @@ export function levenshtein(a, b)
   var la = a.length;
   var lb = b.length;
 
-  while (la > 0 && (a.charCodeAt(la - 1) === b.charCodeAt(lb - 1))) {
+  while (la > 0 && a.charCodeAt(la - 1) === b.charCodeAt(lb - 1)) {
     la--;
     lb--;
   }
 
   var offset = 0;
 
-  while (offset < la && (a.charCodeAt(offset) === b.charCodeAt(offset))) {
+  while (offset < la && a.charCodeAt(offset) === b.charCodeAt(offset)) {
     offset++;
   }
 
@@ -66,12 +64,12 @@ export function levenshtein(a, b)
 
   var len = vector.length - 1;
 
-  for (; x < lb - 3;) {
+  for (; x < lb - 3; ) {
     bx0 = b.charCodeAt(offset + (d0 = x));
     bx1 = b.charCodeAt(offset + (d1 = x + 1));
     bx2 = b.charCodeAt(offset + (d2 = x + 2));
     bx3 = b.charCodeAt(offset + (d3 = x + 3));
-    dd = (x += 4);
+    dd = x += 4;
     for (y = 0; y < len; y += 2) {
       dy = vector[y];
       ay = vector[y + 1];
@@ -87,7 +85,7 @@ export function levenshtein(a, b)
     }
   }
 
-  for (; x < lb;) {
+  for (; x < lb; ) {
     bx0 = b.charCodeAt(offset + (d0 = x));
     dd = ++x;
     for (y = 0; y < len; y += 2) {
