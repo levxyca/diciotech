@@ -1,0 +1,24 @@
+name: Prettier
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
+
+      - name: Run Prettier
+        uses: AbdulRehman-1/pr-prettier@initial
+        with:
+          only_changed: true
+          prettier_options: --write **/*.{css,html,js,json,md,scss,yaml,yml}
