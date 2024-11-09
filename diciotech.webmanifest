@@ -1,0 +1,28 @@
+{
+  "background_color": "#ffffff",
+  "categories": ["dictionary", "education", "technical"],
+  "description": "Um dicionário tech para pessoas que querem aprender mais sobre termos técnicos dentro da tecnologia.",
+  "display": "standalone",
+  "icons": [
+    // {
+    //   "src": "assets/img/brand/symbol/colored.png",
+    //   "sizes": "32x32",
+    //   "type": "image/png"
+    // },
+    // {
+    //   "src": "assets/img/brand/symbol/colored.png",
+    //   "sizes": "192x192",
+    //   "type": "image/png"
+    // },
+    {
+      "src": "assets/img/brand/symbol/colored.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "name": "Diciotech",
+  "scope": "/",
+  "short_name": "Diciotech",
+  "start_url": "index.html",
+  "theme_color": "#6e6197"
+}
