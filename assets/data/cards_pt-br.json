@@ -572,7 +572,7 @@
     {
       "title": "Polimorfismo",
       "tags": ["Conceito"],
-      "description": "O polimorfismo permite que objetos de diferentes tipos se comportem de maneira semelhante através de uma interface compartilhada."
+      "description": "O polimorfismo permite que objetos de diferentes tipos se comportem de maneira semelhante através de uma interface compartilhada, embora cada tipo possa responder de uma forma própria."
     },
     {
       "title": "Ponteiros",
