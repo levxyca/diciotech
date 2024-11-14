@@ -8,11 +8,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Jekyll Polyglot
 languages: ["en-us", "pt-br"]
 default_lang: "pt-br"
-exclude_from_localization:
-  - assets/css
-  - assets/img
-  - assets/js
-  - assets/scss
+exclude_from_localization: ["assets"]
 lang_from_path: true
 parallel_localization: false
 
@@ -40,7 +36,7 @@ exclude:
   - run_on_data_changed.sh
   - todo.md
 
-include: ["_pages"]
+include: ["_assets", "_pages"]
 
 plugins:
   - jekyll-minifier
