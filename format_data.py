@@ -1,4 +1,4 @@
-import json
+import yaml
 from argparse import ArgumentParser
 from pathlib import Path
 from unicodedata import category, normalize
@@ -10,7 +10,7 @@ def strip_accents(s: str) -> str:
 
 def main(file: Path):
     with open(file) as f:
-        data = json.load(f)
+        data = yaml.safe_load(f)
 
     # sort cards by 'title' value
     data['cards'] = sorted(data['cards'], key=lambda x: strip_accents(x['title'].lower()))
@@ -34,7 +34,7 @@ def main(file: Path):
 
     # save data back to the file
     with open(file, 'w') as f:
-        json.dump(data, f, indent=2, sort_keys=False, ensure_ascii=False)
+        yaml.dump(data, f) #, default_flow_style=False, sort_keys=False)
         f.write('\n')
 
 
