@@ -11,6 +11,11 @@
       "description": "É a capacidade de aplicar um algoritmo treinado em um ou mais 'domínios de origem' a um 'domínio de destino' diferente, mas relacionado. A adaptação de domínio é uma subcategoria da transferência de aprendizado. Na adaptação de domínio, os domínios de origem e destino têm todos o mesmo espaço de características (mas distribuições diferentes), enquanto na transferência de aprendizado inclui casos em que o espaço de características do domínio de destino é diferente. Por exemplo, um modelo de filtragem de spam treinado com dados de um usuário pode ser adaptado para um novo usuário que recebe emails completamente diferentes."
     },
     {
+      "title": "AIoT",
+      "tags": ["Conceito"],
+      "description": "AIoT (Artificial Intelligence of Things), ou Inteligência Artificial das Coisas, é a combinação de Inteligência Artificial (IA) com a Internet das Coisas (IoT). Seu principal objetivo é automatizar e acelerar o processamento dos dados gerados pelos dispositivos de IoT, com o mínimo de intervenção humana. Isso facilita a análise dos dados e torna a tomada de decisões mais rápida. Sem a IA, embora houvesse um grande volume de informações disponíveis, seria necessário depender da intervenção humana para torná-las úteis."
+    },
+    {
       "title": "Algoritmo",
       "tags": ["Conceito"],
       "description": "Um algoritmo é como uma receita de bolo para o computador. É um conjunto de passos organizados que ajudam a resolver um problema, como fazer contas ou analisar informações."
@@ -19,13 +24,6 @@
       "title": "Ambiente",
       "tags": ["Conceito"],
       "description": "Costumamos chamar de ambiente o lugar ou os servidores onde o que foi desenvolvido fica disponível para testes, validações, pessoas usuárias finais utilizarem ou demais necessidades. Esse servidor seria como um computador. Pode ser um computador físico ou disponível na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos)e produção (onde está disponível o sistema final, desenvolvido e testado, para pessoas usuárias)."
-    },
-    {
-      "title": "AIoT",
-      "tags": [
-        "Conceito"
-      ],
-      "description": "AIoT (Artificial Intelligence of Things), ou Inteligência Artificial das Coisas, é a combinação de Inteligência Artificial (IA) com a Internet das Coisas (IoT). Seu principal objetivo é automatizar e acelerar o processamento dos dados gerados pelos dispositivos de IoT, com o mínimo de intervenção humana. Isso facilita a análise dos dados e torna a tomada de decisões mais rápida. Sem a IA, embora houvesse um grande volume de informações disponíveis, seria necessário depender da intervenção humana para torná-las úteis."
     },
     {
       "title": "Angular.js",
