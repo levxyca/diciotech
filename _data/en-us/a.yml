@@ -1,0 +1,91 @@
+- title: Abstraction
+  tags:
+    - Concept
+  description:
+    An abstraction is a simplification of specific point(s) of some system
+    or behavior that we are trying to understand. In programming, we use abstractions
+    all the time. This means that we don't need to understand all the deep technical
+    details to write code - like the inner workings of a computer. Instead, we can
+    use simpler ideas to create our programs.
+- title: Adversarial Training
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    It is a type of machine learning training that uses an adversarial
+    model to train a model. In it, two machine learning models are trained in an adversarial
+    manner, where one model is responsible for generating fake data and another model
+    is responsible for identifying fake data. Adversarial training is used to generate
+    realistic fake data, which can be used to augment a training dataset.
+- title: Algorithm
+  tags:
+    - Concept
+  description:
+    An algorithm is like a cake recipe for a computer. It is a set of organized
+    steps that help solve a problem, such as doing math or analyzing information.
+- title: API
+  tags:
+    - Back-end
+    - Concept
+  description:
+    "API is an acronym that means Application Programming Interface. It
+    is a code structure that meets some requirements, following development standards
+    and patterns, facilitating the organization of large systems. It provides functionalities
+    and information for applications and websites. For example: the Post Office API
+    that provides ZIP code and address queries in a simplified manner."
+- title: Argument
+  tags:
+    - Concept
+  description:
+    An argument is a value or piece of information that you provide to
+    a function or method during its call. These arguments are used by the function
+    to perform a specific task or to make decisions based on the values provided.
+    In short, arguments are input data that allows a function to do its job and produce
+    a desired result or perform desired actions.
+- title: Artificial Intelligence
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Also called AI, it is a field of computer science that studies how
+    computers can simulate human intelligence and cognition. It focuses on developing
+    systems capable of performing tasks that could previously only be done by humans,
+    such as speech recognition, decision making, language translation, and pattern
+    recognition. AI is a broad field that includes several subareas, such as machine
+    learning, natural language processing, computer vision, among others.
+- title: Artificial Neural Network
+  tags:
+    - Artificial intelligence
+    - Concept
+    - Neural network
+  description:
+    It is a computational model inspired by the central nervous system
+    of an animal, which consists of a set of interconnected processing units, called
+    artificial neurons, that simulate the way neurons communicate with each other.
+    Artificial neural networks (ANNs) are used to solve complex and non-linear problems,
+    such as pattern recognition, speech recognition, computer vision, among others.
+- title: Autoencoder
+  tags:
+    - Artificial intelligence
+    - Concept
+    - Neural network
+  description:
+    It is a type of artificial neural network composed of two neural networks
+    in the encoder-decoder format, being one responsible for encoding input data into
+    a latent space and the other for decoding data from a latent space back into the
+    input space. It is often used to compress input data in applications such as image
+    and video compression, dimensionality reduction, and data augmentation.
+- title: Automatic Speech Recognition
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    A field of artificial intelligence that focuses on developing systems
+    that can analyze and understand human speech, allowing computers to transcribe
+    and process audio stimuli into text. Automatic speech recognition and natural
+    language processing are related but distinct categories of AI. Automatic speech
+    recognition focuses on the process of converting spoken words into text and symbols,
+    while NLP is the process of converting text into a structured format that a computer
+    can understand and process. Automatic speech recognition is used in a wide variety
+    of applications, such as virtual assistants, navigation systems, audio transcription,
+    and more.

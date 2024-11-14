@@ -1,0 +1,25 @@
+- title: JavaScript
+  tags:
+    - Back-end
+    - Front-end
+  description:
+    JavaScript is a structured, interpreted, high-level scripting language
+    with weak dynamic typing and multi-paradigm. Along with HTML and CSS, JavaScript
+    is one of the three core technologies for building websites.
+- title: jQuery
+  tags:
+    - Front-end
+    - Library
+  description:
+    A library of JavaScript functions that interact with HTML in a much
+    faster and simpler way than plain JavaScript.
+- title: JSON
+  tags:
+    - Concept
+  description:
+    "It means JavaScript Object Notation. JSON is a type of file and has
+    a structure with data name and data value. Depending on the type of API we build,
+    we use the JSON format to transfer data between systems. For example: API that
+    queries customers in your business. The API response may come in JSON format."
+  content:
+    code: "{name: 'Morganna', cpf: '000.000.000-00', email: 'email@email.com'}"

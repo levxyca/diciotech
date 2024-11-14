@@ -1,0 +1,66 @@
+- title: Machine Learning
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Machine Learning or ML is a subset of artificial intelligence (AI)
+    that studies how computers can learn from and make predictions about data, without
+    being explicitly programmed. Most AI is done with machine learning, so the two
+    terms are often used synonymously, but machine learning is just one method used
+    for this. It is used to solve complex problems and automate tasks that would be
+    too time-consuming or impossible for humans.
+- title: Manifold
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    In differential geometry, a manifold is a high-dimensional topological
+    space (surface) that locally resembles Euclidean space. In machine learning, a
+    manifold is a latent feature space that can be generated from training a machine
+    learning model. The manifold hypothesis suggests that high-dimensional data (e.g.,
+    real-world data like images and videos) are contained in a low-dimensional space,
+    where relationships between the data are more easily identified. The idea is that
+    by mapping the data to a low-dimensional space, it is possible to find patterns
+    and relationships more easily than in the original high-dimensional space.
+- title: Material
+  tags:
+    - Design
+    - Front-end
+    - Mobile
+  description:
+    Material.io is a design system created and supported by Google's designers
+    and developers. Material.io includes detailed UX guidelines and UI component implementations
+    for Android, Flutter, and the web.
+- title: Memory Address
+  tags:
+    - Concept
+  description:
+    It is a number that uniquely identifies a memory location in the computer.
+    Everything that is declared in a programming language is stored in the computer's
+    memory, and to access this data it is necessary to know the memory address where
+    it is stored.
+- title: Merge
+  tags:
+    - Concept
+    - Versioning
+  description:
+    Merge is like putting together puzzle pieces in code development. It's
+    when we combine changes from different parts of the code to create a unified version.
+    Imagine merging the work of a team that added new features back into the main
+    project. That's Merge - bringing it all together into a single line of development.
+- title: Metric
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Also called an evaluation metric, it is a measure used to evaluate
+    the accuracy or performance of a machine learning model. There are several types
+    of metrics, each suited to a different type of problem.
+- title: Mobile First
+  tags:
+    - Concept
+    - Design
+    - Front-end
+  description:
+    This concept dictates that when creating a website, we must first meet
+    the needs of mobile devices.
