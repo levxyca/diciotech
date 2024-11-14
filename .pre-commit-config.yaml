@@ -17,5 +17,5 @@ repos:
         name: Format code files with Prettier
         entry: bash run_on_code_changed.sh
         language: system
-        types_or: [css, html, javascript, json, sass, scss, yaml]
+        types_or: [css, html, javascript, sass, scss, yaml]
         verbose: true
