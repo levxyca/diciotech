@@ -13,11 +13,11 @@ def main(file: Path):
         data = yaml.safe_load(f)
 
     # sort cards by 'title' value
-    data['cards'] = sorted(data['cards'], key=lambda x: strip_accents(x['title'].lower()))
+    data = sorted(data, key=lambda x: strip_accents(x['title'].lower()))
 
     try:
         # sort tags inside each card by value
-        for card in data['cards']:
+        for card in data:
             card['tags'] = sorted(card['tags'], key=lambda x: strip_accents(x.lower()))
 
             # ensures that the description ends with a period
@@ -25,16 +25,16 @@ def main(file: Path):
                 card['description'] += '.'
 
     except KeyError:
-        cards_without_tags = [card['title'] for card in data['cards'] if 'tags' not in card]
+        cards_without_tags = [card['title'] for card in data if 'tags' not in card]
         print(f'Warning: the following cards do not have tags: {cards_without_tags}')
         raise
 
     # sort keys in the cards by reverse key order
-    data['cards'] = [{k: v for k, v in sorted(card.items(), reverse=True)} for card in data['cards']]
+    data = [{k: v for k, v in sorted(card.items(), reverse=True)} for card in data]
 
     # save data back to the file
     with open(file, 'w') as f:
-        yaml.dump(data, f) #, default_flow_style=False, sort_keys=False)
+        yaml.dump(data, f, sort_keys=False, allow_unicode=True)
         f.write('\n')
 
 
