@@ -1,0 +1,73 @@
+- title: Manifold
+  tags:
+    - Conceito
+  description:
+    Em geometria diferencial, um manifold é um espaço topológico (superfície)
+    com alta dimensionalidade que localmente se parece com o espaço euclidiano. Em
+    aprendizado de máquina, um manifold é um espaço de características latentes que
+    pode ser gerado a partir do treinamento de um modelo de aprendizado de máquina.
+    A hipótese do manifold sugere que os dados de alta dimensão (por exemplo, dados
+    do mundo real como imagens e vídeos) estão contidos em um espaço de baixa dimensão,
+    onde as relações entre os dados são mais facilmente identificadas. A ideia é que,
+    ao mapear os dados para um espaço de baixa dimensão, é possível encontrar padrões
+    e relações mais facilmente do que no espaço de alta dimensão original.
+- title: Material
+  tags:
+    - Design
+    - Front-End
+    - Mobile
+  description:
+    É um sistema de design criado e apoiado pelos designers e pessoas desenvolvedoras
+    da Google. O Material.io inclui orientações detalhadas de UX e implementações
+    de componentes de UI para Android, Flutter e Web.
+- title: Merge
+  tags:
+    - Conceito
+    - Ferramenta
+    - Versionamento
+  description:
+    O Merge é como juntar peças de quebra-cabeça no desenvolvimento de
+    código. É quando combinamos alterações de diferentes partes do código para criar
+    uma versão unificada. Imagine misturar o trabalho de uma equipe que adicionou
+    novos recursos de volta ao projeto principal. Isso é o Merge - juntar tudo em
+    uma única linha de desenvolvimento.
+- title: Métrica
+  tags:
+    - Conceito
+    - Inteligência artificial
+  description:
+    Também chamada de métrica de avaliação, é uma medida usada para avaliar
+    a precisão ou desempenho de um modelo de aprendizado de máquina. Existem vários
+    tipos de métricas, cada uma adequada para um tipo diferente de problema.
+- title: MLOps
+  tags:
+    - Conceito
+  description:
+    É uma prática que combina desenvolvimento de modelos de aprendizado
+    de máquina (Machine Learning ou ML) e operações de TI (Ops) para facilitar a implementação
+    e a gestão contínua de modelos de aprendizado de máquina em produção. O objetivo
+    do MLOps é garantir que os modelos sejam desenvolvidos, testados, implantados
+    e monitorados de forma eficiente e escalável. Isso envolve automação de processos
+    como treinamento, validação e monitoramento de modelos, além de promover a colaboração
+    entre cientistas de dados, engenheiros de software e equipes de operações. O MLOps
+    busca reduzir o tempo de ciclo de desenvolvimento e aumentar a confiabilidade
+    e a performance dos modelos, permitindo que organizações aproveitem melhor as
+    análises geradas por dados.
+- title: Mobile First
+  tags:
+    - Conceito
+    - Front-end
+  description:
+    Esse conceito determina que ao criarmos um site, devemos primeiro atender
+    as necessidades dos dispositivos móveis.
+- title: Modelos de Base
+  tags:
+    - Conceito
+    - Inteligência artificial
+  description:
+    Também chamados de modelos de referência, são modelos de aprendizado
+    de máquina pré-treinados em grandes conjuntos de dados e comumente disponibilizados
+    para uso por terceiros. Eles são usados como modelos de base para diversas aplicações
+    de visão computacional, processamento de linguagem natural, entre outros. Modelos
+    de base podem ser usados congelados, como uma camada de extração de características
+    (features), ou passarem por um ajuste fino (finetune), gerando um modelo completo.

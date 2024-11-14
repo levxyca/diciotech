@@ -1,0 +1,18 @@
+- title: Zero-Shot Learning
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    It is a problem setting in deep learning where, at test time, a model
+    is given samples of classes that were not observed during training and needs to
+    identify the class to which they belong. Unlike standard machine learning, where
+    models must correctly classify new samples into classes that were already observed
+    during training, in zero-shot learning no samples of the classes of the new data
+    were provided during the training of the classifier. Therefore, it can be seen
+    as an extreme case of domain adaptation. Zero-shot methods usually work by associating
+    observed and unobserved classes through some form of auxiliary information, which
+    encodes distinctive observable properties of the objects. For example, given a
+    set of images of animals to be classified, along with auxiliary textual descriptions
+    of what the animals look like, an artificial intelligence model that has been
+    trained to recognize horses but has never seen a zebra can still recognize a zebra
+    when it also knows that zebras look like striped horses.

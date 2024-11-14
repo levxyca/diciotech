@@ -1,0 +1,127 @@
+- title: Data Augmentation
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    It is a data preprocessing technique used to increase the size of a
+    training dataset available to a machine learning model by generating new data
+    based on the existing data, which improves its performance and reduces the risk
+    of overfitting. For example, an image dataset can be augmented using rotations,
+    zooms, mirrorings, and other geometric transformations.
+- title: Dataset
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    A dataset is a set of data that can be used to train and test machine
+    learning models. Different parts of the dataset are typically used for training
+    and testing to avoid overfitting. Parts can also be used for validation and inference.
+    A dataset is made up of several examples, which in turn are made up of several
+    data points. For example, a cat dataset might contain several examples of cats,
+    where each example might be made up of one or more images and several associated
+    attributes, such as size, breed, and color.
+- title: DDoS
+  tags:
+    - Concept
+    - Cyber security
+  description:
+    DDoS is an attack where many devices try to connect to a website at
+    the same time to overload it.
+- title: Deep Learning
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Deep Learning or DL is a subset of machine learning that uses deep
+    artificial neural networks to learn representations of complex data. Due to the
+    multiple layers present in a deep neural network, deep learning tends to be much
+    more time-consuming than traditional machine learning, but tends to offer higher
+    performance, efficiency, and accuracy. Deep learning is one of the most advanced
+    areas of artificial intelligence.
+- title: Deep Neural Network
+  tags:
+    - Artificial intelligence
+    - Concept
+    - Neural network
+  description:
+    Deep Neural Network or DNN is a type of artificial neural network with
+    several layers of interconnected processing units. It is called a deep neural
+    network due to the number of hidden layers used in the deep learning model. While
+    a basic neural network is made up of an input layer, an output layer and a few
+    intermediate layers (also called hidden layers), a deep neural network has several
+    hidden processing layers, which can reach thousands. These additional layers give
+    these networks the ability to make predictions with greater accuracy when compared
+    to a simpler neural network, but they require millions of sample data points and
+    hundreds of hours of training.
+- title: Deploy
+  tags:
+    - Concept
+  description:
+    Deployment is a complex process. But it means that a package of what
+    was developed in the environments was installed. A version is generated to be
+    made available. For this deployment to happen, it can be an automated process
+    with tools, or done manually, depending on the structure.
+- title: Design Critique
+  tags:
+    - Design
+  description:
+    It is a collaborative process where designers, developers and other
+    stakeholders review and evaluate a design project or concept in a constructive
+    way. The goal is to obtain valuable feedback on the aesthetic effectiveness, functionality,
+    and usability of the design, allowing to identify strengths and areas of improvement.
+    During the process, participants discuss aspects such as visual coherence, user
+    experience and adherence to product goals and technical feasibility, promoting
+    an open environment where ideas can be shared. This process not only improves
+    the final result, but also strengthens collaboration and learning within the team.
+- title: Design Ops
+  tags:
+    - Design
+  description:
+    A practice that optimizes and integrates the design process in digital
+    product development teams, promoting collaboration between designers, developers
+    and stakeholders. It implements frameworks, tools, and processes that improve
+    the efficiency, consistency, and quality of design. The focus is to create a structured
+    environment that allows designers to focus on the tasks at hand, while operational
+    aspects, such as documentation and resource management, are managed effectively.
+    This aligns design goals with business objectives, resulting in more cohesive
+    and well-designed digital products.
+- title: Design System
+  tags:
+    - Design
+    - Front-end
+  description:
+    "It is a set of guidelines, components, and standards that guide the
+    creation and maintenance of consistent user interfaces and experiences in digital
+    products. It includes elements such as: color palettes, typography, icons, and
+    layout standards, in addition to being a documentation for designers and developers
+    on how and when to use the design system components. It aims to improve development
+    efficiency, ensure visual and functional coherence, and facilitate collaboration
+    between design and development teams."
+- title: DOM (Document Object Model)
+  tags:
+    - Front-end
+  description:
+    A representation of the tree structure of HTML elements on a page,
+    which allows dynamic manipulation of content. Think of it as a map of the page
+    that JavaScript uses to understand and change the content. It's like a 'blueprint'
+    of the page.
+- title: Domain Adaptation
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    It is the ability to apply an algorithm trained on one or more 'source
+    domains' to a different but related 'target domain'. Domain adaptation is a subcategory
+    of transfer learning. In domain adaptation, the source and target domains all
+    have the same feature space (but different distributions), while transfer learning
+    includes cases where the feature space of the target domain is different. For
+    example, a spam filtering model trained on data from one user can be adapted to
+    a new user who receives completely different emails.
+- title: DoS
+  tags:
+    - Concept
+    - Cyber security
+  description:
+    DoS is a denial of service attack. In this attack a single computer
+    is used to make many queries to a website in a short space of time with the aim
+    of taking it offline.

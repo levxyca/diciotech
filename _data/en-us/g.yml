@@ -1,0 +1,106 @@
+- title: Garbage Collector
+  tags:
+    - Concept
+  description:
+    Garbage collector is a tool that helps to free up space in the computer's
+    memory automatically. Imagine that, when developing a program, you use memory
+    blocks to store information. Over time, some of these blocks are no longer needed.
+    The garbage collector identifies these "useless" blocks and cleans them, returning
+    the space for the system to use again. This is especially useful in programming
+    languages such as Java, C# and JavaScript, where this process is done automatically,
+    helping to avoid problems and making the computer faster.
+- title: Generative Adversarial Network
+  tags:
+    - Artificial intelligence
+    - Concept
+    - Neural network
+  description:
+    Generative Adversarial Network or GAN is a type of artificial neural
+    network composed of two competing neural networks trained in an adversarial manner.
+    The generative neural network is trained to generate new data, while the discriminative
+    network is trained to distinguish between real data and fake data. In this way,
+    the two neural networks compete with each other, which leads to a continuous improvement
+    of both and generates two specialized models, which can be used separately after
+    being trained. The generative model is often used to generate new, more realistic
+    images, videos, audios and texts, such as human faces, videos of people talking,
+    audios of people singing and news texts. The discriminative model is commonly
+    used to identify fake data.
+- title: Generative Neural Network
+  tags:
+    - Artificial intelligence
+    - Concept
+    - Neural network
+  description:
+    It is a type of artificial neural network that generates new data based
+    on a set of training data. This data is usually variations of the input data,
+    such as changes in a person's expressions in a video. It is often used to generate
+    new images, videos, audios and texts, and can be used for data augmentation.
+- title: Git
+  tags:
+    - Tool
+    - Versioning
+  description:
+    Git is a distributed version control system widely used for tracking
+    changes to files and coordinating work on software development projects.
+- title: GitHub
+  tags:
+    - Tool
+    - Versioning
+  description:
+    GitHub is a web-based source code hosting platform that offers a variety
+    of services related to version control and collaboration in software development
+    (it is used in conjunction with Git). It is widely used by developers around the
+    world to store, collaborate, manage, and control the source code of software projects.
+- title: GPT
+  tags:
+    - Artificial intelligence
+    - Neural network
+  description:
+    It is a large language model created by OpenAI. Namely Generative Pre-trained
+    Transformer, it is capable of generating high-quality texts, such as news articles,
+    poetry, and fiction, based on a small piece of text as input. It is one of the
+    most advanced language models in the world and is capable of performing a wide
+    variety of natural language tasks, such as machine translation, text summarization,
+    code generation, among others. The latest versions also support other data types,
+    such as images.
+- title: Gradient
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    The gradient simply measures how much the output of a function changes
+    if you change the inputs by a small amount. It measures the change in all the
+    weights of the neural network relative to the difference in the calculated error.
+    You can also think of a gradient as the slope of a function. The larger the gradient,
+    the steeper the slope and the faster a model can learn. But if the slope is zero,
+    the model stops learning. In mathematical terms, a gradient is a partial derivative
+    with respect to its inputs.
+- title: Gradient Descent
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Neural network models are usually trained by an optimization algorithm
+    that is a variation of gradient descent. During learning, input training data
+    helps the model learn, and the loss function evaluates how accurate the prediction
+    performance is for each iteration. As training progresses, the goal is to reduce
+    the loss function/prediction error by iteratively adjusting the parameters. Specifically,
+    the gradient descent algorithm has a forward pass (or forward propagation) step
+    and a backward pass (or backpropagation). In the forward propagation step, the
+    input data is passed through the neural network and the output is calculated.
+    In the backward propagation step, the gradient of the loss function is calculated
+    with respect to each weight in the neural network, and the weights are updated
+    according to the gradient. The algorithm then takes a gradient descent step to
+    minimize the loss function (taking into account the learning rate).
+- title: Gradient Explosion
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Exploding gradient is a problem that occurs when the gradient of a
+    loss function grows exponentially during the training of a machine learning model.
+    This can result in model parameters diverging to infinity, causing the learning
+    process to fail. When gradients explode, weight updates during training can become
+    so large that they cause the model to revert to a large error, instead of minimizing
+    it with each iteration. Gradient explosion can be caused by several factors, such
+    as a very high learning rate, a poorly designed loss function, among others.

@@ -1,0 +1,27 @@
+- title: IDE
+  tags:
+    - Tool
+  description:
+    IDE is short for Integrated Development Environment. It is a program
+    with graphical interfaces that facilitate the interaction of developers in the
+    creation of applications. Typically an IDE includes a source code editor and debugging
+    tools to identify and correct errors. Popular examples of IDEs include Android
+    Studio, Eclipse, and Visual Studio Code.
+- title: Inheritance
+  tags:
+    - Concept
+  description:
+    Inheritance works like a "family tree". It allows a class or object
+    to inherit characteristics and behaviors from another parent class. This means
+    that the child class inherits the attributes and methods of the parent class,
+    saving time and promoting code reuse. Inheritance is a way to organize and structure
+    code by creating class hierarchies that represent relationships between real-world
+    objects.
+- title: Issue
+  tags:
+    - Concept
+    - Versioning
+  description:
+    An issue is like a note that notes a problem or something to be done
+    in a project. It is like a reminder that can be used to talk about bugs, request
+    new features, discuss improvements, or keep an eye on a task.

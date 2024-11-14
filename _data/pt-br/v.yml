@@ -1,0 +1,41 @@
+- title: Variável computada
+  tags:
+    - Conceito
+  description:
+    É uma variável que não armazena um valor diretamente, ela calcula ou
+    deriva seu valor de outras variáveis ou dados.
+- title: Variável tipada
+  tags:
+    - Conceito
+  description:
+    Uma variável tipada é aquele que possui um tipo de dado associado a
+    ela.
+- title: Versionamento
+  tags:
+    - Conceito
+    - Versionamento
+  description:
+    O versionamento de código é o controle de alterações feitas em um projeto
+    ao longo do tempo, acompanhando e registrando modificações feitas no código-fonte.
+- title: Visão Computacional
+  tags:
+    - Conceito
+    - Inteligência artificial
+  description:
+    É um campo da inteligência artificial que estuda como os computadores
+    podem obter e processar informações de estímulos visuais. Ela se concentra no
+    desenvolvimento de sistemas que podem analisar e entender imagens e vídeos, permitindo
+    que os computadores reconheçam objetos, pessoas, lugares, movimentos e outros
+    elementos visuais. A visão computacional (do inglês, computer vision ou CV) é
+    usada em uma ampla variedade de aplicações, como reconhecimento facial, carros
+    autônomos, diagnóstico médico, entre outros.
+- title: Vue.js
+  tags:
+    - Conceito
+    - Framework
+    - Front-end
+  description:
+    Vue.js é uma ferramenta JavaScript usada para criar interfaces de usuário,
+    ou seja, o que as pessoas veem e interagem em um site ou aplicativo. Ele é fácil
+    de adicionar a projetos já existentes e é muito utilizado para construir sites
+    que funcionam como uma única página (SPAs).

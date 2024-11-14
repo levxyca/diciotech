@@ -1,0 +1,23 @@
+- title: Laço
+  tags:
+    - Conceito
+  description:
+    Um laço (do inglês, loop) é uma estrutura de controle que permite executar
+    repetidamente um bloco de código enquanto uma condição for verdadeira. Ele é usado
+    para automatizar tarefas repetitivas e economizar tempo e esforço. Existem vários
+    tipos de laços, como o laço 'for', o laço 'while' e o laço 'do-while'.
+- title: Lambda
+  tags:
+    - Conceito
+  description:
+    Lambda é uma função anônima em programação que pode ser definida e
+    usada sem um nome específico, frequentemente usada para expressões simples em
+    uma única linha.
+  content:
+    code: "soma = lambda x, y: x + y"
+- title: Linguagem Baixo Nível
+  tags:
+    - Conceito
+  description:
+    Linguagem de programação que possui pouca ou nenhuma abstração do computador.
+    É uma linguagem de programação que está mais próxima da linguagem de máquina.

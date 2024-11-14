@@ -1,0 +1,39 @@
+- title: Batch Size
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Batch size is a hyperparameter of machine learning models that controls
+    the number of examples used in a single run of the model. It is used to control
+    how quickly a machine learning model learns and can be tuned to improve its performance.
+    A very small batch size during training requires less memory but more iterations
+    to complete an epoch, while a larger batch size allows for faster training with
+    fewer iterations per epoch but takes up more memory.
+- title: Botnet
+  tags:
+    - Concept
+    - Cyber security
+  description:
+    "A botnet is a network of internet-connected devices infected with
+    malware (malware is a malicious program that affects a device), allowing cybercriminals
+    to take down websites using this network of devices. The devices can range from
+    a computer to an IoT device (an IoT device is a device connected to the internet
+    without using cables, for example: smart TVs, smart lamps, smart refrigerators
+    and cell phones)."
+- title: Branch
+  tags:
+    - Concept
+    - Versioning
+  description:
+    A branch is like a copy of your project at a specific point in time.
+    It's like you create a separate version to work on new ideas without touching
+    the main version. Each Branch can be edited separately, allowing you to develop
+    new things without disturbing the main code.
+- title: Bug
+  tags:
+    - Concept
+  description:
+    The term Bug is commonly used to inform that there is a problem in
+    the program or environment. It can be incorrect or unexpected behavior, usually
+    caused by incorrect logic in the code, causing failures during the execution of
+    a software.

@@ -1,0 +1,69 @@
+- title: Garbage Collector
+  tags:
+    - Conceito
+  description:
+    Garbage collector, ou "coletor de lixo", é uma ferramenta que ajuda
+    a liberar espaço na memória do computador automaticamente. Imagine que, ao desenvolver
+    um programa, você use blocos de memória para guardar informações. Com o tempo,
+    alguns desses blocos não são mais necessários. O coletor de lixo identifica esses
+    blocos "inúteis" e os limpa, devolvendo o espaço para o sistema usar novamente.
+    Isso é especialmente útil em linguagens de programação como Java, C# e JavaScript,
+    onde esse processo é feito automaticamente, ajudando a evitar problemas e deixando
+    o computador mais rápido.
+- title: Git
+  tags:
+    - Conceito
+    - Ferramenta
+    - Versionamento
+  description:
+    Git é um sistema de controle de versão distribuído amplamente utilizado
+    para rastrear as alterações em arquivos e coordenar o trabalho em projetos de
+    desenvolvimento de software.
+- title: GitHub
+  tags:
+    - Conceito
+    - Ferramenta
+    - Versionamento
+  description:
+    O GitHub é uma plataforma de hospedagem de código-fonte baseada na
+    web que oferece uma variedade de serviços relacionados ao controle de versão e
+    colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele
+    é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar,
+    colaborar, gerenciar e controlar o código-fonte de projetos de software.
+- title: GPT
+  tags:
+    - Conceito
+    - Inteligência artificial
+    - Rede neural
+  description:
+    É um grande modelo de linguagem criado pela OpenAI. Do inglês, Generative
+    Pre-training Transformer, é capaz de gerar textos de alta qualidade, como artigos
+    de notícias, poesia e ficção, com base em um pequeno trecho de texto como entrada.
+    Ele é um dos modelos de linguagem mais avançados do mundo e é capaz de realizar
+    uma ampla variedade de tarefas de linguagem natural, como tradução automática,
+    resumo de texto, geração de código, entre outros. As versões mais recentes também
+    dão suporte a outros tipos de dados, como imagens.
+- title: Gradiente
+  tags:
+    - Conceito
+  description:
+    O gradiente simplesmente mede o quanto a saída de uma função muda se
+    você mudar um pouco as entradas. Ele mede a mudança em todos os pesos da rede
+    neural em relação à diferença no erro calculado. Você também pode pensar em um
+    gradiente como a inclinação de uma função. Quanto maior o gradiente, mais íngreme
+    a inclinação e mais rápido um modelo pode aprender. Mas se a inclinação for zero,
+    o modelo para de aprender. Em termos matemáticos, um gradiente é uma derivada
+    parcial em relação às suas entradas.
+- title: Grande Modelo de Linguagem
+  tags:
+    - Conceito
+    - Inteligência artificial
+  description:
+    Também chamado de modelo de linguagem de grande escala (do inglês,
+    large language model ou LLM), é um modelo de linguagem que usa aprendizado profundo
+    para aprender representações de dados de linguagem natural. Ele é treinado em
+    conjuntos massivos de dados textuais, como livros, artigos de notícias e páginas
+    da web, sendo capaz de interpretar e gerar textos de alta qualidade. Os grandes
+    modelos de linguagem são usados como modelos de base para diversas aplicações
+    de linguagem natural, como tradução automática, resumo de texto, geração de código,
+    entre outros.
