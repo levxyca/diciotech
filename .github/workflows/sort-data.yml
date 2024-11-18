@@ -21,21 +21,21 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.2.2
         with:
           ref: ${{ github.head_ref }}
 
       - name: Get changed data files
         id: changed-data
-        uses: tj-actions/changed-files@v45
+        uses: tj-actions/changed-files@v45.0.4
         with:
           files: assets/data/**.json
 
       - name: Setup Python
         if: steps.changed-data.outputs.any_changed == 'true'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5.3.0
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Sort data files
         if: steps.changed-data.outputs.any_changed == 'true'
@@ -48,7 +48,7 @@ jobs:
           done
 
       # commit all changed files back to the repository
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v5.0.1
         if: steps.changed-data.outputs.any_changed == 'true'
         with:
           commit_message: Sort data files
