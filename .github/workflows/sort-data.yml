@@ -29,21 +29,26 @@ jobs:
         id: changed-data
         uses: tj-actions/changed-files@v45
         with:
-          files: assets/data/**.{json}
+          files: assets/data/**.json
 
-      - name: Sort data files
+      - name: Setup Python
         if: steps.changed-data.outputs.any_changed == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Sort data files
+        if: steps.changed-data.outputs.any_changed == 'true'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-data.outputs.all_changed_files }}
         run: |
           for file in $ALL_CHANGED_FILES; do
+            echo "Formatting $file"
             python3 format_data.py -f $file
           done
 
       # commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
+        if: steps.changed-data.outputs.any_changed == 'true'
         with:
           commit_message: Sort data files
