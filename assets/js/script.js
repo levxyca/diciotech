@@ -11,10 +11,6 @@ const filterSelect = document.querySelector("#tags-filter");
 let listOfCardsFiltered = [];
 let favoriteCards = [];
 
-const starIcon = "https://img.icons8.com/ios/50/star--v1.png";
-const starIconFilled =
-  "https://img.icons8.com/ios-glyphs/30/ffe100/star--v1.png";
-
 function insertTagsIntoSelect(tags) {
   tags.sort();
   for (const tag of tags) {
@@ -362,3 +358,26 @@ function generateContentId(title = "", description = "", hash = 5381) {
   const hashString = Math.abs(hash).toString(36); // Convert to base-36 string
   return hashString;
 }
+
+function getPWADisplayMode() {
+    if (document.referrer.startsWith("android-app://")) return "twa";
+    if (window.matchMedia("(display-mode: browser)").matches) return "browser";
+    if (window.matchMedia("(display-mode: standalone)").matches) return "standalone";
+    if (window.matchMedia("(display-mode: minimal-ui)").matches) return "minimal-ui";
+    if (window.matchMedia("(display-mode: fullscreen)").matches) return "fullscreen";
+    if (window.matchMedia("(display-mode: window-controls-overlay)").matches) return "window-controls-overlay";
+    return "unknown";
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+    const displayMode = getPWADisplayMode();
+
+    // hide github-corner and change theme button if not in browser mode
+    if (displayMode !== "browser") {
+        const githubCorner = document.querySelector(".github-corner");
+        githubCorner.style.display = "none";
+
+        const themeButton = document.querySelector("#change-theme-button");
+        themeButton.style.display = "none";
+    }
+});

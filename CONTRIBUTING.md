@@ -123,7 +123,8 @@ Tags disponíveis:
 - `Paradigma`;
 - `Rede neural`;
 - `Segurança cibernética`;
-- `Versionamento`
+- `Versionamento`;
+- `DevOps`;
 
 Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas práticas:
 
