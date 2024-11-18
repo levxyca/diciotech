@@ -12,10 +12,9 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.2.2
         with:
           ref: ${{ github.head_ref }}
-          fetch-depth: 0
 
       - name: Run Prettier
         uses: AbdulRehman-1/pr-prettier@initial

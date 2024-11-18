@@ -21,7 +21,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.2.2
         with:
           ref: ${{ github.head_ref }}
 
@@ -35,7 +35,7 @@ jobs:
         if: steps.changed-data.outputs.any_changed == 'true'
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Sort data files
         if: steps.changed-data.outputs.any_changed == 'true'
