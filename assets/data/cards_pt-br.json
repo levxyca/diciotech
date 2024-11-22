@@ -367,23 +367,23 @@
     },
     {
       "title": "GitHub",
-      "tags": ["Conceito", "Ferramenta", "Versionamento"],
+      "tags": ["Ferramenta", "Versionamento"],
       "description": "O GitHub é uma plataforma de hospedagem de código-fonte baseada na web que oferece uma variedade de serviços relacionados ao controle de versão e colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar, colaborar, gerenciar e controlar o código-fonte de projetos de software. Fornece ferramentas de CI/CD (integração contínua e entrega contínua) com o GitHub Actions."
     },
     {
       "title": "GitLab",
-      "tags": ["Conceito", "Ferramenta", "Versionamento"],
-      "description": "Assim como GitHub, o GitLab também é uma plataforma de hospedagem de código-fonte que assim como o GitHub, oferece ferramentas integradas de CI/CD (integração contínua e entrega contínua) diretamente. Se destaca também por ter uma política \"open core\" onde os usuários podem acessar e contruibir para seu código base sendo muito mais transparente que as outras plataformas que mantém seus códigos base fechado."
+      "tags": ["Ferramenta", "Versionamento"],
+      "description": "Assim como o GitHub, o GitLab também é uma plataforma de hospedagem de código-fonte baseada em Git que assim como o GitHub, oferece ferramentas integradas de CI/CD (integração contínua e entrega contínua) diretamente. Se destaca por ter uma política \"open core\", na qual é possível acessar e contribuir com seu código-fonte, sendo muito mais transparente que as outras plataformas que mantêm seus códigos-fonte fechados."
     },
     {
       "title": "BitBucket",
-      "tags": ["Conceito", "Ferramenta", "Versionamento"],
+      "tags": ["Ferramenta", "Versionamento"],
       "description": "Assim como GitHub, o BitBucket também é uma plataforma de hospedagem de código-fonte e também possui ferramentes integradas de CI/CD, mas se integra especialmente bem com ferramentas Atlassian, como o Jira, e suporta repositórios Git e Mercurial, enquanto o GitHub só suporta Git."
     },
     {
       "title": "AWS Commit",
-      "tags": ["Conceito", "Ferramenta", "Versionamento"],
-      "description": "AWS Commit é a plataforma de hospedagem de código-fonte da Amazon(AWS), está totalmente integrado com o ecossistema AWS, permitindo fácil automação e integração com outros serviços da AWS, como CodePipeline (para CI/CD), IAM (controle de permissões), e CloudWatch (monitoramento)."
+      "tags": ["Ferramenta", "Versionamento"],
+      "description": "AWS Commit é a plataforma de hospedagem de código-fonte da Amazon (AWS) e está totalmente integrado com o ecossistema AWS, permitindo fácil automação e integração com outros serviços da AWS, como CodePipeline (para CI/CD), IAM (controle de permissões), e CloudWatch (monitoramento)."
     },
     {
       "title": "GPT",
