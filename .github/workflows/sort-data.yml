@@ -21,29 +21,34 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.2.2
         with:
           ref: ${{ github.head_ref }}
 
       - name: Get changed data files
         id: changed-data
-        uses: tj-actions/changed-files@v45
+        uses: tj-actions/changed-files@v45.0.4
         with:
-          files: assets/data/**.{json}
+          files: assets/data/**.json
+
+      - name: Setup Python
+        if: steps.changed-data.outputs.any_changed == 'true'
+        uses: actions/setup-python@v5.3.0
+        with:
+          python-version: "3.12"
 
       - name: Sort data files
         if: steps.changed-data.outputs.any_changed == 'true'
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-data.outputs.all_changed_files }}
         run: |
           for file in $ALL_CHANGED_FILES; do
+            echo "Formatting $file"
             python3 format_data.py -f $file
           done
 
       # commit all changed files back to the repository
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v5.0.1
+        if: steps.changed-data.outputs.any_changed == 'true'
         with:
           commit_message: Sort data files
