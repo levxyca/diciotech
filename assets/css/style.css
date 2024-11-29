@@ -161,6 +161,7 @@ body .main {
 }
 
 ::-webkit-scrollbar-track {
+  border-radius: 8px;
   background: #f2f2f2;
 }
 
