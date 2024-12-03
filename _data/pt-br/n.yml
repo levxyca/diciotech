@@ -1,34 +1,31 @@
 - title: Next.js
   tags:
-    - Conceito
-    - Framework
-    - Front-end
-  description:
-    Next.js é uma ferramenta baseada no React que ajuda a criar sites mais
+  - Framework
+  - Front-end
+  description: Next.js é uma ferramenta baseada no React que ajuda a criar sites mais
     rápidos e fáceis de encontrar nos buscadores (SEO). Ele permite que as páginas
     sejam geradas no servidor (SSR) ou criadas de forma estática (SSG), o que melhora
     o tempo de carregamento das páginas e a experiência da pessoa usuária.
 - title: Node.js
   tags:
-    - Back-end
-  description:
-    Node.js é um ambiente que permite executar JavaScript no servidor.
+  - Back-end
+  - Framework
+  description: Node.js é um ambiente que permite executar JavaScript no servidor.
     Isso significa que podemos usar JavaScript para criar e rodar aplicações do lado
     do servidor.
 - title: Normalização
   tags:
-    - Conceito
-    - Inteligência artificial
-  description:
-    É uma técnica de processamento de dados usada para transformar os dados
+  - Conceito
+  - Inteligência artificial
+  description: É uma técnica de processamento de dados usada para transformar os dados
     em uma escala comum. Ela é usada para melhorar o desempenho de modelos de aprendizado
     de máquina, reduzindo a variância e o tempo de treinamento. Existem várias técnicas
     de normalização, como normalização de lotes (ou batches), normalização de camadas,
     normalização de pesos, entre outras.
 - title: NoSQL
   tags:
-    - Conceito
-  description:
-    NoSQL (Not Only SQL) é uma abordagem de banco de dados que permite
+  - Conceito
+  description: NoSQL (Not Only SQL) é uma abordagem de banco de dados que permite
     armazenar, recuperar e gerenciar dados de forma flexível e escalável, sem a estrutura
     rígida de tabelas relacionais, sendo adequado para dados não estruturados ou semiestruturados.
+

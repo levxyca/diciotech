@@ -39,14 +39,13 @@
   - Conceito
   description: Costumamos chamar de ambiente o lugar ou os servidores onde o que foi
     desenvolvido fica disponível para testes, validações, pessoas usuárias finais
-    utilizarem ou demais necessidades. Esse servidor seria como um computador. Pode
-    ser um computador físico ou disponível na nuvem. Existem os ambientes local e
-    dev (onde o desenvolvimento está acontecendo), homolog (ou ainda hom, homol, homologação
-    - onde os testes costumam ser feitos)e produção (onde está disponível o sistema
-    final, desenvolvido e testado, para pessoas usuárias).
+    utilizarem ou demais necessidades. Pode ser um computador físico ou disponível
+    na nuvem. Existem os ambientes local e dev (onde o desenvolvimento está acontecendo),
+    homolog (ou ainda hom, homol, homologação - onde os testes costumam ser feitos)
+    e produção (onde está disponível o sistema final, desenvolvido e testado, para
+    pessoas usuárias).
 - title: Angular.js
   tags:
-  - Conceito
   - Framework
   - Front-end
   description: Angular.js é uma ferramenta desenvolvida pelo Google que facilita a
@@ -59,7 +58,7 @@
   tags:
   - Back-end
   - Conceito
-  description: 'API é uma sigla que, em inglês, significa: Application Programming
+  description: 'API é uma sigla que, em inglês, significa Application Programming
     Interface. Traduzindo para português, seria uma interface programada para aplicações.
     É uma estrutura de código que atende a alguns requisitos, seguindo normas e padrões
     de desenvolvimento, facilitando a organização de sistemas grandes. Disponibiliza

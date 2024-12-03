@@ -1,47 +1,41 @@
-- title: Finetuning
+- title: Fine-tuning
   tags:
-    - Conceito
-    - Inteligência artificial
-  description:
-    Também chamado de ajuste fino, é o processo de treinamento de um modelo
+  - Conceito
+  - Inteligência artificial
+  description: Também chamado de ajuste fino, é o processo de treinamento de um modelo
     de aprendizado de máquina pré-treinado em um novo conjunto de dados. Ele é usado
     para adaptar um modelo de base para uma tarefa específica, melhorando seu desempenho
     e reduzindo o tempo de treinamento em comparação com o treinamento do zero. O
-    finetuning é comumente usado em modelos de visão computacional e processamento
+    fine-tuning é comumente usado em modelos de visão computacional e processamento
     de linguagem natural.
 - title: Fork
   tags:
-    - Conceito
-    - Ferramenta
-    - Versionamento
-  description:
-    Fazer um Fork é como criar uma cópia independente de um projeto. É
+  - Conceito
+  - Versionamento
+  description: Fazer um Fork é como criar uma cópia independente de um projeto. É
     como se você pegasse o projeto de outra pessoa, o bifurcasse, e o tivesse em sua
     própria conta. Isso permite que você faça suas próprias mudanças sem mexer no
     projeto original. É algo comum em projetos de código aberto.
 - title: Frameworks
   tags:
-    - Conceito
-    - Framework
-  description:
-    São como coleções de ferramentas, componentes e soluções que você pode
+  - Conceito
+  - Framework
+  description: São como coleções de ferramentas, componentes e soluções que você pode
     encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações
     complexas.
 - title: Função
   tags:
-    - Conceito
-  description:
-    Uma função é um bloco de código que realiza uma tarefa específica e
+  - Conceito
+  description: Uma função é um bloco de código que realiza uma tarefa específica e
     pode ser chamado a partir de outras partes do programa. Ela ajuda a organizar
     e reutilizar o código, tornando o software mais modular e legível. As funções
-    recebem entradas (chamadas de argumentos) e podem retornar um resultado (valor
-    de retorno) ou simplesmente executar uma ação.
+    podem receber entradas (chamadas de argumentos) e podem retornar um resultado
+    (valor de retorno) ou simplesmente executar uma ação.
 - title: Função de Não-Linearidade
   tags:
-    - Conceito
-    - Inteligência artificial
-  description:
-    Também chamada de função de ativação, é uma função matemática que é
+  - Conceito
+  - Inteligência artificial
+  description: Também chamada de função de ativação, é uma função matemática que é
     aplicada na saída dos neurônios em uma rede neural artificial. Ela é usada para
     introduzir não-linearidades em uma rede neural artificial, alterando o valor de
     saída de cada neurônio de uma camada antes de enviar para a próxima camada, permitindo
@@ -51,12 +45,12 @@
     negativo e retorna o próprio valor de entrada caso contrário.
 - title: Função de Perda
   tags:
-    - Conceito
-    - Inteligência artificial
-  description:
-    Também chamada de função de custo (no inglês, loss function), é uma
+  - Conceito
+  - Inteligência artificial
+  description: Também chamada de função de custo (no inglês, loss function), é uma
     função matemática que mede a diferença entre o valor previsto por um modelo de
     aprendizado de máquina e o valor real dos dados de treinamento. Ela é usada para
     avaliar a precisão de um modelo de aprendizado de máquina e ajustar seus parâmetros
     para melhorar seu desempenho. Existem vários tipos de funções de perda, cada uma
     adequada para um tipo diferente de problema de aprendizado de máquina.
+
