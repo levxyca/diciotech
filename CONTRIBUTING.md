@@ -145,6 +145,7 @@ Tags disponíveis:
 - `Biblioteca`;
 - `Conceito`;
 - `Design`;
+- `DevOps`;
 - `Ferramenta`;
 - `Framework`;
 - `Front-End`;
@@ -155,7 +156,6 @@ Tags disponíveis:
 - `Rede neural`;
 - `Segurança cibernética`;
 - `Versionamento`;
-- `DevOps`;
 
 Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas práticas:
 
