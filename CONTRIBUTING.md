@@ -4,13 +4,9 @@ Quer contribuir conosco?! Gratidão 💙
 
 Neste guia vamos explicar como funcionam os processos para que você possa contribuir com o Diciotech.
 
-## Como contribuir
-
-Existem diversas formas de contribuir com o projeto:
-
 - [📖 Contribua com o Diciotech](#-contribua-com-o-diciotech)
-  - [Como contribuir](#como-contribuir)
   - [🤔 Entendendo a estrutura do Diciotech](#-entendendo-a-estrutura-do-diciotech)
+  - [Como funciona o build do site](#como-funciona-o-build-do-site)
   - [Discutindo as issues](#discutindo-as-issues)
   - [Fazendo pull requests](#fazendo-pull-requests)
   - [Adicionando um novo termo técnico no Diciotech](#adicionando-um-novo-termo-técnico-no-diciotech)
@@ -27,7 +23,7 @@ Existem diversas formas de contribuir com o projeto:
 
 ## 🤔 Entendendo a estrutura do Diciotech
 
-O `diciotech` optou por utilizar o [Jekyll](https://jekyllrb.com/), um gerador de sites estáticos. Esta migração se deve principalmente por 3 motivos:
+O `diciotech` optou por utilizar o [Jekyll](https://jekyllrb.com/), um gerador de sites estáticos. Esta mudança é principalmente por 3 motivos:
 
 1. Suporte a internacionalização - usando o plugin [polyglot](https://github.com/untra/polyglot), é possível traduzir o site para várias línguas;
 2. Divisão de conteúdo - o Jekyll permite dividir os dados dos termos em arquivos YAML por letra, o que facilita a manutenção e a adição de novos termos;
@@ -62,7 +58,7 @@ diciotech
 │       ├── ...
 │       └── z.yml
 ├── Gemfile (arquivo de dependências do Ruby)
-├── Gemfile.lock (arquivo de dependências do Ruby com as versões)
+├── Gemfile.lock (arquivo de dependências do Ruby com as versões específicas)
 ├── _includes
 │   └── script.liquid.js (script que gera o script.js final)
 ├── _layouts
@@ -81,6 +77,32 @@ diciotech
 └── _site (onde o Jekyll gera o site final, não deve ser versionado)
     └── ...
 ```
+
+## Como funciona o build do site
+
+Ao executar o comando `bundle exec jekyll serve`, o Jekyll compila o site e o disponibiliza em `http://localhost:4000`. O site é gerado na pasta `_site/`, que não deve ser versionada.
+
+O Jekyll basicamente verifica as páginas existentes em `_pages/` e as renderiza com o layout definido no [front matter](https://jekyllrb.com/docs/front-matter/) (cabeçalho entre `---`) das páginas, que no caso é o layout base definido em `_layouts/base.liquid`. O front matter das páginas contém os seguintes campos:
+
+```yaml
+page_id: search # id da página, usado para identificar as versões traduzidas como sendo da mesma página
+layout: base # layout usado para renderizar a página
+permalink: / # link no qual a página vai ser acessada
+... # outros campos, todos referentes a traduções que serão usadas na página
+```
+
+O layout base é um arquivo que contém o html básico de todas as páginas, e é onde são incluídos os arquivos de css e js necessários para o site. A extensão `.liquid` é uma extensão padrão usada pelo Jekyll. No layout básico é possível encontrar algumas expressões como:
+
+```liquid
+<meta name="description" content="{{ page.site_description }}" />
+{% include script.liquid.js %}
+```
+
+Valores definidos no front matter das páginas são acessados via `{{ page.XXX }}`, como `{{ page.site_description }}`, enquanto valores definidos no arquivo `_config.yml` são acessados como `{{ site.XXX }}`, por exemplo `{{ site.baseurl }}`. Expressões delimitadas por `{% %}` como `{% include script.liquid.js %}` são expressões que são processadas durante o build pelo Jekyll. Para mais informações sobre o Jeyll, veja a [documentação oficial](https://jekyllrb.com/docs/step-by-step/01-setup/) (em inglês).
+
+Os dados dos termos são armazenados em arquivos YAML em `_data/` e separados por idioma e letra. Eles são usados para gerar os cards que aparecem na página principal. Durante o build, o Jekyll lê esses arquivos por meio dos arquivos `_assets/LANG/cards.json.liquid` e gera um arquivo JSON final em `_site/assets/data/cards.json` (para o idioma principal, no caso português `pt-br`) e um para cada outro idioma em `_site/LANG/assets/data/cards.json` (atualmente para o inglês `en-us`), que é lido para gerar os cards.
+
+Para entender melhor como o site é contruído, é possível acessar a pasta `_site/` e verificar os arquivos gerados pelo build.
 
 ## Discutindo as issues
 
@@ -146,8 +168,8 @@ Tags disponíveis:
 - `DevOps`;
 - `Ferramenta`;
 - `Framework`;
-- `Front-End`;
 - `Front-end`;
+- `Front-End`;
 - `Inteligência artificial`;
 - `Mobile`;
 - `Paradigma`;
@@ -157,10 +179,10 @@ Tags disponíveis:
 
 Antes de criar uma issue e abrir um PR, todas as tags devem seguir algumas boas práticas:
 
-- Todas as tags devem estar no singular
-- Atualmente, as tags são _case sensitive_, então, por padrão, apenas a primeira letra da tag deve ser maiúscula. Exemplo: Back-end, Conceito, Paradigma
-- Para adicionar uma nova tag, primeiro deve criar uma issue e, caso as pessoas usuárias concordem, um pull request deve ser aberto, contendo a tag. A PR sendo aprovada, a nova tag poderá ser vinculada a um termo
-- As tags devem ser mais generalistas e categóricas, já que dispomos de um campo de pesquisa para uma busca mais específica e precisa. Exemplo de tags: Front-end, Design, Back-end
+- todas as tags devem estar no singular;
+- atualmente, as tags são _case sensitive_, então, por padrão, apenas a primeira letra da tag deve ser maiúscula. Exemplo: Back-end, Conceito, Paradigma;
+- para adicionar uma nova tag, primeiro deve criar uma issue e, caso as pessoas usuárias concordem, um pull request deve ser aberto, contendo a tag. A PR sendo aprovada, a nova tag poderá ser vinculada a um termo;
+- as tags devem ser mais generalistas e categóricas, já que dispomos de um campo de pesquisa para uma busca mais específica e precisa. Exemplo de tags: Front-end, Design, Back-end.
 
 ## Reportando bugs
 
@@ -190,7 +212,7 @@ Já para contribuições de layout ou qualquer outra, você precisa instalar o a
 
 ### Usando Development Containers (recomendado)
 
-O `diciotech` suporta [Development Containers](https://containers.dev/supporting). Para isso é necessário ter instalado o [Docker](https://www.docker.com/products/docker-desktop). Ao abrir o repositório com o Visual Studio Code (VSCode), ele solicita que você instale a extensão necessária, então ele instala automaticamente tudo o que é necessário.
+O `diciotech` suporta [Development Containers](https://containers.dev/supporting). Para isso é necessário ter instalado o [Docker](https://www.docker.com/products/docker-desktop). Ao abrir o repositório com o Visual Studio Code (VSCode), ele solicita que você instale a extensão necessária, então ele instala automaticamente tudo o que é necessário (pode demorar um tempo na 1a execução).
 
 Para ver o site em execução, abra seu navegador e vá para `http://localhost:4000`. Você deve ver uma cópia do [site](https://diciotech.netlify.app/). Agora, sinta-se à vontade para personalizar o site como desejar. Depois de terminar, lembre-se de **commitar** suas alterações finais.
 
