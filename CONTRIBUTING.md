@@ -194,6 +194,8 @@ Já para contribuições de layout ou qualquer outra, você precisa instalar o a
 
 O `diciotech` suporta [Development Containers](https://containers.dev/supporting). Para isso é necessário ter instalado o [Docker](https://www.docker.com/products/docker-desktop). Ao abrir o repositório com o Visual Studio Code (VSCode), ele solicita que você instale a extensão necessária, então ele instala automaticamente tudo o que é necessário.
 
+Para ver o site em execução, abra seu navegador e vá para `http://localhost:4000`. Você deve ver uma cópia do [site](https://diciotech.netlify.app/). Agora, sinta-se à vontade para personalizar o site como desejar. Depois de terminar, lembre-se de **commitar** suas alterações finais.
+
 ### Instalando manualmente
 
 A instalação manual é um pouco mais trabalhosa, mas é útil se você deseja ter mais controle sobre o ambiente de desenvolvimento. Recomendado somente para usuários avançados.
