@@ -1,0 +1,1 @@
+plugins: ["@shopify/prettier-plugin-liquid"]
