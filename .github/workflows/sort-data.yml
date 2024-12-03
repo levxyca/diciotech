@@ -13,10 +13,6 @@ on:
 
   workflow_dispatch:
 
-permissions:
-  id-token: write
-  contents: read
-
 jobs:
   sort-data:
     runs-on: ubuntu-latest
