@@ -106,8 +106,7 @@ Adicione mais conteúdo no Diciotech [abrindo um pull request](#fazendo-pull-req
 - title: Termo técnico
   tags:
     - Tag 1
-  description:
-    "Explicação sobre o termo."
+  description: "Explicação sobre o termo."
 ```
 
 ou se quiser adicionar também um exemplo de código:
@@ -117,8 +116,7 @@ ou se quiser adicionar também um exemplo de código:
   tags:
     - Tag 1
     - Tag 2
-  description:
-    "Explicação sobre o termo."
+  description: "Explicação sobre o termo."
   content:
     code: "curl https://www.google.com"
 ```
