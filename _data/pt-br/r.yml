@@ -1,6 +1,5 @@
 - title: React
   tags:
-  - Conceito
   - Framework
   - Front-end
   description: React é uma biblioteca JavaScript de código aberto utilizada para criar
@@ -99,7 +98,7 @@
     profundo. Enquanto uma rede neural básica é formada por uma camada de entrada,
     uma de saída e poucas camadas intermediárias (também chamadas de camadas ocultas),
     uma rede neural profunda tem várias camadas ocultas de processamento, podendo
-    chegar a centenas. Essas camadas adicionais dão a essas redes a capacidade de
+    chegar a milhares. Essas camadas adicionais dão a essas redes a capacidade de
     fazer previsões com maior precisão quando comparadas a uma rede neural mais simples,
     mas exigem milhões de pontos de dados de amostra e centenas de horas de treinamento.
 - title: Rede Neural Recorrente
@@ -116,14 +115,14 @@
 - title: Repositório
   tags:
   - Conceito
-  - Ferramenta
   - Versionamento
   description: Um Repositório é basicamente uma caixa que guarda todo o material do
-    seu projeto. Pense nele como um lugar onde você armazena o código, a história
+    seu projeto. Pense nele como um lugar onde você armazena o código, o histórico
     das mudanças e outros arquivos importantes. Existem repositórios locais no seu
     computador e repositórios remotos em servidores compartilhados.
 - title: Responsividade
   tags:
+  - Design
   - Front-end
   description: A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos
     de tela e dispositivos, como smartphones, tablets e desktops.

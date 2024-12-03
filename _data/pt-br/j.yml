@@ -1,27 +1,25 @@
 - title: JavaScript
   tags:
-    - Back-end
-    - Front-end
-  description:
-    JavaScript é uma linguagem de programação interpretada estruturada,
+  - Back-end
+  - Front-end
+  description: JavaScript é uma linguagem de programação interpretada estruturada,
     de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente
     com HTML e CSS, o JavaScript é uma das três principais tecnologias para criação
     de sites.
 - title: jQuery
   tags:
-    - Biblioteca
-    - Front-end
-  description:
-    Biblioteca de funções em JavaScript que interagem com o HTML de uma
+  - Biblioteca
+  - Front-end
+  description: Biblioteca de funções em JavaScript que interagem com o HTML de uma
     maneira muito mais rápida e simples do que apenas pelo JavaScript.
-- title: Json
+- title: JSON
   tags:
-    - Conceito
-  description:
-    "Em inglês significa JavaScript Object Notation. Json é um tipo de
+  - Conceito
+  description: 'Em inglês significa JavaScript Object Notation. Json é um tipo de
     arquivo e tem uma estrutura com nome do dado e valor do dado. Dependendo do tipo
-    de API que construímos, utilizamos o formato Json para transferir os dados entre
+    de API que construímos, utilizamos o formato JSON para transferir os dados entre
     sistemas. Por exemplo: API que consulta clientes em seu negócio. A resposta da
-    API pode vir em formato json."
+    API pode vir em formato JSON.'
   content:
-    code: "{name: 'Morganna', cpf: '000.000.000-00', email: 'email@email.com'}"
+    code: '{name: ''Morganna'', cpf: ''000.000.000-00'', email: ''email@email.com''}'
+

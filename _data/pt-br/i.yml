@@ -1,8 +1,7 @@
 - title: IDE
   tags:
-    - Ferramenta
-  description:
-    IDE é a abreviação de Integrated Development Environment, que em português
+  - Ferramenta
+  description: IDE é a abreviação de Integrated Development Environment, que em português
     significa Ambiente de Desenvolvimento Integrado. Trata-se de um programa com interfaces
     gráficas que facilitam a interação das pessoas desenvolvedoras na criação de aplicações.
     Normalmente um IDE inclui um editor de código fonte e ferramentas de depuração
@@ -10,9 +9,8 @@
     Studio, Eclipse e Visual Studio Code.
 - title: Integração Contínua
   tags:
-    - Conceito
-  description:
-    Integração contínua (do inglês, Continuous Integration ou CI) é uma
+  - Conceito
+  description: Integração contínua (do inglês, Continuous Integration ou CI) é uma
     prática de desenvolvimento de software onde as pessoas desenvolvedoras integram
     seu código em um repositório compartilhado, utilizando automação para compilar
     e testar o software. O objetivo é detectar rapidamente erros, melhorar a qualidade
@@ -21,10 +19,9 @@
     utilizadas para implementar CI.
 - title: Inteligência Artificial
   tags:
-    - Conceito
-    - Inteligência artificial
-  description:
-    Também chamada de IA (no inglês, Artificial Intelligence ou AI), é
+  - Conceito
+  - Inteligência artificial
+  description: Também chamada de IA (no inglês, Artificial Intelligence ou AI), é
     um campo da ciência da computação que estuda como os computadores podem simular
     a inteligência e cognição humana. Ela se concentra no desenvolvimento de sistemas
     capazes de executar tarefas que antes poderiam ser feitas somente por humanos,
@@ -33,9 +30,8 @@
     de máquina, processamento de linguagem natural, visão computacional, entre outras.
 - title: IoT
   tags:
-    - Conceito
-  description:
-    IoT (Internet of Things), ou Internet das Coisas, é um tipo de tecnologia
+  - Conceito
+  description: IoT (Internet of Things), ou Internet das Coisas, é um tipo de tecnologia
     composto por uma rede de dispositivos e objetos interconectados, como sensores,
     câmeras, itens domésticos, aparelhos eletrônicos e veículos, por exemplo. Seu
     objetivo é basicamente conectar os mais diversos equipamentos à internet com o
@@ -43,10 +39,10 @@
     objetos caseiros a sofisticadas ferramentas industriais.
 - title: Issue
   tags:
-    - Conceito
-    - Versionamento
-  description:
-    Uma 'issue' é como se fosse um bilhete que anota um problema ou algo
+  - Conceito
+  - Versionamento
+  description: Uma issue é como se fosse um bilhete que anota um problema ou algo
     a ser feito em um projeto. É como um lembrete que pode ser usado para falar sobre
     erros, pedir novas funcionalidades, conversar sobre melhorias ou ficar de olho
     em uma tarefa.
+

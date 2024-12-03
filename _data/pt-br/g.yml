@@ -11,7 +11,6 @@
     o computador mais rápido.
 - title: Git
   tags:
-  - Conceito
   - Ferramenta
   - Versionamento
   description: Git é um sistema de controle de versão distribuído amplamente utilizado
@@ -39,7 +38,6 @@
     seus códigos-fonte fechados.
 - title: GPT
   tags:
-  - Conceito
   - Inteligência artificial
   - Rede neural
   description: É um grande modelo de linguagem criado pela OpenAI. Do inglês, Generative
@@ -52,6 +50,7 @@
 - title: Gradiente
   tags:
   - Conceito
+  - Inteligência artificial
   description: O gradiente simplesmente mede o quanto a saída de uma função muda se
     você mudar um pouco as entradas. Ele mede a mudança em todos os pesos da rede
     neural em relação à diferença no erro calculado. Você também pode pensar em um

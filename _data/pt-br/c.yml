@@ -47,9 +47,8 @@
 - title: Clone
   tags:
   - Conceito
-  - Ferramenta
   - Versionamento
-  description: Clonar um Repositório é como tirar uma cópia local desse projeto no
+  description: Clonar um repositório é como criar uma cópia local desse projeto no
     seu próprio espaço de trabalho. É como ter sua própria versão do código para mexer
     como quiser. Isso permite que você trabalhe em uma versão local do código, faça
     alterações e contribua de volta ao projeto principal quando estiver pronto.
@@ -108,6 +107,7 @@
 - title: Componente
   tags:
   - Conceito
+  - Design
   description: Um componente é uma unidade fundamental e reutilizável de construção
     de interfaces de usuário. Ele encapsula a lógica e a apresentação relacionadas
     a uma parte específica da interface. Componentes podem ser comparados a blocos
@@ -127,6 +127,7 @@
 - title: Conjunto de Dados
   tags:
   - Conceito
+  - Inteligência artificial
   description: Chamado de dataset no inglês, é um conjunto de dados que pode ser usado
     para treinar e testar modelos de aprendizado de máquina. Normalmente são usadas
     partes diferentes dos conjuntos de dados para treinamento e para teste, para evitar
@@ -160,5 +161,5 @@
     utilizado por ser simples de utilizar via linha de comando(terminal), não necessitando
     de softwares terceiros para realizar chamadas.
   content:
-    code: curl http://www.google.com
+    code: curl https://www.google.com
 

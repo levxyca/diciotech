@@ -33,9 +33,9 @@
   - Conceito
   - Ferramenta
   - Versionamento
-  description: Uma Branch é como uma cópia do seu projeto em um momento específico.
+  description: Uma branch é como uma cópia do seu projeto em um momento específico.
     É como se você criasse uma versão separada para trabalhar em novas ideias sem
-    mexer na versão principal. Cada Branch pode ser editado à parte, permitindo que
+    mexer na versão principal. Cada branch pode ser editado à parte, permitindo que
     você desenvolva coisas novas sem atrapalhar o código principal.
 - title: Bug
   tags:
