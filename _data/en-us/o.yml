@@ -1,0 +1,57 @@
+- title: Object
+  tags:
+    - Concept
+  description:
+    An object, in software development, is like a character in a video
+    game. It has characteristics (data) and can do things (methods). For example,
+    a "car" object can have a color, speed and brand (characteristics) and can accelerate,
+    brake and turn (actions/methods). Objects are instances of classes and allow you
+    to organize code in a way that represents real-world entities, making it more
+    understandable and reusable.
+- title: Object-oriented programming
+  tags:
+    - Concept
+    - Paradigm
+  description:
+    Object-oriented programming (OOP) is a programming paradigm that is
+    based on the idea of modeling software around objects, which are instances of
+    classes. Each object contains attributes (data) and methods (functions) that operate
+    on that data. This allows code to be organized in a more modular, reusable, and
+    real-world object-oriented way. OOP promotes concepts such as encapsulation, inheritance,
+    and polymorphism, facilitating the creation of more flexible, understandable,
+    and scalable systems.
+- title: Optimizer
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Also called an optimization algorithm, it is an algorithm that adjusts
+    the parameters of a machine learning model to minimize the loss function. It is
+    used to train machine learning models and improve their performance.
+- title: Optional Chaining
+  tags:
+    - Concept
+  description:
+    Optional Chaining is a feature in JavaScript to handle situations where
+    you need to access properties of nested objects but are not sure whether those
+    properties actually exist. This helps avoid 'TypeError' errors when trying to
+    access something that has not been defined.
+  content:
+    code: const person = name?.city?.address;
+- title: ORM
+  tags:
+    - Back-end
+    - Concept
+  description:
+    Object-relational mapping (ORM) is how we translate tables from a database
+    into code, turning them into classes and objects.
+- title: Overfitting
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    This is a problem that occurs when a machine learning model fits training
+    data very well, but fails to generalize to new data. This is seen when the model
+    performs very well on the metrics for the training data, but performs poorly on
+    the test data. Overfitting can be caused by several factors, such as a very complex
+    model, a very small training dataset, among others.

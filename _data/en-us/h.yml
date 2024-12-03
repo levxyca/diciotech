@@ -1,0 +1,25 @@
+- title: HTML
+  tags:
+    - Front-end
+  description:
+    HTML is a markup language used to build web pages. HTML documents can
+    be interpreted by browsers.
+- title: HTML/XML Tag
+  tags:
+    - Concept
+  description:
+    A tag is a markup element used in markup languages, such as HTML and
+    XML, to define the structure and meaning of a document. They are used to define
+    the beginning and end of an element, such as a paragraph, a table, or an image.
+    Tags are written between angle brackets, such as <tag>, with the marking of the
+    end of an element defined as </tag>. If an element has no other elements inside
+    it (also called child elements), it can be defined only as <tag /> instead of
+    <tag></tag>.
+- title: Hyperparameter
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Also called a training parameter, it is a parameter of a machine learning
+    model that is not changed during training. It is used to control the behavior
+    of a machine learning model and can be tuned to improve its performance.
