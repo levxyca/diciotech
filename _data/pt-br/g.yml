@@ -30,12 +30,11 @@
   tags:
   - Ferramenta
   - Versionamento
-  description: Assim como o GitHub, o GitLab também é uma plataforma de hospedagem
-    de código-fonte baseada em Git que assim como o GitHub, oferece ferramentas integradas
-    de CI/CD (integração contínua e entrega contínua) diretamente. Se destaca por
-    ter uma política "open core", na qual é possível acessar e contribuir com seu
-    código-fonte, sendo muito mais transparente que as outras plataformas que mantêm
-    seus códigos-fonte fechados.
+  description: O GitLab também é uma plataforma de hospedagem de código-fonte baseada
+    em Git que, assim como o GitHub, oferece ferramentas integradas de CI/CD (integração
+    contínua e entrega contínua) diretamente. Se destaca por ter uma política "open
+    core", na qual é possível acessar e contribuir com seu código-fonte, sendo muito
+    mais transparente que as outras plataformas que mantêm seus códigos-fonte fechados.
 - title: GPT
   tags:
   - Inteligência artificial
