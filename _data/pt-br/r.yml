@@ -1,26 +1,23 @@
 - title: React
   tags:
-    - Conceito
-    - Framework
-    - Front-end
-  description:
-    React é uma biblioteca JavaScript de código aberto utilizada para criar
+  - Conceito
+  - Framework
+  - Front-end
+  description: React é uma biblioteca JavaScript de código aberto utilizada para criar
     interfaces de usuário interativas e dinâmicas em aplicações web e em outros ambientes,
     como mobile, TV, realidade virtual, entre outros. Ele se destaca por seu modelo
     de programação baseado em componentes e pela eficiência na atualização da interface
     do usuário, tornando-o uma escolha popular no desenvolvimento front-end.
 - title: React Native
   tags:
-    - Mobile
-  description:
-    É um framework do Javascript baseado no React para desenvolvimento
+  - Mobile
+  description: É um framework do Javascript baseado no React para desenvolvimento
     de aplicativos móveis multiplataforma.
 - title: Reconhecimento Automático de Fala
   tags:
-    - Conceito
-    - Inteligência artificial
-  description:
-    É um campo da inteligência artificial que se concentra no desenvolvimento
+  - Conceito
+  - Inteligência artificial
+  description: É um campo da inteligência artificial que se concentra no desenvolvimento
     de sistemas que podem analisar e entender a fala humana, permitindo que os computadores
     transcrevam e processem estímulos sonoros em texto. O reconhecimento automático
     de fala e o processamento de linguagem natural são categorias de IA relacionadas,
@@ -32,15 +29,24 @@
     de navegação, transcrição de áudio, entre outros.
 - title: Recursão
   tags:
-    - Conceito
+  - Conceito
   description: Recursão é um método/função que chama a si mesmo para resolver um problema.
+    Temos de exemplo o cálculo fatorial onde um número vai multiplicando seu número
+    anterior até chegar a 1. Aqui temos um exemplo utilizando javascript, vamos imaginar
+    que chamamos está função com o número 5, neste caso a primeira vez que a função
+    for chamada irá chamar 5 x fatorial(5 - 1), depois a função será chamada novamente
+    porém desta vez com o número 4 onde será 5 x ( 4 x fatorial(4-1) ) e irá seguir
+    assim até chegar ao número 1 onde não haverá mais nenhuma chamada de função e
+    será feito este cálculo 5 x 4 x 3 x 2 x 1.
+  content:
+    code: function fatorial(numero) { if(numero == 0 || numero == 1) { return 1 }
+      return numero * fatorial(numero - 1) }
 - title: Rede Generativa Adversarial
   tags:
-    - Conceito
-    - Inteligência artificial
-    - Rede neural
-  description:
-    Do inglês, Generative Adversarial Network ou GAN, é um tipo de rede
+  - Conceito
+  - Inteligência artificial
+  - Rede neural
+  description: Do inglês, Generative Adversarial Network ou GAN, é um tipo de rede
     neural artificial composto por duas redes neurais concorrentes treinadas de forma
     adversarial. A rede neural generativa é treinada para gerar novos dados, enquanto
     a rede discriminativa é treinada para distinguir entre dados reais e dados falsos.
@@ -52,11 +58,10 @@
     discriminativo é comumente usado para identificação de dados falsos.
 - title: Rede Neural Artificial
   tags:
-    - Conceito
-    - Inteligência artificial
-    - Rede neural
-  description:
-    É um modelo computacional inspirado no sistema nervoso central de um
+  - Conceito
+  - Inteligência artificial
+  - Rede neural
+  description: É um modelo computacional inspirado no sistema nervoso central de um
     animal, que consiste em um conjunto de unidades de processamento interconectadas,
     chamadas neurônios artificiais, que simulam a forma como os neurônios se comunicam
     uns com os outros. As redes neurais artificiais (do inglês, Artificial Neural
@@ -65,33 +70,30 @@
     outros.
 - title: Rede Neural Convolucional
   tags:
-    - Conceito
-    - Inteligência artificial
-    - Rede neural
-  description:
-    É um tipo de rede neural artificial que usa uma operação matemática
+  - Conceito
+  - Inteligência artificial
+  - Rede neural
+  description: É um tipo de rede neural artificial que usa uma operação matemática
     chamada convolução em uma ou mais de suas camadas. Do inglês, Convolutional Neural
     Network ou CNN, ela é frequentemente usada para processar dados de entrada que
     têm uma estrutura matricial, como imagens, e é muito usada em aplicações de visão
     computacional, como reconhecimento de imagens e vídeos.
 - title: Rede Neural Generativa
   tags:
-    - Conceito
-    - Inteligência artificial
-    - Rede neural
-  description:
-    É um tipo de rede neural artificial que gera novos dados com base em
+  - Conceito
+  - Inteligência artificial
+  - Rede neural
+  description: É um tipo de rede neural artificial que gera novos dados com base em
     um conjunto de dados de treinamento. Estes dados geralmente são variações dos
     dados de entrada, como por exemplo alterações nas expressões de uma pessoa em
     um vídeo. Ela é frequentemente usada para gerar novas imagens, vídeos, áudios
     e textos, podendo ser usada para aumento dos dados.
 - title: Rede Neural Profunda
   tags:
-    - Conceito
-    - Inteligência artificial
-    - Rede neural
-  description:
-    Do inglês, Deep Neural Network ou DNN, é um tipo de rede neural artificial
+  - Conceito
+  - Inteligência artificial
+  - Rede neural
+  description: Do inglês, Deep Neural Network ou DNN, é um tipo de rede neural artificial
     com várias camadas de unidades de processamento interconectadas. É chamada de
     rede neural profunda devido ao número de camadas ocultas usadas no modelo de aprendizado
     profundo. Enquanto uma rede neural básica é formada por uma camada de entrada,
@@ -102,11 +104,10 @@
     mas exigem milhões de pontos de dados de amostra e centenas de horas de treinamento.
 - title: Rede Neural Recorrente
   tags:
-    - Conceito
-    - Inteligência artificial
-    - Rede neural
-  description:
-    Do inglês, Recurrent Neural Network ou RNN, é um tipo de rede neural
+  - Conceito
+  - Inteligência artificial
+  - Rede neural
+  description: Do inglês, Recurrent Neural Network ou RNN, é um tipo de rede neural
     artificial que usa loops e estados para processar dados. Ela é frequentemente
     usada para processar dados de entrada que têm uma estrutura sequencial, como textos,
     áudio, vídeo e séries temporais, sendo muito usada em aplicações de processamento
@@ -114,25 +115,22 @@
     de sentimentos.
 - title: Repositório
   tags:
-    - Conceito
-    - Ferramenta
-    - Versionamento
-  description:
-    Um Repositório é basicamente uma caixa que guarda todo o material do
+  - Conceito
+  - Ferramenta
+  - Versionamento
+  description: Um Repositório é basicamente uma caixa que guarda todo o material do
     seu projeto. Pense nele como um lugar onde você armazena o código, a história
     das mudanças e outros arquivos importantes. Existem repositórios locais no seu
     computador e repositórios remotos em servidores compartilhados.
 - title: Responsividade
   tags:
-    - Front-end
-  description:
-    A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos
+  - Front-end
+  description: A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos
     de tela e dispositivos, como smartphones, tablets e desktops.
 - title: RPA
   tags:
-    - Conceito
-  description:
-    Robotic Process Automation (Automação de Processos Robóticos), é uma
+  - Conceito
+  description: Robotic Process Automation (Automação de Processos Robóticos), é uma
     tecnologia que permite a automação de tarefas repetitivas e baseadas em regras,
     utilizando robôs de software para realizar principalmente atividades repetitivas.
     Esses robôs imitam ações humanas em sistemas digitais, como clicar em botões,
@@ -140,12 +138,9 @@
     predefinidos.
 - title: Ruby
   tags:
-    - Back-end
-    - Conceito
-  description:
-    Ruby é uma linguagem de programação interpretada multiparadigma, de
-    tipagem dinâmica e forte, com gerenciamento de memória automático. Ruby suporta
-    programação funcional, orientada a objetos, imperativa e reflexiva. É como uma
-    caixa de ferramentas digital que pode criar, organizar e fazer interagir diferentes
-    partes em um programa de computador, sendo capaz de lidar com diversos estilos
-    de programação.
+  - Back-end
+  - Conceito
+  description: Ruby é uma linguagem de programação altamente flexível criada no Japão
+    em 1995. Ela é conhecida por sua simplicidade e facilidade de uso, sendo muito
+    usada no desenvolvimento web e em aplicações de automação.
+
