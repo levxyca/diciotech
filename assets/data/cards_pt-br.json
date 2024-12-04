@@ -484,6 +484,11 @@
       }
     },
     {
+      "title": "Laravel",
+      "tags": ["Framework", "Back-end"],
+      "description": "Laravel é uma ferramenta para desenvolvimento de sistemas web em PHP. Ele oferece meios para lidar com necessidades comuns nesse tipo de aplicação além de possuir integração simplificada com diversos sistemas de banco de dados, filas e outros."
+    },
+    {
       "title": "Linguagem Baixo Nível",
       "tags": ["Conceito"],
       "description": "Linguagem de programação que possui pouca ou nenhuma abstração do computador. É uma linguagem de programação que está mais próxima da linguagem de máquina."
