@@ -33,11 +33,6 @@ A estrutura do repositório segue o padrão de [estrutura de sites em Jekyll](ht
 
 ```
 diciotech
-├── _assets (cria os cards.json final a partir dos yml)
-│   ├── en-us
-│   │   └── cards.json
-│   └── pt-br
-│       └── cards.json
 ├── assets (vão ser copiados tal qual pro repositório final, menos o style.scss)
 │   ├── css
 │   │   └── style.scss (usado pra gerar o style.css final)
@@ -48,7 +43,7 @@ diciotech
 │       ├── levenshtein.js
 │       └── theme.js
 ├── _config.yml (arquivo de configuração do Jekyll)
-├── _data (onde ficam os dados de fato dos cards)
+├── _data (aqui devem ser adicionados os termos e definições)
 │   ├── en-us
 │   │   ├── a.yml
 │   │   ├── ...
@@ -60,15 +55,20 @@ diciotech
 ├── Gemfile (arquivo de dependências do Ruby)
 ├── Gemfile.lock (arquivo de dependências do Ruby com as versões específicas)
 ├── _includes
-│   └── script.liquid.js (script que gera o script.js final)
+│   └── script.liquid.js (aqui devem ficar códigos js que dependem de valores do Jekyll)
+├── _json (cria os cards.json final a partir dos yml)
+│   ├── en-us
+│   │   └── cards.json
+│   └── pt-br
+│       └── cards.json
 ├── _layouts
 │   └── base.liquid (layout base do site)
-├── _pages (onde ficam as traduções dos termos nas páginas)
+├── _pages (onde ficam as traduções dos termos na página)
 │   ├── en-us
 │   │   └── search.md
 │   └── pt-br
 │       └── search.md
-├── _sass (vai ser todo compilado no style.css)
+├── _sass (onde devem ser feitas as mudanças no estilo do site)
 │   ├── base.scss
 │   ├── cookies.scss
 │   ├── dark_theme.scss
@@ -77,6 +77,15 @@ diciotech
 └── _site (onde o Jekyll gera o site final, não deve ser versionado)
     └── ...
 ```
+
+Dentre os arquivos e pastas, os mais importantes são:
+
+- `_data/`: onde ficam os arquivos YAML com os termos e definições, separados por idioma e letra. Aqui é onde você deve adicionar novos termos;
+- `_includes/`: onde ficam códigos js que dependem de valores do Jekyll. Você pode adicionar códigos novos no arquivo `script.liquid.js`, ou criar novos arquivos. Lembre-se de incluir os arquivos novos no layout base;
+- `_layouts/base.liquid`: layout base da página, basicamente um html com variáveis em liquid definidas em `_pages/`;
+- `_pages/`: onde ficam as traduções de textos na página que não são termos e suas definições;
+- `_sass/`: onde ficam os arquivos de estilo do site. Aqui é onde você deve fazer mudanças de css;
+- `assets/`: onde ficam os arquivos de css, js e imagens que são copiados tal qual para o site final.
 
 ## Como funciona o build do site
 
@@ -100,9 +109,32 @@ O layout base é um arquivo que contém o html básico de todas as páginas, e �
 
 Valores definidos no front matter das páginas são acessados via `{{ page.XXX }}`, como `{{ page.site_description }}`, enquanto valores definidos no arquivo `_config.yml` são acessados como `{{ site.XXX }}`, por exemplo `{{ site.baseurl }}`. Expressões delimitadas por `{% %}` como `{% include script.liquid.js %}` são expressões que são processadas durante o build pelo Jekyll. Para mais informações sobre o Jeyll, veja a [documentação oficial](https://jekyllrb.com/docs/step-by-step/01-setup/) (em inglês).
 
-Os dados dos termos são armazenados em arquivos YAML em `_data/` e separados por idioma e letra. Eles são usados para gerar os cards que aparecem na página principal. Durante o build, o Jekyll lê esses arquivos por meio dos arquivos `_assets/LANG/cards.json.liquid` e gera um arquivo JSON final em `_site/assets/data/cards.json` (para o idioma principal, no caso português `pt-br`) e um para cada outro idioma em `_site/LANG/assets/data/cards.json` (atualmente para o inglês `en-us`), que é lido para gerar os cards.
+Os dados dos termos são armazenados em arquivos YAML em `_data/` e separados por idioma e letra. Eles são usados para gerar os cards que aparecem na página principal. Durante o build, o Jekyll lê esses arquivos por meio dos arquivos `_json/LANG/cards.json.liquid` e gera um arquivo JSON final em `_site/assets/data/cards.json` (para o idioma principal, no caso português `pt-br`) e um para cada outro idioma em `_site/LANG/assets/data/cards.json` (atualmente para o inglês `en-us`), que é lido para gerar os cards.
 
-Para entender melhor como o site é contruído, é possível acessar a pasta `_site/` e verificar os arquivos gerados pelo build.
+Para entender melhor como o site é contruído, é possível acessar a pasta `_site/` e verificar os arquivos gerados pelo build, mostrado abaixo. Isso pode ajudar a entender como o Jekyll está processando os arquivos e a debugar problemas.
+
+```
+_site/
+├── assets
+│   ├── css
+│   │   └── style.css
+│   ├── data
+│   │   └── cards.json
+│   ├── img
+│   │   └── ...
+│   └── js
+│       ├── cookies.js
+│       ├── levenshtein.js
+│       └── theme.js
+├── diciotech.webmanifest
+├── en-us
+│   ├── assets
+│   │   └── data
+│   │       └── cards.json
+│   ├── diciotech.webmanifest
+│   └── index.html
+└── index.html
+```
 
 ## Discutindo as issues
 
