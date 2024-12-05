@@ -36,7 +36,7 @@ exclude:
   - run_on_data_changed.sh
   - todo.md
 
-include: ["_assets", "_pages"]
+include: ["_json", "_pages"]
 
 plugins:
   - jekyll-minifier
