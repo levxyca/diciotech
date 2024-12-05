@@ -41,6 +41,7 @@ diciotech
 │   └── js
 │       ├── cookies.js
 │       ├── levenshtein.js
+│       ├── pwa.js
 │       └── theme.js
 ├── _config.yml (arquivo de configuração do Jekyll)
 ├── _data (aqui devem ser adicionados os termos e definições)
@@ -125,6 +126,7 @@ _site/
 │   └── js
 │       ├── cookies.js
 │       ├── levenshtein.js
+│       ├── pwa.js
 │       └── theme.js
 ├── diciotech.webmanifest
 ├── en-us
