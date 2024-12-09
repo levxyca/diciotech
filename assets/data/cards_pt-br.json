@@ -860,7 +860,7 @@
     {
       "title": "Honeypot",
       "tags": ["Conceito", "Segurança cibernética"],
-      "description": "Um honeypot é um sistema de segurança configurado para detectar, desviar ou, de alguma maneira, neutralizar tentativas de uso não autorizado de sistemas de informação. Ele atrai os cibercriminosos como uma armadilha, permitindo que os administradores monitorem suas atividades e desenvolvam melhores defesas."
+      "description": "Um honeypot é um sistema de segurança configurado para detectar, desviar ou, de alguma maneira, neutralizar tentativas de uso não autorizado de sistemas de informação. A definição de honeypot vem do mundo da espionagem, onde os espiões Mata Hari usam uma relação romântica como uma forma de roubar segredos. São descritos como a colocação de um \"pote de mel\" (daí o nome, do inglês, \"honeypot\"). Ele atrai os cibercriminosos como uma armadilha, permitindo que os administradores monitorem suas atividades e desenvolvam melhores defesas."
     },
     {
       "title": "WAF",
