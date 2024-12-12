@@ -861,6 +861,21 @@
       "title": "XML",
       "tags": ["Conceito"],
       "description": "XML (do inglês, eXtensible Markup Language) é uma linguagem de marcação que define um conjunto de regras para codificar documentos. Ela é uma linguagem de marcação assim como a HTML, porém a XML foi criada para ser mais flexível, permitindo a criação de novas tags, enquanto a HTML possui um número limitado de tags pré-definidas. É uma linguagem genérica que pode ser usada para representar qualquer tipo de dado estruturado. XML é uma linguagem muito popular, sendo usada em bancos de dados, arquivos de configurações de sistemas, transmissão de informações, entre outros."
+    },
+    {
+      "title": "Honeypot",
+      "tags": ["Conceito", "Segurança cibernética"],
+      "description": "Um honeypot é um sistema de segurança configurado para detectar, desviar ou, de alguma maneira, neutralizar tentativas de uso não autorizado de sistemas de informação. A definição de honeypot vem do mundo da espionagem, onde a espiã Mata Hari usam uma relação romântica como uma forma de roubar segredos. São descritos como a colocação de um \"pote de mel\" (daí o nome, do inglês, \"honeypot\"). Ele atrai os cibercriminosos como uma armadilha, permitindo que os administradores monitorem suas atividades e desenvolvam melhores defesas."
+    },
+    {
+      "title": "WAF",
+      "tags": ["Conceito", "Segurança cibernética"],
+      "description": "O WAF (Web Application Firewall), ajuda a proteger os aplicativos web ao filtrar e monitorar o tráfego de entrada em aplicações web. Ele protege contra tipos de ataques mais comuns, tais como: falsificação de solicitação entre sites, cross-site-scripting (XSS), inclusão de arquivos e injeção de SQL, entre outros."
+    },
+    {
+      "title": "2FA",
+      "tags": ["Conceito", "Segurança cibernética"],
+      "description": "2FA (Two Factor Authentication ou autenticação de dois fatores) , é um processo de autenticação que requer dois fatores de autenticação diferentes para estabelecer a identidade. Em poucas palavras, significa exigir que um usuário prove sua identidade de duas maneiras diferentes antes de conceder acesso. A 2FA é uma forma de autenticação multifator."
     }
   ]
 }
