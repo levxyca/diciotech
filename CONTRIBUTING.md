@@ -15,6 +15,7 @@ Neste guia vamos explicar como funcionam os processos para que você possa contr
   - [Indicando melhorias e pedindo funcionalidades](#indicando-melhorias-e-pedindo-funcionalidades)
   - [⚒️ Instalando o ambiente de desenvolvimento para contribuir](#️-instalando-o-ambiente-de-desenvolvimento-para-contribuir)
     - [Usando Development Containers (recomendado)](#usando-development-containers-recomendado)
+      - [Visualizando o site em execução](#visualizando-o-site-em-execução)
     - [Instalando manualmente](#instalando-manualmente)
       - [Instalando Ruby e rbenv](#instalando-ruby-e-rbenv)
       - [Instalando as dependências do Diciotech](#instalando-as-dependências-do-diciotech)
@@ -246,9 +247,20 @@ Já para contribuições de layout ou qualquer outra, você precisa instalar o a
 
 ### Usando Development Containers (recomendado)
 
-O `diciotech` suporta [Development Containers](https://containers.dev/supporting). Para isso é necessário ter instalado o [Docker](https://www.docker.com/products/docker-desktop). Ao abrir o repositório com o Visual Studio Code (VSCode), ele solicita que você instale a extensão necessária, então ele instala automaticamente tudo o que é necessário (pode demorar um tempo na 1a execução).
+O `diciotech` suporta [Development Containers](https://containers.dev/supporting). Para configurá-lo, siga as etapas abaixo:
 
-Para ver o site em execução, abra seu navegador e vá para `http://localhost:4000`. Você deve ver uma cópia do [site](https://diciotech.netlify.app/). Agora, sinta-se à vontade para personalizar o site como desejar. Depois de terminar, lembre-se de **commitar** suas alterações finais.
+1. Certifique-se de ter o [Docker](https://www.docker.com/products/docker-desktop) instalado e em execução no seu sistema.
+2. Abra o repositório do projeto no **Visual Studio Code (VSCode)**.
+3. O VSCode solicitará que você instale a extensão necessária. Clique em "Instalar" e aguarde a configuração automática (este processo pode demorar na primeira vez).
+4. Após a instalação, clique na opção **"Reopen in Container"** quando solicitado. Novamente, aguarde enquanto o ambiente é configurado (pode levar mais tempo na primeira execução).
+5. Quando a conexão com o DevContainer for concluída, o Diciotech estará pronto para uso.
+
+#### Visualizando o site em execução
+
+1. Abra seu navegador e acesse: `http://localhost:4000`.
+2. Você verá uma cópia do [site oficial](https://diciotech.netlify.app/).
+
+Agora você pode personalizar o site conforme necessário. Após realizar as alterações, lembre-se de **commitar** suas mudanças finais.
 
 ### Instalando manualmente
 
