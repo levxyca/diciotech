@@ -154,7 +154,7 @@
       "tags": [
         "Conceito"
       ],
-      "description": "Command Line Interface é uma interface de entrada para programas de computador. Certos softwares podem possuir diversas maneiras de ser operados, tais como interface gráfica (GUI), APIs ou por linhas de comando (CLI). Um exemplo disso pode ser o próprio GitHub, que pode ser suado pelo Browser, por aplicativo Desktop ou pelo terminal com a CLI oficial."
+      "description": "Uma Command Line Interface (CLI) é uma forma de interagir com programas de computador onde você digita comandos em vez de clicar em botões ou usar menus. Existem diferentes formas de usar um software, como a interface gráfica (GUI), que é aquela que vemos com imagens e botões, ou por meio de APIs, que permitem que outros programas se comuniquem com o software. Um exemplo de software que pode ser usado de várias formas é o GitHub, que pode ser acessado através de um navegador, de um aplicativo de desktop ou pelo terminal, usando a linha de comando (CLI)."
     },
     {
       "title": "Classe",
