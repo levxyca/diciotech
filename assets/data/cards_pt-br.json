@@ -655,9 +655,9 @@
       "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). As pessoas desenvolvedoras usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes."
     },
     {
-      "title": "RDBMS",
+      "title": "SGBD",
       "tags": ["Conceito"],
-      "description": "RDMS (Relational Database Management System) ou SGBD (Sistema de Gerenciamento de Banco de Dados) é um tipo de sistema que permite o usuário a criar e manter base de dados relacionais. Podemos dizer que por exemplo o MySQL, é um RDBMS."
+      "description": "SGBD (Sistema de Gerenciamento de Banco de Dados) é um tipo de sistema que permite o usuário gerenciar base de dados, realizando operações como criar e modificar tabelas, permitir acesso para usuários entre outros. Podemos dizer que por exemplo o MySQL, é um SGBD."
     },
     {
       "title": "React",
