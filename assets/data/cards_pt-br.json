@@ -433,7 +433,7 @@
     {
       "title": "Infraestrutura como Código (IaC)",
       "tags": ["Conceito", "DevOps"],
-      "description": "Infraestrutura como código (do inglês, Infrastructure as Code ou IaC) é a prática de se construir a infraestrutura (como recursos dentro de um provedor de nuvem) através de codificação, como também fazemos ao desenvolver software. Para codificar a infraestrutura, utilizam-se ferramentas como, por exemplo, o Terraform. O código da infraestrutura é versionado com ferramentas de versionamento e pode ser mantido separado ou junto do código da aplicação que fará uso dessa infraestrutura posteriormente."
+      "description": "Infraestrutura como código (do inglês, Infrastructure as Code ou IaC) é a prática de se construir a infraestrutura (como recursos dentro de um provedor de nuvem) através de codificação, como também fazemos ao desenvolver software. Para codificar a infraestrutura, utilizam-se ferramentas como, por exemplo, o Terraform. O código da infraestrutura é versionado e pode ser mantido separado ou junto do código da aplicação que fará uso dessa infraestrutura posteriormente. Infraestrutura como Código é como um livro de receitas detalhado para cozinheiros: em vez de dar instruções verbais, você escreve tudo no livro, garantindo que todos sigam exatamente as mesmas instruções e preparem os pratos de forma consistente e precisa. Isso reduz erros e facilita a replicação de ambientes."
     },
     {
       "title": "IoT",
