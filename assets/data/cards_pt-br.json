@@ -103,6 +103,16 @@
       "description": "Tamanho do lote, em português, é um hiperparâmetro de modelos de aprendizado de máquina que controla o número de exemplos usados em uma única execução do modelo. Ele é usado para controlar a rapidez com que um modelo de aprendizado de máquina aprende e pode ser ajustado para melhorar seu desempenho. Um tamanho de lote muito pequeno durante o treinamento exige menos memória, porém mais iterações para completar uma época, enquanto um tamanho de lote maior permite um treinamento mais rápido, com menos iterações por época, porém que ocupa mais memória."
     },
     {
+      "title": "Balanceador de Carga",
+      "tags": ["Conceito"],
+      "description": "Um balanceador de carga (do inglês Load Balancer) é uma ferramenta utilizada para distribuir a carga (de requisições dos usuários, por exemplo) entre múltiplos servidores. O objetivo do uso de um balanceador de carga é o de melhorar o desempenho de aplicações, evitando a sobrecarga em um único servidor. Além disso, um balanceador de carga pode nos auxiliar a escalar um sistema e garantir a alta disponibilidade do mesmo. Para entender melhor o conceito, vamos pensar em uma fila de supermercado: se tivéssemos apenas um caixa para nos atender, possivelmente esse caixa ficaria sobrecarregado com tantas pessoas tentando pagar suas compras; Neste caso, as pessoas são direcionadas para diferentes caixas para evitar um gargalo e um alto tempo de espera em um único caixa. "
+    },
+    {
+      "title": "Blue-green deployment",
+      "tags": ["DevOps"],
+      "description": "O blue-green deployment é uma estratégia de deployment que consiste em termos uma réplica do ambiente produtivo. As novas versões de software são implantadas nessa réplica, e, depois da implantação, alterna-se o tráfego dos usuários para o ambiente com a nova versão, liberando assim o acesso a essa nova versão para todos os usuários. Uma de suas vantagens é que, em caso de erros na nova versão, basta redirecionar as requisições dos usuários de volta para o sistema anterior. Para entender melhor o blue-green deployment, imagine que você tem duas cozinhas em um restaurante: uma azul e uma verde. A cozinha azul está funcionando e servindo os clientes, enquanto você prepara a cozinha verde. Quando a cozinha verde está pronta, você começa a usá-la para servir os clientes. Se tudo correr bem, você desativa a cozinha azul. Se houver problemas, você pode voltar rapidamente para a cozinha azul."
+    },
+    {
       "title": "Botnet",
       "tags": ["Conceito", "Segurança cibernética"],
       "description": "Botnet é uma rede de dispositivos conectados na internet infectados por um malware (os malwares são programas maliciosos que afetam um dispositivo), possibilitando que criminosos-ciberneticos derrubem sites usando essa rede de dispositivos. Os dispositivos pedem ser desde um computador até um equipamento IoT (um aparelho IoT é um equipamento conectado à internet sem o uso de cabos, por exemplo: TVs inteligentes, lampadas inteligentes, geladeiras inteligentes e celulares)."
@@ -136,6 +146,11 @@
       "title": "Cache",
       "tags": ["Conceito"],
       "description": "O cache é uma técnica de armazenamento temporário de dados frequentemente usados para melhorar o desempenho e a velocidade de acesso a esses dados em sistemas computacionais."
+    },
+    {
+      "title": "Canary deployment",
+      "tags": ["DevOps"],
+      "description": "O canary deployment é uma estratégia de deployment que consiste em termos uma réplica do ambiente produtivo. As novas versões de software são implantadas nessa réplica, e, depois da implantação, o lançamento da nova versão é feito de maneira gradual, encaminhando um percentual das requisições dos usuários para o ambiente que contém esta nova versão. Para realizar este chaveamento gradual, é possível utilizar um load-balancer, por exemplo. Para entender melhor o canary deployment, imagine que você tem um restaurante e quer lançar um prato novo no cardápio. Porém, em vez de oferecer esse prato novo a todos os clientes, você seleciona apenas um pequeno grupo de clientes para os quais o prato será oferecido e testa como eles irão reagir ao prato. Se o feedback for positivo, você pode começar a oferecer o novo prato a um grupo maior de clientes, até que o prato seja de fato lançado no cardápio para todos eles."
     },
     {
       "title": "Chatbot",
@@ -436,6 +451,11 @@
       "title": "Inteligência Artificial",
       "tags": ["Conceito", "Inteligência artificial"],
       "description": "Também chamada de IA (no inglês, Artificial Intelligence ou AI), é um campo da ciência da computação que estuda como os computadores podem simular a inteligência e cognição humana. Ela se concentra no desenvolvimento de sistemas capazes de executar tarefas que antes poderiam ser feitas somente por humanos, como reconhecimento de fala, tomada de decisão, tradução de idiomas e reconhecimento de padrões. A IA é um campo amplo que inclui várias subáreas, como aprendizado de máquina, processamento de linguagem natural, visão computacional, entre outras."
+    },
+    {
+      "title": "Infraestrutura como Código (IaC)",
+      "tags": ["Conceito", "DevOps"],
+      "description": "Infraestrutura como código (do inglês, Infrastructure as Code ou IaC) é a prática de se construir a infraestrutura (como recursos dentro de um provedor de nuvem) através de codificação, como também fazemos ao desenvolver software. Para codificar a infraestrutura, utilizam-se ferramentas como, por exemplo, o Terraform. O código da infraestrutura é versionado e pode ser mantido separado ou junto do código da aplicação que fará uso dessa infraestrutura posteriormente. Infraestrutura como Código é como um livro de receitas detalhado para cozinheiros: em vez de dar instruções verbais, você escreve tudo no livro, garantindo que todos sigam exatamente as mesmas instruções e preparem os pratos de forma consistente e precisa. Isso reduz erros e facilita a replicação de ambientes."
     },
     {
       "title": "IoT",
