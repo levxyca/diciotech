@@ -110,7 +110,7 @@
     {
       "title": "Blue-green deployment",
       "tags": ["DevOps"],
-      "description": "O blue-green deployment é uma estratégia de deployment que consiste em ter um ambiente extra que replica todas as configurações do ambiente produtivo. As novas versões de software são implantadas neste ambiente separado, e depois da implantação, chaveiam-se os ambientes e todas as requisições dos usuários são encaminhadas para este ambiente com a nova versão, liberando assim o acesso a essa nova versão para todos os usuários. Uma de suas vantagens é: em caso de erros constatados nesta nova versão, basta realizar o chaveamento e encaminhamento das requisições dos usuários de volta para o ambiente com a versão anterior."
+      "description": "O blue-green deployment é uma estratégia de deployment que consiste em termos uma réplica do ambiente produtivo. As novas versões de software são implantadas nessa réplica, e, depois da implantação, alterna-se o tráfego dos usuários para o ambiente com a nova versão, liberando assim o acesso a essa nova versão para todos os usuários. Uma de suas vantagens é que, em caso de erros na nova versão, basta redirecionar as requisições dos usuários de volta para o sistema anterior. Para entender melhor o blue-green deployment, imagine que você tem duas cozinhas em um restaurante: uma azul e uma verde. A cozinha azul está funcionando e servindo os clientes, enquanto você prepara a cozinha verde. Quando a cozinha verde está pronta, você começa a usá-la para servir os clientes. Se tudo correr bem, você desativa a cozinha azul. Se houver problemas, você pode voltar rapidamente para a cozinha azul."
     },
     {
       "title": "Botnet",
