@@ -105,7 +105,7 @@
     {
       "title": "Balanceador de Carga",
       "tags": ["Conceito"],
-      "description": "Um balanceador de carga (do inglês Load Balancer) é uma ferramenta utilizada para distribuir a carga (de requisições dos usuários, por exemplo) entre múltiplos servidores. O objetivo do uso de um balanceador de carga é o de melhorar o desempenho de aplicações, evitando a sobrecarga em um único servidor. Além disso, um balanceador de carga pode nos auxiliar a escalar um sistema e garantir a alta disponibilidade do mesmo."
+      "description": "Um balanceador de carga (do inglês Load Balancer) é uma ferramenta utilizada para distribuir a carga (de requisições dos usuários, por exemplo) entre múltiplos servidores. O objetivo do uso de um balanceador de carga é o de melhorar o desempenho de aplicações, evitando a sobrecarga em um único servidor. Além disso, um balanceador de carga pode nos auxiliar a escalar um sistema e garantir a alta disponibilidade do mesmo. Para entender melhor o conceito, vamos pensar em uma fila de supermercado: se tivéssemos apenas um caixa para nos atender, possivelmente esse caixa ficaria sobrecarregado com tantas pessoas tentando pagar suas compras; Neste caso, as pessoas são direcionadas para diferentes caixas para evitar um gargalo e um alto tempo de espera em um único caixa. "
     },
     {
       "title": "Blue-green deployment",
