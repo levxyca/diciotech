@@ -150,7 +150,7 @@
     {
       "title": "Canary deployment",
       "tags": ["DevOps"],
-      "description": "O canary deployment é uma estratégia de deployment que consiste em ter um ambiente extra que replica todas as configurações do ambiente produtivo. As novas versões de software são implantadas neste ambiente separado, e depois da implantação, o chaveamento entre ambientes é feito de maneira gradual, encaminhando um percentual das requisições dos usuários para este ambiente com a nova versão. Para realizar este chaveamento gradual, é possível utilizar um load-balancer, por exemplo."
+      "description": "O canary deployment é uma estratégia de deployment que consiste em termos uma réplica do ambiente produtivo. As novas versões de software são implantadas nessa réplica, e, depois da implantação, o lançamento da nova versão é feito de maneira gradual, encaminhando um percentual das requisições dos usuários para o ambiente que contém esta nova versão. Para realizar este chaveamento gradual, é possível utilizar um load-balancer, por exemplo. Para entender melhor o canary deployment, imagine que você tem um restaurante e quer lançar um prato novo no cardápio. Porém, em vez de oferecer esse prato novo a todos os clientes, você seleciona apenas um pequeno grupo de clientes para os quais o prato será oferecido e testa como eles irão reagir ao prato. Se o feedback for positivo, você pode começar a oferecer o novo prato a um grupo maior de clientes, até que o prato seja de fato lançado no cardápio para todos eles."
     },
     {
       "title": "Chatbot",
