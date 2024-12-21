@@ -165,6 +165,13 @@
       "description": "Cidades Inteligentes (Smart Cities) são localidades que utilizam infraestrutura urbana organizada e tecnologias digitais para otimizar seus processos. Isso inclui o uso de dispositivos com Inteligência Artificial e Internet das Coisas, entre outros."
     },
     {
+      "title": "CLI",
+      "tags": [
+        "Conceito"
+      ],
+      "description": "Uma Command Line Interface (CLI) é uma forma de interagir com programas de computador onde você digita comandos em vez de clicar em botões ou usar menus. Existem diferentes formas de usar um software, como a interface gráfica (GUI), que é aquela que vemos com imagens e botões, ou por meio de APIs, que permitem que outros programas se comuniquem com o software. Um exemplo de software que pode ser usado de várias formas é o GitHub, que pode ser acessado através de um navegador, de um aplicativo de desktop ou pelo terminal, usando a linha de comando (CLI)."
+    },
+    {
       "title": "Classe",
       "tags": ["Conceito"],
       "description": "Uma classe, em desenvolvimento de software, é como molde e um \"modelo\" para criar objetos. Ela define os atributos (dados) e os métodos (funções) que os objetos criados a partir dela terão. Elas ajudam a organizar o código, permitindo a reutilização e a abstração de dados e funcionalidades em uma estrutura coerente."
@@ -177,7 +184,7 @@
     {
       "title": "CMD",
       "tags": ["Conceito"],
-      "description": "O CMD (abreviação de \"Command Prompt\", ou Prompt de Comando) é uma interface de linha de comando presente no sistema operacional Windows. Ele permite que os usuários interajam diretamente com o sistema usando comandos de texto, ao invés de uma interface gráfica (GUI). No CMD, você pode executar uma série de tarefas e comandos diretamente, como navegar por diretórios, manipular arquivos, configurar o sistema e rodar programas. Conceitos Principais: Linha de Comando: É onde você digita os comandos. Ao contrário de uma interface gráfica, onde você clica em ícones e botões, na linha de comando, você escreve instruções que o computador executa diretamente. Prompt: Refere-se à tela inicial onde você começa a digitar os comandos."
+      "description": "O CMD (abreviação de \"Command Prompt\", ou Prompt de Comando) é um Terminal presente no sistema operacional Windows. Ver Terminal para mais informações."
     },
     {
       "title": "Coalescência nula",
@@ -382,8 +389,23 @@
     },
     {
       "title": "GitHub",
-      "tags": ["Conceito", "Ferramenta", "Versionamento"],
-      "description": "O GitHub é uma plataforma de hospedagem de código-fonte baseada na web que oferece uma variedade de serviços relacionados ao controle de versão e colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar, colaborar, gerenciar e controlar o código-fonte de projetos de software."
+      "tags": ["Ferramenta", "Versionamento"],
+      "description": "O GitHub é uma plataforma de hospedagem de código-fonte baseada na web que oferece uma variedade de serviços relacionados ao controle de versão e colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele é amplamente utilizado por pessoas desenvolvedoras de todo o mundo para armazenar, colaborar, gerenciar e controlar o código-fonte de projetos de software. Fornece ferramentas de CI/CD (integração contínua e entrega contínua) com o GitHub Actions."
+    },
+    {
+      "title": "GitLab",
+      "tags": ["Ferramenta", "Versionamento"],
+      "description": "Assim como o GitHub, o GitLab também é uma plataforma de hospedagem de código-fonte baseada em Git que assim como o GitHub, oferece ferramentas integradas de CI/CD (integração contínua e entrega contínua) diretamente. Se destaca por ter uma política \"open core\", na qual é possível acessar e contribuir com seu código-fonte, sendo muito mais transparente que as outras plataformas que mantêm seus códigos-fonte fechados."
+    },
+    {
+      "title": "BitBucket",
+      "tags": ["Ferramenta", "Versionamento"],
+      "description": "Assim como GitHub, o BitBucket também é uma plataforma de hospedagem de código-fonte e também possui ferramentes integradas de CI/CD, mas se integra especialmente bem com ferramentas Atlassian, como o Jira, e suporta repositórios Git e Mercurial, enquanto o GitHub só suporta Git."
+    },
+    {
+      "title": "AWS Commit",
+      "tags": ["Ferramenta", "Versionamento"],
+      "description": "AWS Commit é a plataforma de hospedagem de código-fonte da Amazon (AWS) e está totalmente integrado com o ecossistema AWS, permitindo fácil automação e integração com outros serviços da AWS, como CodePipeline (para CI/CD), IAM (controle de permissões), e CloudWatch (monitoramento)."
     },
     {
       "title": "GPT",
@@ -466,6 +488,16 @@
       }
     },
     {
+      "title": "JSP",
+      "tags": ["Back-end", "Front-End"],
+      "description": "JSP (JavaServer Pages) é uma tecnologia antiga que permitia a construção de páginas HTML usando a linguagem Java. Com ela, era possível executar lógica de negócio na tela, levando objetos Java para o front de uma maneira fácil. Tudo era executado por um servidor de aplicação, que traduzia o código em um HTML final antes de voltar para o browser. Hoje em dia, só é encontrado em sistemas legados."
+    },
+    {
+      "title": "JSF",
+      "tags": ["Back-end", "Front-End"],
+      "description": "JSF (JavaServer Faces) é uma evolução de JSP, onde foram introduzidos bibliotecas de componentes ricos de navegação de interface, tais como Primefaces, facilitando a construção de aplicações frontends."
+    },
+    {
       "title": "Laço",
       "tags": ["Conceito"],
       "description": "Um laço (do inglês, loop) é uma estrutura de controle que permite executar repetidamente um bloco de código enquanto uma condição for verdadeira. Ele é usado para automatizar tarefas repetitivas e economizar tempo e esforço. Existem vários tipos de laços, como o laço 'for', o laço 'while' e o laço 'do-while'."
@@ -477,6 +509,11 @@
       "content": {
         "code": "soma = lambda x, y: x + y"
       }
+    },
+    {
+      "title": "Laravel",
+      "tags": ["Framework", "Back-end"],
+      "description": "Laravel é uma ferramenta para desenvolvimento de sistemas web em PHP. Ele oferece meios para lidar com necessidades comuns nesse tipo de aplicação além de possuir integração simplificada com diversos sistemas de banco de dados, filas e outros."
     },
     {
       "title": "Linguagem Baixo Nível",
@@ -592,7 +629,7 @@
     {
       "title": "Polimorfismo",
       "tags": ["Conceito"],
-      "description": "O polimorfismo permite que objetos de diferentes tipos se comportem de maneira semelhante através de uma interface compartilhada."
+      "description": "O polimorfismo permite que objetos de diferentes tipos se comportem de maneira semelhante através de uma interface compartilhada, embora cada tipo possa responder de uma forma própria."
     },
     {
       "title": "Ponteiros",
@@ -636,6 +673,11 @@
       "title": "Python",
       "tags": ["Back-end"],
       "description": "O Python é uma linguagem de programação amplamente usada em aplicações da Web, desenvolvimento de software, ciência de dados e machine learning (ML). As pessoas desenvolvedoras usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes."
+    },
+    {
+      "title": "SGBD",
+      "tags": ["Conceito"],
+      "description": "SGBD (Sistema de Gerenciamento de Banco de Dados) é um tipo de sistema que permite o usuário gerenciar base de dados, realizando operações como criar e modificar tabelas, permitir acesso para usuários entre outros. Podemos dizer que por exemplo o MySQL, é um SGBD."
     },
     {
       "title": "React",
@@ -776,6 +818,11 @@
       "description": "Também chamada de taxa de aprendizagem (do inglês, learning rate ou LR), é um hiperparâmetro de treinamento de modelos de aprendizado de máquina que controla a rapidez com que um modelo de aprendizado de máquina aprende. É um dos hiperparâmetros mais importantes de um modelo de aprendizado de máquina e pode ser ajustada para melhorar o desempenho do modelo. Ela controla qual é o tamanho do passo que será dado durante o aprendizado em direção ao mínimo calculado pelo gradiente. Uma taxa de aprendizado muito alta pode causar a explosão do gradiente, enquanto uma taxa de aprendizado muito baixa pode causar o desaparecimento do gradiente. Existem diversas técnicas que permitem alterar a taxa de aprendizado durante o treinamento, como decaimento da taxa de aprendizado, agendamento da taxa de aprendizado, aquecimento da taxa de aprendizado, entre outras."
     },
     {
+      "title": "Terminal",
+      "tags": ["Conceito"],
+      "description": "O Terminal é uma CLI que permite que os usuários interajam diretamente com o sistema operacional usando comandos de texto, ao invés de uma interface gráfica (GUI). No Terminal, você pode executar uma série de tarefas e comandos diretamente, como navegar por diretórios, manipular arquivos, configurar o sistema e rodar programas. Podemos destacar como terminais: Bash (Linux e MacOS), CMD (Windows) e PowerShell (Windows)."
+    },
+    {
       "title": "TI Verde",
       "tags": [
         "Conceito"
@@ -851,6 +898,21 @@
       "title": "XML",
       "tags": ["Conceito"],
       "description": "XML (do inglês, eXtensible Markup Language) é uma linguagem de marcação que define um conjunto de regras para codificar documentos. Ela é uma linguagem de marcação assim como a HTML, porém a XML foi criada para ser mais flexível, permitindo a criação de novas tags, enquanto a HTML possui um número limitado de tags pré-definidas. É uma linguagem genérica que pode ser usada para representar qualquer tipo de dado estruturado. XML é uma linguagem muito popular, sendo usada em bancos de dados, arquivos de configurações de sistemas, transmissão de informações, entre outros."
+    },
+    {
+      "title": "Honeypot",
+      "tags": ["Conceito", "Segurança cibernética"],
+      "description": "Um honeypot é um sistema de segurança configurado para detectar, desviar ou, de alguma maneira, neutralizar tentativas de uso não autorizado de sistemas de informação. A definição de honeypot vem do mundo da espionagem, onde a espiã Mata Hari usam uma relação romântica como uma forma de roubar segredos. São descritos como a colocação de um \"pote de mel\" (daí o nome, do inglês, \"honeypot\"). Ele atrai os cibercriminosos como uma armadilha, permitindo que os administradores monitorem suas atividades e desenvolvam melhores defesas."
+    },
+    {
+      "title": "WAF",
+      "tags": ["Conceito", "Segurança cibernética"],
+      "description": "O WAF (Web Application Firewall), ajuda a proteger os aplicativos web ao filtrar e monitorar o tráfego de entrada em aplicações web. Ele protege contra tipos de ataques mais comuns, tais como: falsificação de solicitação entre sites, cross-site-scripting (XSS), inclusão de arquivos e injeção de SQL, entre outros."
+    },
+    {
+      "title": "2FA",
+      "tags": ["Conceito", "Segurança cibernética"],
+      "description": "2FA (Two Factor Authentication ou autenticação de dois fatores) , é um processo de autenticação que requer dois fatores de autenticação diferentes para estabelecer a identidade. Em poucas palavras, significa exigir que um usuário prove sua identidade de duas maneiras diferentes antes de conceder acesso. A 2FA é uma forma de autenticação multifator."
     }
   ]
 }

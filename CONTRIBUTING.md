@@ -34,6 +34,13 @@ Existem diversas formas de contribuir com o projeto:
 
 Para visualizar seu projeto, você pode abrir o arquivo `index.html` em um navegador. Se quiser usar um servidor local (opcional), você pode instalar uma extensão no seu editor ou usar ferramentas como o **Live Server** no Visual Studio Code.
 
+Exemplo:
+```shell
+npm install http-server -g
+# Na pasta do projeto.
+http-server
+```
+
 <details>
    <summary>
 :rotating_light: Para efetuar alterações em documentações
