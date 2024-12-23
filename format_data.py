@@ -12,6 +12,10 @@ def main(file: Path):
     with open(file) as f:
         data = yaml.safe_load(f)
 
+    if not data:
+        print(f'Warning: the file {file} is empty')
+        return
+
     # sort cards by 'title' value
     try:
         data = sorted(data, key=lambda x: strip_accents(x['title'].lower()))
