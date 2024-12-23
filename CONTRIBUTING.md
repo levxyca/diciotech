@@ -182,13 +182,15 @@ Note que o campo `content` é opcional e só deve ser usado se houver um exemplo
 
 > **Observação:** caso a sua contribuição não se alinhe com qualquer uma das tags disponíveis, listadas na seção seguinte, verifique a seção [Adicionando uma nova tag no Diciotech](#adicionando-uma-nova-tag-no-diciotech).
 
+> **Observação 2:** sempre que possível, adicione também a tradução do termo para todos os idiomas suportados pelo Diciotech. Caso não saiba como fazer isso, não se preocupe. Abra um PR com o termo em um idioma e a comunidade vai te ajudar a traduzir para os outros.
+
 Antes de abrir o pull request, algumas **boas práticas** devem ser seguidas para uma maior organização e estabilidade do Diciotech.
 
-- Se o termo conter um código de exemplo, evite o escrever em uma linguagem de programação específica, faça isso **apenas** se realmente necessário;
+- Se o termo conter um código de exemplo, evite escrever em uma linguagem de programação específica, faça isso **apenas** se realmente necessário;
 - Um termo, deve ser vinculado a, no mínimo, uma tag;
 - Atribuir a um termo apenas as tags presentes nessa documentação, da exata mesma forma e escrita;
 - Evite duplicações de tags em um mesmo termo;
-- Tome a cuidado para que as tags atribuídas a um termo façam sentido com o mesmo.
+- Tome o cuidado para que as tags atribuídas a um termo façam sentido com o mesmo.
 
 ## Adicionando uma nova tag no Diciotech
 
@@ -204,7 +206,6 @@ Tags disponíveis:
 - `Ferramenta`;
 - `Framework`;
 - `Front-end`;
-- `Front-End`;
 - `Inteligência artificial`;
 - `Mobile`;
 - `Paradigma`;
