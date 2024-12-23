@@ -13,7 +13,12 @@ def main(file: Path):
         data = yaml.safe_load(f)
 
     # sort cards by 'title' value
-    data = sorted(data, key=lambda x: strip_accents(x['title'].lower()))
+    try:
+        data = sorted(data, key=lambda x: strip_accents(x['title'].lower()))
+    except KeyError:
+        cards_without_title = [card['description'] for card in data if 'title' not in card]
+        print(f'Warning: the following cards do not have a title: {cards_without_title}')
+        raise
 
     try:
         # sort tags inside each card by value
