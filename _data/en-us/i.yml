@@ -10,7 +10,7 @@
 - title: Infrastructure as Code
   tags:
     - Concept
-    - DevOps
+    - Devops
   description:
     "Infrastructure as Code (IaC) is the practice of building infrastructure
     (such as resources within a cloud provider) through coding, just as we do when

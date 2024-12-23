@@ -16,7 +16,7 @@
 - title: JSF
   tags:
     - Back-end
-    - Front-End
+    - Front-end
   description:
     JSF (JavaServer Faces) is an evolution of JSP, where rich interface
     navigation component libraries were introduced, such as Primefaces, facilitating
@@ -34,7 +34,7 @@
 - title: JSP
   tags:
     - Back-end
-    - Front-End
+    - Front-end
   description:
     JSP (JavaServer Pages) is an old technology that allowed the construction
     of HTML pages using the Java language. With it, it was possible to execute business

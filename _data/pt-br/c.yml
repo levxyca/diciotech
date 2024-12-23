@@ -27,7 +27,7 @@
 - title: Canary deployment
   tags:
     - Conceito
-    - DevOps
+    - Devops
   description:
     O canary deployment é uma estratégia de deployment que consiste em
     termos uma réplica do ambiente produtivo. As novas versões de software são implantadas
