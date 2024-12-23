@@ -1,3 +1,14 @@
+- title: Honeypot
+  tags:
+    - Concept
+    - Cybersecurity
+  description:
+    A honeypot is a security system configured to detect, divert, or in
+    some way neutralize attempts of unauthorized use of information systems. The definition
+    of honeypot comes from the world of espionage, where the spy Mata Hari uses a
+    romantic relationship as a way to steal secrets. They are described as the placement
+    of a "honey pot". It attracts cybercriminals as a trap, allowing administrators
+    to monitor their activities and develop better defenses.
 - title: HTML
   tags:
     - Front-end

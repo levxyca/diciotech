@@ -1,15 +1,31 @@
 - title: IDE
   tags:
-  - Tool
-  description: IDE is short for Integrated Development Environment. It is a program
+    - Tool
+  description:
+    IDE is short for Integrated Development Environment. It is a program
     with graphical interfaces that facilitate the interaction of developers in the
     creation of applications. Typically an IDE includes a source code editor and debugging
     tools to identify and correct errors. Popular examples of IDEs include Android
     Studio, Eclipse, and Visual Studio Code.
+- title: Infrastructure as Code
+  tags:
+    - Concept
+    - DevOps
+  description:
+    "Infrastructure as Code (IaC) is the practice of building infrastructure
+    (such as resources within a cloud provider) through coding, just as we do when
+    developing software. To code the infrastructure, tools like Terraform are used.
+    The infrastructure code is versioned and can be kept separate or together with
+    the application code that will use this infrastructure later. Infrastructure as
+    Code is like a detailed recipe book for cooks: instead of giving verbal instructions,
+    you write everything in the book, ensuring that everyone follows exactly the same
+    instructions and prepares the dishes consistently and accurately. This reduces
+    errors and facilitates environment replication."
 - title: Inheritance
   tags:
-  - Concept
-  description: Inheritance works like a "family tree". It allows a class or object
+    - Concept
+  description:
+    Inheritance works like a "family tree". It allows a class or object
     to inherit characteristics and behaviors from another parent class. This means
     that the child class inherits the attributes and methods of the parent class,
     saving time and promoting code reuse. Inheritance is a way to organize and structure
@@ -17,8 +33,9 @@
     objects.
 - title: IoT
   tags:
-  - Concept
-  description: IoT (Internet of Things) is a type of technology composed of a network
+    - Concept
+  description:
+    IoT (Internet of Things) is a type of technology composed of a network
     of interconnected devices and objects, such as sensors, cameras, household items,
     electronic devices, and vehicles, for example. Its goal is basically to connect
     the most diverse equipment to the internet in order to capture and exchange data
@@ -26,9 +43,9 @@
     tools.
 - title: Issue
   tags:
-  - Concept
-  - Versioning
-  description: An issue is like a note that notes a problem or something to be done
+    - Concept
+    - Versioning
+  description:
+    An issue is like a note that notes a problem or something to be done
     in a project. It is like a reminder that can be used to talk about bugs, request
     new features, discuss improvements, or keep an eye on a task.
-

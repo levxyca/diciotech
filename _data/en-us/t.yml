@@ -1,3 +1,13 @@
+- title: Terminal
+  tags:
+    - Concept
+  description:
+    "The Terminal is a CLI that allows users to interact directly with
+    the operating system using text commands, instead of a graphical interface (GUI).
+    In the Terminal, you can perform a series of tasks and commands directly, such
+    as navigating directories, manipulating files, configuring the system, and running
+    programs. We can highlight terminals such as: Bash (Linux and MacOS), Zsh (Linux
+    and MacOS), Fish (Linux and MacOS), CMD (Windows), and PowerShell (Windows)."
 - title: Ternary Operator
   tags:
     - Concept

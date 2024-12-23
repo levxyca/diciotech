@@ -17,6 +17,18 @@
     de aprendizado de máquina que não é alterado durante o treinamento. Ele é usado
     para controlar o comportamento de um modelo de aprendizado de máquina e pode ser
     ajustado para melhorar seu desempenho.
+- title: Honeypot
+  tags:
+    - Conceito
+    - Segurança cibernética
+  description:
+    Um honeypot é um sistema de segurança configurado para detectar, desviar
+    ou, de alguma maneira, neutralizar tentativas de uso não autorizado de sistemas
+    de informação. A definição de honeypot vem do mundo da espionagem, onde a espiã
+    Mata Hari usa uma relação romântica como uma forma de roubar segredos. São descritos
+    como a colocação de um "pote de mel" (daí o nome, do inglês, "honeypot"). Ele
+    atrai os cibercriminosos como uma armadilha, permitindo que os administradores
+    monitorem suas atividades e desenvolvam melhores defesas.
 - title: HTML
   tags:
     - Front-end

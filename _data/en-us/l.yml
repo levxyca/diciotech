@@ -17,6 +17,14 @@
     and used without a specific name, often used for simple one-line expressions.
   content:
     code: "sum = lambda x, y: x + y"
+- title: Laravel
+  tags:
+    - Back-end
+    - Framework
+  description:
+    Laravel is a tool for developing web systems in PHP. It offers ways
+    to deal with common needs in this type of application, as well as having simplified
+    integration with various database systems, queues, and others.
 - title: Large Language Model
   tags:
     - Artificial intelligence
@@ -63,6 +71,18 @@
     the gradient to disappear. There are several techniques that allow you to change
     the learning rate during training, such as learning rate decay, learning rate
     scheduling, learning rate warming, among others.
+- title: Load balancer
+  tags:
+    - Concept
+  description:
+    "A load balancer is a tool used to distribute the load (of user requests,
+    for example) among multiple servers. The goal of using a load balancer is to improve
+    the performance of applications, avoiding overload on a single server. In addition,
+    a load balancer can help us scale a system and ensure its high availability. To
+    better understand the concept, let's think of a supermarket queue: if we had
+    only one cashier to serve us, this cashier would probably be overloaded with so
+    many people trying to pay for their purchases. In this case, people are directed
+    to different cashiers to avoid a bottleneck and a long wait time at a single cashier."
 - title: Loop
   tags:
     - Concept

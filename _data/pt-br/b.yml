@@ -1,8 +1,23 @@
+- title: Balanceador de Carga
+  tags:
+    - Conceito
+  description:
+    "Um balanceador de carga (do inglês Load Balancer) é uma ferramenta
+    utilizada para distribuir a carga (de requisições dos usuários, por exemplo) entre
+    múltiplos servidores. O objetivo do uso de um balanceador de carga é o de melhorar
+    o desempenho de aplicações, evitando a sobrecarga em um único servidor. Além disso,
+    um balanceador de carga pode nos auxiliar a escalar um sistema e garantir a alta
+    disponibilidade do mesmo. Para entender melhor o conceito, vamos pensar em uma
+    fila de supermercado: se tivéssemos apenas um caixa para nos atender, possivelmente
+    esse caixa ficaria sobrecarregado com tantas pessoas tentando pagar suas compras.
+    Neste caso, as pessoas são direcionadas para diferentes caixas para evitar um
+    gargalo e um alto tempo de espera em um único caixa."
 - title: Batch Size
   tags:
-  - Conceito
-  - Inteligência artificial
-  description: Tamanho do lote, em português, é um hiperparâmetro de modelos de aprendizado
+    - Conceito
+    - Inteligência artificial
+  description:
+    Tamanho do lote, em português, é um hiperparâmetro de modelos de aprendizado
     de máquina que controla o número de exemplos usados em uma única execução do modelo.
     Ele é usado para controlar a rapidez com que um modelo de aprendizado de máquina
     aprende e pode ser ajustado para melhorar seu desempenho. Um tamanho de lote muito
@@ -11,46 +26,67 @@
     com menos iterações por época, porém que ocupa mais memória.
 - title: BitBucket
   tags:
-  - Ferramenta
-  - Versionamento
-  description: Assim como o GitHub, o BitBucket também é uma plataforma de hospedagem
+    - Ferramenta
+    - Versionamento
+  description:
+    Assim como o GitHub, o BitBucket também é uma plataforma de hospedagem
     de código-fonte e também possui ferramentes integradas de CI/CD, mas se integra
     especialmente bem com ferramentas Atlassian, como o Jira, e suporta repositórios
     Git e Mercurial, enquanto o GitHub só suporta Git.
+- title: Blue-green deployment
+  tags:
+    - Conceito
+    - DevOps
+  description:
+    "O blue-green deployment é uma estratégia de deployment que consiste
+    em termos uma réplica do ambiente de produção. As novas versões de software são
+    implantadas nessa réplica, e, depois da implantação, alterna-se o tráfego dos
+    usuários para o ambiente com a nova versão, liberando assim o acesso a essa nova
+    versão para todos os usuários. Uma de suas vantagens é que, em caso de erros na
+    nova versão, basta redirecionar as requisições dos usuários de volta para o sistema
+    anterior. Para entender melhor o blue-green deployment, imagine que você tem duas
+    cozinhas em um restaurante: uma azul e uma verde. A cozinha azul está funcionando
+    e servindo os clientes, enquanto você prepara a cozinha verde. Quando a cozinha
+    verde está pronta, você começa a usá-la para servir os clientes. Se tudo correr
+    bem, você desativa a cozinha azul. Se houver problemas, você pode voltar rapidamente
+    para a cozinha azul."
 - title: Botnet
   tags:
-  - Conceito
-  - Segurança cibernética
-  description: 'Botnet é uma rede de dispositivos conectados na internet infectados
+    - Conceito
+    - Segurança cibernética
+  description:
+    "Botnet é uma rede de dispositivos conectados na internet infectados
     por um malware (os malwares são programas maliciosos que afetam um dispositivo),
     possibilitando que criminosos-ciberneticos derrubem sites usando essa rede de
     dispositivos. Os dispositivos pedem ser desde um computador até um equipamento
     IoT (um aparelho IoT é um equipamento conectado à internet sem o uso de cabos,
     por exemplo: TVs inteligentes, lampadas inteligentes, geladeiras inteligentes
-    e celulares).'
+    e celulares)."
 - title: Branch
   tags:
-  - Conceito
-  - Ferramenta
-  - Versionamento
-  description: Uma branch é como uma cópia do seu projeto em um momento específico.
+    - Conceito
+    - Ferramenta
+    - Versionamento
+  description:
+    Uma branch é como uma cópia do seu projeto em um momento específico.
     É como se você criasse uma versão separada para trabalhar em novas ideias sem
     mexer na versão principal. Cada branch pode ser editado à parte, permitindo que
     você desenvolva coisas novas sem atrapalhar o código principal.
 - title: Bug
   tags:
-  - Conceito
-  description: O termo Bug é comumente usado para informar que há algum problema no
+    - Conceito
+  description:
+    O termo Bug é comumente usado para informar que há algum problema no
     programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente
     causados por lógica incorreta no código, causando falhas durante a execução de
     um software.
 - title: Busca de Arquitetura Neural
   tags:
-  - Conceito
-  - Inteligência artificial
-  description: No inglês, Neural Architecture Search ou NAS, é um processo de otimização
+    - Conceito
+    - Inteligência artificial
+  description:
+    No inglês, Neural Architecture Search ou NAS, é um processo de otimização
     que usa algoritmos de busca para encontrar a melhor arquitetura de rede neural
     para um determinado conjunto de dados. Ela é usada para encontrar a melhor arquitetura
     de rede neural para resolver determinado problema, melhorando o desempenho e reduzindo
     o tempo de treinamento em comparação com a busca manual pela melhor arquitetura.
-

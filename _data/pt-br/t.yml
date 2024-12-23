@@ -1,7 +1,8 @@
 - title: Tag em HTML/XML
   tags:
-  - Conceito
-  description: Uma tag é um elemento de marcação usado em linguagens de marcação,
+    - Conceito
+  description:
+    Uma tag é um elemento de marcação usado em linguagens de marcação,
     como HTML e XML, para definir a estrutura e o significado de um documento. Elas
     são usadas para definir o início e o fim de um elemento, como um parágrafo, uma
     tabela ou uma imagem. As tags são escritas entre os sinais de menor e maior, como
@@ -10,9 +11,10 @@
     ele pode ser definido somente como <tag /> ao invés de <tag></tag>.
 - title: Taxa de Aprendizado
   tags:
-  - Conceito
-  - Inteligência artificial
-  description: Também chamada de taxa de aprendizagem (do inglês, learning rate ou
+    - Conceito
+    - Inteligência artificial
+  description:
+    Também chamada de taxa de aprendizagem (do inglês, learning rate ou
     LR), é um hiperparâmetro de treinamento de modelos de aprendizado de máquina que
     controla a rapidez com que um modelo de aprendizado de máquina aprende. É um dos
     hiperparâmetros mais importantes de um modelo de aprendizado de máquina e pode
@@ -23,10 +25,21 @@
     gradiente. Existem diversas técnicas que permitem alterar a taxa de aprendizado
     durante o treinamento, como decaimento da taxa de aprendizado, agendamento da
     taxa de aprendizado, aquecimento da taxa de aprendizado, entre outras.
+- title: Terminal
+  tags:
+    - Conceito
+  description:
+    "O Terminal é uma CLI que permite que os usuários interajam diretamente
+    com o sistema operacional usando comandos de texto, ao invés de uma interface
+    gráfica (GUI). No Terminal, você pode executar uma série de tarefas e comandos
+    diretamente, como navegar por diretórios, manipular arquivos, configurar o sistema
+    e rodar programas. Podemos destacar como terminais: Bash (Linux e MacOS), Zsh
+    (Linux e MacOS), Fish (Linux e MacOS), CMD (Windows) e PowerShell (Windows)."
 - title: TI Verde
   tags:
-  - Conceito
-  description: A TI Verde, do inglês Green IT, também podendo ser chamada de TI Ecológica
+    - Conceito
+  description:
+    A TI Verde, do inglês Green IT, também podendo ser chamada de TI Ecológica
     ou Computação Verde, representa o lado sustentável da tecnologia da informação.
     Seu conceito gira em torno da análise e implementação de iniciativas e programas
     que repercutem na sustentabilidade ambiental e responsabilidade social de empresas
@@ -34,9 +47,10 @@
     de soluções para problemas ambientais.
 - title: Transferência de Aprendizado
   tags:
-  - Conceito
-  - Inteligência artificial
-  description: É uma técnica de aprendizado de máquina na qual o conhecimento aprendido
+    - Conceito
+    - Inteligência artificial
+  description:
+    É uma técnica de aprendizado de máquina na qual o conhecimento aprendido
     de uma tarefa é reutilizado para aumentar o desempenho em uma tarefa relacionada.
     Por exemplo, o conhecimento adquirido ao aprender a reconhecer carros pode ser
     aplicado ao tentar segmentar imagens de carros. Na transferência de aprendizado
@@ -48,10 +62,11 @@
     e texto).
 - title: Transformer
   tags:
-  - Conceito
-  - Inteligência artificial
-  - Rede neural
-  description: É um tipo de rede neural artificial que usa uma arquitetura de codificador-decodificador
+    - Conceito
+    - Inteligência artificial
+    - Rede neural
+  description:
+    É um tipo de rede neural artificial que usa uma arquitetura de codificador-decodificador
     para processar dados de entrada. Os modelos transformer aplicam um conjunto de
     técnicas matemáticas, chamadas de atenção ou autoatenção, para detectar as maneiras
     sutis como até mesmo elementos de dados distantes em uma série influenciam e dependem
@@ -61,12 +76,12 @@
     imagens ou vídeos é uma candidata a modelos transformer.
 - title: Treinamento Adversarial
   tags:
-  - Conceito
-  - Inteligência artificial
-  description: É um tipo de treinamento de aprendizado de máquina que usa um modelo
+    - Conceito
+    - Inteligência artificial
+  description:
+    É um tipo de treinamento de aprendizado de máquina que usa um modelo
     adversário para treinar um modelo. Nele, dois modelos de aprendizado de máquina
     são treinados de forma adversária, onde um modelo é responsável por gerar dados
     falsos e outro modelo é responsável por identificar dados falsos. O treinamento
     adversarial é usado para gerar dados falsos realistas, que podem ser usados para
     aumentar um conjunto de dados de treinamento.
-
