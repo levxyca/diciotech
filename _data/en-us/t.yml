@@ -1,0 +1,53 @@
+- title: Terminal
+  tags:
+    - Concept
+  description:
+    "The Terminal is a CLI that allows users to interact directly with
+    the operating system using text commands, instead of a graphical interface (GUI).
+    In the Terminal, you can perform a series of tasks and commands directly, such
+    as navigating directories, manipulating files, configuring the system, and running
+    programs. We can highlight terminals such as: Bash (Linux and MacOS), Zsh (Linux
+    and MacOS), Fish (Linux and MacOS), CMD (Windows), and PowerShell (Windows)."
+- title: Ternary Operator
+  tags:
+    - Concept
+  description:
+    'The ternary conditional operator is a shorthand way to make a choice
+    between two options based on a condition. It works like this: if the condition
+    is true, it returns the first result; if it is false, it returns the second. It''s
+    like a compact version of an "if-else" in a single line.'
+  content:
+    code: "Expression(condition) ? True(exp1) : False(exp2);"
+- title: Transfer Learning
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    A machine learning technique in which knowledge learned from one task
+    is reused to improve performance on a related task. For example, knowledge gained
+    from learning to recognize cars can be applied when trying to segment images of
+    cars. In transfer learning, the model that is transferred is called the source
+    model, and the model to which it is transferred is called the target model. The
+    source and target tasks are different but related, and the source task is used
+    to aid in learning the target task. The source and target data can be from the
+    same modality (e.g., images) or from different modalities (e.g., images and text).
+- title: Transformer
+  tags:
+    - Artificial intelligence
+    - Concept
+    - Neural network
+  description:
+    A type of artificial neural network that uses an encoder-decoder architecture
+    to process input data. Transformer models apply a set of mathematical techniques,
+    called attention or self-attention, to detect the subtle ways in which even distant
+    data elements in a series influence and depend on each other. By finding patterns
+    between elements mathematically, transformers eliminate the need for large, labeled
+    datasets, which are expensive and time-consuming to produce. Any application that
+    uses sequential data from text, images, or videos is a candidate for transformer
+    models.
+- title: Typed variable
+  tags:
+    - Concept
+  description:
+    "A typed variable is one that has a data type associated with it (e.g.:
+    int, float, string)."

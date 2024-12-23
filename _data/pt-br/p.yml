@@ -1,0 +1,108 @@
+- title: Pair Programming
+  tags:
+  - Conceito
+  description: 'Pair programming significa programação em par. É uma técnica em que
+    duas pessoas (ou mais) trabalham juntas em uma tarefa. Isso ajuda na troca de
+    conhecimento e experiência entre pessoas desenvolvedoras. Duas cabeças pensam
+    melhor que uma, certo? Algumas formas de aplicar pair programming: uma pessoa
+    está mexendo no código enquanto recebe orientações da outra e elas vão trocando
+    de posição; uma pessoa desenvolve os testes e a outra desenvolve a funcionalidade.
+    Não encare pair programming como desperdício de tempo. Uma boa integração e senso
+    de apoio no time pode fazer toda a diferença na qualidade do que for entregue.'
+- title: Parâmetro
+  tags:
+  - Conceito
+  description: Uma parâmetro é uma informação passada para uma função ou método como
+    parte de sua chamada.
+- title: Parâmetro nomeado
+  tags:
+  - Conceito
+  description: É uma forma de passar valores para uma função ou método especificando
+    o nome do parâmetro correspondente.
+- title: Polimorfismo
+  tags:
+  - Conceito
+  description: 'O Polimorfismo permite que objetos de diferentes classes sejam tratados
+    uniformemente, cada um respondendo à sua maneira de acordo com uma interface.
+    Exemplo: Podemos em um sistema ter a interface de funcionário onde temos um método
+    calcularSalario, e está interface tem 3 classes que implementam ela, sendo elas:
+    Analista, Gerente e Diretor. Cada uma dessas classes implementa o método calcularSalario
+    de uma forma diferente.'
+- title: Ponteiros
+  tags:
+  - Conceito
+  description: Um ponteiro é um tipo de dado de uma linguagem de programação que armazena
+    ou se refere ao endereço de memória de outro valor localizado na memória do computador.
+    Um ponteiro refere-se a um local na memória e obtém o valor desse local. Como
+    tal, um ponteiro é um tipo de dado que 'aponta' para um valor.
+  content:
+    code: int *ponteiro; // ponteiro para um inteiro em linguagem C/C++
+- title: Pré-processadores CSS
+  tags:
+  - Front-end
+  description: 'Pré-processadores CSS são como ferramentas especiais que facilitam
+    a criação de estilos para sites. Eles tornam possível fazer estilos mais complicados
+    e que podem ser usados de novo em diferentes partes do site. Pense neles como
+    formas mais espertas de escolher cores e fontes para tornar um site bonito e funcional.
+    Exemplo: SASS/SCSS e LESS.'
+- title: Pré-Processamento
+  tags:
+  - Conceito
+  - Inteligência artificial
+  description: Também chamado de pré-processamento de dados, é o processo de transformar
+    dados brutos em um formato adequado para análise de dados. Ele é geralmente usado
+    para preparar dados para treinar modelos de aprendizado de máquina e dessa forma
+    melhorar seu desempenho. O pré-processamento envolve várias etapas, como limpeza
+    de dados, normalização, transformação, redução de dimensionalidade, entre outras.
+- title: Processamento de Linguagem Natural
+  tags:
+  - Conceito
+  - Inteligência artificial
+  description: Também conhecido como PLN (do inglês, Natural Language Processing ou
+    NLP), é um campo da inteligência artificial que estuda como os computadores podem
+    entender e interpretar a linguagem humana. Ele se concentra no desenvolvimento
+    de sistemas que podem analisar, entender e gerar linguagem natural, permitindo
+    que os computadores processem e respondam informações escritas. O PLN é usado
+    em uma ampla variedade de aplicações, como chatbots, tradução automática, análise
+    de sentimentos, entre outros.
+- title: Programação orientada a objetos
+  tags:
+  - Conceito
+  - Paradigma
+  description: A programação orientada a objetos (POO) é um paradigma de programação
+    que se baseia na ideia de modelar o software em torno de objetos, que são instâncias
+    de classes. Cada objeto contém atributos (dados) e métodos (funções) que operam
+    nesses dados. Isso permite organizar o código de forma mais modular, reutilizável
+    e orientada para objetos do mundo real. POO promove conceitos como encapsulamento,
+    herança e polimorfismo, facilitando a criação de sistemas mais flexíveis, compreensíveis
+    e escaláveis.
+- title: Propriedade
+  tags:
+  - Conceito
+  description: Propriedades, frequentemente abreviadas como 'props', são mecanismos
+    que permitem passar dados de um componente pai para um componente filho. Elas
+    são usadas para personalizar o comportamento e a aparência de um componente. Por
+    exemplo, ao criar um botão, você pode passar propriedades como a cor de fundo,
+    o texto exibido e o tamanho do texto como props. As props são cruciais para tornar
+    os componentes reutilizáveis e configuráveis, permitindo que eles se adaptem a
+    diferentes contextos de uso.
+- title: Pull Request
+  tags:
+  - Conceito
+  - Versionamento
+  description: Trata-se de uma requisição de alteração dentro de um projeto. Essa
+    requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade,
+    sugerir alterações, entre outros motivos. Essa requisição de alteração é feita
+    para que haja uma avaliação do que está sendo alterado dentro do projeto, entendendo
+    de faz sentido para o contexto daquele momento. A requisição pode ficar pendente
+    até que pessoas responsáveis pelo projeto ou que tenham a permissão aprovem. Outras
+    regras podem ser adicionadas nessas requisições, como build da aplicação, rodar
+    testes com sucesso e o que mais fizer sentido para o projeto em questão.
+- title: Python
+  tags:
+  - Back-end
+  description: O Python é uma linguagem de programação amplamente usada em aplicações
+    da Web, desenvolvimento de software, ciência de dados e machine learning (ML).
+    As pessoas desenvolvedoras usam o Python porque é fácil de aprender e pode ser
+    executada em muitas plataformas diferentes.
+

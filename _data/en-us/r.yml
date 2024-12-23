@@ -1,0 +1,93 @@
+- title: React
+  tags:
+    - Front-end
+  description:
+    React is an open-source JavaScript library used to create interactive
+    and dynamic user interfaces in web applications and other environments, such as
+    mobile, TV, virtual reality, among others. It stands out for its component-based
+    programming model and efficiency in updating the user interface, making it a popular
+    choice in front-end development.
+- title: React Native
+  tags:
+    - Mobile
+  description:
+    It is a Javascript framework based on React for developing cross-platform
+    mobile applications.
+- title: Recurrent Neural Network
+  tags:
+    - Artificial intelligence
+    - Concept
+    - Neural network
+  description:
+    Recurrent Neural Network or RNN is a type of artificial neural network
+    that uses loops and states to process data. It is often used to process input
+    data that has a sequential structure, such as text, audio, video, and time series,
+    and is widely used in natural language processing applications, such as machine
+    translation, speech recognition and sentiment analysis.
+- title: Recursion
+  tags:
+    - Concept
+  description: Recursion is a method/function that calls itself to solve a problem.
+- title: Reinforcement Learning
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Reinforcement Learning, or RL, is a type of machine learning that uses
+    rewards to train a model. It is widely used to solve decision-making problems,
+    where the goal is to maximize a reward. For example, a machine learning model
+    can be trained to play a game, where the training dataset consists of actions
+    and associated rewards.
+- title: Reinforcement Learning from Human Feedback
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Reinforcement Learning from Human Feedback (RLHF) is a technique that
+    trains a reward model directly from human feedback. RLHF is used in tasks where
+    it is difficult to define or measure a clear algorithmic solution, especially
+    when dealing with complex tasks involving human values or preferences, but where
+    humans can easily judge the quality of the model's output. For example, if the
+    task is to generate a compelling story, humans can rank different AI-generated
+    stories based on their quality and reject those that are inappropriate or outside
+    the model's knowledge space. A famous example of a language model trained by RLHF
+    is OpenAI's ChatGPT. A major challenge is the scalability and cost of human feedback,
+    which can be slow and expensive to obtain compared to unsupervised learning. The
+    quality and consistency of this feedback can also vary depending on the task and
+    the individual preferences of humans. If the feedback is not unbiased, or is inconsistent
+    or incorrect, the model can become biased.
+- title: Repository
+  tags:
+    - Concept
+    - Versioning
+  description:
+    A Repository is basically a box that holds all of your project's material.
+    Think of it as a place where you store your code, history of changes, and other
+    important files. There are local repositories on your computer and remote repositories
+    on shared servers.
+- title: Responsiveness
+  tags:
+    - Design
+    - Front-end
+  description:
+    The ability of a website or application to adapt to different screen
+    sizes and devices, such as smartphones, tablets, and desktops.
+- title: RPA
+  tags:
+    - Concept
+  description:
+    Robotic Process Automation is a technology that enables the automation
+    of repetitive, rule-based tasks using software robots to perform primarily repetitive
+    activities. These robots mimic human actions in digital systems, such as clicking
+    buttons, filling out forms, copying and pasting data, accessing systems, and executing
+    predefined processes.
+- title: Ruby
+  tags:
+    - Back-end
+    - Concept
+  description:
+    Ruby is a dynamically typed, strongly typed, multiparadigm interpreted
+    programming language with automatic memory management. Ruby supports functional,
+    object-oriented, imperative, and reflective programming. It is like a digital
+    toolbox that can create, organize, and make different parts of a computer program
+    interact, being able to handle many different programming styles.

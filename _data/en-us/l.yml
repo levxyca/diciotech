@@ -1,0 +1,109 @@
+- title: Labeled Data
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Also called annotated data, this is data that has a label or tag that
+    indicates what it represents. It is used to train supervised or semi-supervised
+    machine learning models, where the goal is to predict an output value based on
+    a set of input values. For example, a dataset of images of cats and dogs might
+    be labeled with the class of each image, allowing a machine learning model to
+    be trained to classify images of cats and dogs.
+- title: Lambda
+  tags:
+    - Concept
+  description:
+    Lambda is an anonymous function in programming that can be defined
+    and used without a specific name, often used for simple one-line expressions.
+  content:
+    code: "sum = lambda x, y: x + y"
+- title: Laravel
+  tags:
+    - Back-end
+    - Framework
+  description:
+    Laravel is a tool for developing web systems in PHP. It offers ways
+    to deal with common needs in this type of application, as well as having simplified
+    integration with various database systems, queues, and others.
+- title: Large Language Model
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Also called LLM, it is a language model that uses deep learning to
+    learn representations of natural language data. It is trained on massive sets
+    of textual data, such as books, news articles, and web pages, and is capable of
+    interpreting and generating high-quality text. Large language models are used
+    as baseline models for a variety of natural language applications, such as machine
+    translation, text summarization, code generation, and more.
+- title: Latent Space
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Also called latent feature space or embedding space, it is a vector
+    space (manifold) that can be generated from the training of a machine learning
+    model. A position within this space is defined by a set of latent variables that
+    emerge from the similarities of objects, so that items that resemble each other
+    are positioned closer together. In many cases, the dimensionality of the latent
+    space is chosen to be smaller than the dimensionality of the input data space,
+    making the construction of this space an example of dimensionality reduction,
+    which can also be seen as a form of data compression. The latent space can be
+    completely unintuitive, high-dimensional, complex, and non-linear, which can increase
+    the difficulty of interpretation. Some visualization techniques have been developed
+    to connect the latent space to the visual world, but there is usually no direct
+    connection between the interpretation of the latent space and the model itself
+    that generated it. Among these techniques is t-SNE, in which the latent space
+    is mapped to two or three dimensions for visualization. Distances in latent space
+    do not have physical units, so the interpretation of these distances can depend
+    on the application.
+- title: Learning Rate
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    Also called LR, it is a training hyperparameter for machine learning
+    models that controls how quickly a machine learning model learns. It is one of
+    the most important hyperparameters of a machine learning model and can be adjusted
+    to improve the model's performance. It controls how big the step will be taken
+    during learning towards the minimum calculated by the gradient. A very high learning
+    rate can cause the gradient to explode, while a very low learning rate can cause
+    the gradient to disappear. There are several techniques that allow you to change
+    the learning rate during training, such as learning rate decay, learning rate
+    scheduling, learning rate warming, among others.
+- title: Load balancer
+  tags:
+    - Concept
+  description:
+    "A load balancer is a tool used to distribute the load (of user requests,
+    for example) among multiple servers. The goal of using a load balancer is to improve
+    the performance of applications, avoiding overload on a single server. In addition,
+    a load balancer can help us scale a system and ensure its high availability. To
+    better understand the concept, let's think of a supermarket queue: if we had
+    only one cashier to serve us, this cashier would probably be overloaded with so
+    many people trying to pay for their purchases. In this case, people are directed
+    to different cashiers to avoid a bottleneck and a long wait time at a single cashier."
+- title: Loop
+  tags:
+    - Concept
+  description:
+    A loop is a control structure that allows you to repeatedly execute
+    a block of code while a condition is true. It is used to automate repetitive tasks
+    and save time and effort. There are several types of loops, such as the 'for'
+    loop, the 'while' loop, and the 'do-while' loop.
+- title: Loss Function
+  tags:
+    - Artificial intelligence
+    - Concept
+  description:
+    It is a mathematical function that measures the difference between
+    the value predicted by a machine learning model and the actual value of the training
+    data. It is used to evaluate the accuracy of a machine learning model and adjust
+    its parameters to improve its performance. There are several types of loss functions,
+    each suited to a different type of machine learning problem.
+- title: Low Level Language
+  tags:
+    - Concept
+  description:
+    A programming language that has little or no computer abstraction.
+    It is a programming language that is closest to machine language.

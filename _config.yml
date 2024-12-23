@@ -1,0 +1,47 @@
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# -----------------------------------------------------------------------------
+# Plugins settings
+# -----------------------------------------------------------------------------
+
+# Jekyll Polyglot
+languages: ["en-us", "pt-br"]
+default_lang: "pt-br"
+exclude_from_localization: ["assets"]
+lang_from_path: true
+parallel_localization: false
+
+jekyll-minifier:
+  # exclude: ["robots.txt"]
+  uglifier_args:
+    harmony: true
+
+# -----------------------------------------------------------------------------
+# Build settings
+# -----------------------------------------------------------------------------
+exclude:
+  - .git/
+  - .github/
+  - .gitignore
+  - .ruby-version
+  - CONTRIBUTING.md
+  - format_data.py
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - README.md
+  - ROADMAP.md
+  - run_on_code_changed.sh
+  - run_on_data_changed.sh
+  - todo.md
+
+include: ["_json", "_pages"]
+
+plugins:
+  - jekyll-minifier
+  - jekyll-polyglot
+
+sass:
+  sourcemap: never
+  style: compressed

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="{{ site.active_lang }}">
   <head>
     <!-- Meta settings -->
     <meta charset="UTF-8" />
@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Um dicionário tech para pessoas que querem aprender mais sobre termos técnicos dentro da tecnologia!"
+      content="{{ page.site_description }}"
     />
 
     <!-- Favicon -->
@@ -20,7 +20,7 @@
     <!-- CSS Imports -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
 
     <!-- Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
@@ -33,11 +33,11 @@
     ></script>
 
     <!-- Light/Dark/System Theme-->
-    <script src="assets/js/theme.js"></script>
+    <script src="/assets/js/theme.js"></script>
 
     <!-- Progressive Web App Manifest -->
     <link rel="manifest" href="diciotech.webmanifest" />
-    <link rel="apple-touch-icon" href="assets/img/brand/symbol/colored.png" />
+    <link rel="apple-touch-icon" href="/assets/img/brand/symbol/colored.png" />
 </head>
 
 <body>
@@ -46,7 +46,7 @@
         href="https://github.com/levxyca/diciotech"
         target="_blank"
         class="github-corner"
-        aria-label="Visualizar projeto no GitHub"
+        aria-label="{{ page.view_on_github }}"
         ><svg viewBox="0 0 250 250" aria-hidden="true">
           <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
           <path
@@ -70,15 +70,75 @@
         />
       </h1>
       <h2 class="header__subtitle">
-        Um dicionário tech para pessoas que querem aprender mais sobre termos
-        técnicos dentro da tecnologia 📖 <br />
-        Atualmente com <span id="total-terms">0</span> termos! 🚀
+        {{ page.site_description }} 📖 <br />
+        {{ page.currently_with }} <span id="total-terms">0</span> {{ page.terms }} 🚀
       </h2>
+
+      <!-- Toogle language -->
+      <!-- based on https://github.com/george-gca/multi-language-al-folio/blob/main/_includes/header.liquid -->
+      {% if site.languages.size >= 2 %}
+        {% if site.languages.size == 2 %}
+          {% if site.active_lang == site.languages.first %}
+            {% assign other_language = site.languages.last %}
+          {% else %}
+            {% assign other_language = site.languages.first %}
+          {% endif %}
+          <li class="nav-item active">
+            {% if site.active_lang == site.default_lang %}
+              <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
+                {{ other_language | upcase }}
+              </a>
+            {% else %}
+              <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
+                {{ site.default_lang | upcase }}
+              </a>
+            {% endif %}
+          </li>
+        {% else %}
+          <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              {{- site.active_lang | upcase }}
+              {% if page.title == p.title %}
+                <span class="sr-only">(current)</span>
+              {% endif %}
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              {% assign language_set = false %}
+              {% for l in site.languages %}
+                {% if l != site.active_lang %}
+                  {% if language_set %}
+                    <div class="dropdown-divider"></div>
+                  {% endif %}
+                  {% if l == site.default_lang %}
+                    <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
+                      {{ l | upcase }}
+                    </a>
+                  {% else %}
+                    <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}/{{ l }}{{ page.url }}" {%- endstatic_href %}>
+                      {{ l | upcase }}
+                    </a>
+                  {% endif %}
+                  {% assign language_set = true %}
+                {% endif %}
+              {% endfor %}
+            </div>
+          </li>
+        {% endif %}
+      {% endif %}
+      <!-- End Toogle language -->
 
       <button
         id="change-theme-button"
         class="button-change-theme"
-        title="Mudar tema"
+        title="{{ page.change_theme }}"
       >
         <i class="ph ph-desktop"></i>
         <i class="ph ph-moon"></i>
@@ -101,16 +161,16 @@
             id="search-input"
             type="text"
             name="search-input"
-            placeholder="Pesquisar..."
+            placeholder="{{ page.search_placeholder }}"
             class="searchbar__input"
           />
         </div>
         <div class="filter">
           <label for="tags-filter" class="filter_label"
-            >Filtrar por categoria:</label
+            >{{ page.filter_by_category }}</label
           >
           <select id="tags-filter">
-            <option value="Todos" selected>Todos</option>
+            <option value="{{ page.all }}" selected>{{ page.all }}</option>
           </select>
         </div>
       </div>
@@ -118,23 +178,21 @@
       <div class="cookies-container">
         <div class="cookies-content">
           <p class="cookies-message">
-            O Diciotech usa cookies para garantir que você obtenha uma melhor
-            experiência. Desativar os cookies do site pode prejudicar a
-            funcionalidade de alguns recursos e ao continuar usando, você
-            concorda com a nossa Política de Cookies.
+            {{ page.cookies_message }}
             <a
               href="https://cookie-consent.app.forthe.top/why-websites-use-cookies/"
               target="_blank"
-              >Ler mais</a
+              >{{ page.read_more }}</a
             >
           </p>
           <div class="cookies-buttons">
-            <button class="cookies-accept-button">Concordar e fechar</button>
+            <button class="cookies-accept-button">{{ page.accept_cookies }}</button>
           </div>
         </div>
       </div>
     </main>
-    <script src="assets/js/script.js" type="module"></script>
-    <script src="assets/js/cookies.js" type="module"></script>
+    {% include script.js.liquid %}
+    <script src="/assets/js/cookies.js" type="module"></script>
+    <script src="/assets/js/pwa.js"></script>
   </body>
 </html>
