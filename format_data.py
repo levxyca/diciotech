@@ -31,6 +31,8 @@ def main(file: Path):
     try:
         # sort tags inside each card by value
         for card in data:
+            # ensures that only the first letter of the tag is capitalized
+            card['tags'] = [tag.capitalize() for tag in card['tags']]
             card['tags'] = sorted(card['tags'], key=lambda x: strip_accents(x.lower()))
 
             # ensures that the description ends with a period
