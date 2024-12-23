@@ -19,6 +19,10 @@ def main(file: Path):
     # sort cards by 'title' value
     try:
         data = sorted(data, key=lambda x: strip_accents(x['title'].lower()))
+    except AttributeError:
+        cards_without_title = [card['description'] for card in data if card['title'] is None]
+        print(f'Warning: the following cards do not have a title: {cards_without_title}')
+        raise
     except KeyError:
         cards_without_title = [card['description'] for card in data if 'title' not in card]
         print(f'Warning: the following cards do not have a title: {cards_without_title}')
