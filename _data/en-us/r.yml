@@ -91,3 +91,17 @@
     object-oriented, imperative, and reflective programming. It is like a digital
     toolbox that can create, organize, and make different parts of a computer program
     interact, being able to handle many different programming styles.
+- title: Ruby on Rails
+  tags:
+    - Framework
+    - Back-end
+    - Front-end
+  description:
+    Ruby on Rails, or simply Rails, is an open-source development tool written in Ruby, 
+    used to create dynamic and efficient web applications. 
+    It follows the MVC (Model-View-Controller) architecture pattern and stands out 
+    for its "convention over configuration" philosophy, which simplifies the development process by 
+    providing predefined standards. Rails is known for its robustness in the backend and 
+    for offering exceptional productivity to developers, enabling the rapid creation of scalable, 
+    secure, and well-structured applications. It is widely used to build everything 
+    from startups to large corporate platforms.
