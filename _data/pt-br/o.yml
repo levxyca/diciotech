@@ -1,0 +1,58 @@
+- title: Objeto
+  tags:
+    - Conceito
+  description:
+    Um objeto, em desenvolvimento de software, é como um personagem em
+    um videogame. Ele tem características (dados) e pode fazer coisas (métodos). Por
+    exemplo, um objeto "carro" pode ter cor, velocidade e marca (características)
+    e pode acelerar, frear e virar (ações/métodos). Os objetos são instâncias de classes
+    e permitem organizar o código de forma a representar entidades do mundo real,
+    tornando-o mais compreensível e reutilizável.
+- title: Operador Ternário
+  tags:
+    - Conceito
+  description:
+    'O operador condicional ternário é uma forma curta de fazer uma escolha
+    entre duas opções baseada em uma condição. Funciona assim: se a condição é verdadeira
+    (true), ele retorna o primeiro resultado; se é falsa (false), retorna o segundo.
+    É como uma versão compacta de um "if-else" em uma única linha.'
+  content:
+    code: "Expressão(condição) ? Verdadeiro(exp1) : Falso(exp2);"
+- title: Optional Chaining
+  tags:
+    - Conceito
+  description:
+    O Optional Chaining é um recurso no Javascript para lidar com situações
+    onde você precisa acessar propriedades de objetos aninhados mas não tem certeza
+    se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError'
+    quando tenta acessar algo que não foi definido.
+  content:
+    code: "const pessoa = nome?.cidade?.endereco; "
+- title: ORM
+  tags:
+    - Back-end
+    - Conceito
+  description:
+    O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um
+    banco de dados para o código, transformando-as em classes e objetos.
+- title: Otimizador
+  tags:
+    - Conceito
+    - Inteligência artificial
+  description:
+    Também chamado de algoritmo de otimização, é um algoritmo que ajusta
+    os parâmetros de um modelo de aprendizado de máquina para minimizar a função de
+    perda. Ele é usado para treinar modelos de aprendizado de máquina e melhorar seu
+    desempenho.
+- title: Overfitting
+  tags:
+    - Conceito
+    - Inteligência artificial
+  description:
+    Também chamado de sobreajuste, é um problema que ocorre quando um modelo
+    de aprendizado de máquina se ajusta muito bem aos dados de treinamento, mas não
+    consegue generalizar para dados novos. Isso é percebido quando o modelo tem um
+    desempenho muito bom nas métricas para os dados de treinamento, mas um desempenho
+    ruim nos dados de teste. O overfitting pode ser causado por vários fatores, como
+    um modelo muito complexo, um conjunto de dados de treinamento muito pequeno, entre
+    outros.

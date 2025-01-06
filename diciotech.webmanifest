@@ -15,7 +15,7 @@
     //   "type": "image/png"
     // },
     {
-      "src": "assets/img/brand/symbol/colored.png",
+      "src": "/assets/img/brand/symbol/colored.png",
       "sizes": "512x512",
       "type": "image/png"
     }

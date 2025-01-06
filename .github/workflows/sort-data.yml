@@ -5,11 +5,11 @@ on:
     branches:
       - main
     paths:
-      - "assets/data/**"
+      - "_data/**"
 
   pull_request:
     paths:
-      - "assets/data/**"
+      - "_data/**"
 
   workflow_dispatch:
 
@@ -29,7 +29,7 @@ jobs:
         id: changed-data
         uses: tj-actions/changed-files@v45.0.4
         with:
-          files: assets/data/**.json
+          files: _data/**.yml
 
       - name: Setup Python
         if: steps.changed-data.outputs.any_changed == 'true'

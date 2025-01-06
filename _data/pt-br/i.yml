@@ -1,0 +1,67 @@
+- title: IDE
+  tags:
+    - Ferramenta
+  description:
+    IDE é a abreviação de Integrated Development Environment, que em português
+    significa Ambiente de Desenvolvimento Integrado. Trata-se de um programa com interfaces
+    gráficas que facilitam a interação das pessoas desenvolvedoras na criação de aplicações.
+    Normalmente um IDE inclui um editor de código fonte e ferramentas de depuração
+    para identificar e corrigir erros. Exemplos populares de IDEs incluem Android
+    Studio, Eclipse e Visual Studio Code.
+- title: Infraestrutura como Código
+  tags:
+    - Conceito
+    - Devops
+  description:
+    "Infraestrutura como código (do inglês, Infrastructure as Code ou IaC)
+    é a prática de se construir a infraestrutura (como recursos dentro de um provedor
+    de nuvem) através de codificação, como também fazemos ao desenvolver software.
+    Para codificar a infraestrutura, utilizam-se ferramentas como, por exemplo, o
+    Terraform. O código da infraestrutura é versionado e pode ser mantido separado
+    ou junto do código da aplicação que fará uso dessa infraestrutura posteriormente.
+    Infraestrutura como Código é como um livro de receitas detalhado para cozinheiros:
+    em vez de dar instruções verbais, você escreve tudo no livro, garantindo que todos
+    sigam exatamente as mesmas instruções e preparem os pratos de forma consistente
+    e precisa. Isso reduz erros e facilita a replicação de ambientes."
+- title: Integração Contínua
+  tags:
+    - Conceito
+  description:
+    Integração contínua (do inglês, Continuous Integration ou CI) é uma
+    prática de desenvolvimento de software onde as pessoas desenvolvedoras integram
+    seu código em um repositório compartilhado, utilizando automação para compilar
+    e testar o software. O objetivo é detectar rapidamente erros, melhorar a qualidade
+    do código e reduzir o tempo de entrega, promovendo um feedback rápido e facilitando
+    a colaboração entre equipes. Ferramentas como Jenkins e GitHub Actions são comumente
+    utilizadas para implementar CI.
+- title: Inteligência Artificial
+  tags:
+    - Conceito
+    - Inteligência artificial
+  description:
+    Também chamada de IA (no inglês, Artificial Intelligence ou AI), é
+    um campo da ciência da computação que estuda como os computadores podem simular
+    a inteligência e cognição humana. Ela se concentra no desenvolvimento de sistemas
+    capazes de executar tarefas que antes poderiam ser feitas somente por humanos,
+    como reconhecimento de fala, tomada de decisão, tradução de idiomas e reconhecimento
+    de padrões. A IA é um campo amplo que inclui várias subáreas, como aprendizado
+    de máquina, processamento de linguagem natural, visão computacional, entre outras.
+- title: IoT
+  tags:
+    - Conceito
+  description:
+    IoT (Internet of Things), ou Internet das Coisas, é um tipo de tecnologia
+    composto por uma rede de dispositivos e objetos interconectados, como sensores,
+    câmeras, itens domésticos, aparelhos eletrônicos e veículos, por exemplo. Seu
+    objetivo é basicamente conectar os mais diversos equipamentos à internet com o
+    intuito de captar e trocar dados com outros dispositivos, variando desde simples
+    objetos caseiros a sofisticadas ferramentas industriais.
+- title: Issue
+  tags:
+    - Conceito
+    - Versionamento
+  description:
+    Uma issue é como se fosse um bilhete que anota um problema ou algo
+    a ser feito em um projeto. É como um lembrete que pode ser usado para falar sobre
+    erros, pedir novas funcionalidades, conversar sobre melhorias ou ficar de olho
+    em uma tarefa.
