@@ -105,7 +105,7 @@ permalink: / # link no qual a página vai ser acessada
 O layout base é um arquivo que contém o html básico de todas as páginas, e é onde são incluídos os arquivos de css e js necessários para o site. A extensão `.liquid` é uma extensão padrão usada pelo Jekyll. No layout básico é possível encontrar algumas expressões como:
 
 ```liquid
-<meta name="description" content="{{ page.site_description }}" />
+<meta name="description" content="{{ page.site_description }}">
 {% include script.liquid.js %}
 ```
 
