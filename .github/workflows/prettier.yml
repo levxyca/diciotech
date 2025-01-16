@@ -19,7 +19,7 @@ jobs:
         # ref: ${{ github.head_ref }}
 
       - name: Prettify code
-        uses: creyD/prettier_action@v4.3
+        uses: AbdulRehman-1/pr-prettier@initial
         with:
           # This part is also where you can pass other options, for example:
           prettier_options: --write **/*.{css,html,js,json,liquid,md,scss,yaml,yml}
