@@ -2,8 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    It is a problem setting in deep learning where, at test time, a model
+  description: It is a problem setting in deep learning where, at test time, a model
     is given samples of classes that were not observed during training and needs to
     identify the class to which they belong. Unlike standard machine learning, where
     models must correctly classify new samples into classes that were already observed

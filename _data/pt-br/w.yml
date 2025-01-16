@@ -2,8 +2,7 @@
   tags:
     - Conceito
     - Segurança cibernética
-  description:
-    "O WAF (Web Application Firewall), ajuda a proteger os aplicativos
+  description: "O WAF (Web Application Firewall), ajuda a proteger os aplicativos
     web ao filtrar e monitorar o tráfego de entrada em aplicações web. Ele protege
     contra tipos de ataques mais comuns, tais como: falsificação de solicitação entre
     sites, cross-site-scripting (XSS), inclusão de arquivos e injeção de SQL, entre

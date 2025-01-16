@@ -3,8 +3,7 @@
     - Concept
     - Design
     - Front-end
-  description:
-    It is the process of creating the visual and interactive part of a
+  description: It is the process of creating the visual and interactive part of a
     digital product, such as a website or an application. This includes the design
     of buttons, menus, icons, and the entire look and feel of the layout, ensuring
     that it is aesthetically pleasing and easy to navigate. The goal of UI Design
@@ -13,16 +12,14 @@
 - title: UIKit
   tags:
     - Mobile
-  description:
-    UIKit is a set of tools provided by Apple for creating the visual parts
+  description: UIKit is a set of tools provided by Apple for creating the visual parts
     of iOS applications. It provides a set of classes and components for building
     and managing the user interface, including elements such as buttons, tables, views,
     and gestures.
 - title: UML
   tags:
     - Back-end
-  description:
-    It is a visual language that software developers use to describe and
+  description: It is a visual language that software developers use to describe and
     design software systems. It offers different types of diagrams, such as class,
     sequence, and activity diagrams, to represent different aspects of a system. These
     diagrams help teams better understand and communicate software ideas and designs.
@@ -30,8 +27,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    It is a problem that occurs when a machine learning model does not
+  description: It is a problem that occurs when a machine learning model does not
     fit well on the training data and cannot generalize to new data. This is seen
     when the model performs poorly on both the training data and the test data. Underfitting
     can be caused by several factors, such as a model that is too simple, a training
@@ -40,8 +36,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    It is a type of machine learning that uses unlabeled data to train
+  description: It is a type of machine learning that uses unlabeled data to train
     a model. It is used to solve clustering problems, where the goal is to find patterns
     in a dataset. For example, a machine learning model can be trained to cluster
     images of cats and dogs, where the training dataset consists of images of cats
@@ -53,8 +48,7 @@
     - Concept
     - Design
     - Front-end
-  description:
-    It is the process of creating products and services that offer a positive
+  description: It is the process of creating products and services that offer a positive
     and efficient experience for users. This involves understanding the needs and
     behaviors of the people who will use the product, to ensure that it is easy to
     use, accessible and enjoyable. The goal is to make the user's interaction with

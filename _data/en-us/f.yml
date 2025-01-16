@@ -2,8 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    It is a type of machine learning that uses few labeled data to train
+  description: It is a type of machine learning that uses few labeled data to train
     a model. In it, a machine learning model (usually pre-trained) is trained with
     new labeled data, containing few examples per class. Few-shot learning is widely
     used to solve classification problems on small data sets.
@@ -11,8 +10,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    Is the process of training a pre-trained machine learning model on
+  description: Is the process of training a pre-trained machine learning model on
     a new dataset. It is used to adapt a base model for a specific task, improving
     its performance and reducing training time compared to training from scratch.
     Fine-tuning is commonly used in computer vision and natural language processing
@@ -21,8 +19,7 @@
   tags:
     - Concept
     - Versioning
-  description:
-    Forking is like creating an independent copy of a project. It's like
+  description: Forking is like creating an independent copy of a project. It's like
     taking someone else's project, copying it, and having it in your own account.
     This allows you to make your own changes without touching the original project.
     This is common in open source projects.
@@ -30,8 +27,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    Also called base models, these are machine learning models that are
+  description: Also called base models, these are machine learning models that are
     pre-trained on large datasets and are commonly made available for use by third
     parties. They are used as base models for various applications in computer vision,
     natural language processing, among others. Foundation models can be used frozen,
@@ -40,21 +36,18 @@
   tags:
     - Concept
     - Framework
-  description:
-    They are like collections of tools, components and solutions that you
+  description: They are like collections of tools, components and solutions that you
     can find in the same package (the framework) that facilitate the creation of complex
     applications.
 - title: Front-end Development
   tags:
     - Front-end
-  description:
-    Front-end development is the development of the graphical interface,
+  description: Front-end development is the development of the graphical interface,
     so that users can view and interact with what has been developed.
 - title: Function
   tags:
     - Concept
-  description:
-    A function is a block of code that performs a specific task and can
+  description: A function is a block of code that performs a specific task and can
     be called from other parts of the program. It helps organize and reuse code, making
     software more modular and readable. Functions may take inputs (called arguments)
     and can return a result (return value) or simply perform an action.

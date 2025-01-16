@@ -1,8 +1,7 @@
 - title: Tag em HTML/XML
   tags:
     - Conceito
-  description:
-    Uma tag é um elemento de marcação usado em linguagens de marcação,
+  description: Uma tag é um elemento de marcação usado em linguagens de marcação,
     como HTML e XML, para definir a estrutura e o significado de um documento. Elas
     são usadas para definir o início e o fim de um elemento, como um parágrafo, uma
     tabela ou uma imagem. As tags são escritas entre os sinais de menor e maior, como
@@ -13,8 +12,7 @@
   tags:
     - Conceito
     - Inteligência artificial
-  description:
-    Também chamada de taxa de aprendizagem (do inglês, learning rate ou
+  description: Também chamada de taxa de aprendizagem (do inglês, learning rate ou
     LR), é um hiperparâmetro de treinamento de modelos de aprendizado de máquina que
     controla a rapidez com que um modelo de aprendizado de máquina aprende. É um dos
     hiperparâmetros mais importantes de um modelo de aprendizado de máquina e pode
@@ -28,8 +26,7 @@
 - title: Terminal
   tags:
     - Conceito
-  description:
-    "O Terminal é uma CLI que permite que os usuários interajam diretamente
+  description: "O Terminal é uma CLI que permite que os usuários interajam diretamente
     com o sistema operacional usando comandos de texto, ao invés de uma interface
     gráfica (GUI). No Terminal, você pode executar uma série de tarefas e comandos
     diretamente, como navegar por diretórios, manipular arquivos, configurar o sistema
@@ -38,8 +35,7 @@
 - title: TI Verde
   tags:
     - Conceito
-  description:
-    A TI Verde, do inglês Green IT, também podendo ser chamada de TI Ecológica
+  description: A TI Verde, do inglês Green IT, também podendo ser chamada de TI Ecológica
     ou Computação Verde, representa o lado sustentável da tecnologia da informação.
     Seu conceito gira em torno da análise e implementação de iniciativas e programas
     que repercutem na sustentabilidade ambiental e responsabilidade social de empresas
@@ -49,8 +45,7 @@
   tags:
     - Conceito
     - Inteligência artificial
-  description:
-    É uma técnica de aprendizado de máquina na qual o conhecimento aprendido
+  description: É uma técnica de aprendizado de máquina na qual o conhecimento aprendido
     de uma tarefa é reutilizado para aumentar o desempenho em uma tarefa relacionada.
     Por exemplo, o conhecimento adquirido ao aprender a reconhecer carros pode ser
     aplicado ao tentar segmentar imagens de carros. Na transferência de aprendizado
@@ -65,8 +60,7 @@
     - Conceito
     - Inteligência artificial
     - Rede neural
-  description:
-    É um tipo de rede neural artificial que usa uma arquitetura de codificador-decodificador
+  description: É um tipo de rede neural artificial que usa uma arquitetura de codificador-decodificador
     para processar dados de entrada. Os modelos transformer aplicam um conjunto de
     técnicas matemáticas, chamadas de atenção ou autoatenção, para detectar as maneiras
     sutis como até mesmo elementos de dados distantes em uma série influenciam e dependem
@@ -78,8 +72,7 @@
   tags:
     - Conceito
     - Inteligência artificial
-  description:
-    É um tipo de treinamento de aprendizado de máquina que usa um modelo
+  description: É um tipo de treinamento de aprendizado de máquina que usa um modelo
     adversário para treinar um modelo. Nele, dois modelos de aprendizado de máquina
     são treinados de forma adversária, onde um modelo é responsável por gerar dados
     falsos e outro modelo é responsável por identificar dados falsos. O treinamento

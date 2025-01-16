@@ -1,8 +1,7 @@
 - title: React
   tags:
     - Front-end
-  description:
-    React is an open-source JavaScript library used to create interactive
+  description: React is an open-source JavaScript library used to create interactive
     and dynamic user interfaces in web applications and other environments, such as
     mobile, TV, virtual reality, among others. It stands out for its component-based
     programming model and efficiency in updating the user interface, making it a popular
@@ -10,16 +9,14 @@
 - title: React Native
   tags:
     - Mobile
-  description:
-    It is a Javascript framework based on React for developing cross-platform
+  description: It is a Javascript framework based on React for developing cross-platform
     mobile applications.
 - title: Recurrent Neural Network
   tags:
     - Artificial intelligence
     - Concept
     - Neural network
-  description:
-    Recurrent Neural Network or RNN is a type of artificial neural network
+  description: Recurrent Neural Network or RNN is a type of artificial neural network
     that uses loops and states to process data. It is often used to process input
     data that has a sequential structure, such as text, audio, video, and time series,
     and is widely used in natural language processing applications, such as machine
@@ -32,8 +29,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    Reinforcement Learning, or RL, is a type of machine learning that uses
+  description: Reinforcement Learning, or RL, is a type of machine learning that uses
     rewards to train a model. It is widely used to solve decision-making problems,
     where the goal is to maximize a reward. For example, a machine learning model
     can be trained to play a game, where the training dataset consists of actions
@@ -42,8 +38,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    Reinforcement Learning from Human Feedback (RLHF) is a technique that
+  description: Reinforcement Learning from Human Feedback (RLHF) is a technique that
     trains a reward model directly from human feedback. RLHF is used in tasks where
     it is difficult to define or measure a clear algorithmic solution, especially
     when dealing with complex tasks involving human values or preferences, but where
@@ -60,8 +55,7 @@
   tags:
     - Concept
     - Versioning
-  description:
-    A Repository is basically a box that holds all of your project's material.
+  description: A Repository is basically a box that holds all of your project's material.
     Think of it as a place where you store your code, history of changes, and other
     important files. There are local repositories on your computer and remote repositories
     on shared servers.
@@ -69,14 +63,12 @@
   tags:
     - Design
     - Front-end
-  description:
-    The ability of a website or application to adapt to different screen
+  description: The ability of a website or application to adapt to different screen
     sizes and devices, such as smartphones, tablets, and desktops.
 - title: RPA
   tags:
     - Concept
-  description:
-    Robotic Process Automation is a technology that enables the automation
+  description: Robotic Process Automation is a technology that enables the automation
     of repetitive, rule-based tasks using software robots to perform primarily repetitive
     activities. These robots mimic human actions in digital systems, such as clicking
     buttons, filling out forms, copying and pasting data, accessing systems, and executing
@@ -85,8 +77,7 @@
   tags:
     - Back-end
     - Concept
-  description:
-    Ruby is a dynamically typed, strongly typed, multiparadigm interpreted
+  description: Ruby is a dynamically typed, strongly typed, multiparadigm interpreted
     programming language with automatic memory management. Ruby supports functional,
     object-oriented, imperative, and reflective programming. It is like a digital
     toolbox that can create, organize, and make different parts of a computer program

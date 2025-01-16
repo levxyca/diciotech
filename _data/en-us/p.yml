@@ -1,8 +1,7 @@
 - title: Pair Programming
   tags:
     - Concept
-  description:
-    "Pair programming means programming in pairs. It is a technique in
+  description: "Pair programming means programming in pairs. It is a technique in
     which two people (or more) work together on a task. This helps in the exchange
     of knowledge and experience between developers. Two heads are better than one,
     right? Some ways to apply pair programming: one person is working on the code
@@ -13,14 +12,12 @@
 - title: Parameter
   tags:
     - Concept
-  description:
-    A parameter is a piece of information passed to a function or method
+  description: A parameter is a piece of information passed to a function or method
     as part of its call.
 - title: Pointers
   tags:
     - Concept
-  description:
-    A pointer is a programming language data type that stores or refers
+  description: A pointer is a programming language data type that stores or refers
     to the memory address of another value located in the computer's memory. A pointer
     refers to a location in memory and gets the value from that location. As such,
     a pointer is a data type that 'points' to a value.
@@ -29,15 +26,13 @@
 - title: Polymorphism
   tags:
     - Concept
-  description:
-    Polymorphism allows objects of different types to behave similarly
+  description: Polymorphism allows objects of different types to behave similarly
     through a shared interface.
 - title: Pre-Processing
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    Also called data preprocessing, it is the process of transforming raw
+  description: Also called data preprocessing, it is the process of transforming raw
     data into a format suitable for data analysis. It is generally used to prepare
     data for training machine learning models and thus improve their performance.
     Preprocessing involves several steps, such as data cleaning, normalization, transformation,
@@ -45,8 +40,7 @@
 - title: Property
   tags:
     - Concept
-  description:
-    Properties, often abbreviated as 'props', are mechanisms that allow
+  description: Properties, often abbreviated as 'props', are mechanisms that allow
     you to pass data from a parent component to a child component. They are used to
     customize the behavior and appearance of a component. For example, when creating
     a button, you can pass properties such as the background color, displayed text,
@@ -56,8 +50,7 @@
   tags:
     - Concept
     - Versioning
-  description:
-    It is a change request within a project. This request can be made to
+  description: It is a change request within a project. This request can be made to
     fix a problem, add a new feature, suggest changes, among other reasons. This change
     request is made so that there is an evaluation of what is being changed within
     the project, understanding whether it makes sense for the context at that moment.
@@ -68,7 +61,6 @@
 - title: Python
   tags:
     - Back-end
-  description:
-    Python is a programming language widely used in web applications, software
+  description: Python is a programming language widely used in web applications, software
     development, data science, and machine learning (ML). Developers use Python because
     it is easy to learn, and it runs on many different platforms.

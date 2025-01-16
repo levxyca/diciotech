@@ -1,30 +1,26 @@
 - title: C
   tags:
     - Concept
-  description:
-    C is a general-purpose, structured, imperative, procedural, ISO-standardized,
+  description: C is a general-purpose, structured, imperative, procedural, ISO-standardized,
     compiled programming language created in 1972 by Dennis Ritchie at AT&T Bell Labs
     to develop the Unix operating system (which was originally written in Assembly).
 - title: C++
   tags:
     - Concept
-  description:
-    C++ is a general-purpose, multi-paradigm (its support includes imperative,
+  description: C++ is a general-purpose, multi-paradigm (its support includes imperative,
     object-oriented and generic languages) compiled programming language. Since the
     1990s it has been one of the most popular commercial languages, and is also widely
     used in academia due to its high performance and user base.
 - title: Cache
   tags:
     - Concept
-  description:
-    Cache is a technique for temporarily storing data often used to improve
+  description: Cache is a technique for temporarily storing data often used to improve
     performance and speed of access to that data in computer systems.
 - title: Canary deployment
   tags:
     - Concept
     - Devops
-  description:
-    Canary deployment is a deployment strategy that consists of having
+  description: Canary deployment is a deployment strategy that consists of having
     a replica of the production environment. New software versions are deployed to
     this replica, and after deployment, the release of the new version is done gradually,
     directing a percentage of user requests to the environment containing this new
@@ -39,24 +35,21 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    It is a computer program that simulates a human being in a conversation
+  description: It is a computer program that simulates a human being in a conversation
     through text or voice messages, widely used to automate repetitive tasks and provide
     support and assistance to users. Chatbots can be used in a wide variety of applications,
     such as customer service, virtual assistants, among others.
 - title: Class
   tags:
     - Concept
-  description:
-    A class, in software development, is like a template and a "model"
+  description: A class, in software development, is like a template and a "model"
     for creating objects. It defines the attributes (data) and methods (functions)
     that objects created from it will have. They help organize code, allowing reuse
     and abstraction of data and functionality into a coherent structure.
 - title: CLI
   tags:
     - Concept
-  description:
-    A Command Line Interface (CLI) is a way to interact with computer programs
+  description: A Command Line Interface (CLI) is a way to interact with computer programs
     where you type commands instead of clicking buttons or using menus. There are
     different ways to use software, such as the graphical interface (GUI), which is
     the one we see with images and buttons, or through APIs, which allow other programs
@@ -67,16 +60,14 @@
   tags:
     - Concept
     - Versioning
-  description:
-    Cloning a repository is like taking a local copy of that project into
+  description: Cloning a repository is like taking a local copy of that project into
     your own workspace. It's like having your own version of the code to tinker with
     as you please. This allows you to work on a local version of the code, make changes,
     and contribute back to the main project when you're ready.
 - title: Cloud Computing
   tags:
     - Concept
-  description:
-    Generally speaking, it refers to the use of computer services, such
+  description: Generally speaking, it refers to the use of computer services, such
     as file storage and program execution, over the Internet. This means that you
     do not need physical equipment, as everything is done online. You can access your
     data and programs from anywhere, at any time, without worrying about maintaining
@@ -84,14 +75,12 @@
 - title: CMD
   tags:
     - Concept
-  description:
-    The CMD (short for "Command Prompt") is a command-line interface present
+  description: The CMD (short for "Command Prompt") is a command-line interface present
     in the Windows operating system. See Terminal for more information.
 - title: Code Review
   tags:
     - Concept
-  description:
-    "It is a good practice that is highly recommended for the systems development
+  description: "It is a good practice that is highly recommended for the systems development
     process, through which the team's developers help each other. Normally, after
     the development stage of each task is completed, before the code is made available
     for testing, the team evaluates what was done and makes suggestions on what can
@@ -101,8 +90,7 @@
 - title: Code Smells
   tags:
     - Concept
-  description:
-    Code smells are indicators of potential problems in the code that,
+  description: Code smells are indicators of potential problems in the code that,
     while they do not cause immediate errors or prevent the software from working,
     can suggest areas of risk that could lead to future difficulties in maintaining
     and evolving the code. They often point to design issues, duplication, complexity,
@@ -111,8 +99,7 @@
 - title: Commit
   tags:
     - Concept
-  description:
-    When we work with code versioning (which is highly recommended), the
+  description: When we work with code versioning (which is highly recommended), the
     word commit is quite common among developers. But this word is also used by those
     who work with databases. When there is a set of changes made to a code, the person
     executes the commit command that saves what was done within the project. There
@@ -124,8 +111,7 @@
   tags:
     - Concept
     - Design
-  description:
-    A component is a fundamental, reusable unit of user interface construction.
+  description: A component is a fundamental, reusable unit of user interface construction.
     It encapsulates the logic and presentation related to a specific part of the interface.
     Components can be compared to building blocks that, when combined, form complex
     interfaces. They promote code organization and maintainability, since they can
@@ -134,15 +120,13 @@
 - title: Computed variable
   tags:
     - Concept
-  description:
-    It is a variable that does not store a value directly, it calculates
+  description: It is a variable that does not store a value directly, it calculates
     or derives its value from other variables or data.
 - title: Computer Vision
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    It is a field of artificial intelligence that studies how computers
+  description: It is a field of artificial intelligence that studies how computers
     can obtain and process information from visual stimuli. It focuses on developing
     systems that can analyze and understand images and videos, allowing computers
     to recognize objects, people, places, movements, and other visual elements. Computer
@@ -151,8 +135,7 @@
 - title: Continuous Delivery
   tags:
     - Concept
-  description:
-    Continuous Delivery (CD) is a software development practice that ensures
+  description: Continuous Delivery (CD) is a software development practice that ensures
     that the code is always ready to be deployed to production at any time. After
     Continuous Integration (CI), the software is automatically prepared for releases,
     with an automated deployment process and rigorous tests that ensure its quality.
@@ -162,8 +145,7 @@
 - title: Continuous Integration
   tags:
     - Concept
-  description:
-    Continuous integration is the practice of frequently testing the parts
+  description: Continuous integration is the practice of frequently testing the parts
     of the code that are added to a project. This prevents bugs and errors from being
     added, efficiently performing specific tests that verify the integration of each
     part.
@@ -172,8 +154,7 @@
     - Artificial intelligence
     - Concept
     - Neural network
-  description:
-    It is a type of artificial neural network that uses a mathematical
+  description: It is a type of artificial neural network that uses a mathematical
     operation called convolution in one or more of its layers. A Convolutional Neural
     Network or CNN is often used to process input data that has a matrix structure,
     such as images, and is widely used in computer vision applications, such as image
@@ -181,31 +162,27 @@
 - title: CORS
   tags:
     - Concept
-  description:
-    Cross-Origin Resource Sharing is a security policy for websites. It
+  description: Cross-Origin Resource Sharing is a security policy for websites. It
     determines how resources on a web page can be accessed by another page on a different
     domain. For example, an image or CSS file can usually be shared between different
     sites without problems, but JavaScript code often has stricter restrictions.
 - title: CSS
   tags:
     - Front-end
-  description:
-    Cascading Style Sheets is a mechanism for adding styles to a web page
+  description: Cascading Style Sheets is a mechanism for adding styles to a web page
     such as colors, sizes, fonts, etc. It is possible to link the HTML file to the
     CSS by adding a link to a CSS file that contains the styles.
 - title: CSS Preprocessors
   tags:
     - Front-end
-  description:
-    "CSS preprocessors are like special tools that make styling a website
+  description: "CSS preprocessors are like special tools that make styling a website
     easier. They make it possible to create more complicated styles that can be reused
     in different parts of the site. Think of them as smarter ways of choosing colors
     and fonts to make a website look good and work. Examples: SASS/SCSS and LESS."
 - title: Curl
   tags:
     - Tool
-  description:
-    Tool for transferring data to/from a server, i.e. making a request
+  description: Tool for transferring data to/from a server, i.e. making a request
     using various protocols, the most common being HTTP. When you hear the term 'make
     a curl for x' it means that you need to make a request for x, but not necessarily
     using the curl tool. Curl is widely used because it is simple to use via the command
