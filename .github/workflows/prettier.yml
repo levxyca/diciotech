@@ -4,9 +4,13 @@ on:
   pull_request:
     branches:
       - main
+    # paths:
+    #   - "**/*.{css,html,js,json,liquid,md,scss,yaml,yml}"
   push:
     branches:
       - main
+    # paths:
+    #   - "**/*.{css,html,js,json,liquid,md,scss,yaml,yml}"
 
 jobs:
   format:
@@ -17,9 +21,14 @@ jobs:
         uses: actions/checkout@v4.2.2
         # with:
         # ref: ${{ github.head_ref }}
-
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+      - name: Install Prettier
+        run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
       - name: Prettify code
-        uses: AbdulRehman-1/pr-prettier@initial
+        run: npx prettier . --write **/*.{css,html,js,json,liquid,md,scss,yaml,yml}
+      # commit all changed files back to the repository
+      - uses: stefanzweifel/git-auto-commit-action@v5.0.1
+        if: steps.changed-data.outputs.any_changed == 'true'
         with:
-          # This part is also where you can pass other options, for example:
-          prettier_options: --write **/*.{css,html,js,json,liquid,md,scss,yaml,yml}
+          commit_message: Prettiy code
