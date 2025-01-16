@@ -16,17 +16,24 @@ jobs:
   format:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.2.2
         with:
           ref: ${{ github.head_ref }}
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
+
       - name: Install Prettier
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+
       - name: Prettify code
         run: npx prettier . --no-error-on-unmatched-pattern --write **/*.{html,js,json,liquid,md,scss,yaml,yml}
+
       # commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5.0.1
         with:
