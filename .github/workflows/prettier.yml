@@ -21,9 +21,9 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4.2.2
-        # with:
-        #   ref: ${{ github.head_ref }}
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -35,6 +35,6 @@ jobs:
         run: npx prettier . --no-error-on-unmatched-pattern --write **/*.{html,js,json,liquid,md,scss,yaml,yml}
 
       # commit all changed files back to the repository
-      - uses: stefanzweifel/git-auto-commit-action@v5.0.1
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Prettiy code
