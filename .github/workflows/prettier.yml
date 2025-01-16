@@ -19,8 +19,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.2.2
-        # with:
-        # ref: ${{ github.head_ref }}
+        with:
+          ref: ${{ github.head_ref }}
       - name: Setup Node.js
         uses: actions/setup-node@v4
       - name: Install Prettier
