@@ -4,13 +4,9 @@ on:
   pull_request:
     branches:
       - main
-    # paths:
-    #   - "**/*.{css,html,js,json,liquid,md,scss,yaml,yml}"
   push:
     branches:
       - main
-    # paths:
-    #   - "**/*.{css,html,js,json,liquid,md,scss,yaml,yml}"
 
 jobs:
   format:
@@ -22,8 +18,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.head_ref }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -31,10 +25,31 @@ jobs:
       - name: Install Prettier
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
 
-      - name: Prettify code
-        run: npx prettier . --no-error-on-unmatched-pattern --write **/*.{html,js,json,liquid,md,scss,yaml,yml}
+      - name: Prettier check
+        id: prettier
+        run: npx prettier . --check
 
-      # commit all changed files back to the repository
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Create diff
+        # https://docs.github.com/en/actions/learn-github-actions/expressions#failure
+        if: ${{ failure() }}
+        run: |
+          npx prettier . --write
+          git diff -- . ':(exclude)package-lock.json' ':(exclude)package.json' > diff.txt
+          npm install -g diff2html-cli
+          diff2html -i file -s side -F diff.html -- diff.txt
+
+      - name: Upload html diff
+        id: artifact-upload
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' }}
+        uses: actions/upload-artifact@v4
         with:
-          commit_message: Prettiy code
+          name: HTML Diff
+          path: diff.html
+          retention-days: 7
+
+      - name: Dispatch information to repository
+        if: ${{ failure() && steps.prettier.conclusion == 'failure' && github.event_name == 'pull_request' }}
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          event-type: prettier-failed-on-pr
+          client-payload: '{"pr_number": "${{ github.event.number }}", "artifact_url": "${{ steps.artifact-upload.outputs.artifact-url }}", "run_id": "${{ github.run_id }}"}'
