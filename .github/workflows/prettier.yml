@@ -26,9 +26,8 @@ jobs:
       - name: Install Prettier
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
       - name: Prettify code
-        run: npx prettier . --no-error-on-unmatched-pattern --write **/*.{css,html,js,json,liquid,md,scss,yaml,yml}
+        run: npx prettier . --no-error-on-unmatched-pattern --write **/*.{html,js,json,liquid,md,scss,yaml,yml}
       # commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5.0.1
-        if: steps.changed-data.outputs.any_changed == 'true'
         with:
           commit_message: Prettiy code
