@@ -85,52 +85,34 @@
           {% endif %}
           <li class="nav-item active">
             {% if site.active_lang == site.default_lang %}
-              <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
+              <a class="button-change-language" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
                 {{ other_language | upcase }}
               </a>
             {% else %}
-              <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
+              <a class="button-change-language" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
                 {{ site.default_lang | upcase }}
               </a>
             {% endif %}
           </li>
         {% else %}
-          <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              {{- site.active_lang | upcase }}
-              {% if page.title == p.title %}
-                <span class="sr-only">(current)</span>
-              {% endif %}
-            </a>
-            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-              {% assign language_set = false %}
-              {% for l in site.languages %}
-                {% if l != site.active_lang %}
-                  {% if language_set %}
-                    <div class="dropdown-divider"></div>
+          <div class="language-toggle-container">
+            <div class="button-change-language">
+              {{ site.active_lang | upcase }}
+              <ul class="language-dropdown">
+                {% for l in site.languages %}
+                  {% if l != site.active_lang %}
+                    <li>
+                      {% if l == site.default_lang %}
+                        <a {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %} >{{ site.default_lang | upcase }}</a>
+                      {% else %}
+                        <a {% static_href -%} href="{{ site.baseurl }}/{{ l }}{{ page.url }}" {%- endstatic_href %}>{{ l | upcase }}</a>
+                      {% endif %}
+                    </li>
                   {% endif %}
-                  {% if l == site.default_lang %}
-                    <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
-                      {{ l | upcase }}
-                    </a>
-                  {% else %}
-                    <a class="dropdown-item" {% static_href -%} href="{{ site.baseurl }}/{{ l }}{{ page.url }}" {%- endstatic_href %}>
-                      {{ l | upcase }}
-                    </a>
-                  {% endif %}
-                  {% assign language_set = true %}
-                {% endif %}
-              {% endfor %}
+                {% endfor %}
+              </ul>
             </div>
-          </li>
+          </div
         {% endif %}
       {% endif %}
       <!-- End Toogle language -->
