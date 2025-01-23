@@ -97,11 +97,11 @@
     - Back-end
     - Front-end
   description:
-    Ruby on Rails, or simply Rails, is an open-source development tool written in Ruby, 
-    used to create dynamic and efficient web applications. 
-    It follows the MVC (Model-View-Controller) architecture pattern and stands out 
-    for its "convention over configuration" philosophy, which simplifies the development process by 
-    providing predefined standards. Rails is known for its robustness in the backend and 
-    for offering exceptional productivity to developers, enabling the rapid creation of scalable, 
-    secure, and well-structured applications. It is widely used to build everything 
-    from startups to large corporate platforms.
+     Ruby on Rails, or simply Rails, is an open-source tool written in Ruby to create 
+    websites and web applications dynamically and efficiently. It organizes development into 
+    three main parts':' the data (Model), the user interface (View), 
+    and the system logic (Controller)'–' a pattern known as MVC.
+    Rails is designed to save developers time with its "convention over configuration" philosophy, 
+    which provides ready-made standards and reduces the need for manual adjustments. It is a 
+    reliable choice for creating fast, scalable, and secure applications, being used by both 
+    startups and large companies.
