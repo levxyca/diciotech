@@ -31,7 +31,7 @@
 - title: DDoS
   tags:
     - Concept
-    - Cyber security
+    - Cybersecurity
   description:
     DDoS is an attack where many devices try to connect to a website at
     the same time to overload it.
@@ -139,7 +139,7 @@
 - title: DoS
   tags:
     - Concept
-    - Cyber security
+    - Cybersecurity
   description:
     DoS is a denial of service attack. In this attack a single computer
     is used to make many queries to a website in a short space of time with the aim
