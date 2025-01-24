@@ -86,7 +86,6 @@
           {% else %}
             {% assign other_language = site.languages.first %}
           {% endif %}
-          <li class="nav-item active">
             {% if site.active_lang == site.default_lang %}
               <a class="button-change-language" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
                 {{ other_language | upcase }}
@@ -96,24 +95,22 @@
                 {{ site.default_lang | upcase }}
               </a>
             {% endif %}
-          </li>
         {% else %}
-         
-            <div class="button-change-language">
-              {{ site.active_lang | upcase }}
-              <ul class="language-dropdown">
-                {% for l in site.languages %}
-                  {% if l != site.active_lang %}
-                    <li>
-                      {% if l == site.default_lang %}
-                        <a {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %} >{{ site.default_lang | upcase }}</a>
-                      {% else %}
-                        <a {% static_href -%} href="{{ site.baseurl }}/{{ l }}{{ page.url }}" {%- endstatic_href %}>{{ l | upcase }}</a>
-                      {% endif %}
-                    </li>
-                  {% endif %}
-                {% endfor %}
-              </ul>
+          <div class="button-change-language">
+            {{ site.active_lang | upcase }}
+            <ul class="language-dropdown">
+              {% for l in site.languages %}
+                {% if l != site.active_lang %}
+                  <li>
+                    {% if l == site.default_lang %}
+                      <a {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %} >{{ site.default_lang | upcase }}</a>
+                    {% else %}
+                      <a {% static_href -%} href="{{ site.baseurl }}/{{ l }}{{ page.url }}" {%- endstatic_href %}>{{ l | upcase }}</a>
+                    {% endif %}
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
             </div>
         {% endif %}
       {% endif %}
