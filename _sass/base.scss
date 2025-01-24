@@ -268,21 +268,7 @@ html {
   }
 }
 
-.button-change-theme {
-  background-color: $primary-500;
-  color: $white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  position: absolute;
-  top: 20px;
-  right: 20px;
 
-  & i {
-    font-size: 1.4rem;
-  }
-}
 
 :root {
   #change-theme-button {
@@ -298,23 +284,38 @@ html {
   }
 }
 
-
-.button-change-language {
-  background-color: $primary-500; 
-  color: $white; 
+.button {
+  background-color: $primary-500;
+  color: $white;
   border: none;
   border-radius: 5px;
   padding: 10px 20px;
   cursor: pointer;
-  text-transform: uppercase;
+  position: absolute;
+  min-height: 36px;
+  min-width: 68px;
+
+  & i {
+    font-size: 1.4rem;
+  }
+}
+
+.button-change-theme {
+  @extend .button;
+  top: 20px;
+  right: 20px;
+}
+
+.button-change-language {
+  @extend .button;
   font-weight: bold;
+  text-transform: uppercase;
   text-decoration: none;
-  font-size: 1rem;
-  display: inline-flex;
+  align-items: center;
   align-items: center;
   justify-content: center;
-  gap: 5px; 
-  position: absolute;
+  display: inline-flex;
+  margin-right: 10px;
   top: 20px;
   right: 85px;
 }
@@ -324,9 +325,6 @@ html {
   color: $white; 
 }
 
-.button-change-language i {
-  font-size: 1.4rem;
-}
 .language-dropdown {
   display: none;
   position: absolute;
