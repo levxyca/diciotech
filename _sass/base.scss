@@ -268,8 +268,6 @@ html {
   }
 }
 
-
-
 :root {
   #change-theme-button {
     .ph-desktop {
@@ -289,15 +287,19 @@ html {
   color: $white;
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
+  width: 60px; 
+  height: 50px; 
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   position: absolute;
-  min-height: 36px;
-  min-width: 68px;
+  display: inline-flex;
+  transition: background-color 0.3s ease;
 
   & i {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
+
 }
 
 .button-change-theme {
@@ -309,16 +311,11 @@ html {
 .button-change-language {
   @extend .button;
   font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  align-items: center;
-  align-items: center;
-  justify-content: center;
-  display: inline-flex;
-  margin-right: 10px;
   top: 20px;
   right: 85px;
+  margin-right: 10px;
 }
+
 
 .button-change-language:hover {
   background-color: $primary-400; 
