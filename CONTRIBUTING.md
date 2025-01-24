@@ -105,7 +105,7 @@ permalink: / # link no qual a página vai ser acessada
 O layout base é um arquivo que contém o html básico de todas as páginas, e é onde são incluídos os arquivos de css e js necessários para o site. A extensão `.liquid` é uma extensão padrão usada pelo Jekyll. No layout básico é possível encontrar algumas expressões como:
 
 ```liquid
-<meta name="description" content="{{ page.site_description }}" />
+<meta name="description" content="{{ page.site_description }}">
 {% include script.liquid.js %}
 ```
 
@@ -244,7 +244,11 @@ Concluindo esses dois passos, você pode [criar uma nova issue](https://github.c
 
 Para adicionar novos termos técnicos não é necessário instalar o ambiente de desenvolvimento. Todo o processo pode ser feito pela própria interface web do GitHub.
 
-Já para contribuições de layout ou qualquer outra, você precisa instalar o ambiente de desenvolvimento. O `diciotech` é construído com Ruby e Jekyll, então você precisa ter o Ruby instalado em sua máquina. Aqui estão as instruções para instalar o ambiente de desenvolvimento:
+Já para contribuições de layout ou qualquer outra, você precisa instalar o ambiente de desenvolvimento. A forma mais prática de fazer isso é utilizar o [GitHub Codespaces](https://docs.github.com/en/codespaces), que tem um [limite gratuito](https://docs.github.com/en/billing/managing-billing-for-your-products/managing-billing-for-github-codespaces/about-billing-for-github-codespaces#monthly-included-storage-and-core-hours-for-personal-accounts) para uso. Para isso, basta clicar no botão abaixo.
+
+[![Abrir no GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/levxyca/diciotech/tree/jekyll2?quickstart=1)
+
+O `diciotech` é construído com Ruby e Jekyll, então você precisa ter o Ruby instalado em sua máquina. Aqui estão as instruções para instalar o ambiente de desenvolvimento:
 
 ### Usando Development Containers (recomendado)
 
