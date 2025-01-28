@@ -287,8 +287,8 @@ html {
   color: $white;
   border: none;
   border-radius: 5px;
-  width: 60px; 
-  height: 50px; 
+  min-height: 36px;
+  min-width: 54px;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -297,7 +297,7 @@ html {
   transition: background-color 0.3s ease;
 
   & i {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 
 }
@@ -310,10 +310,10 @@ html {
 
 .button-change-language {
   @extend .button;
+  text-decoration: none;
   font-weight: bold;
   top: 20px;
   right: 85px;
-  margin-right: 10px;
 }
 
 
