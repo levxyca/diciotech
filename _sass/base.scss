@@ -332,7 +332,6 @@ html {
   list-style: none;
   padding: 0;
   margin: 0;
-  min-width: 150px;
   z-index: 1000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -352,12 +351,17 @@ html {
   color: $white;
   text-decoration: none;
   text-transform: uppercase;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   font-size: 0.9rem;
+  border-radius: 5px;
 }
 
 .language-dropdown li a:hover {
-  background-color: $primary-400; 
+  background-color: $primary-400;
+  border-radius: 5px;
   color: $white;
 }
 
