@@ -334,15 +334,11 @@ html {
   margin: 0;
   z-index: 1000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
-
 
 .language-dropdown li {
-  border-bottom: 1px solid $primary-400; 
-}
-
-.language-dropdown li:last-child {
-  border-bottom: none; 
+  width: 100%;
 }
 
 .language-dropdown li a {
@@ -356,12 +352,10 @@ html {
   justify-content: center;
   font-weight: bold;
   font-size: 0.9rem;
-  border-radius: 5px;
 }
 
 .language-dropdown li a:hover {
   background-color: $primary-400;
-  border-radius: 5px;
   color: $white;
 }
 
