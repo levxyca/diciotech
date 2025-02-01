@@ -29,6 +29,7 @@ jobs:
         uses: tj-actions/changed-files@v45.0.4
         with:
           files: _data/**.yml
+          files_ignore: _data/**/strings.yml
 
       - name: Setup Python
         if: steps.changed-data.outputs.any_changed == 'true'
@@ -42,6 +43,9 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-data.outputs.all_changed_files }}
         run: |
           for file in $ALL_CHANGED_FILES; do
+            if [[ $(basename $file) == "strings.yml" ]]; then
+              continue
+            fi
             echo "Formatting $file"
             python3 format_data.py -f $file
           done
