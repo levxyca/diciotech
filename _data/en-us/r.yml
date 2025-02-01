@@ -84,15 +84,14 @@
     interact, being able to handle many different programming styles.
 - title: Ruby on Rails
   tags:
-    - Framework
     - Back-end
+    - Framework
     - Front-end
-  description:
-     Ruby on Rails, or simply Rails, is an open-source tool written in Ruby to create 
-    websites and web applications dynamically and efficiently. It organizes development into 
-    three main parts':' the data (Model), the user interface (View), 
-    and the system logic (Controller)'–' a pattern known as MVC.
-    Rails is designed to save developers time with its "convention over configuration" philosophy, 
-    which provides ready-made standards and reduces the need for manual adjustments. It is a 
-    reliable choice for creating fast, scalable, and secure applications, being used by both 
-    startups and large companies.
+  description: Ruby on Rails, or simply Rails, is an open-source tool written in Ruby
+    to create websites and web applications dynamically and efficiently. It organizes
+    development into three main parts':' the data (Model), the user interface (View),
+    and the system logic (Controller)'–' a pattern known as MVC. Rails is designed
+    to save developers time with its "convention over configuration" philosophy, which
+    provides ready-made standards and reduces the need for manual adjustments. It
+    is a reliable choice for creating fast, scalable, and secure applications, being
+    used by both startups and large companies.
