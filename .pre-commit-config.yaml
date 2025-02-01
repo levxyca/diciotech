@@ -3,21 +3,21 @@ repos:
     rev: v4.6.0
     hooks:
       - id: check-yaml
-  # - repo: local
-  #   hooks:
-  #     - id: format-data
-  #       name: Format yml data files
-  #       entry: bash run_on_data_changed.sh
-  #       language: system
-  #       types: [yaml]
-  #       verbose: true
-  #       require_serial: true
-  # - repo: local
-  #   hooks:
-  #     - id: format-code
-  #       name: Format code files with Prettier
-  #       entry: bash run_on_code_changed.sh
-  #       language: system
-  #       types_or: [css, html, javascript, sass, scss, yaml]
-  #       verbose: true
-  #       require_serial: true
+  - repo: local
+    hooks:
+      - id: format-data
+        name: Format yml data files
+        entry: bash run_on_data_changed.sh
+        language: system
+        types: [yaml]
+        verbose: true
+        require_serial: true
+  - repo: local
+    hooks:
+      - id: format-code
+        name: Format code files with Prettier
+        entry: bash run_on_code_changed.sh
+        language: system
+        types_or: [css, html, javascript, sass, scss, yaml]
+        verbose: true
+        require_serial: true
