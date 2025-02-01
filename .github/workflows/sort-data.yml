@@ -21,11 +21,10 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4.2.2
-        with:
-          ref: ${{ github.head_ref }}
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Get changed data files
+      - name: Check if changed data files
         id: changed-data
         uses: tj-actions/changed-files@v45.0.4
         with:
