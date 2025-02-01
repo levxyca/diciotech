@@ -142,4 +142,16 @@
   description: Ruby é uma linguagem de programação altamente flexível criada no Japão
     em 1995. Ela é conhecida por sua simplicidade e facilidade de uso, sendo muito
     usada no desenvolvimento web e em aplicações de automação.
-
+- title: Ruby on Rails
+  tags:
+  - Framework
+  - Back-end
+  - Front-end
+  description: Ruby on Rails, ou simplesmente Rails, é uma ferramenta de código aberto escrita em 
+    Ruby para criar sites e aplicações web de forma dinâmica e eficiente. Ele organiza o 
+    desenvolvimento em três partes principais':' os dados (Model), a interface com o usuário (View) 
+    e a lógica do sistema (Controller) '–' um padrão conhecido como MVC.
+    Rails é projetado para economizar tempo de devs com sua filosofia de 
+    "convenção sobre configuração", que oferece padrões prontos e reduz a necessidade de 
+    ajustes manuais. Ele é uma escolha confiável para criar aplicações rápidas, 
+    escaláveis e seguras, sendo usado tanto por startups quanto por grandes empresas.
