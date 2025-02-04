@@ -4,7 +4,7 @@ permalink: /assets/data/cards.json
 ---
 {"cards":[
 {%- for letter in site.data[site.active_lang] -%}
-  {%- if letter[0] != "strings" -%}
+  {%- if letter[0] != 'strings' -%}
     {%- for card in letter[1] -%}
       { "title": "{{ card.title | escape }}", "tags": [
       {%- for tag in card.tags -%}
