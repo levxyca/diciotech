@@ -6,7 +6,7 @@ url: "https://diciotech.netlify.app/" # the base hostname & protocol for your si
 # -----------------------------------------------------------------------------
 
 # Jekyll Polyglot
-languages: ["en-us", "pt-br"]
+languages: ["pt-br", "en-us"]
 default_lang: "pt-br"
 exclude_from_localization: ["assets"]
 lang_from_path: true
@@ -36,7 +36,7 @@ exclude:
   - run_on_data_changed.sh
   - todo.md
 
-include: ["_json", "_pages"]
+include: ["_json", "_pages", "_scripts"]
 
 plugins:
   - jekyll-minifier

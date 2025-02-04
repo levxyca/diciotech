@@ -86,3 +86,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# mypy files
+.mypy_cache/
+
+# Ruby files
+.ruby-lsp/
