@@ -1,0 +1,32 @@
+---
+permalink: /assets/js/localized_scripts.js
+---
+import { addFavoriteTag, filterCards, getTagsFromCards, insertCardsIntoHtml, loadFavoriteCardsId, searchCards, sortCardsByTitle } from '
+{{- '/assets/js/cards.js' | relative_url -}}
+';
+
+{% if site.active_lang == site.default_lang -%}
+  const res = await fetch('{{ '/assets/data/cards.json' | relative_url }}');
+{%- else -%}
+  const res = await fetch('{{ '/assets/data/cards.json' | prepend: site.active_lang | prepend: '/' | relative_url }}');
+{%- endif %}
+
+// variables that need to be set by jekyll const allTag = '{{ site.data[site.active_lang].strings.all }}'; const favoriteTag = '
+{{- site.data[site.active_lang].strings.favorites -}}
+'; const noResultsAlt = '{{ site.data[site.active_lang].strings.no_results.alt }}'; const noResultsText = `
+{{- site.data[site.active_lang].strings.no_results.text -}}
+`;
+
+async function getCardsFromJson() { try {
+{% if site.active_lang == site.default_lang -%}
+  const res = await fetch('{{ '/assets/data/cards.json' | relative_url }}');
+{%- else -%}
+  const res = await fetch('{{ '/assets/data/cards.json' | prepend: site.active_lang | prepend: '/' | relative_url }}');
+{%- endif %}
+const data = await res.json(); const sortedCards = await sortCardsByTitle(data); document.getElementById('total-terms').textContent =
+sortedCards.length; await loadFavoriteCardsId(); await addFavoriteTag(sortedCards, favoriteTag); getTagsFromCards(sortedCards, favoriteTag);
+insertCardsIntoHtml(sortedCards, favoriteTag, allTag, noResultsAlt, noResultsText); } catch (error) { console.error('An error occurred while fetching
+card data.', error); } }
+
+document.querySelector('#search-input').addEventListener('input', searchCards); document.querySelector('#tags-filter').addEventListener('change',
+filterCards(allTag)); getCardsFromJson();

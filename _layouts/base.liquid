@@ -172,7 +172,7 @@
       </div>
     </main>
     <script
-      src="{% if site.active_lang != site.default_lang %}{{ '/assets/js/scripts.js' | prepend: site.active_lang | relative_url }}{% else %}{{ '/assets/js/scripts.js' | relative_url }}{% endif %}"
+      src="{% if site.active_lang != site.default_lang %}{{ '/assets/js/localized_scripts.js' | prepend: site.active_lang | relative_url }}{% else %}{{ '/assets/js/localized_scripts.js' | relative_url }}{% endif %}"
       type="module"
     ></script>
     <script src="{{ '/assets/js/cookies.js' | relative_url }}" type="module"></script>
