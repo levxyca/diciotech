@@ -317,4 +317,19 @@ function generateContentId(title = "", description = "", hash = 5381) {
   return hashString;
 }
 
-export { addFavoriteTag, filterCards, getTagsFromCards, insertCardsIntoHtml, loadFavoriteCardsId, searchCards, sortCardsByTitle };
+async function getCardsFromJson(jsonPath, favoriteTag, allTag, noResultsAlt, noResultsText) {
+  try {
+    const res = await fetch(jsonPath);
+    const data = await res.json();
+    const sortedCards = await sortCardsByTitle(data);
+    document.getElementById("total-terms").textContent = sortedCards.length;
+    await loadFavoriteCardsId();
+    await addFavoriteTag(sortedCards, favoriteTag);
+    getTagsFromCards(sortedCards, favoriteTag);
+    insertCardsIntoHtml(sortedCards, favoriteTag, allTag, noResultsAlt, noResultsText);
+  } catch (error) {
+    console.error("An error occurred while fetching card data.", error);
+  }
+}
+
+export { addFavoriteTag, filterCards, getCardsFromJson, getTagsFromCards, insertCardsIntoHtml, loadFavoriteCardsId, searchCards, sortCardsByTitle };
