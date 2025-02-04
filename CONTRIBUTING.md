@@ -40,10 +40,7 @@ diciotech
 │   ├── img
 │   │   └── ...
 │   └── js
-│       ├── cookies.js
-│       ├── levenshtein.js
-│       ├── pwa.js
-│       └── theme.js
+│       └── ...
 ├── _config.yml (arquivo de configuração do Jekyll)
 ├── _data (aqui devem ser adicionados os termos e definições)
 │   ├── en-us
@@ -85,7 +82,7 @@ diciotech
 │   ├── light_theme.scss
 │   └── variables.scss
 ├── _scripts (aqui devem ficar códigos js que dependem de valores do Jekyll)
-│   └── scripts.js.liquid
+│   └── localized_scripts.js.liquid
 └── _site (onde o Jekyll gera o site final, não deve ser versionado)
     └── ...
 ```
@@ -96,8 +93,8 @@ Dentre os arquivos e pastas, os mais importantes são:
 - `_data/LANG/strings.yml`: onde ficam as traduções dos termos na página que não são termos do dicionário;
 - `_layouts/base.liquid`: layout base da página, basicamente um html com variáveis em liquid definidas em `_data/LANG/strings.yml`;
 - `_sass/`: onde ficam os arquivos de estilo do site. Aqui é onde você deve fazer mudanças de css;
-- `_scripts/`: onde ficam códigos js que dependem de valores do Jekyll. Você pode adicionar códigos novos no arquivo `scripts.js.liquid`, ou criar novos arquivos. Lembre-se de incluir os arquivos novos no layout base;
-- `assets/`: onde ficam os arquivos de css, js e imagens que são copiados tal qual para o site final.
+- `_scripts/`: onde ficam códigos js que dependem de valores do Jekyll. Você pode adicionar códigos novos no arquivo `localized_scripts.js.liquid`, ou criar novos arquivos. Lembre-se de incluir os arquivos novos no layout base;
+- `assets/`: onde ficam os arquivos que são copiados tal qual para o site final.
 
 ## Como funciona o build do site
 
@@ -134,10 +131,11 @@ _site/
 │   ├── img
 │   │   └── ...
 │   └── js
+│       ├── cards.js
 │       ├── cookies.js
 │       ├── levenshtein.js
+│       ├── localized_scripts.js
 │       ├── pwa.js
-│       ├── scripts.js
 │       └── theme.js
 ├── diciotech.webmanifest
 ├── en-us
@@ -145,7 +143,7 @@ _site/
 │   │   ├── data
 │   │   |   └── cards.json
 |   |   └── js
-|   |       └── scripts.js
+|   |       └── localized_scripts.js
 │   ├── diciotech.webmanifest
 │   └── index.html
 └── index.html
