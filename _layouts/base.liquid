@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
-      content="{{ page.site_description }}"
+      content="{{ site.data[site.active_lang].strings.site_description }}"
     >
 
     <!-- Favicon -->
@@ -33,7 +33,7 @@
     ></script>
 
     <!-- Light/Dark/System Theme -->
-    <script src="/assets/js/theme.js"></script>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 
     <!-- Progressive Web App Manifest -->
     <link rel="manifest" href="diciotech.webmanifest">
@@ -46,7 +46,7 @@
         href="https://github.com/levxyca/diciotech"
         target="_blank"
         class="github-corner"
-        aria-label="{{ page.view_on_github }}"
+        aria-label="{{ site.data[site.active_lang].strings.view_on_github }}"
       >
         <svg viewBox="0 0 250 250" aria-hidden="true">
           <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -72,9 +72,9 @@
         >
       </h1>
       <h2 class="header__subtitle">
-        {{ page.site_description }} 📖 <br>
-        {{ page.currently_with }}
-        <span id="total-terms">0</span> {{ page.terms }} 🚀
+        {{ site.data[site.active_lang].strings.site_description }} 📖 <br>
+        {{ site.data[site.active_lang].strings.currently_with }}
+        <span id="total-terms">0</span> {{ site.data[site.active_lang].strings.terms }} 🚀
       </h2>
 
       <!-- Toogle language -->
@@ -156,7 +156,7 @@
       <button
         id="change-theme-button"
         class="button-change-theme"
-        title="{{ page.change_theme }}"
+        title="{{ site.data[site.active_lang].strings.change_theme }}"
       >
         <i class="ph ph-desktop"></i>
         <i class="ph ph-moon"></i>
@@ -179,14 +179,14 @@
             id="search-input"
             type="text"
             name="search-input"
-            placeholder="{{ page.search_placeholder }}"
+            placeholder="{{ site.data[site.active_lang].strings.search_placeholder }}"
             class="searchbar__input"
           >
         </div>
         <div class="filter">
-          <label for="tags-filter" class="filter_label">{{ page.filter_by_category }}</label>
+          <label for="tags-filter" class="filter_label">{{ site.data[site.active_lang].strings.filter_by_category }}</label>
           <select id="tags-filter">
-            <option value="{{ page.all }}" selected>{{ page.all }}</option>
+            <option value="{{ site.data[site.active_lang].strings.all }}" selected>{{ site.data[site.active_lang].strings.all }}</option>
           </select>
         </div>
       </div>
@@ -194,22 +194,24 @@
       <div class="cookies-container">
         <div class="cookies-content">
           <p class="cookies-message">
-            {{ page.cookies_message }}
+            {{ site.data[site.active_lang].strings.cookies_message }}
             <a
               href="https://cookie-consent.app.forthe.top/why-websites-use-cookies/"
               target="_blank"
             >
-              {{- page.read_more -}}
+              {{- site.data[site.active_lang].strings.read_more -}}
             </a>
           </p>
           <div class="cookies-buttons">
-            <button class="cookies-accept-button">{{ page.accept_cookies }}</button>
+            <button class="cookies-accept-button">{{ site.data[site.active_lang].strings.accept_cookies }}</button>
           </div>
         </div>
       </div>
     </main>
-    {% include script.js.liquid %}
-    <script src="/assets/js/cookies.js" type="module"></script>
-    <script src="/assets/js/pwa.js"></script>
+    <script
+    src="{% if site.active_lang != site.default_lang %}{{ '/assets/js/scripts.js' | prepend: site.active_lang | relative_url }}{% else %}{{ '/assets/js/scripts.js' | relative_url }}{% endif %}" type="module"
+  ></script>
+    <script src="{{ '/assets/js/cookies.js' | relative_url }}" type="module"></script>
+    <script src="{{ '/assets/js/pwa.js' | relative_url }}"></script>
   </body>
 </html>

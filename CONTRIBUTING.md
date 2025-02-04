@@ -47,17 +47,25 @@ diciotech
 ├── _config.yml (arquivo de configuração do Jekyll)
 ├── _data (aqui devem ser adicionados os termos e definições)
 │   ├── en-us
-│   │   ├── a.yml
+│   │   ├── a.yml (termos e definições que começam com a letra A)
 │   │   ├── ...
-│   │   └── z.yml
+│   │   ├── numbers.yml (termos e definições que começam com números)
+│   │   ├── ...
+│   │   ├── strings.yml (onde ficam as traduções dos termos na página)
+│   │   ├── symbols.yml (termos e definições que começam com símbolos)
+│   │   ├── ...
+│   │   └── z.yml (termos e definições que começam com a letra Z)
 │   └── pt-br
-│       ├── a.yml
-│       ├── ...
-│       └── z.yml
+│   │   ├── a.yml (termos e definições que começam com a letra A)
+│   │   ├── ...
+│   │   ├── numbers.yml (termos e definições que começam com números)
+│   │   ├── ...
+│   │   ├── strings.yml (onde ficam as traduções dos termos na página)
+│   │   ├── symbols.yml (termos e definições que começam com símbolos)
+│   │   ├── ...
+│   │   └── z.yml (termos e definições que começam com a letra Z)
 ├── Gemfile (arquivo de dependências do Ruby)
 ├── Gemfile.lock (arquivo de dependências do Ruby com as versões específicas)
-├── _includes
-│   └── script.liquid.js (aqui devem ficar códigos js que dependem de valores do Jekyll)
 ├── _json (cria os cards.json final a partir dos yml)
 │   ├── en-us
 │   │   └── cards.json
@@ -65,28 +73,30 @@ diciotech
 │       └── cards.json
 ├── _layouts
 │   └── base.liquid (layout base do site)
-├── _pages (onde ficam as traduções dos termos na página)
+├── _pages
 │   ├── en-us
-│   │   └── search.md
+│   │   └── search.md (define que vai ter uma página search em inglês)
 │   └── pt-br
-│       └── search.md
+│       └── search.md (define que vai ter uma página search em português)
 ├── _sass (onde devem ser feitas as mudanças no estilo do site)
 │   ├── base.scss
 │   ├── cookies.scss
 │   ├── dark_theme.scss
 │   ├── light_theme.scss
 │   └── variables.scss
+├── _scripts (aqui devem ficar códigos js que dependem de valores do Jekyll)
+│   └── scripts.js.liquid
 └── _site (onde o Jekyll gera o site final, não deve ser versionado)
     └── ...
 ```
 
 Dentre os arquivos e pastas, os mais importantes são:
 
-- `_data/`: onde ficam os arquivos YAML com os termos e definições, separados por idioma e letra. Aqui é onde você deve adicionar novos termos;
-- `_includes/`: onde ficam códigos js que dependem de valores do Jekyll. Você pode adicionar códigos novos no arquivo `script.liquid.js`, ou criar novos arquivos. Lembre-se de incluir os arquivos novos no layout base;
-- `_layouts/base.liquid`: layout base da página, basicamente um html com variáveis em liquid definidas em `_pages/`;
-- `_pages/`: onde ficam as traduções de textos na página que não são termos e suas definições;
+- `_data/`: onde ficam os arquivos YAML com os termos e definições do dicionário, separados por idioma e letra (com exceção do arquivo `strings.yml` explicado abaixo). Aqui é onde você deve adicionar novos termos;
+- `_data/LANG/strings.yml`: onde ficam as traduções dos termos na página que não são termos do dicionário;
+- `_layouts/base.liquid`: layout base da página, basicamente um html com variáveis em liquid definidas em `_data/LANG/strings.yml`;
 - `_sass/`: onde ficam os arquivos de estilo do site. Aqui é onde você deve fazer mudanças de css;
+- `_scripts/`: onde ficam códigos js que dependem de valores do Jekyll. Você pode adicionar códigos novos no arquivo `scripts.js.liquid`, ou criar novos arquivos. Lembre-se de incluir os arquivos novos no layout base;
 - `assets/`: onde ficam os arquivos de css, js e imagens que são copiados tal qual para o site final.
 
 ## Como funciona o build do site
@@ -128,12 +138,15 @@ _site/
 │       ├── cookies.js
 │       ├── levenshtein.js
 │       ├── pwa.js
+│       ├── scripts.js
 │       └── theme.js
 ├── diciotech.webmanifest
 ├── en-us
 │   ├── assets
-│   │   └── data
-│   │       └── cards.json
+│   │   ├── data
+│   │   |   └── cards.json
+|   |   └── js
+|   |       └── scripts.js
 │   ├── diciotech.webmanifest
 │   └── index.html
 └── index.html
