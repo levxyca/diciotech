@@ -268,22 +268,6 @@ html {
   }
 }
 
-.button-change-theme {
-  background-color: $primary-500;
-  color: $white;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-
-  & i {
-    font-size: 1.4rem;
-  }
-}
-
 :root {
   #change-theme-button {
     .ph-desktop {
@@ -297,3 +281,85 @@ html {
     }
   }
 }
+
+.button {
+  background-color: $primary-500;
+  color: $white;
+  border: none;
+  border-radius: 5px;
+  min-height: 36px;
+  min-width: 54px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: absolute;
+  display: inline-flex;
+  transition: background-color 0.3s ease;
+
+  & i {
+    font-size: 1.5rem;
+  }
+
+}
+
+.button-change-theme {
+  @extend .button;
+  top: 20px;
+  right: 20px;
+}
+
+.button-change-language {
+  @extend .button;
+  text-decoration: none;
+  font-weight: bold;
+  top: 20px;
+  right: 85px;
+}
+
+
+.button-change-language:hover {
+  background-color: $primary-400; 
+  color: $white; 
+}
+
+.language-dropdown {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: $primary-500; 
+  border-radius: 5px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.language-dropdown li {
+  width: 100%;
+}
+
+.language-dropdown li a {
+  display: block;
+  padding: 10px 20px;
+  color: $white;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.language-dropdown li a:hover {
+  background-color: $primary-400;
+  color: $white;
+}
+
+.button-change-language:hover .language-dropdown {
+  display: block;
+}
+
