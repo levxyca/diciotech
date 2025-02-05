@@ -49,7 +49,7 @@ body {
   background: $primary-500;
 }
 ::-webkit-scrollbar-track {
-  background: $gray-100;
+  background: var(--scroll-bar-background-color);
 }
 html {
   font-size: 62.5%;
