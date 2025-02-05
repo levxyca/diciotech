@@ -1,7 +1,7 @@
 - title: React
   tags:
-  - Framework
-  - Front-end
+    - Framework
+    - Front-end
   description: React é uma biblioteca JavaScript de código aberto utilizada para criar
     interfaces de usuário interativas e dinâmicas em aplicações web e em outros ambientes,
     como mobile, TV, realidade virtual, entre outros. Ele se destaca por seu modelo
@@ -9,13 +9,13 @@
     do usuário, tornando-o uma escolha popular no desenvolvimento front-end.
 - title: React Native
   tags:
-  - Mobile
+    - Mobile
   description: É um framework do Javascript baseado no React para desenvolvimento
     de aplicativos móveis multiplataforma.
 - title: Reconhecimento Automático de Fala
   tags:
-  - Conceito
-  - Inteligência artificial
+    - Conceito
+    - Inteligência artificial
   description: É um campo da inteligência artificial que se concentra no desenvolvimento
     de sistemas que podem analisar e entender a fala humana, permitindo que os computadores
     transcrevam e processem estímulos sonoros em texto. O reconhecimento automático
@@ -28,7 +28,7 @@
     de navegação, transcrição de áudio, entre outros.
 - title: Recursão
   tags:
-  - Conceito
+    - Conceito
   description: Recursão é um método/função que chama a si mesmo para resolver um problema.
     Temos de exemplo o cálculo fatorial onde um número vai multiplicando seu número
     anterior até chegar a 1. Aqui temos um exemplo utilizando javascript, vamos imaginar
@@ -42,9 +42,9 @@
       return numero * fatorial(numero - 1) }
 - title: Rede Generativa Adversarial
   tags:
-  - Conceito
-  - Inteligência artificial
-  - Rede neural
+    - Conceito
+    - Inteligência artificial
+    - Rede neural
   description: Do inglês, Generative Adversarial Network ou GAN, é um tipo de rede
     neural artificial composto por duas redes neurais concorrentes treinadas de forma
     adversarial. A rede neural generativa é treinada para gerar novos dados, enquanto
@@ -57,9 +57,9 @@
     discriminativo é comumente usado para identificação de dados falsos.
 - title: Rede Neural Artificial
   tags:
-  - Conceito
-  - Inteligência artificial
-  - Rede neural
+    - Conceito
+    - Inteligência artificial
+    - Rede neural
   description: É um modelo computacional inspirado no sistema nervoso central de um
     animal, que consiste em um conjunto de unidades de processamento interconectadas,
     chamadas neurônios artificiais, que simulam a forma como os neurônios se comunicam
@@ -69,9 +69,9 @@
     outros.
 - title: Rede Neural Convolucional
   tags:
-  - Conceito
-  - Inteligência artificial
-  - Rede neural
+    - Conceito
+    - Inteligência artificial
+    - Rede neural
   description: É um tipo de rede neural artificial que usa uma operação matemática
     chamada convolução em uma ou mais de suas camadas. Do inglês, Convolutional Neural
     Network ou CNN, ela é frequentemente usada para processar dados de entrada que
@@ -79,9 +79,9 @@
     computacional, como reconhecimento de imagens e vídeos.
 - title: Rede Neural Generativa
   tags:
-  - Conceito
-  - Inteligência artificial
-  - Rede neural
+    - Conceito
+    - Inteligência artificial
+    - Rede neural
   description: É um tipo de rede neural artificial que gera novos dados com base em
     um conjunto de dados de treinamento. Estes dados geralmente são variações dos
     dados de entrada, como por exemplo alterações nas expressões de uma pessoa em
@@ -89,9 +89,9 @@
     e textos, podendo ser usada para aumento dos dados.
 - title: Rede Neural Profunda
   tags:
-  - Conceito
-  - Inteligência artificial
-  - Rede neural
+    - Conceito
+    - Inteligência artificial
+    - Rede neural
   description: Do inglês, Deep Neural Network ou DNN, é um tipo de rede neural artificial
     com várias camadas de unidades de processamento interconectadas. É chamada de
     rede neural profunda devido ao número de camadas ocultas usadas no modelo de aprendizado
@@ -103,9 +103,9 @@
     mas exigem milhões de pontos de dados de amostra e centenas de horas de treinamento.
 - title: Rede Neural Recorrente
   tags:
-  - Conceito
-  - Inteligência artificial
-  - Rede neural
+    - Conceito
+    - Inteligência artificial
+    - Rede neural
   description: Do inglês, Recurrent Neural Network ou RNN, é um tipo de rede neural
     artificial que usa loops e estados para processar dados. Ela é frequentemente
     usada para processar dados de entrada que têm uma estrutura sequencial, como textos,
@@ -114,21 +114,21 @@
     de sentimentos.
 - title: Repositório
   tags:
-  - Conceito
-  - Versionamento
+    - Conceito
+    - Versionamento
   description: Um Repositório é basicamente uma caixa que guarda todo o material do
     seu projeto. Pense nele como um lugar onde você armazena o código, o histórico
     das mudanças e outros arquivos importantes. Existem repositórios locais no seu
     computador e repositórios remotos em servidores compartilhados.
 - title: Responsividade
   tags:
-  - Design
-  - Front-end
+    - Design
+    - Front-end
   description: A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos
     de tela e dispositivos, como smartphones, tablets e desktops.
 - title: RPA
   tags:
-  - Conceito
+    - Conceito
   description: Robotic Process Automation (Automação de Processos Robóticos), é uma
     tecnologia que permite a automação de tarefas repetitivas e baseadas em regras,
     utilizando robôs de software para realizar principalmente atividades repetitivas.
@@ -137,21 +137,21 @@
     predefinidos.
 - title: Ruby
   tags:
-  - Back-end
-  - Conceito
+    - Back-end
+    - Conceito
   description: Ruby é uma linguagem de programação altamente flexível criada no Japão
     em 1995. Ela é conhecida por sua simplicidade e facilidade de uso, sendo muito
     usada no desenvolvimento web e em aplicações de automação.
 - title: Ruby on Rails
   tags:
-  - Framework
-  - Back-end
-  - Front-end
-  description: Ruby on Rails, ou simplesmente Rails, é uma ferramenta de código aberto escrita em 
-    Ruby para criar sites e aplicações web de forma dinâmica e eficiente. Ele organiza o 
-    desenvolvimento em três partes principais':' os dados (Model), a interface com o usuário (View) 
-    e a lógica do sistema (Controller) '–' um padrão conhecido como MVC.
-    Rails é projetado para economizar tempo de devs com sua filosofia de 
-    "convenção sobre configuração", que oferece padrões prontos e reduz a necessidade de 
-    ajustes manuais. Ele é uma escolha confiável para criar aplicações rápidas, 
+    - Back-end
+    - Framework
+    - Front-end
+  description: Ruby on Rails, ou simplesmente Rails, é uma ferramenta de código aberto
+    escrita em Ruby para criar sites e aplicações web de forma dinâmica e eficiente.
+    Ele organiza o desenvolvimento em três partes principais':' os dados (Model),
+    a interface com o usuário (View) e a lógica do sistema (Controller) '–' um padrão
+    conhecido como MVC. Rails é projetado para economizar tempo de devs com sua filosofia
+    de "convenção sobre configuração", que oferece padrões prontos e reduz a necessidade
+    de ajustes manuais. Ele é uma escolha confiável para criar aplicações rápidas,
     escaláveis e seguras, sendo usado tanto por startups quanto por grandes empresas.

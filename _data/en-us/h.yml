@@ -2,8 +2,7 @@
   tags:
     - Concept
     - Cybersecurity
-  description:
-    A honeypot is a security system configured to detect, divert, or in
+  description: A honeypot is a security system configured to detect, divert, or in
     some way neutralize attempts of unauthorized use of information systems. The definition
     of honeypot comes from the world of espionage, where the spy Mata Hari uses a
     romantic relationship as a way to steal secrets. They are described as the placement
@@ -12,14 +11,12 @@
 - title: HTML
   tags:
     - Front-end
-  description:
-    HTML is a markup language used to build web pages. HTML documents can
+  description: HTML is a markup language used to build web pages. HTML documents can
     be interpreted by browsers.
 - title: HTML/XML Tag
   tags:
     - Concept
-  description:
-    A tag is a markup element used in markup languages, such as HTML and
+  description: A tag is a markup element used in markup languages, such as HTML and
     XML, to define the structure and meaning of a document. They are used to define
     the beginning and end of an element, such as a paragraph, a table, or an image.
     Tags are written between angle brackets, such as <tag>, with the marking of the
@@ -30,7 +27,6 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    Also called a training parameter, it is a parameter of a machine learning
+  description: Also called a training parameter, it is a parameter of a machine learning
     model that is not changed during training. It is used to control the behavior
     of a machine learning model and can be tuned to improve its performance.

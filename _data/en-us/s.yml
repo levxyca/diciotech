@@ -1,6 +1,6 @@
 - title: Scrum
   tags:
-  - Back-end
+    - Back-end
   description: It is a method of managing projects where work is broken down into
     small chunks called 'sprints', which typically last a few weeks. The team works
     closely together, meeting regularly to plan, review, and adjust work. The goal
@@ -8,8 +8,8 @@
     as the project progresses.
 - title: Semi-Supervised Learning
   tags:
-  - Artificial intelligence
-  - Concept
+    - Artificial intelligence
+    - Concept
   description: It is a type of machine learning that uses labeled and unlabeled data
     to train a model. It is widely used to solve classification problems of large
     data sets, where the goal is to predict an output value based on a set of input
@@ -18,14 +18,14 @@
     and more accurate than unsupervised training.
 - title: Smart Cities
   tags:
-  - Concept
+    - Concept
   description: Smart cities are locations that use organized urban infrastructure
     and digital technologies to optimize their processes. This includes the use of
     devices with Artificial Intelligence and the Internet of Things, among others.
 - title: SOLID
   tags:
-  - Concept
-  description: 'The SOLID principles are five guidelines for object-oriented software
+    - Concept
+  description: "The SOLID principles are five guidelines for object-oriented software
     design, promoting more flexible, robust and maintainable systems. They are: Single
     Responsibility Principle (a class should have only one responsibility), Open/Closed
     Principle (classes should be open for extension, but closed for modification),
@@ -33,43 +33,43 @@
     without changing the correctness of the program), Interface Segregation Principle
     (classes should not be forced to implement interfaces they do not use) and Dependency
     Inversion Principle (high-level modules should not depend on low-level modules;
-    both should depend on abstractions).'
+    both should depend on abstractions)."
 - title: Spread Operator
   tags:
-  - Concept
+    - Concept
   description: The spread operator is an operator that is present in several programming
     languages, which allows copying and combining elements from one data structure
     into another, facilitating the efficient manipulation of information.
 - title: SQL
   tags:
-  - Back-end
-  - Concept
+    - Back-end
+    - Concept
   description: Structured Query Language (SQL) is a programming language used to manage
     data in relational databases. It's like a language that allows us to talk to databases
     to do things like search, add, update, and delete information.
 - title: Stack Navigation
   tags:
-  - Mobile
+    - Mobile
   description: In the context of React Native, it is a navigation technique between
     the application's screens, when the application has back and forward buttons,
     for example.
 - title: Stateful Widget
   tags:
-  - Concept
-  - Mobile
+    - Concept
+    - Mobile
   description: A StatefulWidget, in Flutter, is a component that has mutable internal
     state, allowing it to respond to state changes and dynamically update the user
     interface.
 - title: Stateless Widget
   tags:
-  - Concept
-  - Mobile
+    - Concept
+    - Mobile
   description: A StatelessWidget, in Flutter, is a component that has no internal
     mutable state, ideal for parts of the user interface that do not change over time
     and do not rely on state.
 - title: Style Guide
   tags:
-  - Design
+    - Design
   description: It is a library that brings together style guidelines and visual standards
     for the creation of digital products. It includes elements such as typography,
     color palettes, use of icons and layouts, but does not cover technical aspects
@@ -78,8 +78,8 @@
     and communication teams, but without the direct collaboration of developers.
 - title: Supervised Learning
   tags:
-  - Artificial intelligence
-  - Concept
+    - Artificial intelligence
+    - Concept
   description: Supervised learning is a type of machine learning that uses labeled
     data to train a model. It is used to solve classification and regression problems,
     where the goal is to predict an output value based on a set of input values. For
@@ -89,22 +89,21 @@
     and can be used to solve a wide variety of problems.
 - title: Svelte
   tags:
-  - Framework
-  - Front-end
+    - Framework
+    - Front-end
   description: Svelte is a JavaScript tool that transforms code during the construction
     of the website or application, without needing an extra layer to work in the browser.
     This makes it faster and lighter compared to other similar tools.
 - title: Swift
   tags:
-  - Mobile
+    - Mobile
   description: Swift is a programming language created by Apple. With it, you can
     develop applications for Apple devices and operating systems, such as iPhones
     (iOS), Macs (macOS), Apple Watches (watchOS) and Apple TVs (tvOS).
 - title: SwiftUI
   tags:
-  - Mobile
+    - Mobile
   description: SwiftUI is an Apple tool for creating the visual part of applications
     using the Swift language. Unlike UIKit, which is more traditional, SwiftUI allows
     you to describe the user interface in a simpler and more direct way, making it
     easier to both create and maintain your code.
-

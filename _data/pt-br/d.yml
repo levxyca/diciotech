@@ -1,7 +1,7 @@
 - title: Dados Rotulados
   tags:
-  - Conceito
-  - Inteligência artificial
+    - Conceito
+    - Inteligência artificial
   description: Também chamados de dados anotados, são dados que possuem um rótulo
     ou tag que indica o que eles representam. Eles são usados para treinar modelos
     de aprendizado de máquina supervisionado ou semi-supervisionado, onde o objetivo
@@ -11,24 +11,24 @@
     seja treinado para classificar imagens de gatos e cachorros.
 - title: DDoS
   tags:
-  - Conceito
-  - Segurança cibernética
+    - Conceito
+    - Segurança cibernética
   description: DDoS é um ataque onde muitos dispositivos tentam se conectar ao mesmo
     tempo no site para sobrecarregá-lo.
 - title: Deploy
   tags:
-  - Conceito
-  description: 'O deploy é um processo complexo. Mas significa que foi instalado um
+    - Conceito
+  description: "O deploy é um processo complexo. Mas significa que foi instalado um
     pacote do que foi desenvolvido nos ambientes. É gerada uma versão para que seja
     disponibilizada. Esse processo também pode ser chamado de implantação dependendo
     do contexto. Para que essa implantação aconteça, pode ser um processo automatizado
     com ferramentas, ou feito manualmente, dependendo da estrutura. Acabamos aportuguesando
     a palavra deploy, tornando-a uma ação. Exemplo: estou deployando a nova versão
-    do nosso sistema.'
+    do nosso sistema."
 - title: Desaparecimento do Gradiente
   tags:
-  - Conceito
-  - Inteligência artificial
+    - Conceito
+    - Inteligência artificial
   description: Chamado em inglês de vanishing gradient, é um problema que ocorre quando
     o gradiente de uma função de perda diminui exponencialmente durante o treinamento
     de um modelo de aprendizado de máquina. Conforme os gradientes frequentemente
@@ -40,8 +40,8 @@
     mal projetada, entre outros.
 - title: Descida do Gradiente
   tags:
-  - Conceito
-  - Inteligência artificial
+    - Conceito
+    - Inteligência artificial
   description: Modelos de redes neurais são geralmente treinados por um algoritmo
     de otimização que é uma variação da descida do gradiente. Durante o aprendizado,
     os dados de treinamento de entrada ajudam o modelo a aprender e a função de perda
@@ -57,12 +57,12 @@
     do gradiente para minimizar a função de perda (considerando a taxa de aprendizado).
 - title: Desenvolvimento Front-end
   tags:
-  - Front-end
+    - Front-end
   description: Desenvolvimento front-end é o desenvolvimento da interface gráfica,
     para que as pessoas usuárias possam visualizar e interagir com o que foi desenvolvido.
 - title: Design Critique
   tags:
-  - Design
+    - Design
   description: É um processo colaborativo onde designers, pessoas desenvolvedoras
     e outras partes interessadas revisam e avaliam um projeto ou conceito de design
     de forma construtiva. O objetivo é obter feedback valioso sobre a eficácia estética,
@@ -74,7 +74,7 @@
     e o aprendizado dentro da equipe.
 - title: Design Ops
   tags:
-  - Design
+    - Design
   description: Prática que otimiza e integra o processo de design nas equipes de desenvolvimento
     de produtos digitais, promovendo a colaboração entre designers, pessoas desenvolvedoras
     e partes interessadas. Ela implementa frameworks, ferramentas e processos que
@@ -85,18 +85,18 @@
     em produtos digitais mais coesos e bem projetados.
 - title: Design System
   tags:
-  - Design
-  - Front-end
-  description: 'É um conjunto de diretrizes, componentes e padrões que orientam a
+    - Design
+    - Front-end
+  description: "É um conjunto de diretrizes, componentes e padrões que orientam a
     criação e a manutenção de interfaces e experiências de usuário consistentes em
     produtos digitais. Inclui elementos como: paletas de cores, tipografia, ícones
     e padrões de layout, além de ser uma documentação para designers e pessoas desenvolvedoras
     sobre como e quando utilizar os componentes do design system. Visa melhorar a
     eficiência no desenvolvimento, garantir a coerência visual e funcional, e facilitar
-    a colaboração entre as equipes de design e desenvolvimento.'
+    a colaboração entre as equipes de design e desenvolvimento."
 - title: DevOps
   tags:
-  - Conceito
+    - Conceito
   description: É uma prática que integra desenvolvimento de software (Dev) e operações
     de TI (Ops) para melhorar a colaboração e a eficiência entre equipes. Foca na
     automação e na integração de processos de desenvolvimento, teste e implantação,
@@ -106,16 +106,15 @@
     entregue de forma mais eficiente e confiável.
 - title: DOM (Document Object Model)
   tags:
-  - Front-end
+    - Front-end
   description: Uma representação da estrutura de árvore dos elementos HTML em uma
     página, que permite a manipulação dinâmica do conteúdo. Imagine isso como um mapa
     da página que o JavaScript usa para entender e alterar o conteúdo. É como um 'modelo'
     da página.
 - title: DoS
   tags:
-  - Conceito
-  - Segurança cibernética
+    - Conceito
+    - Segurança cibernética
   description: DoS é um ataque de negação de serviço. Neste ataque é usado apenas
     um computador que faz muitas consultas em um site em um espaço curto de tempo
     com o objetivo de tirá-lo do ár.
-

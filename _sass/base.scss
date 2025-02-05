@@ -299,7 +299,6 @@ html {
   & i {
     font-size: 1.5rem;
   }
-
 }
 
 .button-change-theme {
@@ -316,18 +315,17 @@ html {
   right: 85px;
 }
 
-
 .button-change-language:hover {
-  background-color: $primary-400; 
-  color: $white; 
+  background-color: $primary-400;
+  color: $white;
 }
 
 .language-dropdown {
   display: none;
   position: absolute;
-  top: 100%; 
+  top: 100%;
   left: 0;
-  background-color: $primary-500; 
+  background-color: $primary-500;
   border-radius: 5px;
   list-style: none;
   padding: 0;
@@ -362,4 +360,3 @@ html {
 .button-change-language:hover .language-dropdown {
   display: block;
 }
-

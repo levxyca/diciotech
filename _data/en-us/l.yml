@@ -2,8 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    Also called annotated data, this is data that has a label or tag that
+  description: Also called annotated data, this is data that has a label or tag that
     indicates what it represents. It is used to train supervised or semi-supervised
     machine learning models, where the goal is to predict an output value based on
     a set of input values. For example, a dataset of images of cats and dogs might
@@ -12,8 +11,7 @@
 - title: Lambda
   tags:
     - Concept
-  description:
-    Lambda is an anonymous function in programming that can be defined
+  description: Lambda is an anonymous function in programming that can be defined
     and used without a specific name, often used for simple one-line expressions.
   content:
     code: "sum = lambda x, y: x + y"
@@ -21,16 +19,14 @@
   tags:
     - Back-end
     - Framework
-  description:
-    Laravel is a tool for developing web systems in PHP. It offers ways
+  description: Laravel is a tool for developing web systems in PHP. It offers ways
     to deal with common needs in this type of application, as well as having simplified
     integration with various database systems, queues, and others.
 - title: Large Language Model
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    Also called LLM, it is a language model that uses deep learning to
+  description: Also called LLM, it is a language model that uses deep learning to
     learn representations of natural language data. It is trained on massive sets
     of textual data, such as books, news articles, and web pages, and is capable of
     interpreting and generating high-quality text. Large language models are used
@@ -40,8 +36,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    Also called latent feature space or embedding space, it is a vector
+  description: Also called latent feature space or embedding space, it is a vector
     space (manifold) that can be generated from the training of a machine learning
     model. A position within this space is defined by a set of latent variables that
     emerge from the similarities of objects, so that items that resemble each other
@@ -61,8 +56,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    Also called LR, it is a training hyperparameter for machine learning
+  description: Also called LR, it is a training hyperparameter for machine learning
     models that controls how quickly a machine learning model learns. It is one of
     the most important hyperparameters of a machine learning model and can be adjusted
     to improve the model's performance. It controls how big the step will be taken
@@ -74,8 +68,7 @@
 - title: Load balancer
   tags:
     - Concept
-  description:
-    "A load balancer is a tool used to distribute the load (of user requests,
+  description: "A load balancer is a tool used to distribute the load (of user requests,
     for example) among multiple servers. The goal of using a load balancer is to improve
     the performance of applications, avoiding overload on a single server. In addition,
     a load balancer can help us scale a system and ensure its high availability. To
@@ -86,8 +79,7 @@
 - title: Loop
   tags:
     - Concept
-  description:
-    A loop is a control structure that allows you to repeatedly execute
+  description: A loop is a control structure that allows you to repeatedly execute
     a block of code while a condition is true. It is used to automate repetitive tasks
     and save time and effort. There are several types of loops, such as the 'for'
     loop, the 'while' loop, and the 'do-while' loop.
@@ -95,8 +87,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  description:
-    It is a mathematical function that measures the difference between
+  description: It is a mathematical function that measures the difference between
     the value predicted by a machine learning model and the actual value of the training
     data. It is used to evaluate the accuracy of a machine learning model and adjust
     its parameters to improve its performance. There are several types of loss functions,
@@ -104,6 +95,5 @@
 - title: Low Level Language
   tags:
     - Concept
-  description:
-    A programming language that has little or no computer abstraction.
+  description: A programming language that has little or no computer abstraction.
     It is a programming language that is closest to machine language.

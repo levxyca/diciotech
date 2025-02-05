@@ -2,30 +2,26 @@
   tags:
     - Back-end
     - Front-end
-  description:
-    JavaScript is a structured, interpreted, high-level scripting language
+  description: JavaScript is a structured, interpreted, high-level scripting language
     with weak dynamic typing and multi-paradigm. Along with HTML and CSS, JavaScript
     is one of the three core technologies for building websites.
 - title: jQuery
   tags:
     - Front-end
     - Library
-  description:
-    A library of JavaScript functions that interact with HTML in a much
+  description: A library of JavaScript functions that interact with HTML in a much
     faster and simpler way than plain JavaScript.
 - title: JSF
   tags:
     - Back-end
     - Front-end
-  description:
-    JSF (JavaServer Faces) is an evolution of JSP, where rich interface
+  description: JSF (JavaServer Faces) is an evolution of JSP, where rich interface
     navigation component libraries were introduced, such as Primefaces, facilitating
     the construction of front-end applications.
 - title: JSON
   tags:
     - Concept
-  description:
-    "It means JavaScript Object Notation. JSON is a type of file and has
+  description: "It means JavaScript Object Notation. JSON is a type of file and has
     a structure with data name and data value. Depending on the type of API we build,
     we use the JSON format to transfer data between systems. For example: API that
     queries customers in your business. The API response may come in JSON format."
@@ -35,8 +31,7 @@
   tags:
     - Back-end
     - Front-end
-  description:
-    JSP (JavaServer Pages) is an old technology that allowed the construction
+  description: JSP (JavaServer Pages) is an old technology that allowed the construction
     of HTML pages using the Java language. With it, it was possible to execute business
     logic on the screen, taking Java objects to the front in an easy way. Everything
     was executed by an application server, which translated the code into a final

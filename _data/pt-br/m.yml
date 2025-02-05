@@ -1,7 +1,7 @@
 - title: Manifold
   tags:
-  - Conceito
-  - Inteligência artificial
+    - Conceito
+    - Inteligência artificial
   description: Em geometria diferencial, um manifold é um espaço topológico (superfície)
     com alta dimensionalidade que localmente se parece com o espaço euclidiano. Em
     aprendizado de máquina, um manifold é um espaço de características latentes que
@@ -13,16 +13,16 @@
     e relações mais facilmente do que no espaço de alta dimensão original.
 - title: Material
   tags:
-  - Design
-  - Front-end
-  - Mobile
+    - Design
+    - Front-end
+    - Mobile
   description: É um sistema de design criado e apoiado pelos designers e pessoas desenvolvedoras
     da Google. O Material.io inclui orientações detalhadas de UX e implementações
     de componentes de UI para Android, Flutter e Web.
 - title: Merge
   tags:
-  - Conceito
-  - Versionamento
+    - Conceito
+    - Versionamento
   description: O Merge é como juntar peças de quebra-cabeça no desenvolvimento de
     código. É quando combinamos alterações de diferentes partes do código para criar
     uma versão unificada. Imagine misturar o trabalho de uma equipe que adicionou
@@ -30,14 +30,14 @@
     uma única linha de desenvolvimento.
 - title: Métrica
   tags:
-  - Conceito
-  - Inteligência artificial
+    - Conceito
+    - Inteligência artificial
   description: Também chamada de métrica de avaliação, é uma medida usada para avaliar
     a precisão ou desempenho de um modelo de aprendizado de máquina. Existem vários
     tipos de métricas, cada uma adequada para um tipo diferente de problema.
 - title: MLOps
   tags:
-  - Conceito
+    - Conceito
   description: É uma prática que combina desenvolvimento de modelos de aprendizado
     de máquina (Machine Learning ou ML) e operações de TI (Ops) para facilitar a implementação
     e a gestão contínua de modelos de aprendizado de máquina em produção. O objetivo
@@ -50,19 +50,18 @@
     análises geradas por dados.
 - title: Mobile First
   tags:
-  - Conceito
-  - Design
-  - Front-end
+    - Conceito
+    - Design
+    - Front-end
   description: Esse conceito determina que ao criarmos um site, devemos primeiro atender
     as necessidades dos dispositivos móveis.
 - title: Modelos de base
   tags:
-  - Conceito
-  - Inteligência artificial
+    - Conceito
+    - Inteligência artificial
   description: Também chamados de modelos de fundação, são modelos de aprendizado
     de máquina pré-treinados em grandes conjuntos de dados e comumente disponibilizados
     para uso por terceiros. Eles são usados como modelos de base para diversas aplicações
     de visão computacional, processamento de linguagem natural, entre outros. Modelos
     de base podem ser usados congelados, como uma camada de extração de características
     (features), ou passarem por um ajuste fino (finetune), gerando um modelo completo.
-

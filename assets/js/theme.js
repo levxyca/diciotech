@@ -12,11 +12,7 @@ let toggleThemeSetting = () => {
 
 let getThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
-  if (
-    themeSetting != "dark" &&
-    themeSetting != "light" &&
-    themeSetting != "system"
-  ) {
+  if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
     themeSetting = "system";
   }
   return themeSetting;
@@ -60,11 +56,9 @@ let initTheme = () => {
   });
 
   // add event listener to the system theme preference change
-  window
-    .matchMedia("(prefers-color-scheme: dark)")
-    .addEventListener("change", ({ matches }) => {
-      applyTheme();
-    });
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+    applyTheme();
+  });
 };
 
 initTheme();

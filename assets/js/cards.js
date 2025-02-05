@@ -1,36 +1,27 @@
----
-permalink: /assets/js/scripts.js
----
-import { levenshtein } from '/assets/js/levenshtein.js';
-
-// variables that need to be set by jekyll
-const allTag = '{{ site.data[site.active_lang].strings.all }}';
-const favoriteTag = '{{ site.data[site.active_lang].strings.favorites }}';
-const noResultsAlt = '{{ site.data[site.active_lang].strings.no_results.alt }}';
-const noResultsText = `{{ site.data[site.active_lang].strings.no_results.text }}`;
+import { levenshtein } from "/assets/js/levenshtein.js";
 
 const exactWordScore = 12;
 const partialWordScore = 10;
 const levenshteinScore = 10;
 const levenshteinThreshold = 3;
 
-const searchInput = document.querySelector('#search-input');
-const cardsSection = document.querySelector('#cards');
-const filterSelect = document.querySelector('#tags-filter');
+const searchInput = document.querySelector("#search-input");
+const cardsSection = document.querySelector("#cards");
+const filterSelect = document.querySelector("#tags-filter");
 let listOfCardsFiltered = [];
 let favoriteCards = [];
 
 function insertTagsIntoSelect(tags) {
   tags.sort();
   for (const tag of tags) {
-    const newOption = document.createElement('option');
+    const newOption = document.createElement("option");
     newOption.value = tag;
     newOption.text = tag;
     filterSelect.appendChild(newOption);
   }
 }
 
-function getTagsFromCards(data) {
+function getTagsFromCards(data, favoriteTag) {
   const tags = [favoriteTag];
   data.map((objeto) => {
     if (objeto.tags) {
@@ -46,15 +37,15 @@ function getTagsFromCards(data) {
   insertTagsIntoSelect(tags);
 }
 
-function filterCards() {
+function filterCards(allTag) {
   listOfCardsFiltered = [];
-  const listOfCards = document.querySelectorAll('.card');
+  const listOfCards = document.querySelectorAll(".card");
   listOfCards.forEach((element) => {
-    if (element.getAttribute('tags').includes(filterSelect.value) || filterSelect.value == allTag) {
-      element.style.display = '';
+    if (element.getAttribute("tags").includes(filterSelect.value) || filterSelect.value == allTag) {
+      element.style.display = "";
       listOfCardsFiltered.push(element);
     } else {
-      element.style.display = 'none';
+      element.style.display = "none";
     }
   });
   searchCards();
@@ -63,19 +54,16 @@ function filterCards() {
 function sortCards(sortingArray) {
   if (listOfCardsFiltered.length > 0) {
     if (!Array.isArray(sortingArray) || !sortingArray.length) {
-      const cards = document.querySelector('#cards');
+      const cards = document.querySelector("#cards");
       // selects all cards that are not hidden and sorts them by title
       // every child is re-appended to cards in the order of the now sorted array. When an element is re-appended it is actually moved from its previous location
       [...cards.querySelectorAll(".card:not([style*='display: none;'])")]
         .sort((a, b) =>
-          a
-            .querySelector('.card__title')
-            .textContent.toLowerCase()
-            .localeCompare(b.querySelector('.card__title').textContent.toLowerCase()),
+          a.querySelector(".card__title").textContent.toLowerCase().localeCompare(b.querySelector(".card__title").textContent.toLowerCase())
         )
         .forEach((node) => cards.appendChild(node));
     } else {
-      const cards = document.querySelector('#cards');
+      const cards = document.querySelector("#cards");
       // selects all cards that are not hidden and sorts them by the order of the sortingArray
       // every child is re-appended to cards in the order of the now sorted array. When an element is re-appended it is actually moved from its previous location
       [...cards.querySelectorAll(".card:not([style*='display: none;'])")]
@@ -97,7 +85,7 @@ function searchCards() {
 
       // search for words inside the title that either contains the search words or have a low levenshtein distance
       // only consider the best case for each search word
-      const cardTitle = card.querySelector('.card__title').textContent.toLowerCase();
+      const cardTitle = card.querySelector(".card__title").textContent.toLowerCase();
       const titleWords = cardTitle.split(/\s+/);
       let titleScore = 0;
 
@@ -131,7 +119,7 @@ function searchCards() {
 
       // search for words inside the description that either contains the search words or have a low levenshtein distance
       // only consider the best case for each search word
-      const cardDescription = card.querySelector('.card__description').textContent.toLowerCase();
+      const cardDescription = card.querySelector(".card__description").textContent.toLowerCase();
       const descriptionWords = cardDescription.split(/\s+/);
       let descriptionScore = 0;
 
@@ -163,40 +151,42 @@ function searchCards() {
       cardScore += descriptionScore;
 
       if (cardScore > 0) {
-        card.style.display = '';
+        card.style.display = "";
         cardsScores.push([card, cardScore]);
       } else {
-        card.style.display = 'none';
+        card.style.display = "none";
       }
     }
 
-    const msgNotFound = document.querySelector('div.msg');
+    const msgNotFound = document.querySelector("div.msg");
 
     if (cardsScores.length > 0) {
-      msgNotFound.style.display = 'none';
+      msgNotFound.style.display = "none";
       // sort the array of cards by score
       cardsScores.sort((a, b) => b[1] - a[1]);
       // remove the scores from the array
       cardsScores = cardsScores.map((card) => card[0]);
       sortCards(cardsScores);
     } else {
-      msgNotFound.style.display = '';
+      msgNotFound.style.display = "";
     }
   } else {
     // display all cards if search input is empty
     for (const card of listOfCardsFiltered) {
-      card.style.display = '';
+      card.style.display = "";
       cardsScores.push(card);
     }
 
-    const msgNotFound = document.querySelector('div.msg');
-    msgNotFound.style.display = 'none';
+    const msgNotFound = document.querySelector("div.msg");
+    if (msgNotFound) {
+      msgNotFound.style.display = "none";
+    }
+
     sortCards();
   }
 }
 
-function insertCardsIntoHtml(data) {
-  console.log(data[1]);
+function insertCardsIntoHtml(data, favoriteTag, allTag, noResultsAlt, noResultsText) {
   let cards = `<div class="msg">
                     <div class=collumn-1>
                         <img src="/assets/img/no-results-found.png" alt="${noResultsAlt}" />
@@ -216,9 +206,7 @@ function insertCardsIntoHtml(data) {
                     alt="star"
                     unique-title="${cardId}"
                     id="fav_${cardId}"
-                    class="${
-                      card.tags.includes(favoriteTag) ? 'ph-fill ph-star' : 'ph ph-star'
-                    } fav__button">
+                    class="${card.tags.includes(favoriteTag) ? "ph-fill ph-star" : "ph ph-star"} fav__button">
                 </i>
             </div>
             <p class="card__description">${card.description}</p>
@@ -230,23 +218,23 @@ function insertCardsIntoHtml(data) {
             </div>
             `;
     }
-    cards += '</section>';
+    cards += "</section>";
   });
   cardsSection.innerHTML = cards;
 
-  const favButtons = document.querySelectorAll('.fav__button');
+  const favButtons = document.querySelectorAll(".fav__button");
   favButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-      setCardAsFavorite(button.getAttribute('unique-title'));
+    button.addEventListener("click", () => {
+      setCardAsFavorite(button.getAttribute("unique-title"), favoriteTag);
     });
   });
 
-  filterCards();
+  filterCards(allTag);
 }
 
-function addFavoriteTagToCard(cardId) {
+function addFavoriteTagToCard(cardId, favoriteTag) {
   const card = document.getElementById(cardId);
-  const tags = card.getAttribute('tags').split(',');
+  const tags = card.getAttribute("tags").split(",");
 
   if (tags.includes(favoriteTag)) {
     tags.splice(tags.indexOf(favoriteTag), 1);
@@ -254,33 +242,33 @@ function addFavoriteTagToCard(cardId) {
     tags.push(favoriteTag);
   }
 
-  card.setAttribute('tags', tags);
+  card.setAttribute("tags", tags);
 }
 
-function setCardAsFavorite(cardId) {
+function setCardAsFavorite(cardId, favoriteTag) {
   const favIcon = document.querySelector(`#fav_${cardId}`);
 
   if (favoriteCards.includes(cardId)) {
-    favIcon.className = 'ph ph-star fav__button';
+    favIcon.className = "ph ph-star fav__button";
     favoriteCards.splice(favoriteCards.indexOf(cardId), 1);
   } else {
-    favIcon.className = 'ph-fill ph-star fav__button';
+    favIcon.className = "ph-fill ph-star fav__button";
     favoriteCards.push(cardId);
   }
 
-  addFavoriteTagToCard(cardId);
+  addFavoriteTagToCard(cardId, favoriteTag);
 
-  localStorage.setItem('favoriteCards', favoriteCards);
+  localStorage.setItem("favoriteCards", favoriteCards);
 }
 
 async function loadFavoriteCardsId() {
-  const cardsId = localStorage.getItem('favoriteCards');
+  const cardsId = localStorage.getItem("favoriteCards");
   if (cardsId) {
-    favoriteCards = cardsId.split(',');
+    favoriteCards = cardsId.split(",");
   }
 }
 
-async function addFavoriteTag(cards) {
+async function addFavoriteTag(cards, favoriteTag) {
   cards.map((card) => {
     const cardId = generateCardId(card.id, card.title, card.description);
     if (favoriteCards.includes(cardId)) {
@@ -296,31 +284,6 @@ async function addFavoriteTag(cards) {
 async function sortCardsByTitle(data) {
   return data.cards.sort((a, b) => a.title.localeCompare(b.title));
 }
-
-async function getCardsFromJson() {
-  try {
-    {% if site.active_lang == site.default_lang -%}
-      const res = await fetch('{{ "/assets/data/cards.json" | relative_url }}');
-    {%- else -%}
-      const res = await fetch('{{ "/assets/data/cards.json" | prepend: site.active_lang | prepend: "/" | relative_url }}');
-    {%- endif %}
-    console.log("{{ site.active_lang }}");
-    const data = await res.json();
-    console.log(data);
-    const sortedCards = await sortCardsByTitle(data);
-    document.getElementById('total-terms').textContent = sortedCards.length;
-    await loadFavoriteCardsId();
-    await addFavoriteTag(sortedCards);
-    getTagsFromCards(sortedCards);
-    insertCardsIntoHtml(sortedCards);
-  } catch (error) {
-    console.error('An error occurred while fetching card data.', error);
-  }
-}
-
-searchInput.addEventListener('input', searchCards);
-filterSelect.addEventListener('change', filterCards);
-getCardsFromJson();
 
 /**
  * Generates a card ID using a default UUID or a hash of the card description.
@@ -343,8 +306,8 @@ function generateCardId(defaultCardId, title, description) {
  * @param {number} hash - The initial hash value.
  * @returns {string} The hashed representation of the content.
  */
-function generateContentId(title = '', description = '', hash = 5381) {
-  const data = (title + description).slice(0, 32).split(' ').join('');
+function generateContentId(title = "", description = "", hash = 5381) {
+  const data = (title + description).slice(0, 32).split(" ").join("");
 
   for (let i = 0; i < data.length; i++) {
     hash = (hash << 5) + hash + data.charCodeAt(i);
@@ -353,3 +316,20 @@ function generateContentId(title = '', description = '', hash = 5381) {
   const hashString = Math.abs(hash).toString(36); // Convert to base-36 string
   return hashString;
 }
+
+async function getCardsFromJson(jsonPath, favoriteTag, allTag, noResultsAlt, noResultsText) {
+  try {
+    const res = await fetch(jsonPath);
+    const data = await res.json();
+    const sortedCards = await sortCardsByTitle(data);
+    document.getElementById("total-terms").textContent = sortedCards.length;
+    await loadFavoriteCardsId();
+    await addFavoriteTag(sortedCards, favoriteTag);
+    getTagsFromCards(sortedCards, favoriteTag);
+    insertCardsIntoHtml(sortedCards, favoriteTag, allTag, noResultsAlt, noResultsText);
+  } catch (error) {
+    console.error("An error occurred while fetching card data.", error);
+  }
+}
+
+export { addFavoriteTag, filterCards, getCardsFromJson, getTagsFromCards, insertCardsIntoHtml, loadFavoriteCardsId, searchCards, sortCardsByTitle };

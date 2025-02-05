@@ -1,12 +1,6 @@
 // Levenshtein algorithm by Gustaf Andersson: https://github.com/gustf/js-levenshtein
 function _min(d0, d1, d2, bx, ay) {
-  return d0 < d1 || d2 < d1
-    ? d0 > d2
-      ? d2 + 1
-      : d0 + 1
-    : bx === ay
-      ? d1
-      : d1 + 1;
+  return d0 < d1 || d2 < d1 ? (d0 > d2 ? d2 + 1 : d0 + 1) : bx === ay ? d1 : d1 + 1;
 }
 
 export function levenshtein(a, b) {

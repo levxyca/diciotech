@@ -21,15 +21,15 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4.2.2
-        with:
-          ref: ${{ github.head_ref }}
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Get changed data files
+      - name: Check if changed data files
         id: changed-data
         uses: tj-actions/changed-files@v45.0.4
         with:
           files: _data/**.yml
+          files_ignore: _data/**/strings.yml
 
       - name: Setup Python
         if: steps.changed-data.outputs.any_changed == 'true'
@@ -43,6 +43,9 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-data.outputs.all_changed_files }}
         run: |
           for file in $ALL_CHANGED_FILES; do
+            if [[ $(basename $file) == "strings.yml" ]]; then
+              continue
+            fi
             echo "Formatting $file"
             python3 format_data.py -f $file
           done

@@ -86,15 +86,15 @@
           {% else %}
             {% assign other_language = site.languages.first %}
           {% endif %}
-            {% if site.active_lang == site.default_lang %}
-              <a class="button-change-language" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
-                {{ other_language | upcase }}
-              </a>
-            {% else %}
-              <a class="button-change-language" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
-                {{ site.default_lang | upcase }}
-              </a>
-            {% endif %}
+          {% if site.active_lang == site.default_lang %}
+            <a class="button-change-language" {% static_href -%} href="{{ site.baseurl }}/{{ other_language }}{{ page.url }}" {%- endstatic_href %}>
+              {{ other_language | upcase }}
+            </a>
+          {% else %}
+            <a class="button-change-language" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>
+              {{ site.default_lang | upcase }}
+            </a>
+          {% endif %}
         {% else %}
           <div class="button-change-language">
             {{ site.active_lang | upcase }}
@@ -103,7 +103,7 @@
                 {% if l != site.active_lang %}
                   <li>
                     {% if l == site.default_lang %}
-                      <a {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %} >{{ site.default_lang | upcase }}</a>
+                      <a {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>{{ site.default_lang | upcase }}</a>
                     {% else %}
                       <a {% static_href -%} href="{{ site.baseurl }}/{{ l }}{{ page.url }}" {%- endstatic_href %}>{{ l | upcase }}</a>
                     {% endif %}
@@ -111,7 +111,7 @@
                 {% endif %}
               {% endfor %}
             </ul>
-            </div>
+          </div>
         {% endif %}
       {% endif %}
       <!-- End Toogle language -->
@@ -172,8 +172,9 @@
       </div>
     </main>
     <script
-    src="{% if site.active_lang != site.default_lang %}{{ '/assets/js/scripts.js' | prepend: site.active_lang | relative_url }}{% else %}{{ '/assets/js/scripts.js' | relative_url }}{% endif %}" type="module"
-  ></script>
+      src="{% if site.active_lang != site.default_lang %}{{ '/assets/js/localized_scripts.js' | prepend: site.active_lang | relative_url }}{% else %}{{ '/assets/js/localized_scripts.js' | relative_url }}{% endif %}"
+      type="module"
+    ></script>
     <script src="{{ '/assets/js/cookies.js' | relative_url }}" type="module"></script>
     <script src="{{ '/assets/js/pwa.js' | relative_url }}"></script>
   </body>

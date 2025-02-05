@@ -1,0 +1,28 @@
+---
+permalink: /assets/js/localized_scripts.js
+---
+import {
+  addFavoriteTag,
+  filterCards,
+  getCardsFromJson,
+  getTagsFromCards,
+  insertCardsIntoHtml,
+  loadFavoriteCardsId,
+  searchCards,
+  sortCardsByTitle } from '{{ "/assets/js/cards.js" | relative_url }}';
+
+{% comment %} variables that need to be set by jekyll {% endcomment %}
+const allTag = '{{ site.data[site.active_lang].strings.all }}';
+const favoriteTag = '{{ site.data[site.active_lang].strings.favorites }}';
+const noResultsAlt = '{{ site.data[site.active_lang].strings.no_results.alt }}';
+const noResultsText = `{{ site.data[site.active_lang].strings.no_results.text }}`;
+
+{% if site.active_lang == site.default_lang -%}
+  const jsonPath = '{{ "/assets/data/cards.json" | relative_url }}';
+{%- else -%}
+  const jsonPath = '{{ "/assets/data/cards.json" | prepend: site.active_lang | prepend: "/" | relative_url }}';
+{%- endif %}
+
+document.querySelector('#search-input').addEventListener('input', searchCards);
+document.querySelector('#tags-filter').addEventListener('change', filterCards(allTag));
+getCardsFromJson(jsonPath, favoriteTag, allTag, noResultsAlt, noResultsText);

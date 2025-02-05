@@ -1,12 +1,12 @@
 - title: Named parameter
   tags:
-  - Concept
+    - Concept
   description: It is a way to pass values to a function or method by specifying the
     name of the corresponding parameter.
 - title: Natural Language Processing
   tags:
-  - Artificial intelligence
-  - Concept
+    - Artificial intelligence
+    - Concept
   description: Also known as NLP, it is a field of artificial intelligence that studies
     how computers can understand and interpret human language. It focuses on developing
     systems that can analyze, understand, and generate natural language, allowing
@@ -15,8 +15,8 @@
     among others.
 - title: Neural Architecture Search
   tags:
-  - Artificial intelligence
-  - Concept
+    - Artificial intelligence
+    - Concept
   description: Neural Architecture Search or NAS is an optimization process that uses
     search algorithms to find the best neural network architecture for a given dataset.
     It is used to find the best neural network architecture to solve a given problem,
@@ -24,20 +24,20 @@
     for the best architecture.
 - title: Next.js
   tags:
-  - Framework
-  - Front-end
+    - Framework
+    - Front-end
   description: Next.js is a tool based on React that helps create faster and more
     SEO-friendly websites. It allows pages to be generated on the server (SSR) or
     created statically (SSG), which improves page loading time and user experience.
 - title: Node.js
   tags:
-  - Back-end
+    - Back-end
   description: Node.js is an environment that allows you to run JavaScript on the
     server. This means that you can use JavaScript to create and run server-side applications.
 - title: Non-Linearity Function
   tags:
-  - Artificial intelligence
-  - Concept
+    - Artificial intelligence
+    - Concept
   description: Also called an activation function, it is a mathematical function that
     is applied to the output of neurons in an artificial neural network. It is used
     to introduce nonlinearities into an artificial neural network by changing the
@@ -48,23 +48,22 @@
     the input value itself otherwise.
 - title: Normalization
   tags:
-  - Artificial intelligence
-  - Concept
+    - Artificial intelligence
+    - Concept
   description: It is a data processing technique used to transform data into a common
     scale. It is used to improve the performance of machine learning models by reducing
     variance and training time. There are several normalization techniques, such as
     batch normalization, layer normalization, weight normalization, among others.
 - title: NoSQL
   tags:
-  - Concept
+    - Concept
   description: NoSQL (Not Only SQL) is a database approach that allows you to store,
     retrieve, and manage data in a flexible and scalable way, without the rigid structure
     of relational tables, being suitable for unstructured or semi-structured data.
 - title: Null Coalescence
   tags:
-  - Concept
+    - Concept
   description: Logical operator that allows you to handle null values, returning the
     value on the right if the value on the left is null.
   content:
     code: let value = desiredValue ?? 42
-

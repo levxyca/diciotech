@@ -1,6 +1,6 @@
 - title: Garbage Collector
   tags:
-  - Concept
+    - Concept
   description: Garbage collector is a tool that helps to free up space in the computer's
     memory automatically. Imagine that, when developing a program, you use memory
     blocks to store information. Over time, some of these blocks are no longer needed.
@@ -10,9 +10,9 @@
     helping to avoid problems and making the computer faster.
 - title: Generative Adversarial Network
   tags:
-  - Artificial intelligence
-  - Concept
-  - Neural network
+    - Artificial intelligence
+    - Concept
+    - Neural network
   description: Generative Adversarial Network or GAN is a type of artificial neural
     network composed of two competing neural networks trained in an adversarial manner.
     The generative neural network is trained to generate new data, while the discriminative
@@ -25,31 +25,31 @@
     used to identify fake data.
 - title: Generative Neural Network
   tags:
-  - Artificial intelligence
-  - Concept
-  - Neural network
+    - Artificial intelligence
+    - Concept
+    - Neural network
   description: It is a type of artificial neural network that generates new data based
     on a set of training data. This data is usually variations of the input data,
     such as changes in a person's expressions in a video. It is often used to generate
     new images, videos, audios and texts, and can be used for data augmentation.
 - title: Git
   tags:
-  - Tool
-  - Versioning
+    - Tool
+    - Versioning
   description: Git is a distributed version control system widely used for tracking
     changes to files and coordinating work on software development projects.
 - title: GitHub
   tags:
-  - Tool
-  - Versioning
+    - Tool
+    - Versioning
   description: GitHub is a web-based source code hosting platform that offers a variety
     of services related to version control and collaboration in software development
     (it is used in conjunction with Git). It is widely used by developers around the
     world to store, collaborate, manage, and control the source code of software projects.
 - title: GitLab
   tags:
-  - Tool
-  - Versioning
+    - Tool
+    - Versioning
   description: GitLab is a Git-based source code hosting platform that, like GitHub,
     offers integrated CI/CD (continuous integration and continuous delivery) tools
     directly. It stands out for having an "open core" policy, in which it is possible
@@ -57,8 +57,8 @@
     other platforms that keep their source code closed.
 - title: GPT
   tags:
-  - Artificial intelligence
-  - Neural network
+    - Artificial intelligence
+    - Neural network
   description: It is a large language model created by OpenAI. Namely Generative Pre-trained
     Transformer, it is capable of generating high-quality texts, such as news articles,
     poetry, and fiction, based on a small piece of text as input. It is one of the
@@ -68,8 +68,8 @@
     such as images.
 - title: Gradient
   tags:
-  - Artificial intelligence
-  - Concept
+    - Artificial intelligence
+    - Concept
   description: The gradient simply measures how much the output of a function changes
     if you change the inputs by a small amount. It measures the change in all the
     weights of the neural network relative to the difference in the calculated error.
@@ -79,8 +79,8 @@
     with respect to its inputs.
 - title: Gradient Descent
   tags:
-  - Artificial intelligence
-  - Concept
+    - Artificial intelligence
+    - Concept
   description: Neural network models are usually trained by an optimization algorithm
     that is a variation of gradient descent. During learning, input training data
     helps the model learn, and the loss function evaluates how accurate the prediction
@@ -95,8 +95,8 @@
     minimize the loss function (taking into account the learning rate).
 - title: Gradient Explosion
   tags:
-  - Artificial intelligence
-  - Concept
+    - Artificial intelligence
+    - Concept
   description: Exploding gradient is a problem that occurs when the gradient of a
     loss function grows exponentially during the training of a machine learning model.
     This can result in model parameters diverging to infinity, causing the learning
@@ -106,11 +106,10 @@
     as a very high learning rate, a poorly designed loss function, among others.
 - title: Green IT
   tags:
-  - Concept
+    - Concept
   description: Green IT, also known as Ecological IT or Green Computing, represents
     the sustainable side of information technology. Its concept revolves around the
     analysis and implementation of initiatives and programs that impact the environmental
     sustainability and social responsibility of companies and organizations. Its main
     highlight is making technology a potential source of solutions for environmental
     problems.
-
