@@ -2,14 +2,9 @@
 permalink: /assets/js/localized_scripts.js
 ---
 import {
-  addFavoriteTag,
   filterCards,
   getCardsFromJson,
-  getTagsFromCards,
-  insertCardsIntoHtml,
-  loadFavoriteCardsId,
-  searchCards,
-  sortCardsByTitle } from '{{ "/assets/js/cards.js" | relative_url }}';
+  searchCards } from '{{ "/assets/js/cards.js" | relative_url }}';
 
 {% comment %} variables that need to be set by jekyll {% endcomment %}
 const allTag = '{{ site.data[site.active_lang].strings.all }}';
