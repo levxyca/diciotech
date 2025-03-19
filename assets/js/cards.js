@@ -187,6 +187,7 @@ function searchCards() {
 }
 
 function insertCardsIntoHtml(data, favoriteTag, allTag, noResultsAlt, noResultsText) {
+  const lang = document.documentElement.lang;
   let cards = `<div class="msg">
                     <div class=collumn-1>
                         <img src="/assets/img/no-results-found.png" alt="${noResultsAlt}" />
@@ -197,7 +198,7 @@ function insertCardsIntoHtml(data, favoriteTag, allTag, noResultsAlt, noResultsT
                     </div>
                 </div>`;
   data.forEach((card) => {
-    const cardId = generateCardId(card.id, card.title, card.description);
+    const cardId = generateCardId(card.id, card.title, card.description, lang);
     cards += `
         <section class="card" tags="${card.tags ? card.tags : allTag}" id="${cardId}">
             <div class="card__header">
@@ -269,8 +270,9 @@ async function loadFavoriteCardsId() {
 }
 
 async function addFavoriteTag(cards, favoriteTag) {
+  const lang = document.documentElement.lang;
   cards.map((card) => {
-    const cardId = generateCardId(card.id, card.title, card.description);
+    const cardId = generateCardId(card.id, card.title, card.description, lang);
     if (favoriteCards.includes(cardId)) {
       if (!card.tags) {
         card.tags = [];
@@ -293,9 +295,9 @@ async function sortCardsByTitle(data) {
  * @param {string} description - The description of the card.
  * @returns {string} - A generated ID
  */
-function generateCardId(defaultCardId, title, description) {
+function generateCardId(defaultCardId, title, description, language) {
   if (defaultCardId) return defaultCardId;
-  return generateContentId(title, description);
+  return generateContentId(title, description, language);
 }
 
 /**
@@ -306,8 +308,8 @@ function generateCardId(defaultCardId, title, description) {
  * @param {number} hash - The initial hash value.
  * @returns {string} The hashed representation of the content.
  */
-function generateContentId(title = "", description = "", hash = 5381) {
-  const data = (title + description).slice(0, 32).split(" ").join("");
+function generateContentId(title = "", description = "", language = "", hash = 5381) {
+  const data = (language + title + description).slice(0, 32).split(" ").join("");
 
   for (let i = 0; i < data.length; i++) {
     hash = (hash << 5) + hash + data.charCodeAt(i);
