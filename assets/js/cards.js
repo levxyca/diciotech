@@ -37,11 +37,11 @@ function getTagsFromCards(data, favoriteTag) {
   insertTagsIntoSelect(tags);
 }
 
-function filterCards(allTag) {
+function filterCards() {
   listOfCardsFiltered = [];
   const listOfCards = document.querySelectorAll(".card");
   listOfCards.forEach((element) => {
-    if (element.getAttribute("tags").includes(filterSelect.value) || filterSelect.value == allTag) {
+    if (element.getAttribute("tags").includes(filterSelect.value) || filterSelect.selectedIndex == 0) {
       element.style.display = "";
       listOfCardsFiltered.push(element);
     } else {
@@ -229,7 +229,7 @@ function insertCardsIntoHtml(data, favoriteTag, allTag, noResultsAlt, noResultsT
     });
   });
 
-  filterCards(allTag);
+  filterCards();
 }
 
 function addFavoriteTagToCard(cardId, favoriteTag) {
