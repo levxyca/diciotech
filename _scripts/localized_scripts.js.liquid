@@ -19,5 +19,5 @@ const noResultsText = `{{ site.data[site.active_lang].strings.no_results.text }}
 {%- endif %}
 
 document.querySelector('#search-input').addEventListener('input', searchCards);
-document.querySelector('#tags-filter').addEventListener('change', filterCards(allTag));
+document.querySelector('#tags-filter').addEventListener('change', filterCards);
 getCardsFromJson(jsonPath, favoriteTag, allTag, noResultsAlt, noResultsText);
