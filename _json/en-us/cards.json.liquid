@@ -11,9 +11,9 @@ permalink: /assets/data/cards.json
         "{{ tag }}"
         {%- unless forloop.last -%},{%- endunless -%}
       {%- endfor -%}
-      ], "description": "{{ card.description | escape }}"
+      ], "id": "{{ card.id | escape }}", "description": "{{ card.description | escape }}"
       {%- if card.content -%}
-        ,"content": { "code": "{{ card.content.code | escape }}" }
+        , "content": { "code": "{{ card.content.code | escape }}" }
       {%- endif -%}
       }
       {%- unless forloop.last -%},{%- endunless -%}
