@@ -2,6 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: machine_learning
   description: Machine Learning or ML is a subset of artificial intelligence (AI)
     that studies how computers can learn from and make predictions about data, without
     being explicitly programmed. Most AI is done with machine learning, so the two
@@ -12,6 +13,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: manifold
   description: In differential geometry, a manifold is a high-dimensional topological
     space (surface) that locally resembles Euclidean space. In machine learning, a
     manifold is a latent feature space that can be generated from training a machine
@@ -25,12 +27,14 @@
     - Design
     - Front-end
     - Mobile
+  id: material
   description: Material.io is a design system created and supported by Google's designers
     and developers. Material.io includes detailed UX guidelines and UI component implementations
     for Android, Flutter, and the web.
 - title: Memory Address
   tags:
     - Concept
+  id: memory_address
   description: It is a number that uniquely identifies a memory location in the computer.
     Everything that is declared in a programming language is stored in the computer's
     memory, and to access this data it is necessary to know the memory address where
@@ -39,6 +43,7 @@
   tags:
     - Concept
     - Versioning
+  id: merge
   description: Merge is like putting together puzzle pieces in code development. It's
     when we combine changes from different parts of the code to create a unified version.
     Imagine merging the work of a team that added new features back into the main
@@ -47,12 +52,14 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: metric
   description: Also called an evaluation metric, it is a measure used to evaluate
     the accuracy or performance of a machine learning model. There are several types
     of metrics, each suited to a different type of problem.
 - title: MLOps
   tags:
     - Concept
+  id: mlops
   description: It is a practice that combines machine learning model development and
     IT operations (Ops) to facilitate the implementation and continuous management
     of machine learning models in production. The goal of MLOps is to ensure that
@@ -67,5 +74,6 @@
     - Concept
     - Design
     - Front-end
+  id: mobile_first
   description: This concept dictates that when creating a website, we must first meet
     the needs of mobile devices.

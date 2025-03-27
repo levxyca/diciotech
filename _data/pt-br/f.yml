@@ -2,6 +2,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: fine-tuning
   description: Também chamado de ajuste fino, é o processo de treinamento de um modelo
     de aprendizado de máquina pré-treinado em um novo conjunto de dados. Ele é usado
     para adaptar um modelo de base para uma tarefa específica, melhorando seu desempenho
@@ -12,6 +13,7 @@
   tags:
     - Conceito
     - Versionamento
+  id: fork
   description: Fazer um Fork é como criar uma cópia independente de um projeto. É
     como se você pegasse o projeto de outra pessoa, o bifurcasse, e o tivesse em sua
     própria conta. Isso permite que você faça suas próprias mudanças sem mexer no
@@ -20,12 +22,14 @@
   tags:
     - Conceito
     - Framework
+  id: frameworks
   description: São como coleções de ferramentas, componentes e soluções que você pode
     encontrar em um mesmo pacote (o framework) que facilitam a criação de aplicações
     complexas.
 - title: Função
   tags:
     - Conceito
+  id: function
   description: Uma função é um bloco de código que realiza uma tarefa específica e
     pode ser chamado a partir de outras partes do programa. Ela ajuda a organizar
     e reutilizar o código, tornando o software mais modular e legível. As funções
@@ -35,6 +39,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: non-linearity_function
   description: Também chamada de função de ativação, é uma função matemática que é
     aplicada na saída dos neurônios em uma rede neural artificial. Ela é usada para
     introduzir não-linearidades em uma rede neural artificial, alterando o valor de
@@ -47,6 +52,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: loss_function
   description: Também chamada de função de custo (no inglês, loss function), é uma
     função matemática que mede a diferença entre o valor previsto por um modelo de
     aprendizado de máquina e o valor real dos dados de treinamento. Ela é usada para

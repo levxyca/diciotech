@@ -1,6 +1,7 @@
 - title: Abstração
   tags:
     - Conceito
+  id: abstraction
   description: Abstração é uma simplificação de ponto(s) específicos de algum sistema
     ou comportamento que estamos tentando entender. Na programação, usamos abstrações
     o tempo todo. Isso significa que não precisamos entender todos os detalhes técnicos
@@ -10,6 +11,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: domain_adaptation
   description: É a capacidade de aplicar um algoritmo treinado em um ou mais 'domínios
     de origem' a um 'domínio de destino' diferente, mas relacionado. A adaptação de
     domínio é uma subcategoria da transferência de aprendizado. Na adaptação de domínio,
@@ -21,6 +23,7 @@
 - title: AIoT
   tags:
     - Conceito
+  id: aiot
   description: AIoT (Artificial Intelligence of Things), ou Inteligência Artificial
     das Coisas, é a combinação de Inteligência Artificial (IA) com a Internet das
     Coisas (IoT). Seu principal objetivo é automatizar e acelerar o processamento
@@ -31,12 +34,14 @@
 - title: Algoritmo
   tags:
     - Conceito
+  id: algorithm
   description: Um algoritmo é como uma receita de bolo para o computador. É um conjunto
     de passos organizados que ajudam a resolver um problema, como fazer contas ou
     analisar informações.
 - title: Ambiente
   tags:
     - Conceito
+  id: environment
   description: Costumamos chamar de ambiente o lugar ou os servidores onde o que foi
     desenvolvido fica disponível para testes, validações, pessoas usuárias finais
     utilizarem ou demais necessidades. Pode ser um computador físico ou disponível
@@ -48,6 +53,7 @@
   tags:
     - Framework
     - Front-end
+  id: angular.js
   description: Angular.js é uma ferramenta desenvolvida pelo Google que facilita a
     criação de sites ou aplicativos que funcionam como uma única página (SPAs), ou
     seja, sem recarregar a página inteira a cada interação. Ele organiza o código
@@ -58,6 +64,7 @@
   tags:
     - Back-end
     - Conceito
+  id: api
   description: "API é uma sigla que, em inglês, significa Application Programming
     Interface. Traduzindo para português, seria uma interface programada para aplicações.
     É uma estrutura de código que atende a alguns requisitos, seguindo normas e padrões
@@ -68,6 +75,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: machine_learning
   description: No inglês, Machine Learning ou ML, é um subconjunto da inteligência
     artificial (IA) que estuda como os computadores podem aprender com e fazer previsões
     sobre dados, sem serem explicitamente programados. A maior parte da IA é realizada
@@ -79,6 +87,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: few-shot_learning
   description: É um tipo de aprendizado de máquina que usa poucos dados rotulados
     para treinar um modelo. Nele, um modelo de aprendizado de máquina (geralmente
     pré-treinado) é treinado com novos dados rotulados, contendo poucos exemplos por
@@ -88,6 +97,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: unsupervised_learning
   description: É um tipo de aprendizado de máquina que usa dados não rotulados para
     treinar um modelo. Ele é usado para resolver problemas de agrupamento, onde o
     objetivo é encontrar padrões em um conjunto de dados. Por exemplo, um modelo de
@@ -100,6 +110,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: reinforcement_learning
   description: No inglês, Reinforcement Learning ou RL, é um tipo de aprendizado de
     máquina que usa recompensas para treinar um modelo. Ele é muito usado para resolver
     problemas de tomada de decisão, onde o objetivo é maximizar uma recompensa. Por
@@ -109,6 +120,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: reinforcement_learning_from_human_feedback
   description: Do inglês, Reinforcement Learning from Human Feedback ou RLHF, é uma
     técnica que treina um modelo de recompensa diretamente a partir do feedback humano.
     RLHF é usado em tarefas onde é difícil definir ou medir uma solução algorítmica
@@ -127,6 +139,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: deep_learning
   description: Do inglês, Deep Learning ou DL, é um subconjunto do aprendizado de
     máquina que usa redes neurais artificiais profundas para aprender representações
     de dados complexos. Devido às múltiplas camadas presentes em uma rede neural profunda,
@@ -137,6 +150,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: semi-supervised_learning
   description: É um tipo de aprendizado de máquina que usa dados rotulados e não rotulados
     para treinar um modelo. Ele é muito usado para resolver problemas de classificação
     de grandes conjuntos de dados, onde o objetivo é prever um valor de saída com
@@ -148,6 +162,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: supervised_learning
   description: É um tipo de aprendizado de máquina que usa dados rotulados para treinar
     um modelo. Ele é usado para resolver problemas de classificação e regressão, onde
     o objetivo é prever um valor de saída com base em um conjunto de valores de entrada.
@@ -160,6 +175,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: zero-shot_learning
   description: É uma configuração de problemas em aprendizado profundo onde, no momento
     do teste, um modelo recebe amostras de classes que não foram observadas durante
     o treinamento e precisa identificar a classe à qual pertencem. Ao contrário do
@@ -177,6 +193,7 @@
 - title: Argumento
   tags:
     - Conceito
+  id: argument
   description: Um argumento é um valor ou uma informação que você fornece a uma função
     ou método durante sua chamada. Esses argumentos são usados pela função para realizar
     uma tarefa específica ou para tomar decisões com base nos valores fornecidos.
@@ -186,6 +203,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: data_augmentation
   description: Em inglês chamado de data augmentation, é uma técnica de pré-processamento
     de dados usada para aumentar o tamanho de um conjunto de dados de treinamento
     disponível para um modelo de aprendizado de máquina, gerando novos dados com base
@@ -197,6 +215,7 @@
     - Conceito
     - Inteligência artificial
     - Rede neural
+  id: autoencoder
   description: É um tipo de rede neural artificial composto por duas redes neurais
     no formato codificador-decodificador, sendo uma responsável por codificar dados
     de entrada em um espaço latente e outra por decodificar dados de um espaço latente
@@ -207,6 +226,7 @@
   tags:
     - Ferramenta
     - Versionamento
+  id: aws_commit
   description: AWS Commit é a plataforma de hospedagem de código-fonte da Amazon (AWS)
     e está totalmente integrado com o ecossistema AWS, permitindo fácil automação
     e integração com outros serviços da AWS, como CodePipeline (para CI/CD), IAM (controle

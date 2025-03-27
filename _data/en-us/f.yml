@@ -2,6 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: few-shot_learning
   description: It is a type of machine learning that uses few labeled data to train
     a model. In it, a machine learning model (usually pre-trained) is trained with
     new labeled data, containing few examples per class. Few-shot learning is widely
@@ -10,6 +11,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: fine-tuning
   description: Is the process of training a pre-trained machine learning model on
     a new dataset. It is used to adapt a base model for a specific task, improving
     its performance and reducing training time compared to training from scratch.
@@ -19,6 +21,7 @@
   tags:
     - Concept
     - Versioning
+  id: fork
   description: Forking is like creating an independent copy of a project. It's like
     taking someone else's project, copying it, and having it in your own account.
     This allows you to make your own changes without touching the original project.
@@ -27,6 +30,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: foundation_models
   description: Also called base models, these are machine learning models that are
     pre-trained on large datasets and are commonly made available for use by third
     parties. They are used as base models for various applications in computer vision,
@@ -36,17 +40,20 @@
   tags:
     - Concept
     - Framework
+  id: frameworks
   description: They are like collections of tools, components and solutions that you
     can find in the same package (the framework) that facilitate the creation of complex
     applications.
 - title: Front-end Development
   tags:
     - Front-end
+  id: front-end_development
   description: Front-end development is the development of the graphical interface,
     so that users can view and interact with what has been developed.
 - title: Function
   tags:
     - Concept
+  id: function
   description: A function is a block of code that performs a specific task and can
     be called from other parts of the program. It helps organize and reuse code, making
     software more modular and readable. Functions may take inputs (called arguments)

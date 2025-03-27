@@ -2,6 +2,7 @@
   tags:
     - Framework
     - Front-end
+  id: react
   description: React é uma biblioteca JavaScript de código aberto utilizada para criar
     interfaces de usuário interativas e dinâmicas em aplicações web e em outros ambientes,
     como mobile, TV, realidade virtual, entre outros. Ele se destaca por seu modelo
@@ -10,12 +11,14 @@
 - title: React Native
   tags:
     - Mobile
+  id: react_native
   description: É um framework do Javascript baseado no React para desenvolvimento
     de aplicativos móveis multiplataforma.
 - title: Reconhecimento Automático de Fala
   tags:
     - Conceito
     - Inteligência artificial
+  id: automatic_speech_recognition
   description: É um campo da inteligência artificial que se concentra no desenvolvimento
     de sistemas que podem analisar e entender a fala humana, permitindo que os computadores
     transcrevam e processem estímulos sonoros em texto. O reconhecimento automático
@@ -29,6 +32,7 @@
 - title: Recursão
   tags:
     - Conceito
+  id: recursion
   description: Recursão é um método/função que chama a si mesmo para resolver um problema.
     Temos de exemplo o cálculo fatorial onde um número vai multiplicando seu número
     anterior até chegar a 1. Aqui temos um exemplo utilizando javascript, vamos imaginar
@@ -45,6 +49,7 @@
     - Conceito
     - Inteligência artificial
     - Rede neural
+  id: generative_adversarial_network
   description: Do inglês, Generative Adversarial Network ou GAN, é um tipo de rede
     neural artificial composto por duas redes neurais concorrentes treinadas de forma
     adversarial. A rede neural generativa é treinada para gerar novos dados, enquanto
@@ -60,6 +65,7 @@
     - Conceito
     - Inteligência artificial
     - Rede neural
+  id: artificial_neural_network
   description: É um modelo computacional inspirado no sistema nervoso central de um
     animal, que consiste em um conjunto de unidades de processamento interconectadas,
     chamadas neurônios artificiais, que simulam a forma como os neurônios se comunicam
@@ -72,6 +78,7 @@
     - Conceito
     - Inteligência artificial
     - Rede neural
+  id: convolutional_neural_network
   description: É um tipo de rede neural artificial que usa uma operação matemática
     chamada convolução em uma ou mais de suas camadas. Do inglês, Convolutional Neural
     Network ou CNN, ela é frequentemente usada para processar dados de entrada que
@@ -82,6 +89,7 @@
     - Conceito
     - Inteligência artificial
     - Rede neural
+  id: generative_neural_network
   description: É um tipo de rede neural artificial que gera novos dados com base em
     um conjunto de dados de treinamento. Estes dados geralmente são variações dos
     dados de entrada, como por exemplo alterações nas expressões de uma pessoa em
@@ -92,6 +100,7 @@
     - Conceito
     - Inteligência artificial
     - Rede neural
+  id: deep_neural_network
   description: Do inglês, Deep Neural Network ou DNN, é um tipo de rede neural artificial
     com várias camadas de unidades de processamento interconectadas. É chamada de
     rede neural profunda devido ao número de camadas ocultas usadas no modelo de aprendizado
@@ -106,6 +115,7 @@
     - Conceito
     - Inteligência artificial
     - Rede neural
+  id: recurrent_neural_network
   description: Do inglês, Recurrent Neural Network ou RNN, é um tipo de rede neural
     artificial que usa loops e estados para processar dados. Ela é frequentemente
     usada para processar dados de entrada que têm uma estrutura sequencial, como textos,
@@ -116,6 +126,7 @@
   tags:
     - Conceito
     - Versionamento
+  id: repository
   description: Um Repositório é basicamente uma caixa que guarda todo o material do
     seu projeto. Pense nele como um lugar onde você armazena o código, o histórico
     das mudanças e outros arquivos importantes. Existem repositórios locais no seu
@@ -124,11 +135,13 @@
   tags:
     - Design
     - Front-end
+  id: responsiveness
   description: A capacidade de um site ou aplicativo se adaptar a diferentes tamanhos
     de tela e dispositivos, como smartphones, tablets e desktops.
 - title: RPA
   tags:
     - Conceito
+  id: rpa
   description: Robotic Process Automation (Automação de Processos Robóticos), é uma
     tecnologia que permite a automação de tarefas repetitivas e baseadas em regras,
     utilizando robôs de software para realizar principalmente atividades repetitivas.
@@ -139,6 +152,7 @@
   tags:
     - Back-end
     - Conceito
+  id: ruby
   description: Ruby é uma linguagem de programação altamente flexível criada no Japão
     em 1995. Ela é conhecida por sua simplicidade e facilidade de uso, sendo muito
     usada no desenvolvimento web e em aplicações de automação.
@@ -147,6 +161,7 @@
     - Back-end
     - Framework
     - Front-end
+  id: ruby_on_rails
   description: Ruby on Rails, ou simplesmente Rails, é uma ferramenta de código aberto
     escrita em Ruby para criar sites e aplicações web de forma dinâmica e eficiente.
     Ele organiza o desenvolvimento em três partes principais':' os dados (Model),

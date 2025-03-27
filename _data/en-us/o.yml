@@ -1,6 +1,7 @@
 - title: Object
   tags:
     - Concept
+  id: object
   description: An object, in software development, is like a character in a video
     game. It has characteristics (data) and can do things (methods). For example,
     a "car" object can have a color, speed and brand (characteristics) and can accelerate,
@@ -11,6 +12,7 @@
   tags:
     - Concept
     - Paradigm
+  id: object-oriented_programming
   description: Object-oriented programming (OOP) is a programming paradigm that is
     based on the idea of modeling software around objects, which are instances of
     classes. Each object contains attributes (data) and methods (functions) that operate
@@ -22,12 +24,14 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: optimizer
   description: Also called an optimization algorithm, it is an algorithm that adjusts
     the parameters of a machine learning model to minimize the loss function. It is
     used to train machine learning models and improve their performance.
 - title: Optional Chaining
   tags:
     - Concept
+  id: optional_chaining
   description: Optional Chaining is a feature in JavaScript to handle situations where
     you need to access properties of nested objects but are not sure whether those
     properties actually exist. This helps avoid 'TypeError' errors when trying to
@@ -38,12 +42,14 @@
   tags:
     - Back-end
     - Concept
+  id: orm
   description: Object-relational mapping (ORM) is how we translate tables from a database
     into code, turning them into classes and objects.
 - title: Overfitting
   tags:
     - Artificial intelligence
     - Concept
+  id: overfitting
   description: This is a problem that occurs when a machine learning model fits training
     data very well, but fails to generalize to new data. This is seen when the model
     performs very well on the metrics for the training data, but performs poorly on

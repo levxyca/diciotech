@@ -1,6 +1,7 @@
 - title: Terminal
   tags:
     - Concept
+  id: terminal
   description: "The Terminal is a CLI that allows users to interact directly with
     the operating system using text commands, instead of a graphical interface (GUI).
     In the Terminal, you can perform a series of tasks and commands directly, such
@@ -10,6 +11,7 @@
 - title: Ternary Operator
   tags:
     - Concept
+  id: ternary_operator
   description: 'The ternary conditional operator is a shorthand way to make a choice
     between two options based on a condition. It works like this: if the condition
     is true, it returns the first result; if it is false, it returns the second. It''s
@@ -20,6 +22,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: transfer_learning
   description: A machine learning technique in which knowledge learned from one task
     is reused to improve performance on a related task. For example, knowledge gained
     from learning to recognize cars can be applied when trying to segment images of
@@ -33,6 +36,7 @@
     - Artificial intelligence
     - Concept
     - Neural network
+  id: transformer
   description: A type of artificial neural network that uses an encoder-decoder architecture
     to process input data. Transformer models apply a set of mathematical techniques,
     called attention or self-attention, to detect the subtle ways in which even distant
@@ -44,5 +48,6 @@
 - title: Typed variable
   tags:
     - Concept
+  id: typed_variable
   description: "A typed variable is one that has a data type associated with it (e.g.:
     int, float, string)."

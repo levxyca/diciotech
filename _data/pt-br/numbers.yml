@@ -2,6 +2,7 @@
   tags:
     - Conceito
     - Segurança cibernética
+  id: 2fa
   description: 2FA (Two Factor Authentication ou autenticação de dois fatores) , é
     um processo de autenticação que requer dois fatores de autenticação diferentes
     para estabelecer a identidade. Em poucas palavras, significa exigir que um usuário

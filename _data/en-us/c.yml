@@ -1,12 +1,14 @@
 - title: C
   tags:
     - Concept
+  id: c
   description: C is a general-purpose, structured, imperative, procedural, ISO-standardized,
     compiled programming language created in 1972 by Dennis Ritchie at AT&T Bell Labs
     to develop the Unix operating system (which was originally written in Assembly).
 - title: C++
   tags:
     - Concept
+  id: c++
   description: C++ is a general-purpose, multi-paradigm (its support includes imperative,
     object-oriented and generic languages) compiled programming language. Since the
     1990s it has been one of the most popular commercial languages, and is also widely
@@ -14,12 +16,14 @@
 - title: Cache
   tags:
     - Concept
+  id: cache
   description: Cache is a technique for temporarily storing data often used to improve
     performance and speed of access to that data in computer systems.
 - title: Canary deployment
   tags:
     - Concept
     - Devops
+  id: canary_deployment
   description: Canary deployment is a deployment strategy that consists of having
     a replica of the production environment. New software versions are deployed to
     this replica, and after deployment, the release of the new version is done gradually,
@@ -35,6 +39,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: chatbot
   description: It is a computer program that simulates a human being in a conversation
     through text or voice messages, widely used to automate repetitive tasks and provide
     support and assistance to users. Chatbots can be used in a wide variety of applications,
@@ -42,6 +47,7 @@
 - title: Class
   tags:
     - Concept
+  id: class
   description: A class, in software development, is like a template and a "model"
     for creating objects. It defines the attributes (data) and methods (functions)
     that objects created from it will have. They help organize code, allowing reuse
@@ -49,6 +55,7 @@
 - title: CLI
   tags:
     - Concept
+  id: cli
   description: A Command Line Interface (CLI) is a way to interact with computer programs
     where you type commands instead of clicking buttons or using menus. There are
     different ways to use software, such as the graphical interface (GUI), which is
@@ -60,6 +67,7 @@
   tags:
     - Concept
     - Versioning
+  id: clone
   description: Cloning a repository is like taking a local copy of that project into
     your own workspace. It's like having your own version of the code to tinker with
     as you please. This allows you to work on a local version of the code, make changes,
@@ -67,6 +75,7 @@
 - title: Cloud Computing
   tags:
     - Concept
+  id: cloud_computing
   description: Generally speaking, it refers to the use of computer services, such
     as file storage and program execution, over the Internet. This means that you
     do not need physical equipment, as everything is done online. You can access your
@@ -75,11 +84,13 @@
 - title: CMD
   tags:
     - Concept
+  id: cmd
   description: The CMD (short for "Command Prompt") is a command-line interface present
     in the Windows operating system. See Terminal for more information.
 - title: Code Review
   tags:
     - Concept
+  id: code_review
   description: "It is a good practice that is highly recommended for the systems development
     process, through which the team's developers help each other. Normally, after
     the development stage of each task is completed, before the code is made available
@@ -90,6 +101,7 @@
 - title: Code Smells
   tags:
     - Concept
+  id: code_smells
   description: Code smells are indicators of potential problems in the code that,
     while they do not cause immediate errors or prevent the software from working,
     can suggest areas of risk that could lead to future difficulties in maintaining
@@ -99,6 +111,7 @@
 - title: Commit
   tags:
     - Concept
+  id: commit
   description: When we work with code versioning (which is highly recommended), the
     word commit is quite common among developers. But this word is also used by those
     who work with databases. When there is a set of changes made to a code, the person
@@ -111,6 +124,7 @@
   tags:
     - Concept
     - Design
+  id: component
   description: A component is a fundamental, reusable unit of user interface construction.
     It encapsulates the logic and presentation related to a specific part of the interface.
     Components can be compared to building blocks that, when combined, form complex
@@ -120,12 +134,14 @@
 - title: Computed variable
   tags:
     - Concept
+  id: computed_variable
   description: It is a variable that does not store a value directly, it calculates
     or derives its value from other variables or data.
 - title: Computer Vision
   tags:
     - Artificial intelligence
     - Concept
+  id: computer_vision
   description: It is a field of artificial intelligence that studies how computers
     can obtain and process information from visual stimuli. It focuses on developing
     systems that can analyze and understand images and videos, allowing computers
@@ -135,6 +151,7 @@
 - title: Continuous Delivery
   tags:
     - Concept
+  id: continuous_delivery
   description: Continuous Delivery (CD) is a software development practice that ensures
     that the code is always ready to be deployed to production at any time. After
     Continuous Integration (CI), the software is automatically prepared for releases,
@@ -145,6 +162,7 @@
 - title: Continuous Integration
   tags:
     - Concept
+  id: continuous_integration
   description: Continuous integration is the practice of frequently testing the parts
     of the code that are added to a project. This prevents bugs and errors from being
     added, efficiently performing specific tests that verify the integration of each
@@ -154,6 +172,7 @@
     - Artificial intelligence
     - Concept
     - Neural network
+  id: convolutional_neural_network
   description: It is a type of artificial neural network that uses a mathematical
     operation called convolution in one or more of its layers. A Convolutional Neural
     Network or CNN is often used to process input data that has a matrix structure,
@@ -162,6 +181,7 @@
 - title: CORS
   tags:
     - Concept
+  id: cors
   description: Cross-Origin Resource Sharing is a security policy for websites. It
     determines how resources on a web page can be accessed by another page on a different
     domain. For example, an image or CSS file can usually be shared between different
@@ -169,12 +189,14 @@
 - title: CSS
   tags:
     - Front-end
+  id: css
   description: Cascading Style Sheets is a mechanism for adding styles to a web page
     such as colors, sizes, fonts, etc. It is possible to link the HTML file to the
     CSS by adding a link to a CSS file that contains the styles.
 - title: CSS Preprocessors
   tags:
     - Front-end
+  id: css_preprocessors
   description: "CSS preprocessors are like special tools that make styling a website
     easier. They make it possible to create more complicated styles that can be reused
     in different parts of the site. Think of them as smarter ways of choosing colors
@@ -182,6 +204,7 @@
 - title: Curl
   tags:
     - Tool
+  id: curl
   description: Tool for transferring data to/from a server, i.e. making a request
     using various protocols, the most common being HTTP. When you hear the term 'make
     a curl for x' it means that you need to make a request for x, but not necessarily

@@ -2,6 +2,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: early_stopping
   description: Também chamado de parada antecipada, é uma técnica de treinamento de
     modelos de aprendizado de máquina que interrompe o treinamento quando o desempenho
     do modelo para de melhorar. Ela é usada para evitar o overfitting e gerar um modelo
@@ -10,6 +11,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: embedding
   description: Também chamado de incorporação, é uma representação vetorial de um
     objeto, como uma palavra, uma frase ou uma imagem. Ela é usada para representar
     objetos de forma mais compacta e eficiente, permitindo que modelos de aprendizado
@@ -22,6 +24,7 @@
 - title: Encapsulamento
   tags:
     - Conceito
+  id: encapsulation
   description: O encapsulamento funciona como uma "caixa mágica" que esconde os detalhes
     internos de um objeto. Isso significa que os dados e o funcionamento interno de
     um objeto são mantidos privados e não podem ser acessados diretamente de fora.
@@ -31,6 +34,7 @@
 - title: Endereço de Memória
   tags:
     - Conceito
+  id: memory_address
   description: É um número que identifica unicamente uma posição de memória no computador.
     Tudo que é declarado em uma linguagem de programação é armazenado na memória do
     computador, e para acessar esses dados é necessário saber o endereço de memória
@@ -38,6 +42,7 @@
 - title: Entrega Contínua
   tags:
     - Conceito
+  id: continuous_delivery
   description: Entrega contínua (do inglês, Continuous Delivery ou CD) é uma prática
     de desenvolvimento de software que assegura que o código esteja sempre pronto
     para ser implantado em produção a qualquer momento. Após a Integração Contínua
@@ -50,6 +55,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: epoch
   description: Do inglês, epoch, é uma iteração completa de um modelo de aprendizado
     de máquina sobre um conjunto de dados de treinamento. Um treinamento com uma quantidade
     de épocas muito pequena pode não ser suficiente para um modelo aprender, enquanto
@@ -58,6 +64,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: latent_space
   description: Também chamado de espaço de características latentes ou espaço de incorporação
     (do inglês, embedding space), é um espaço vetorial (manifold) que pode ser gerado
     a partir do treinamento de um modelo de aprendizado de máquina. Uma posição dentro
@@ -79,6 +86,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: gradient_explosion
   description: Chamado em inglês de exploding gradient, é um problema que ocorre quando
     o gradiente de uma função de perda cresce exponencialmente durante o treinamento
     de um modelo de aprendizado de máquina. Isso pode resultar em parâmetros do modelo
@@ -91,6 +99,7 @@
 - title: Expo CLI
   tags:
     - Mobile
+  id: expo_cli
   description: O Expo CLI é uma ferramenta que facilita o desenvolvimento de aplicativos
     móveis para iOS e Android. É utilizado para criar rapidamente um projeto com o
     React Native.

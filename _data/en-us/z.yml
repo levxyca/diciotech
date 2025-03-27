@@ -2,6 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: zero-shot_learning
   description: It is a problem setting in deep learning where, at test time, a model
     is given samples of classes that were not observed during training and needs to
     identify the class to which they belong. Unlike standard machine learning, where
