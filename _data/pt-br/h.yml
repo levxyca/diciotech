@@ -1,6 +1,7 @@
 - title: Herança
   tags:
     - Conceito
+  id: inheritance
   description: A herança funciona como uma "árvore genealógica". Permite que uma classe
     ou objeto herde características e comportamentos de outra classe pai. Isso significa
     que a classe filha herda os atributos e métodos da classe pai, economizando tempo
@@ -11,6 +12,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: hyperparameter
   description: Também chamado de parâmetro de treinamento, é um parâmetro de um modelo
     de aprendizado de máquina que não é alterado durante o treinamento. Ele é usado
     para controlar o comportamento de um modelo de aprendizado de máquina e pode ser
@@ -19,6 +21,7 @@
   tags:
     - Conceito
     - Segurança cibernética
+  id: honeypot
   description: Um honeypot é um sistema de segurança configurado para detectar, desviar
     ou, de alguma maneira, neutralizar tentativas de uso não autorizado de sistemas
     de informação. A definição de honeypot vem do mundo da espionagem, onde a espiã
@@ -29,5 +32,6 @@
 - title: HTML
   tags:
     - Front-end
+  id: html
   description: HTML é uma linguagem de marcação utilizada na construção de páginas
     na web. Documentos HTML podem ser interpretados por navegadores.

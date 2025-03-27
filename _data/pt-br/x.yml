@@ -1,6 +1,7 @@
 - title: XML
   tags:
     - Conceito
+  id: xml
   description: XML (do inglês, eXtensible Markup Language) é uma linguagem de marcação
     que define um conjunto de regras para codificar documentos. Ela é uma linguagem
     de marcação assim como a HTML, porém a XML foi criada para ser mais flexível,

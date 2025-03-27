@@ -1,6 +1,7 @@
 - title: Scrum
   tags:
     - Framework
+  id: scrum
   description: " É um método para gerenciar projetos onde o trabalho é dividido em
     pequenos pedaços chamados de 'sprints', que geralmente duram algumas semanas.
     A equipe trabalha em estreita colaboração, se encontrando regularmente para planejar,
@@ -9,6 +10,7 @@
 - title: SGBD
   tags:
     - Conceito
+  id: dbms
   description: SGBD (Sistema de Gerenciamento de Banco de Dados) é um tipo de sistema
     que permite o usuário gerenciar base de dados, realizando operações como criar
     e modificar tabelas, permitir acesso para usuários entre outros. Podemos dizer
@@ -16,6 +18,7 @@
 - title: SOLID
   tags:
     - Conceito
+  id: solid
   description: "Os princípios SOLID são cinco diretrizes para design de software orientado
     a objetos, promovendo sistemas mais flexíveis, robustos e de fácil manutenção.
     São eles: Single Responsibility Principle (uma classe deve ter apenas uma responsabilidade),
@@ -28,6 +31,7 @@
 - title: Spread Operator
   tags:
     - Conceito
+  id: spread_operator
   description: O operador spread é um operador que está presente em várias linguagens
     de programação, que permite copiar e combinar elementos de uma estrutura de dados
     em outra, facilitando a manipulação eficiente de informações.
@@ -35,6 +39,7 @@
   tags:
     - Back-end
     - Conceito
+  id: sql
   description: A Linguagem de Consulta Estruturada (SQL) é uma linguagem de programação
     usada para gerenciar dados em bancos de dados relacionais. É como uma linguagem
     que nos permite falar com os bancos de dados para fazer coisas como buscar, adicionar,
@@ -42,12 +47,14 @@
 - title: Stack Navigation
   tags:
     - Mobile
+  id: stack_navigation
   description: No contexto do React Native, é uma técnica de navegação entre as telas
     do aplicativo, quando o aplicativo têm os botões de voltar e avançar, por exemplo.
 - title: Stateful Widget
   tags:
     - Conceito
     - Mobile
+  id: stateful_widget
   description: Um StatefulWidget, no Flutter, é um componente que possui estado interno
     mutável, permitindo que ele responda a mudanças de estado e atualize dinamicamente
     a interface do usuário.
@@ -55,12 +62,14 @@
   tags:
     - Conceito
     - Mobile
+  id: stateless_widget
   description: Um StatelessWidget, no Flutter, é um componente que não possui estado
     interno mutável, ideal para partes da interface do usuário que não mudam com o
     tempo e não dependem de estado.
 - title: Style Guide
   tags:
     - Design
+  id: style_guide
   description: É uma biblioteca que reúne diretrizes de estilo e padrões visuais para
     a criação de produtos digitais. Ele inclui elementos como tipografia, paletas
     de cores, uso de ícones e layouts, mas não abrange aspectos técnicos, como código.
@@ -71,6 +80,7 @@
   tags:
     - Framework
     - Front-end
+  id: svelte
   description: Svelte é uma ferramenta JavaScript que transforma o código durante
     a construção do site ou aplicativo, sem precisar de uma camada extra para funcionar
     no navegador. Isso o torna mais rápido e leve em comparação com outras ferramentas
@@ -78,12 +88,14 @@
 - title: Swift
   tags:
     - Mobile
+  id: swift
   description: Swift é uma linguagem de programação criada pela Apple. Com ela, você
     pode desenvolver aplicativos para dispositivos e sistemas operacionais da Apple,
     como iPhones (iOS), Macs (macOS), Apple Watches (watchOS) e Apple TVs (tvOS).
 - title: SwiftUI
   tags:
     - Mobile
+  id: swiftui
   description: SwiftUI é uma ferramenta da Apple para criar a parte visual dos aplicativos
     usando a linguagem Swift. Ao contrário do UIKit, que é mais tradicional, o SwiftUI
     permite que você descreva a interface do usuário de uma maneira mais simples e

@@ -2,6 +2,7 @@
   tags:
     - Concept
     - Cybersecurity
+  id: 2fa
   description: 2FA (Two Factor Authentication) is an authentication process that requires
     two different authentication factors to establish identity. In short, it means
     requiring a user to prove their identity in two different ways before granting

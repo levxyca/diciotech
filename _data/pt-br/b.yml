@@ -1,6 +1,7 @@
 - title: Balanceador de Carga
   tags:
     - Conceito
+  id: load_balancer
   description: "Um balanceador de carga (do inglês Load Balancer) é uma ferramenta
     utilizada para distribuir a carga (de requisições dos usuários, por exemplo) entre
     múltiplos servidores. O objetivo do uso de um balanceador de carga é o de melhorar
@@ -15,6 +16,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: batch_size
   description: Tamanho do lote, em português, é um hiperparâmetro de modelos de aprendizado
     de máquina que controla o número de exemplos usados em uma única execução do modelo.
     Ele é usado para controlar a rapidez com que um modelo de aprendizado de máquina
@@ -26,6 +28,7 @@
   tags:
     - Ferramenta
     - Versionamento
+  id: bitbucket
   description: Assim como o GitHub, o BitBucket também é uma plataforma de hospedagem
     de código-fonte e também possui ferramentes integradas de CI/CD, mas se integra
     especialmente bem com ferramentas Atlassian, como o Jira, e suporta repositórios
@@ -34,6 +37,7 @@
   tags:
     - Conceito
     - Devops
+  id: blue_green_deployment
   description: "O blue-green deployment é uma estratégia de deployment que consiste
     em termos uma réplica do ambiente de produção. As novas versões de software são
     implantadas nessa réplica, e, depois da implantação, alterna-se o tráfego dos
@@ -50,6 +54,7 @@
   tags:
     - Conceito
     - Segurança cibernética
+  id: botnet
   description: "Botnet é uma rede de dispositivos conectados na internet infectados
     por um malware (os malwares são programas maliciosos que afetam um dispositivo),
     possibilitando que criminosos-ciberneticos derrubem sites usando essa rede de
@@ -62,6 +67,7 @@
     - Conceito
     - Ferramenta
     - Versionamento
+  id: branch
   description: Uma branch é como uma cópia do seu projeto em um momento específico.
     É como se você criasse uma versão separada para trabalhar em novas ideias sem
     mexer na versão principal. Cada branch pode ser editado à parte, permitindo que
@@ -69,6 +75,7 @@
 - title: Bug
   tags:
     - Conceito
+  id: bug
   description: O termo Bug é comumente usado para informar que há algum problema no
     programa ou no ambiente. Pode ser um comportamento incorreto ou inesperado, geralmente
     causados por lógica incorreta no código, causando falhas durante a execução de
@@ -77,6 +84,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: neural_architecture_search
   description: No inglês, Neural Architecture Search ou NAS, é um processo de otimização
     que usa algoritmos de busca para encontrar a melhor arquitetura de rede neural
     para um determinado conjunto de dados. Ela é usada para encontrar a melhor arquitetura

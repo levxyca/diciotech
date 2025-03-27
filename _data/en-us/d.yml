@@ -2,6 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: data_augmentation
   description: It is a data preprocessing technique used to increase the size of a
     training dataset available to a machine learning model by generating new data
     based on the existing data, which improves its performance and reduces the risk
@@ -11,6 +12,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: dataset
   description: A dataset is a set of data that can be used to train and test machine
     learning models. Different parts of the dataset are typically used for training
     and testing to avoid overfitting. Parts can also be used for validation and inference.
@@ -21,6 +23,7 @@
 - title: DBMS
   tags:
     - Concept
+  id: dbms
   description: DBMS (Database Management System) is a type of system that allows the
     user to manage databases, performing operations such as creating and modifying
     tables, allowing access for users, among others. We can say, for example, that
@@ -29,12 +32,14 @@
   tags:
     - Concept
     - Cybersecurity
+  id: ddos
   description: DDoS is an attack where many devices try to connect to a website at
     the same time to overload it.
 - title: Deep Learning
   tags:
     - Artificial intelligence
     - Concept
+  id: deep_learning
   description: Deep Learning or DL is a subset of machine learning that uses deep
     artificial neural networks to learn representations of complex data. Due to the
     multiple layers present in a deep neural network, deep learning tends to be much
@@ -46,6 +51,7 @@
     - Artificial intelligence
     - Concept
     - Neural network
+  id: deep_neural_network
   description: Deep Neural Network or DNN is a type of artificial neural network with
     several layers of interconnected processing units. It is called a deep neural
     network due to the number of hidden layers used in the deep learning model. While
@@ -58,6 +64,7 @@
 - title: Deploy
   tags:
     - Concept
+  id: deploy
   description: Deployment is a complex process. But it means that a package of what
     was developed in the environments was installed. A version is generated to be
     made available. For this deployment to happen, it can be an automated process
@@ -65,6 +72,7 @@
 - title: Design Critique
   tags:
     - Design
+  id: design_critique
   description: It is a collaborative process where designers, developers and other
     stakeholders review and evaluate a design project or concept in a constructive
     way. The goal is to obtain valuable feedback on the aesthetic effectiveness, functionality,
@@ -76,6 +84,7 @@
 - title: Design Ops
   tags:
     - Design
+  id: design_ops
   description: A practice that optimizes and integrates the design process in digital
     product development teams, promoting collaboration between designers, developers
     and stakeholders. It implements frameworks, tools, and processes that improve
@@ -88,6 +97,7 @@
   tags:
     - Design
     - Front-end
+  id: design_system
   description: "It is a set of guidelines, components, and standards that guide the
     creation and maintenance of consistent user interfaces and experiences in digital
     products. It includes elements such as: color palettes, typography, icons, and
@@ -98,6 +108,7 @@
 - title: DevOps
   tags:
     - Concept
+  id: devops
   description: It is a practice that integrates software development (Dev) and IT
     operations (Ops) to improve collaboration and efficiency between teams. It focuses
     on automation and the integration of development, testing, and deployment processes,
@@ -108,6 +119,7 @@
 - title: DOM (Document Object Model)
   tags:
     - Front-end
+  id: dom_(document_object_model)
   description: A representation of the tree structure of HTML elements on a page,
     which allows dynamic manipulation of content. Think of it as a map of the page
     that JavaScript uses to understand and change the content. It's like a 'blueprint'
@@ -116,6 +128,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: domain_adaptation
   description: It is the ability to apply an algorithm trained on one or more 'source
     domains' to a different but related 'target domain'. Domain adaptation is a subcategory
     of transfer learning. In domain adaptation, the source and target domains all
@@ -127,6 +140,7 @@
   tags:
     - Concept
     - Cybersecurity
+  id: dos
   description: DoS is a denial of service attack. In this attack a single computer
     is used to make many queries to a website in a short space of time with the aim
     of taking it offline.

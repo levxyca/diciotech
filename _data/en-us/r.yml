@@ -1,6 +1,7 @@
 - title: React
   tags:
     - Front-end
+  id: react
   description: React is an open-source JavaScript library used to create interactive
     and dynamic user interfaces in web applications and other environments, such as
     mobile, TV, virtual reality, among others. It stands out for its component-based
@@ -9,6 +10,7 @@
 - title: React Native
   tags:
     - Mobile
+  id: react_native
   description: It is a Javascript framework based on React for developing cross-platform
     mobile applications.
 - title: Recurrent Neural Network
@@ -16,6 +18,7 @@
     - Artificial intelligence
     - Concept
     - Neural network
+  id: recurrent_neural_network
   description: Recurrent Neural Network or RNN is a type of artificial neural network
     that uses loops and states to process data. It is often used to process input
     data that has a sequential structure, such as text, audio, video, and time series,
@@ -24,11 +27,13 @@
 - title: Recursion
   tags:
     - Concept
+  id: recursion
   description: Recursion is a method/function that calls itself to solve a problem.
 - title: Reinforcement Learning
   tags:
     - Artificial intelligence
     - Concept
+  id: reinforcement_learning
   description: Reinforcement Learning, or RL, is a type of machine learning that uses
     rewards to train a model. It is widely used to solve decision-making problems,
     where the goal is to maximize a reward. For example, a machine learning model
@@ -38,6 +43,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: reinforcement_learning_from_human_feedback
   description: Reinforcement Learning from Human Feedback (RLHF) is a technique that
     trains a reward model directly from human feedback. RLHF is used in tasks where
     it is difficult to define or measure a clear algorithmic solution, especially
@@ -55,6 +61,7 @@
   tags:
     - Concept
     - Versioning
+  id: repository
   description: A Repository is basically a box that holds all of your project's material.
     Think of it as a place where you store your code, history of changes, and other
     important files. There are local repositories on your computer and remote repositories
@@ -63,11 +70,13 @@
   tags:
     - Design
     - Front-end
+  id: responsiveness
   description: The ability of a website or application to adapt to different screen
     sizes and devices, such as smartphones, tablets, and desktops.
 - title: RPA
   tags:
     - Concept
+  id: rpa
   description: Robotic Process Automation is a technology that enables the automation
     of repetitive, rule-based tasks using software robots to perform primarily repetitive
     activities. These robots mimic human actions in digital systems, such as clicking
@@ -77,6 +86,7 @@
   tags:
     - Back-end
     - Concept
+  id: ruby
   description: Ruby is a dynamically typed, strongly typed, multiparadigm interpreted
     programming language with automatic memory management. Ruby supports functional,
     object-oriented, imperative, and reflective programming. It is like a digital
@@ -87,6 +97,7 @@
     - Back-end
     - Framework
     - Front-end
+  id: ruby_on_rails
   description: Ruby on Rails, or simply Rails, is an open-source tool written in Ruby
     to create websites and web applications dynamically and efficiently. It organizes
     development into three main parts':' the data (Model), the user interface (View),

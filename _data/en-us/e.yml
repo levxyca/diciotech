@@ -2,6 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: early_stopping
   description: It is a machine learning model training technique that stops training
     when the model's performance stops improving. It is used to avoid overfitting
     and generate a model with good performance.
@@ -9,6 +10,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: embedding
   description: It is a vector representation of an object, such as a word, a sentence
     or an image. It is used to represent objects in a more compact and efficient way,
     allowing machine learning models to learn relationships between objects. For example,
@@ -19,6 +21,7 @@
 - title: Encapsulation
   tags:
     - Concept
+  id: encapsulation
   description: Encapsulation works like a "magic box" that hides the internal details
     of an object. This means that an object's data and inner workings are kept private
     and cannot be accessed directly from the outside. Instead, the object provides
@@ -27,6 +30,7 @@
 - title: Environment
   tags:
     - Concept
+  id: environment
   description: We usually call environment the place or servers where what was developed
     is available for testing, validation, end users to use, or other needs. It can
     be a physical computer or available in the cloud. There are local and dev environments
@@ -37,6 +41,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: epoch
   description: Is a complete iteration of a machine learning model over a training
     data set. Training with a very small number of epochs may not be enough for a
     model to learn, while a very large number may cause overfitting.
@@ -44,5 +49,6 @@
   tags:
     - Mobile
     - Tool
+  id: expo_cli
   description: Expo CLI is a tool that makes it easier to develop mobile applications
     for iOS and Android. It is used to quickly create a project with React Native.

@@ -2,6 +2,7 @@
   tags:
     - Back-end
     - Front-end
+  id: javascript
   description: JavaScript é uma linguagem de programação interpretada estruturada,
     de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente
     com HTML e CSS, o JavaScript é uma das três principais tecnologias para criação
@@ -10,18 +11,21 @@
   tags:
     - Biblioteca
     - Front-end
+  id: jquery
   description: Biblioteca de funções em JavaScript que interagem com o HTML de uma
     maneira muito mais rápida e simples do que apenas pelo JavaScript.
 - title: JSF
   tags:
     - Back-end
     - Front-end
+  id: jsf
   description: JSF (JavaServer Faces) é uma evolução de JSP, onde foram introduzidos
     bibliotecas de componentes ricos de navegação de interface, tais como Primefaces,
     facilitando a construção de aplicações frontends.
 - title: JSON
   tags:
     - Conceito
+  id: json
   description: "Em inglês significa JavaScript Object Notation. Json é um tipo de
     arquivo e tem uma estrutura com nome do dado e valor do dado. Dependendo do tipo
     de API que construímos, utilizamos o formato JSON para transferir os dados entre
@@ -33,6 +37,7 @@
   tags:
     - Back-end
     - Front-end
+  id: jsp
   description: JSP (JavaServer Pages) é uma tecnologia antiga que permitia a construção
     de páginas HTML usando a linguagem Java. Com ela, era possível executar lógica
     de negócio na tela, levando objetos Java para o front de uma maneira fácil. Tudo

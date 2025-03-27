@@ -2,6 +2,7 @@
   tags:
     - Concept
     - Cybersecurity
+  id: waf
   description: "The WAF (Web Application Firewall) helps protect web applications
     by filtering and monitoring incoming traffic on web applications. It protects
     against the most common types of attacks, such as: cross-site request forgery,

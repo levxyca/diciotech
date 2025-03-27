@@ -1,6 +1,7 @@
 - title: IDE
   tags:
     - Ferramenta
+  id: ide
   description: IDE é a abreviação de Integrated Development Environment, que em português
     significa Ambiente de Desenvolvimento Integrado. Trata-se de um programa com interfaces
     gráficas que facilitam a interação das pessoas desenvolvedoras na criação de aplicações.
@@ -11,6 +12,7 @@
   tags:
     - Conceito
     - Devops
+  id: infrastructure_as_code
   description: "Infraestrutura como código (do inglês, Infrastructure as Code ou IaC)
     é a prática de se construir a infraestrutura (como recursos dentro de um provedor
     de nuvem) através de codificação, como também fazemos ao desenvolver software.
@@ -24,6 +26,7 @@
 - title: Integração Contínua
   tags:
     - Conceito
+  id: continuous_integration
   description: Integração contínua (do inglês, Continuous Integration ou CI) é uma
     prática de desenvolvimento de software onde as pessoas desenvolvedoras integram
     seu código em um repositório compartilhado, utilizando automação para compilar
@@ -35,6 +38,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: artificial_intelligence
   description: Também chamada de IA (no inglês, Artificial Intelligence ou AI), é
     um campo da ciência da computação que estuda como os computadores podem simular
     a inteligência e cognição humana. Ela se concentra no desenvolvimento de sistemas
@@ -45,6 +49,7 @@
 - title: IoT
   tags:
     - Conceito
+  id: iot
   description: IoT (Internet of Things), ou Internet das Coisas, é um tipo de tecnologia
     composto por uma rede de dispositivos e objetos interconectados, como sensores,
     câmeras, itens domésticos, aparelhos eletrônicos e veículos, por exemplo. Seu
@@ -55,6 +60,7 @@
   tags:
     - Conceito
     - Versionamento
+  id: issue
   description: Uma issue é como se fosse um bilhete que anota um problema ou algo
     a ser feito em um projeto. É como um lembrete que pode ser usado para falar sobre
     erros, pedir novas funcionalidades, conversar sobre melhorias ou ficar de olho

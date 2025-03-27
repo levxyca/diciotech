@@ -3,6 +3,7 @@
     - Conceito
     - Design
     - Front-end
+  id: ui_design
   description: É o processo de criar a parte visual e interativa de um produto digital,
     como um site ou um aplicativo. Isso inclui o design de botões, menus, ícones e
     toda a aparência do layout, garantindo que seja esteticamente agradável e fácil
@@ -12,6 +13,7 @@
 - title: UIKit
   tags:
     - Mobile
+  id: uikit
   description: UIKit é um conjunto de ferramentas fornecido pela Apple para criar
     as partes visuais dos aplicativos iOS. Ele fornece um conjunto de classes e componentes
     para construir e gerenciar a interface, incluindo elementos como botões, tabelas,
@@ -19,6 +21,7 @@
 - title: UML
   tags:
     - Conceito
+  id: uml
   description: " É uma linguagem visual que as pessoas desenvolvedoras de software
     usam para descrever e projetar sistemas de software. Ela oferece diferentes tipos
     de diagramas, como diagramas de classes, sequência e atividades, para representar
@@ -28,6 +31,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: underfitting
   description: Também chamado de subajuste, é um problema que ocorre quando um modelo
     de aprendizado de máquina não se ajusta bem aos dados de treinamento e não consegue
     generalizar para dados novos. Isso é percebido quando o modelo tem um desempenho
@@ -39,6 +43,7 @@
     - Conceito
     - Design
     - Front-end
+  id: ux_design
   description: É o processo de criar produtos e serviços que oferecem uma experiência
     positiva e eficiente para os usuários. Isso envolve entender as necessidades e
     comportamentos das pessoas que usarão o produto, para garantir que ele seja fácil

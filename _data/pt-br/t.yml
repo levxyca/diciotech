@@ -1,6 +1,7 @@
 - title: Tag em HTML/XML
   tags:
     - Conceito
+  id: html_xml_tag
   description: Uma tag é um elemento de marcação usado em linguagens de marcação,
     como HTML e XML, para definir a estrutura e o significado de um documento. Elas
     são usadas para definir o início e o fim de um elemento, como um parágrafo, uma
@@ -12,6 +13,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: learning_rate
   description: Também chamada de taxa de aprendizagem (do inglês, learning rate ou
     LR), é um hiperparâmetro de treinamento de modelos de aprendizado de máquina que
     controla a rapidez com que um modelo de aprendizado de máquina aprende. É um dos
@@ -26,6 +28,7 @@
 - title: Terminal
   tags:
     - Conceito
+  id: terminal
   description: "O Terminal é uma CLI que permite que os usuários interajam diretamente
     com o sistema operacional usando comandos de texto, ao invés de uma interface
     gráfica (GUI). No Terminal, você pode executar uma série de tarefas e comandos
@@ -35,6 +38,7 @@
 - title: TI Verde
   tags:
     - Conceito
+  id: green_it
   description: A TI Verde, do inglês Green IT, também podendo ser chamada de TI Ecológica
     ou Computação Verde, representa o lado sustentável da tecnologia da informação.
     Seu conceito gira em torno da análise e implementação de iniciativas e programas
@@ -45,6 +49,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: transfer_learning
   description: É uma técnica de aprendizado de máquina na qual o conhecimento aprendido
     de uma tarefa é reutilizado para aumentar o desempenho em uma tarefa relacionada.
     Por exemplo, o conhecimento adquirido ao aprender a reconhecer carros pode ser
@@ -60,6 +65,7 @@
     - Conceito
     - Inteligência artificial
     - Rede neural
+  id: transformer
   description: É um tipo de rede neural artificial que usa uma arquitetura de codificador-decodificador
     para processar dados de entrada. Os modelos transformer aplicam um conjunto de
     técnicas matemáticas, chamadas de atenção ou autoatenção, para detectar as maneiras
@@ -72,6 +78,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: adversarial_training
   description: É um tipo de treinamento de aprendizado de máquina que usa um modelo
     adversário para treinar um modelo. Nele, dois modelos de aprendizado de máquina
     são treinados de forma adversária, onde um modelo é responsável por gerar dados

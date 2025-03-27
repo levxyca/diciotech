@@ -1,6 +1,7 @@
 - title: Garbage Collector
   tags:
     - Conceito
+  id: garbage_collector
   description: Garbage collector, ou "coletor de lixo", é uma ferramenta que ajuda
     a liberar espaço na memória do computador automaticamente. Imagine que, ao desenvolver
     um programa, você use blocos de memória para guardar informações. Com o tempo,
@@ -13,6 +14,7 @@
   tags:
     - Ferramenta
     - Versionamento
+  id: git
   description: Git é um sistema de controle de versão distribuído amplamente utilizado
     para rastrear as alterações em arquivos e coordenar o trabalho em projetos de
     desenvolvimento de software.
@@ -20,6 +22,7 @@
   tags:
     - Ferramenta
     - Versionamento
+  id: github
   description: O GitHub é uma plataforma de hospedagem de código-fonte baseada na
     web que oferece uma variedade de serviços relacionados ao controle de versão e
     colaboração no desenvolvimento de software (é usado em conjunto com o Git). Ele
@@ -30,6 +33,7 @@
   tags:
     - Ferramenta
     - Versionamento
+  id: gitlab
   description: O GitLab também é uma plataforma de hospedagem de código-fonte baseada
     em Git que, assim como o GitHub, oferece ferramentas integradas de CI/CD (integração
     contínua e entrega contínua) diretamente. Se destaca por ter uma política "open
@@ -39,6 +43,7 @@
   tags:
     - Inteligência artificial
     - Rede neural
+  id: gpt
   description: É um grande modelo de linguagem criado pela OpenAI. Do inglês, Generative
     Pre-training Transformer, é capaz de gerar textos de alta qualidade, como artigos
     de notícias, poesia e ficção, com base em um pequeno trecho de texto como entrada.
@@ -50,6 +55,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: gradient
   description: O gradiente simplesmente mede o quanto a saída de uma função muda se
     você mudar um pouco as entradas. Ele mede a mudança em todos os pesos da rede
     neural em relação à diferença no erro calculado. Você também pode pensar em um
@@ -61,6 +67,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: large_language_model
   description: Também chamado de modelo de linguagem de grande escala (do inglês,
     large language model ou LLM), é um modelo de linguagem que usa aprendizado profundo
     para aprender representações de dados de linguagem natural. Ele é treinado em

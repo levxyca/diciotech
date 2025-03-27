@@ -1,6 +1,7 @@
 - title: Pair Programming
   tags:
     - Conceito
+  id: pair_programming
   description: "Pair programming significa programação em par. É uma técnica em que
     duas pessoas (ou mais) trabalham juntas em uma tarefa. Isso ajuda na troca de
     conhecimento e experiência entre pessoas desenvolvedoras. Duas cabeças pensam
@@ -12,16 +13,19 @@
 - title: Parâmetro
   tags:
     - Conceito
+  id: parameter
   description: Uma parâmetro é uma informação passada para uma função ou método como
     parte de sua chamada.
 - title: Parâmetro nomeado
   tags:
     - Conceito
+  id: named_parameter
   description: É uma forma de passar valores para uma função ou método especificando
     o nome do parâmetro correspondente.
 - title: Polimorfismo
   tags:
     - Conceito
+  id: polymorphism
   description: "O Polimorfismo permite que objetos de diferentes classes sejam tratados
     uniformemente, cada um respondendo à sua maneira de acordo com uma interface.
     Exemplo: Podemos em um sistema ter a interface de funcionário onde temos um método
@@ -31,6 +35,7 @@
 - title: Ponteiros
   tags:
     - Conceito
+  id: pointers
   description: Um ponteiro é um tipo de dado de uma linguagem de programação que armazena
     ou se refere ao endereço de memória de outro valor localizado na memória do computador.
     Um ponteiro refere-se a um local na memória e obtém o valor desse local. Como
@@ -40,6 +45,7 @@
 - title: Pré-processadores CSS
   tags:
     - Front-end
+  id: css_preprocessors
   description: "Pré-processadores CSS são como ferramentas especiais que facilitam
     a criação de estilos para sites. Eles tornam possível fazer estilos mais complicados
     e que podem ser usados de novo em diferentes partes do site. Pense neles como
@@ -49,6 +55,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: pre_processing
   description: Também chamado de pré-processamento de dados, é o processo de transformar
     dados brutos em um formato adequado para análise de dados. Ele é geralmente usado
     para preparar dados para treinar modelos de aprendizado de máquina e dessa forma
@@ -58,6 +65,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: natural_language_processing
   description: Também conhecido como PLN (do inglês, Natural Language Processing ou
     NLP), é um campo da inteligência artificial que estuda como os computadores podem
     entender e interpretar a linguagem humana. Ele se concentra no desenvolvimento
@@ -69,6 +77,7 @@
   tags:
     - Conceito
     - Paradigma
+  id: object_oriented_programming
   description: A programação orientada a objetos (POO) é um paradigma de programação
     que se baseia na ideia de modelar o software em torno de objetos, que são instâncias
     de classes. Cada objeto contém atributos (dados) e métodos (funções) que operam
@@ -79,6 +88,7 @@
 - title: Propriedade
   tags:
     - Conceito
+  id: property
   description: Propriedades, frequentemente abreviadas como 'props', são mecanismos
     que permitem passar dados de um componente pai para um componente filho. Elas
     são usadas para personalizar o comportamento e a aparência de um componente. Por
@@ -90,6 +100,7 @@
   tags:
     - Conceito
     - Versionamento
+  id: pull_request
   description: Trata-se de uma requisição de alteração dentro de um projeto. Essa
     requisição pode ser feita para corrigir um problema, adicionar uma nova funcionalidade,
     sugerir alterações, entre outros motivos. Essa requisição de alteração é feita
@@ -101,6 +112,7 @@
 - title: Python
   tags:
     - Back-end
+  id: python
   description: O Python é uma linguagem de programação amplamente usada em aplicações
     da Web, desenvolvimento de software, ciência de dados e machine learning (ML).
     As pessoas desenvolvedoras usam o Python porque é fácil de aprender e pode ser

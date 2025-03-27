@@ -1,6 +1,7 @@
 - title: Scrum
   tags:
     - Back-end
+  id: scrum
   description: It is a method of managing projects where work is broken down into
     small chunks called 'sprints', which typically last a few weeks. The team works
     closely together, meeting regularly to plan, review, and adjust work. The goal
@@ -10,6 +11,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: semi_supervised_learning
   description: It is a type of machine learning that uses labeled and unlabeled data
     to train a model. It is widely used to solve classification problems of large
     data sets, where the goal is to predict an output value based on a set of input
@@ -19,12 +21,14 @@
 - title: Smart Cities
   tags:
     - Concept
+  id: smart_cities
   description: Smart cities are locations that use organized urban infrastructure
     and digital technologies to optimize their processes. This includes the use of
     devices with Artificial Intelligence and the Internet of Things, among others.
 - title: SOLID
   tags:
     - Concept
+  id: solid
   description: "The SOLID principles are five guidelines for object-oriented software
     design, promoting more flexible, robust and maintainable systems. They are: Single
     Responsibility Principle (a class should have only one responsibility), Open/Closed
@@ -37,6 +41,7 @@
 - title: Spread Operator
   tags:
     - Concept
+  id: spread_operator
   description: The spread operator is an operator that is present in several programming
     languages, which allows copying and combining elements from one data structure
     into another, facilitating the efficient manipulation of information.
@@ -44,12 +49,14 @@
   tags:
     - Back-end
     - Concept
+  id: sql
   description: Structured Query Language (SQL) is a programming language used to manage
     data in relational databases. It's like a language that allows us to talk to databases
     to do things like search, add, update, and delete information.
 - title: Stack Navigation
   tags:
     - Mobile
+  id: stack_navigation
   description: In the context of React Native, it is a navigation technique between
     the application's screens, when the application has back and forward buttons,
     for example.
@@ -57,6 +64,7 @@
   tags:
     - Concept
     - Mobile
+  id: stateful_widget
   description: A StatefulWidget, in Flutter, is a component that has mutable internal
     state, allowing it to respond to state changes and dynamically update the user
     interface.
@@ -64,12 +72,14 @@
   tags:
     - Concept
     - Mobile
+  id: stateless_widget
   description: A StatelessWidget, in Flutter, is a component that has no internal
     mutable state, ideal for parts of the user interface that do not change over time
     and do not rely on state.
 - title: Style Guide
   tags:
     - Design
+  id: style_guide
   description: It is a library that brings together style guidelines and visual standards
     for the creation of digital products. It includes elements such as typography,
     color palettes, use of icons and layouts, but does not cover technical aspects
@@ -80,6 +90,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: supervised_learning
   description: Supervised learning is a type of machine learning that uses labeled
     data to train a model. It is used to solve classification and regression problems,
     where the goal is to predict an output value based on a set of input values. For
@@ -91,18 +102,21 @@
   tags:
     - Framework
     - Front-end
+  id: svelte
   description: Svelte is a JavaScript tool that transforms code during the construction
     of the website or application, without needing an extra layer to work in the browser.
     This makes it faster and lighter compared to other similar tools.
 - title: Swift
   tags:
     - Mobile
+  id: swift
   description: Swift is a programming language created by Apple. With it, you can
     develop applications for Apple devices and operating systems, such as iPhones
     (iOS), Macs (macOS), Apple Watches (watchOS) and Apple TVs (tvOS).
 - title: SwiftUI
   tags:
     - Mobile
+  id: swiftui
   description: SwiftUI is an Apple tool for creating the visual part of applications
     using the Swift language. Unlike UIKit, which is more traditional, SwiftUI allows
     you to describe the user interface in a simpler and more direct way, making it
