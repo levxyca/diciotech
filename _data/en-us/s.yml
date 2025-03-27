@@ -11,7 +11,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  id: semi-supervised_learning
+  id: semi_supervised_learning
   description: It is a type of machine learning that uses labeled and unlabeled data
     to train a model. It is widely used to solve classification problems of large
     data sets, where the goal is to predict an output value based on a set of input

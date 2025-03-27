@@ -53,7 +53,7 @@
   tags:
     - Framework
     - Front-end
-  id: angular.js
+  id: angular_js
   description: Angular.js é uma ferramenta desenvolvida pelo Google que facilita a
     criação de sites ou aplicativos que funcionam como uma única página (SPAs), ou
     seja, sem recarregar a página inteira a cada interação. Ele organiza o código
@@ -87,7 +87,7 @@
   tags:
     - Conceito
     - Inteligência artificial
-  id: few-shot_learning
+  id: few_shot_learning
   description: É um tipo de aprendizado de máquina que usa poucos dados rotulados
     para treinar um modelo. Nele, um modelo de aprendizado de máquina (geralmente
     pré-treinado) é treinado com novos dados rotulados, contendo poucos exemplos por
@@ -150,7 +150,7 @@
   tags:
     - Conceito
     - Inteligência artificial
-  id: semi-supervised_learning
+  id: semi_supervised_learning
   description: É um tipo de aprendizado de máquina que usa dados rotulados e não rotulados
     para treinar um modelo. Ele é muito usado para resolver problemas de classificação
     de grandes conjuntos de dados, onde o objetivo é prever um valor de saída com
@@ -175,7 +175,7 @@
   tags:
     - Conceito
     - Inteligência artificial
-  id: zero-shot_learning
+  id: zero_shot_learning
   description: É uma configuração de problemas em aprendizado profundo onde, no momento
     do teste, um modelo recebe amostras de classes que não foram observadas durante
     o treinamento e precisa identificar a classe à qual pertencem. Ao contrário do

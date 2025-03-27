@@ -22,7 +22,7 @@
   tags:
     - Framework
     - Front-end
-  id: vue.js
+  id: vue_js
   description: Vue.js is a JavaScript tool used to create user interfaces, that is,
     what people see and interact with on a website or application. It is easy to add
     to existing projects and is widely used to build sites that function as a single

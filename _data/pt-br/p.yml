@@ -55,7 +55,7 @@
   tags:
     - Conceito
     - Inteligência artificial
-  id: pre-processing
+  id: pre_processing
   description: Também chamado de pré-processamento de dados, é o processo de transformar
     dados brutos em um formato adequado para análise de dados. Ele é geralmente usado
     para preparar dados para treinar modelos de aprendizado de máquina e dessa forma
@@ -77,7 +77,7 @@
   tags:
     - Conceito
     - Paradigma
-  id: object-oriented_programming
+  id: object_oriented_programming
   description: A programação orientada a objetos (POO) é um paradigma de programação
     que se baseia na ideia de modelar o software em torno de objetos, que são instâncias
     de classes. Cada objeto contém atributos (dados) e métodos (funções) que operam

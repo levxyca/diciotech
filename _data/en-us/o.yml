@@ -12,7 +12,7 @@
   tags:
     - Concept
     - Paradigm
-  id: object-oriented_programming
+  id: object_oriented_programming
   description: Object-oriented programming (OOP) is a programming paradigm that is
     based on the idea of modeling software around objects, which are instances of
     classes. Each object contains attributes (data) and methods (functions) that operate

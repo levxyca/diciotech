@@ -2,7 +2,7 @@
   tags:
     - Conceito
     - Inteligência artificial
-  id: fine-tuning
+  id: fine_tuning
   description: Também chamado de ajuste fino, é o processo de treinamento de um modelo
     de aprendizado de máquina pré-treinado em um novo conjunto de dados. Ele é usado
     para adaptar um modelo de base para uma tarefa específica, melhorando seu desempenho
@@ -39,7 +39,7 @@
   tags:
     - Conceito
     - Inteligência artificial
-  id: non-linearity_function
+  id: non_linearity_function
   description: Também chamada de função de ativação, é uma função matemática que é
     aplicada na saída dos neurônios em uma rede neural artificial. Ela é usada para
     introduzir não-linearidades em uma rede neural artificial, alterando o valor de

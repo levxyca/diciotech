@@ -22,7 +22,7 @@
   tags:
     - Concept
     - Devops
-  id: blue-green_deployment
+  id: blue_green_deployment
   description: "Blue-green deployment is a deployment strategy that consists of having
     a replica of the production environment. New software versions are deployed to
     this replica, and after deployment, user traffic is switched to the environment

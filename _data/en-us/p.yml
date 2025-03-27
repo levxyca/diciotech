@@ -36,7 +36,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  id: pre-processing
+  id: pre_processing
   description: Also called data preprocessing, it is the process of transforming raw
     data into a format suitable for data analysis. It is generally used to prepare
     data for training machine learning models and thus improve their performance.

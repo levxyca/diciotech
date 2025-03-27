@@ -29,21 +29,21 @@
   tags:
     - Framework
     - Front-end
-  id: next.js
+  id: next_js
   description: Next.js is a tool based on React that helps create faster and more
     SEO-friendly websites. It allows pages to be generated on the server (SSR) or
     created statically (SSG), which improves page loading time and user experience.
 - title: Node.js
   tags:
     - Back-end
-  id: node.js
+  id: node_js
   description: Node.js is an environment that allows you to run JavaScript on the
     server. This means that you can use JavaScript to create and run server-side applications.
 - title: Non-Linearity Function
   tags:
     - Artificial intelligence
     - Concept
-  id: non-linearity_function
+  id: non_linearity_function
   description: Also called an activation function, it is a mathematical function that
     is applied to the output of neurons in an artificial neural network. It is used
     to introduce nonlinearities into an artificial neural network by changing the

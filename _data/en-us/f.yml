@@ -2,7 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  id: few-shot_learning
+  id: few_shot_learning
   description: It is a type of machine learning that uses few labeled data to train
     a model. In it, a machine learning model (usually pre-trained) is trained with
     new labeled data, containing few examples per class. Few-shot learning is widely
@@ -11,7 +11,7 @@
   tags:
     - Artificial intelligence
     - Concept
-  id: fine-tuning
+  id: fine_tuning
   description: Is the process of training a pre-trained machine learning model on
     a new dataset. It is used to adapt a base model for a specific task, improving
     its performance and reducing training time compared to training from scratch.
@@ -47,7 +47,7 @@
 - title: Front-end Development
   tags:
     - Front-end
-  id: front-end_development
+  id: front_end_development
   description: Front-end development is the development of the graphical interface,
     so that users can view and interact with what has been developed.
 - title: Function

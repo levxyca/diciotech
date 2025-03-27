@@ -37,7 +37,7 @@
   tags:
     - Framework
     - Front-end
-  id: angular.js
+  id: angular_js
   description: Angular.js is a tool developed by Google that facilitates the creation
     of websites or applications that work as a single page (SPAs), that is, without
     reloading the entire page with each interaction. It organizes the code efficiently
