@@ -173,6 +173,7 @@ Adicione mais conteúdo no Diciotech [abrindo um pull request](#fazendo-pull-req
 - title: Termo técnico
   tags:
     - Tag 1
+  id: identificador_unico_do_termo
   description: "Explicação sobre o termo."
 ```
 
@@ -183,12 +184,13 @@ ou se quiser adicionar também um exemplo de código:
   tags:
     - Tag 1
     - Tag 2
+  id: identificador_unico_do_termo
   description: "Explicação sobre o termo."
   content:
     code: "curl https://www.google.com"
 ```
 
-Note que o campo `content` é opcional e só deve ser usado se houver um exemplo de código que você deseja adicionar. Todos os outros campos são obrigatórios. Note também que os campos antes dos `:` são sempre em inglês, minúsculos e separados por `_`, e os campos depois dos `:` são sempre com a primeira letra maiúscula, com exceção do exemplo de código. Ao inserir o valor de um campo, não esqueça de colocar o valor entre aspas duplas. Esse passo não é estritamente necessário, mas evita problemas em que, por exemplo, a descrição contenha caracteres que podem levar o YAML a interpretar errado o valor (por exemplo, o `:` dentro do código acima). Para saber mais sobre o padrão YAML, leia [esta postagem](https://www.redhat.com/pt-br/topics/automation/what-is-yaml).
+Note que o campo `content` é opcional e só deve ser usado se houver um exemplo de código que você deseja adicionar. Todos os outros campos são obrigatórios. Note também que os campos antes dos `:` são sempre em inglês, minúsculos e separados por `_`, e os campos depois dos `:` são sempre com a primeira letra maiúscula, com exceção do exemplo de código. O campo `id` deve ser uma versão do título do termo em inglês, sem acentos ou letras maiúsculas, com as palavras separadas por `_`. Por exemplo, o `id` do termo `Rede Neural` deve ser `neural_network` em todas as versões do termo. Ao inserir o valor de um campo, não esqueça de colocar o valor entre aspas duplas. Esse passo não é estritamente necessário, mas evita problemas em que, por exemplo, a descrição contenha caracteres que podem levar o YAML a interpretar errado o valor (por exemplo, o `:` dentro do código acima). Para saber mais sobre o padrão YAML, leia [esta postagem](https://www.redhat.com/pt-br/topics/automation/what-is-yaml).
 
 > **Observação:** caso a sua contribuição não se alinhe com qualquer uma das tags disponíveis, listadas na seção seguinte, verifique a seção [Adicionando uma nova tag no Diciotech](#adicionando-uma-nova-tag-no-diciotech).
 

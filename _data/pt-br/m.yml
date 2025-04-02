@@ -2,6 +2,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: manifold
   description: Em geometria diferencial, um manifold é um espaço topológico (superfície)
     com alta dimensionalidade que localmente se parece com o espaço euclidiano. Em
     aprendizado de máquina, um manifold é um espaço de características latentes que
@@ -16,6 +17,7 @@
     - Design
     - Front-end
     - Mobile
+  id: material
   description: É um sistema de design criado e apoiado pelos designers e pessoas desenvolvedoras
     da Google. O Material.io inclui orientações detalhadas de UX e implementações
     de componentes de UI para Android, Flutter e Web.
@@ -23,6 +25,7 @@
   tags:
     - Conceito
     - Versionamento
+  id: merge
   description: O Merge é como juntar peças de quebra-cabeça no desenvolvimento de
     código. É quando combinamos alterações de diferentes partes do código para criar
     uma versão unificada. Imagine misturar o trabalho de uma equipe que adicionou
@@ -32,12 +35,14 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: metric
   description: Também chamada de métrica de avaliação, é uma medida usada para avaliar
     a precisão ou desempenho de um modelo de aprendizado de máquina. Existem vários
     tipos de métricas, cada uma adequada para um tipo diferente de problema.
 - title: MLOps
   tags:
     - Conceito
+  id: mlops
   description: É uma prática que combina desenvolvimento de modelos de aprendizado
     de máquina (Machine Learning ou ML) e operações de TI (Ops) para facilitar a implementação
     e a gestão contínua de modelos de aprendizado de máquina em produção. O objetivo
@@ -53,12 +58,14 @@
     - Conceito
     - Design
     - Front-end
+  id: mobile_first
   description: Esse conceito determina que ao criarmos um site, devemos primeiro atender
     as necessidades dos dispositivos móveis.
 - title: Modelos de base
   tags:
     - Conceito
     - Inteligência artificial
+  id: foundation_models
   description: Também chamados de modelos de fundação, são modelos de aprendizado
     de máquina pré-treinados em grandes conjuntos de dados e comumente disponibilizados
     para uso por terceiros. Eles são usados como modelos de base para diversas aplicações

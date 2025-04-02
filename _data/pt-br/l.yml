@@ -1,6 +1,7 @@
 - title: Laço
   tags:
     - Conceito
+  id: loop
   description: Um laço (do inglês, loop) é uma estrutura de controle que permite executar
     repetidamente um bloco de código enquanto uma condição for verdadeira. Ele é usado
     para automatizar tarefas repetitivas e economizar tempo e esforço. Existem vários
@@ -8,6 +9,7 @@
 - title: Lambda
   tags:
     - Conceito
+  id: lambda
   description: Lambda é uma função anônima em programação que pode ser definida e
     usada sem um nome específico, frequentemente usada para expressões simples em
     uma única linha.
@@ -17,6 +19,7 @@
   tags:
     - Back-end
     - Framework
+  id: laravel
   description: Laravel é uma ferramenta para desenvolvimento de sistemas web em PHP.
     Ele oferece meios para lidar com necessidades comuns nesse tipo de aplicação além
     de possuir integração simplificada com diversos sistemas de banco de dados, filas
@@ -24,5 +27,6 @@
 - title: Linguagem de Baixo Nível
   tags:
     - Conceito
+  id: low_level_language
   description: Linguagem de programação que possui pouca ou nenhuma abstração do computador.
     É uma linguagem de programação que está mais próxima da linguagem de máquina.

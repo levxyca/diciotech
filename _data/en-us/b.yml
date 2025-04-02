@@ -2,6 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: batch_size
   description: Batch size is a hyperparameter of machine learning models that controls
     the number of examples used in a single run of the model. It is used to control
     how quickly a machine learning model learns and can be tuned to improve its performance.
@@ -12,6 +13,7 @@
   tags:
     - Tool
     - Versioning
+  id: bitbucket
   description: Like GitHub, BitBucket is also a source code hosting platform and also
     has integrated CI/CD tools, but it integrates especially well with Atlassian tools,
     such as Jira, and supports Git and Mercurial repositories, while GitHub only supports
@@ -20,6 +22,7 @@
   tags:
     - Concept
     - Devops
+  id: blue_green_deployment
   description: "Blue-green deployment is a deployment strategy that consists of having
     a replica of the production environment. New software versions are deployed to
     this replica, and after deployment, user traffic is switched to the environment
@@ -35,6 +38,7 @@
   tags:
     - Concept
     - Cybersecurity
+  id: botnet
   description: "A botnet is a network of internet-connected devices infected with
     malware (malware is a malicious program that affects a device), allowing cybercriminals
     to take down websites using this network of devices. The devices can range from
@@ -45,6 +49,7 @@
   tags:
     - Concept
     - Versioning
+  id: branch
   description: A branch is like a copy of your project at a specific point in time.
     It's like you create a separate version to work on new ideas without touching
     the main version. Each Branch can be edited separately, allowing you to develop
@@ -52,6 +57,7 @@
 - title: Bug
   tags:
     - Concept
+  id: bug
   description: The term Bug is commonly used to inform that there is a problem in
     the program or environment. It can be incorrect or unexpected behavior, usually
     caused by incorrect logic in the code, causing failures during the execution of

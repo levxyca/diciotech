@@ -1,6 +1,7 @@
 - title: XML
   tags:
     - Concept
+  id: xml
   description: XML (eXtensible Markup Language) is a markup language that defines
     a set of rules for encoding documents. It is a markup language like HTML, but
     XML was created to be more flexible, allowing the creation of new tags, while

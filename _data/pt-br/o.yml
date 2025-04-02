@@ -1,6 +1,7 @@
 - title: Objeto
   tags:
     - Conceito
+  id: object
   description: Um objeto, em desenvolvimento de software, é como um personagem em
     um videogame. Ele tem características (dados) e pode fazer coisas (métodos). Por
     exemplo, um objeto "carro" pode ter cor, velocidade e marca (características)
@@ -10,6 +11,7 @@
 - title: Operador Ternário
   tags:
     - Conceito
+  id: ternary_operator
   description: 'O operador condicional ternário é uma forma curta de fazer uma escolha
     entre duas opções baseada em uma condição. Funciona assim: se a condição é verdadeira
     (true), ele retorna o primeiro resultado; se é falsa (false), retorna o segundo.
@@ -19,6 +21,7 @@
 - title: Optional Chaining
   tags:
     - Conceito
+  id: optional_chaining
   description: O Optional Chaining é um recurso no Javascript para lidar com situações
     onde você precisa acessar propriedades de objetos aninhados mas não tem certeza
     se essas propriedades existem realmente, Isso ajuda a evitar erros de 'TypeError'
@@ -29,12 +32,14 @@
   tags:
     - Back-end
     - Conceito
+  id: orm
   description: O mapeamento objeto-relacional (ORM) é como traduzimos tabelas de um
     banco de dados para o código, transformando-as em classes e objetos.
 - title: Otimizador
   tags:
     - Conceito
     - Inteligência artificial
+  id: optimizer
   description: Também chamado de algoritmo de otimização, é um algoritmo que ajusta
     os parâmetros de um modelo de aprendizado de máquina para minimizar a função de
     perda. Ele é usado para treinar modelos de aprendizado de máquina e melhorar seu
@@ -43,6 +48,7 @@
   tags:
     - Conceito
     - Inteligência artificial
+  id: overfitting
   description: Também chamado de sobreajuste, é um problema que ocorre quando um modelo
     de aprendizado de máquina se ajusta muito bem aos dados de treinamento, mas não
     consegue generalizar para dados novos. Isso é percebido quando o modelo tem um

@@ -1,6 +1,7 @@
 - title: Garbage Collector
   tags:
     - Concept
+  id: garbage_collector
   description: Garbage collector is a tool that helps to free up space in the computer's
     memory automatically. Imagine that, when developing a program, you use memory
     blocks to store information. Over time, some of these blocks are no longer needed.
@@ -13,6 +14,7 @@
     - Artificial intelligence
     - Concept
     - Neural network
+  id: generative_adversarial_network
   description: Generative Adversarial Network or GAN is a type of artificial neural
     network composed of two competing neural networks trained in an adversarial manner.
     The generative neural network is trained to generate new data, while the discriminative
@@ -28,6 +30,7 @@
     - Artificial intelligence
     - Concept
     - Neural network
+  id: generative_neural_network
   description: It is a type of artificial neural network that generates new data based
     on a set of training data. This data is usually variations of the input data,
     such as changes in a person's expressions in a video. It is often used to generate
@@ -36,12 +39,14 @@
   tags:
     - Tool
     - Versioning
+  id: git
   description: Git is a distributed version control system widely used for tracking
     changes to files and coordinating work on software development projects.
 - title: GitHub
   tags:
     - Tool
     - Versioning
+  id: github
   description: GitHub is a web-based source code hosting platform that offers a variety
     of services related to version control and collaboration in software development
     (it is used in conjunction with Git). It is widely used by developers around the
@@ -50,6 +55,7 @@
   tags:
     - Tool
     - Versioning
+  id: gitlab
   description: GitLab is a Git-based source code hosting platform that, like GitHub,
     offers integrated CI/CD (continuous integration and continuous delivery) tools
     directly. It stands out for having an "open core" policy, in which it is possible
@@ -59,6 +65,7 @@
   tags:
     - Artificial intelligence
     - Neural network
+  id: gpt
   description: It is a large language model created by OpenAI. Namely Generative Pre-trained
     Transformer, it is capable of generating high-quality texts, such as news articles,
     poetry, and fiction, based on a small piece of text as input. It is one of the
@@ -70,6 +77,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: gradient
   description: The gradient simply measures how much the output of a function changes
     if you change the inputs by a small amount. It measures the change in all the
     weights of the neural network relative to the difference in the calculated error.
@@ -81,6 +89,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: gradient_descent
   description: Neural network models are usually trained by an optimization algorithm
     that is a variation of gradient descent. During learning, input training data
     helps the model learn, and the loss function evaluates how accurate the prediction
@@ -97,6 +106,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: gradient_explosion
   description: Exploding gradient is a problem that occurs when the gradient of a
     loss function grows exponentially during the training of a machine learning model.
     This can result in model parameters diverging to infinity, causing the learning
@@ -107,6 +117,7 @@
 - title: Green IT
   tags:
     - Concept
+  id: green_it
   description: Green IT, also known as Ecological IT or Green Computing, represents
     the sustainable side of information technology. Its concept revolves around the
     analysis and implementation of initiatives and programs that impact the environmental

@@ -2,6 +2,7 @@
   tags:
     - Artificial intelligence
     - Concept
+  id: vanishing_gradient
   description: Vanishing gradient is a problem that occurs when the gradient of a
     loss function decreases exponentially during the training of a machine learning
     model. As the gradients often become smaller until they are close to zero, the
@@ -14,12 +15,14 @@
   tags:
     - Concept
     - Versioning
+  id: versioning
   description: Code versioning is the control of changes made to a project over time
     by tracking and recording modifications made to the source code.
 - title: Vue.js
   tags:
     - Framework
     - Front-end
+  id: vue_js
   description: Vue.js is a JavaScript tool used to create user interfaces, that is,
     what people see and interact with on a website or application. It is easy to add
     to existing projects and is widely used to build sites that function as a single
