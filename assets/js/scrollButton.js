@@ -1,6 +1,6 @@
 const SCROLL_THRESHOLD = 50;
 
-const scrollButton = document.getElementById('scrollButton');
+const scrollButton = document.getElementById("scrollButton");
 
 let debounceTimer = null;
 
@@ -21,18 +21,17 @@ function updateButtonVisibility(scrollTop) {
 }
 
 function showScrollButton() {
-  scrollButton.classList.add('scroll-button--visible');
-  scrollButton.classList.remove('scroll-button--hidden');
+  scrollButton.classList.add("scroll-button--visible");
+  scrollButton.classList.remove("scroll-button--hidden");
 }
 
 function hideScrollButton() {
-  scrollButton.classList.add('scroll-button--hidden');
-  scrollButton.classList.remove('scroll-button--visible');
+  scrollButton.classList.add("scroll-button--hidden");
+  scrollButton.classList.remove("scroll-button--visible");
 }
 
-
 function scrollToTop() {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
 function debounceScroll() {
@@ -43,9 +42,8 @@ function debounceScroll() {
 }
 
 function initScrollButton() {
-  window.addEventListener('scroll', debounceScroll);
-  scrollButton.addEventListener('click', scrollToTop);
+  window.addEventListener("scroll", debounceScroll);
+  scrollButton.addEventListener("click", scrollToTop);
 }
-
 
 initScrollButton();
