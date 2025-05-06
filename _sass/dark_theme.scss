@@ -1,5 +1,8 @@
 html[data-theme="dark"] {
   --background-color: #{$black};
+  --button-background-color: #{$primary-500};
+  --button-background-hover-color: #{$primary-400};
+  --button-text-color: #{$white};
   --card-background-color: #{$gray-700};
   --card-description-color: #{$white};
   --card-title-color: #{$primary-100};

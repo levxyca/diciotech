@@ -170,6 +170,9 @@
           </div>
         </div>
       </div>
+      <button class="scroll-button" id="scrollButton" aria-label="{{ site.data[site.active_lang].strings.scroll_button }}">
+        <i class="scroll-button__icon ph ph-caret-up" id="scrollIcon"></i>
+      </button>
     </main>
     <script
       src="{% if site.active_lang != site.default_lang %}{{ '/assets/js/localized_scripts.js' | prepend: site.active_lang | relative_url }}{% else %}{{ '/assets/js/localized_scripts.js' | relative_url }}{% endif %}"
@@ -177,5 +180,6 @@
     ></script>
     <script src="{{ '/assets/js/cookies.js' | relative_url }}" type="module"></script>
     <script src="{{ '/assets/js/pwa.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/scrollButton.js' | relative_url }}"></script>
   </body>
 </html>

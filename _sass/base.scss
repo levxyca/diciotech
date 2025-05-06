@@ -360,3 +360,37 @@ html {
 .button-change-language:hover .language-dropdown {
   display: block;
 }
+
+.scroll-button {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  display: none;
+  min-height: 5rem;
+  min-width: 5rem;
+  border: none;
+  border-radius: 50%;
+  z-index: 1000;
+  cursor: pointer;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+  background-color: var(--button-background-color);
+
+  &__icon {
+    font-size: 2rem;
+    color: var(--button-text-color);
+    transition: transform 0.3s ease;
+  }
+
+  &--visible {
+    display: block;
+  }
+
+  &--hidden {
+    display: none;
+  }
+  
+  &:hover {
+    background-color: var(--button-background-hover-color);
+    color: var(--button-text-color);
+  }
+}
