@@ -1,3 +1,12 @@
+- title: Haskell
+  tags:
+    - Backend
+  id: haskell
+  description: "Haskell is a functional programming language with strong static typing, known 
+    for its lazy evaluation — meaning expressions are only executed when truly needed. This allows 
+    for greater efficiency and the use of structures like infinite lists. Haskell is valued for its 
+    safety, clarity, and is widely used in academic settings, research, and applications that require 
+    high reliability."
 - title: Honeypot
   tags:
     - Concept

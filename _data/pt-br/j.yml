@@ -1,3 +1,11 @@
+- title: Java
+  tags:
+    - Back-end
+  id: java
+  description: "Java é uma linguagem de programação robusta e versátil, orientada
+    a objetos, com tipagem forte e estática e suporte multiplataforma. Famosa pelo lema
+    "Write Once, Run Anywhere", é amplamente usada no desenvolvimento de sistemas 
+    corporativos, aplicações web, servidores e dispositivos embarcados."
 - title: JavaScript
   tags:
     - Back-end

@@ -58,3 +58,11 @@
     be called from other parts of the program. It helps organize and reuse code, making
     software more modular and readable. Functions may take inputs (called arguments)
     and can return a result (return value) or simply perform an action.
+- title: Functional programming
+  tags:
+    - Concept
+    - Paradigm
+  id: functional_programming
+  description: "Functional programming is a programming paradigm that treats computation 
+  as the evaluation of mathematical functions. It avoids mutable state and side effects, 
+  focusing on pure functions, which makes the code more predictable, modular, and easier to test."
