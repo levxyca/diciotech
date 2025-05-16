@@ -73,6 +73,15 @@
     que os computadores processem e respondam informações escritas. O PLN é usado
     em uma ampla variedade de aplicações, como chatbots, tradução automática, análise
     de sentimentos, entre outros.
+- title: Programação funcional
+  tags:
+    - Conceito
+    - Paradigma
+  id: functional_programming
+  description: "Programação funcional é um paradigma de programação que trata a computação 
+  como a avaliação de funções matemáticas. Ela evita o uso de estados mutáveis e efeitos 
+  colaterais, focando em funções puras, o que torna o código mais previsível, modular e fácil 
+  de testar."
 - title: Programação orientada a objetos
   tags:
     - Conceito
