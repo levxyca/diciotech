@@ -4,7 +4,7 @@
 
 ---
 
-O Diciotech é um dicionário tech online colaborativo, construído com HTML, SASS e JavaScript, e open source. Nossa missão é ajudar pessoas de todos os níveis a entenderem termos e conceitos relacionados à tecnologia de forma clara e simples.
+O Diciotech é um dicionário tech online colaborativo, construído com HTML, SASS, JavaScript e Jekyll, e open source. Nossa missão é ajudar pessoas de todos os níveis a entenderem termos e conceitos relacionados à tecnologia de forma clara e simples.
 
 Ao utilizar o Diciotech, você pode:
 
