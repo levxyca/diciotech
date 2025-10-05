@@ -15,6 +15,16 @@
     que permite o usuário gerenciar base de dados, realizando operações como criar
     e modificar tabelas, permitir acesso para usuários entre outros. Podemos dizer
     , por exemplo, que o MySQL é um SGBD.
+- title: Shadow IT
+  tags:
+    - Conceito
+    - Segurança cibernética
+  id: shadow_it
+  description: "Shadow IT é o nome dado aos scripts que executam dentro de uma empresa, 
+   por funcionários de diferentes setores, porém sem o devido conhecimento técnico 
+   do que estão executando. Esses scripts, muitas vezes criados por IA, são um potencial
+   risco de segurança para a empresa por não se ter o conhecimento do código e suas 
+   vulnerabilidades."
 - title: SOLID
   tags:
     - Conceito
