@@ -1,3 +1,13 @@
+- title: Saas
+  tags:
+    - Conceito
+  id: saas
+  description: "SaaS (Software as a Service) é um modelo de distribuição de software
+    onde as aplicações são hospedadas na nuvem e disponibilizadas aos usuários
+    pela internet. Em vez de instalar e manter software localmente, os usuários
+    podem acessar e usar o software através de um navegador, geralmente mediante
+    pagamento de uma assinatura. Isso permite atualizações automáticas, escalabilidade
+    e acesso a partir de qualquer dispositivo com conexão à internet."
 - title: Scrum
   tags:
     - Framework
