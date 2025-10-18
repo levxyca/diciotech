@@ -2,9 +2,11 @@
 permalink: /assets/js/localized_scripts.js
 ---
 import {
+  allCardsData,
   filterCards,
   getCardsFromJson,
   searchCards } from '{{ "/assets/js/cards.js" | relative_url }}';
+import { init, loadTerms } from '{{ "/assets/js/autocomplete.js" | relative_url }}';
 
 {% comment %} variables that need to be set by jekyll {% endcomment %}
 const allTag = '{{ site.data[site.active_lang].strings.all }}';
@@ -18,6 +20,16 @@ const noResultsText = `{{ site.data[site.active_lang].strings.no_results.text }}
   const jsonPath = '{{ "/assets/data/cards.json" | prepend: site.active_lang | prepend: "/" | relative_url }}';
 {%- endif %}
 
-document.querySelector('#search-input').addEventListener('input', searchCards);
+const searchInput = document.querySelector('#search-input');
+const suggestionsContainer = document.querySelector('#autocomplete-suggestions');
+
+// Initialize autocomplete
+init(searchInput, suggestionsContainer, searchCards);
+
+// Load cards and populate autocomplete
+getCardsFromJson(jsonPath, favoriteTag, allTag, noResultsAlt, noResultsText).then(() => {
+  loadTerms(allCardsData);
+});
+
+searchInput.addEventListener('input', searchCards);
 document.querySelector('#tags-filter').addEventListener('change', filterCards);
-getCardsFromJson(jsonPath, favoriteTag, allTag, noResultsAlt, noResultsText);

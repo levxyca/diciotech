@@ -128,7 +128,7 @@
     </header>
     <main class="main">
       <div class="search">
-        <div class="searchbar">
+        <div class="searchbar autocomplete-container">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="searchbar__icon"
@@ -144,7 +144,9 @@
             name="search-input"
             placeholder="{{ site.data[site.active_lang].strings.search_placeholder }}"
             class="searchbar__input"
+            autocomplete="off" 
           >
+          <div id="autocomplete-suggestions" class="autocomplete-suggestions"></div>
         </div>
         <div class="filter">
           <label for="tags-filter" class="filter_label">{{ site.data[site.active_lang].strings.filter_by_category }}</label>
