@@ -301,4 +301,14 @@ async function getCardsFromJson(jsonPath, favoriteTag, allTag, noResultsAlt, noR
   }
 }
 
-export { addFavoriteTag, allCardsData, filterCards, getCardsFromJson, getTagsFromCards, insertCardsIntoHtml, loadFavoriteCardsId, searchCards, sortCardsByTitle };
+export {
+  addFavoriteTag,
+  allCardsData,
+  filterCards,
+  getCardsFromJson,
+  getTagsFromCards,
+  insertCardsIntoHtml,
+  loadFavoriteCardsId,
+  searchCards,
+  sortCardsByTitle,
+};
