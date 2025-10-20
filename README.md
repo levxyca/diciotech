@@ -9,6 +9,7 @@ O Diciotech é um dicionário tech online colaborativo, construído com HTML, SA
 Ao utilizar o Diciotech, você pode:
 
 - Aprender novos termos de forma rápida e fácil;
+- Buscar termos com sugestões inteligentes e tolerância a erros de digitação;
 - Contribuir para a construção de uma comunidade de aprendizado em tecnologia;
 - Aprimorar suas habilidades técnicas de forma colaborativa.
 

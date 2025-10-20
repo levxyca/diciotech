@@ -94,6 +94,7 @@ Dentre os arquivos e pastas, os mais importantes são:
 - `_layouts/base.liquid`: layout base da página, basicamente um html com variáveis em liquid definidas em `_data/LANG/strings.yml`;
 - `_sass/`: onde ficam os arquivos de estilo do site. Aqui é onde você deve fazer mudanças de css;
 - `_scripts/`: onde ficam códigos js que dependem de valores do Jekyll. Você pode adicionar códigos novos no arquivo `localized_scripts.js.liquid`, ou criar novos arquivos. Lembre-se de incluir os arquivos novos no layout base;
+- `assets/js/`: onde ficam os arquivos JavaScript do site. Inclui o sistema de autocomplete com sugestões inteligentes e tolerância a erros de digitação usando o algoritmo de Levenshtein;
 - `assets/`: onde ficam os arquivos que são copiados tal qual para o site final.
 
 ## Como funciona o build do site

@@ -10,6 +10,7 @@ const cardsSection = document.querySelector("#cards");
 const filterSelect = document.querySelector("#tags-filter");
 let listOfCardsFiltered = [];
 let favoriteCards = [];
+let allCardsData = []; // for autocomplete
 
 function insertTagsIntoSelect(tags) {
   tags.sort();
@@ -289,6 +290,7 @@ async function getCardsFromJson(jsonPath, favoriteTag, allTag, noResultsAlt, noR
     const res = await fetch(jsonPath);
     const data = await res.json();
     const sortedCards = await sortCardsByTitle(data);
+    allCardsData = sortedCards;
     document.getElementById("total-terms").textContent = sortedCards.length;
     await loadFavoriteCardsId();
     await addFavoriteTag(sortedCards, favoriteTag);
@@ -299,4 +301,14 @@ async function getCardsFromJson(jsonPath, favoriteTag, allTag, noResultsAlt, noR
   }
 }
 
-export { addFavoriteTag, filterCards, getCardsFromJson, getTagsFromCards, insertCardsIntoHtml, loadFavoriteCardsId, searchCards, sortCardsByTitle };
+export {
+  addFavoriteTag,
+  allCardsData,
+  filterCards,
+  getCardsFromJson,
+  getTagsFromCards,
+  insertCardsIntoHtml,
+  loadFavoriteCardsId,
+  searchCards,
+  sortCardsByTitle,
+};
