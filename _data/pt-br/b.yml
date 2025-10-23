@@ -3,12 +3,12 @@
     - Conceito
     - Back-end
   id: database
-  description: Banco de dados é um sistema organizado projetado para armazenar, gerenciar
+  description: "Banco de dados é um sistema organizado projetado para armazenar, gerenciar
     e recuperar informações de de maneira eficiente. Ele pode ser relacional, utilizando 
     tabelas e a linguagem SQL para consultas e manipulação de dados, ou não relacional
     (NoSQL), que emprega diferentes modelos como documentos, grafos ou chave-valor.
     São essenciais para o funcionamento de aplicações que processam grandes volumes
-    de informações, garantindo integridade, performance e disponibilidade dos dados.
+    de informações, garantindo integridade, performance e disponibilidade dos dados."
 - title: Balanceador de Carga
   tags:
     - Conceito
@@ -39,13 +39,13 @@
   tags:
     - Conceito
   id: big_data
-  description: Big Data refere-se a um conjunto de tecnologias e métodos utilizados para
+  description: "Big Data refere-se a um conjunto de tecnologias e métodos utilizados para
     coletar, processar e analisar grandes volumes de dados, que sistemas tradicionais não
     conseguem lidar. Esse conceito envolve os 5 Vs: volume (quantidade de dados),
     variedade (diversidade dos tipos de dados), velocidade (rapidez no processamento),
     veracidade (qualidade e confiabilidade dos dados) e valor (importância das informações
     geradas). É amplamente aplicado em áreas como marketing, finanças, saúde e muitas
-    outras, para apoiar tomadas de decisão mais inteligentes.
+    outras, para apoiar tomadas de decisão mais inteligentes."
 - title: BitBucket
   tags:
     - Ferramenta
@@ -60,11 +60,11 @@
     - Conceito
     - Segurança cibernética
   id: blockchain
-  description: Blockchain é uma tecnologia de registro distribuído e imutável que
+  description: "Blockchain é uma tecnologia de registro distribuído e imutável que
     permite armazenar transações de forma segura, transparente e confiável, sem
     depender de intermediários. Cada bloco da cadeia contém um conjunto de registros
     que são verificados e ligados criptograficamente, garantindo a integridade e a
-    proteção contra alterações não autorizadas.
+    proteção contra alterações não autorizadas."
 - title: Blue-green deployment
   tags:
     - Conceito
