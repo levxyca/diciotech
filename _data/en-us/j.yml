@@ -1,3 +1,11 @@
+- title: Java
+  tags:
+    - Back-end
+  id: java
+  description: "Java is a robust and versatile programming language, object-oriented, 
+    with strong static typing and cross-platform support. Famous for the motto  
+    "Write Once, Run Anywhere", it is widely used in the development of enterprise 
+    systems, web applications, servers, and embedded devices."
 - title: JavaScript
   tags:
     - Back-end
