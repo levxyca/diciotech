@@ -12,6 +12,14 @@
     onde as relações entre os dados são mais facilmente identificadas. A ideia é que,
     ao mapear os dados para um espaço de baixa dimensão, é possível encontrar padrões
     e relações mais facilmente do que no espaço de alta dimensão original.
+- title: Markdown
+  tags:
+    - Conceito
+    - Front-end
+  id: markdown
+  description: Markdown é uma linguagem de marcação leve usada para formatar texto de
+    forma simples e legível, amplamente utilizada em documentação, blogs e plataformas
+    como GitHub.
 - title: Material
   tags:
     - Design
@@ -39,6 +47,32 @@
   description: Também chamada de métrica de avaliação, é uma medida usada para avaliar
     a precisão ou desempenho de um modelo de aprendizado de máquina. Existem vários
     tipos de métricas, cada uma adequada para um tipo diferente de problema.
+- title: Microfrontend
+  tags:
+    - Conceito
+    - Front-end
+  id: microfrontend
+  description: Microfrontends são uma abordagem de arquitetura em que uma aplicação
+    de front-end é dividida em módulos independentes que podem ser desenvolvidos,
+    implantados e atualizados separadamente. Essa técnica traz para o front-end os mesmos
+    princípios dos microsserviços, promovendo escalabilidade e manutenção facilitada.
+- title: Microsserviços
+  tags:
+    - Conceito
+    - Back-end
+  id: microservices
+  description: Microsserviços são um estilo de arquitetura em que um sistema é dividido
+    em pequenos serviços independentes, cada um responsável por uma funcionalidade
+    específica. Cada serviço pode ser desenvolvido, testado e escalado separadamente.
+- title: Middleware
+  tags:
+    - Conceito
+    - Back-end
+  id: middleware
+  description: Middleware é um software intermediário que conecta diferentes aplicações,
+    serviços ou bancos de dados, facilitando a comunicação e o gerenciamento de dados.
+    Ele atua como uma ponte entre o front-end e o back-end, lidando com autenticação,
+    controle de acesso, roteamento de requisições e integração entre sistemas distribuídos.
 - title: MLOps
   tags:
     - Conceito
@@ -61,6 +95,13 @@
   id: mobile_first
   description: Esse conceito determina que ao criarmos um site, devemos primeiro atender
     as necessidades dos dispositivos móveis.
+- title: Mockup
+  tags:
+    - Conceito
+    - Design
+  id: mockup
+  description: Mockup é uma representação visual estática de uma interface,
+    usada para validar o layout antes da implementação funcional.
 - title: Modelos de base
   tags:
     - Conceito
