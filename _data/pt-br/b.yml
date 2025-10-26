@@ -4,7 +4,7 @@
     - Back-end
   id: database
   description: "Banco de dados é um sistema organizado projetado para armazenar, gerenciar
-    e recuperar informações de de maneira eficiente. Ele pode ser relacional, utilizando 
+    e recuperar informações de maneira eficiente. Ele pode ser relacional, utilizando 
     tabelas e a linguagem SQL para consultas e manipulação de dados, ou não relacional
     (NoSQL), que emprega diferentes modelos como documentos, grafos ou chave-valor.
     São essenciais para o funcionamento de aplicações que processam grandes volumes
