@@ -1,3 +1,14 @@
+- title: Banco de dados
+  tags:
+    - Conceito
+    - Back-end
+  id: database
+  description: "Banco de dados é um sistema organizado projetado para armazenar, gerenciar
+    e recuperar informações de maneira eficiente. Ele pode ser relacional, utilizando 
+    tabelas e a linguagem SQL para consultas e manipulação de dados, ou não relacional
+    (NoSQL), que emprega diferentes modelos como documentos, grafos ou chave-valor.
+    São essenciais para o funcionamento de aplicações que processam grandes volumes
+    de informações, garantindo integridade, performance e disponibilidade dos dados."
 - title: Balanceador de Carga
   tags:
     - Conceito
@@ -24,6 +35,17 @@
     pequeno durante o treinamento exige menos memória, porém mais iterações para completar
     uma época, enquanto um tamanho de lote maior permite um treinamento mais rápido,
     com menos iterações por época, porém que ocupa mais memória.
+- title: Big Data
+  tags:
+    - Conceito
+  id: big_data
+  description: "Big Data refere-se a um conjunto de tecnologias e métodos utilizados para
+    coletar, processar e analisar grandes volumes de dados, que sistemas tradicionais não
+    conseguem lidar. Esse conceito envolve os 5 Vs: volume (quantidade de dados),
+    variedade (diversidade dos tipos de dados), velocidade (rapidez no processamento),
+    veracidade (qualidade e confiabilidade dos dados) e valor (importância das informações
+    geradas). É amplamente aplicado em áreas como marketing, finanças, saúde e muitas
+    outras, para apoiar tomadas de decisão mais inteligentes."
 - title: BitBucket
   tags:
     - Ferramenta
@@ -33,6 +55,16 @@
     de código-fonte e também possui ferramentes integradas de CI/CD, mas se integra
     especialmente bem com ferramentas Atlassian, como o Jira, e suporta repositórios
     Git e Mercurial, enquanto o GitHub só suporta Git.
+- title: Blockchain
+  tags:
+    - Conceito
+    - Segurança cibernética
+  id: blockchain
+  description: "Blockchain é uma tecnologia de registro distribuído e imutável que
+    permite armazenar transações de forma segura, transparente e confiável, sem
+    depender de intermediários. Cada bloco da cadeia contém um conjunto de registros
+    que são verificados e ligados criptograficamente, garantindo a integridade e a
+    proteção contra alterações não autorizadas."
 - title: Blue-green deployment
   tags:
     - Conceito
