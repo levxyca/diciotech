@@ -172,6 +172,17 @@
     são compostos por vários pontos de dados. Por exemplo, um conjunto de dados de
     gatos pode conter vários exemplos de gatos, onde cada exemplo pode ser composto
     por uma ou mais imagens e vários atributos atrelados, como tamanho, raça e cor.
+- title: Core Web Vitals
+  tags:
+    - Conceito
+    - Front-end
+  id: core_web_vitals
+  description: "Conjunto de métricas do Google que mede a experiência do usuário na Web,
+    com foco em carregamento, interatividade e estabilidade visual. As principais
+    métricas são: LCP (Largest Contentful Paint),ideal até 2,5s; INP (Interaction
+    to Next Paint), ideal até 200ms; e CLS (Cumulative Layout Shift), ideal até 0,1.
+    Para ser considerada aprovada, a página deve atingir os limites recomendados no
+    percentil 75 dos usuários, em desktop e mobile."
 - title: CORS
   tags:
     - Conceito
