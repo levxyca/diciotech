@@ -178,6 +178,17 @@
     Network or CNN is often used to process input data that has a matrix structure,
     such as images, and is widely used in computer vision applications, such as image
     and video recognition.
+- title: Core Web Vitals
+  tags:
+    - Concept
+    - Front-end
+  id: core_web_vitals
+  description: "A set of Google metrics that measure user experience on the Web,
+    focusing on loading, interactivity, and visual stability. The main metrics are:
+    LCP (Largest Contentful Paint), ideal up to 2.5s; INP (Interaction to Next Paint),  
+    ideal up to 200ms; and CLS (Cumulative Layout Shift), ideal up to 0.1. For a
+    page to be considered passing, it must meet the recommended thresholds at the
+    75th percentile of users, on desktop and mobile."
 - title: CORS
   tags:
     - Concept
