@@ -17,6 +17,14 @@
     super versátil com ótimo desempenho para criar programas de computador, e se destaca
     quando o assunto é criação de jogos e principalmente quando falamos de softwares
     de imagem com o OpenCV, uma biblioteca criada com C++ e muito utilizada.
+- title: C#
+  tags:
+   - Conceito
+  description: C# (lido C Sharp) é uma linguagem de programação criada em 2000 pela 
+  Microsoft, com a sintaxe orientada em objetos baseada na linguagem C++, além de também
+  ser compilada. A linguagem C# foi idealizada para ser simples, moderna e ter propósito geral,
+  podendo ser utilizada para programar sistemas de diversos tipos, desde aplicações embarcadas
+  até aplicativos e sistemas web.
 - title: Cache
   tags:
     - Conceito
