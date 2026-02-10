@@ -30,3 +30,11 @@
   id: low_level_language
   description: Linguagem de programação que possui pouca ou nenhuma abstração do computador.
     É uma linguagem de programação que está mais próxima da linguagem de máquina.
+- title: Linguagem de Marcação
+  tags:
+  - Conceito
+  id: markup_language
+  description: Uma linguagem de marcação é um conjunto de símbolos e regras usados
+    para estruturar, formatar e organizar o conteúdo de um documento, diferenciando
+    o que é texto do que é instrução de exibição.
+
