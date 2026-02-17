@@ -55,3 +55,11 @@
     performs very well on the metrics for the training data, but performs poorly on
     the test data. Overfitting can be caused by several factors, such as a very complex
     model, a very small training dataset, among others.
+- title: OWASP
+  tags:
+    - Concept
+    - Cybersecurity
+  id: owasp_foundation
+  description: OWASP is a non-profit foundation focused on improving the security of
+    websites and software. It publishes free materials like guides, best practices,
+    and risk lists (such as the OWASP Top 10) to help teams build safer applications.
