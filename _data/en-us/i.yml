@@ -7,6 +7,16 @@
     creation of applications. Typically an IDE includes a source code editor and debugging
     tools to identify and correct errors. Popular examples of IDEs include Android
     Studio, Eclipse, and Visual Studio Code.
+- title: Idempotency
+  tags:
+    - Concept
+    - Back-end
+  id: idempotency
+  description: "Idempotency means an action can be repeated many times and still keep
+    the same result, without creating duplicates. Think about pressing an elevator
+    button many times after it was already called: it does not call another elevator.
+    In software, this helps avoid duplicate charges or duplicate orders when a request
+    needs to be retried."
 - title: Infrastructure as Code
   tags:
     - Concept
