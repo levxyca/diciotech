@@ -22,6 +22,13 @@
     where relationships between the data are more easily identified. The idea is that
     by mapping the data to a low-dimensional space, it is possible to find patterns
     and relationships more easily than in the original high-dimensional space.
+- title: Markdown
+  tags:
+    - Concept
+    - Front-end
+  id: markdown
+  description: Markdown is a lightweight markup language used to format text in a simple
+    and readable way, widely used in documentation, blogs, and platforms like GitHub.
 - title: Material
   tags:
     - Design
