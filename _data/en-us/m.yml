@@ -24,11 +24,14 @@
     and relationships more easily than in the original high-dimensional space.
 - title: Markup Language
   tags:
-  - Concept
+    - Concept
   id: markup_language
-  description: A markup language is a set of symbols and rules used to structure,
-    format, and organize the content of a document, distinguishing the text from the
-    display instructions.
+  description: A markup language is used to structure and describe the content of a
+    document through tags. It indicates what each part of the text represents (such
+    as title, paragraph, or link), instead of executing program logic. For example,
+    in HTML, <h1> defines a title and <p> defines a paragraph.
+  content:
+    code: "<h1>Page title</h1><p>This is a paragraph.</p>"
 - title: Material
   tags:
     - Design
