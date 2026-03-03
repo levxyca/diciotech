@@ -30,3 +30,13 @@
   id: low_level_language
   description: Linguagem de programação que possui pouca ou nenhuma abstração do computador.
     É uma linguagem de programação que está mais próxima da linguagem de máquina.
+- title: Linguagem de Marcação
+  tags:
+    - Conceito
+  id: markup_language
+  description: Linguagem de marcação é usada para estruturar e descrever o conteúdo
+    de um documento por meio de tags. Ela indica o que cada parte do texto representa
+    (como título, parágrafo ou link), em vez de executar lógica de programação. Por
+    exemplo, no HTML, <h1> define um título e <p> define um parágrafo.
+  content:
+    code: "<h1>Título da página</h1><p>Este é um parágrafo.</p>"
