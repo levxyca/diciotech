@@ -56,3 +56,12 @@
     ruim nos dados de teste. O overfitting pode ser causado por vários fatores, como
     um modelo muito complexo, um conjunto de dados de treinamento muito pequeno, entre
     outros.
+- title: OWASP
+  tags:
+    - Conceito
+    - Segurança cibernética
+  id: owasp_foundation
+  description: OWASP é uma fundação sem fins lucrativos focada em melhorar a segurança
+    de sites e sistemas. Ela cria materiais gratuitos, como guias, boas práticas e
+    listas de riscos (como o OWASP Top 10), para ajudar equipes a desenvolver aplicações
+    mais seguras.
