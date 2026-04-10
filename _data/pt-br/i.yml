@@ -8,6 +8,16 @@
     Normalmente um IDE inclui um editor de código fonte e ferramentas de depuração
     para identificar e corrigir erros. Exemplos populares de IDEs incluem Android
     Studio, Eclipse e Visual Studio Code.
+- title: Idempotência
+  tags:
+    - Conceito
+    - Back-end
+  id: idempotency
+  description: "Idempotência é quando uma ação pode ser repetida várias vezes e o resultado
+    continua o mesmo, sem duplicar nada. Pense em apertar várias vezes o botão de
+    um elevador que já foi chamado: o elevador não é chamado duas vezes por isso.
+    Em sistemas, isso evita problemas como pedidos pagos em dobro quando há falha
+    de conexão e a ação precisa ser tentada novamente."
 - title: Infraestrutura como Código
   tags:
     - Conceito
